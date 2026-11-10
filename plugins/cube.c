@@ -27,6 +27,12 @@
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
+#include <stdio.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <fcntl.h>
+#include <signal.h>
+#include <unistd.h>
 
 #include <X11/Xatom.h>
 #include <X11/Xproto.h>
@@ -39,6 +45,11 @@ static CompMetadata cubeMetadata;
 
 static int cubeCorePrivateIndex;
 static int cubeDisplayPrivateIndex;
+
+static void cubePaintKernel (CompScreen              *s,
+			     const ScreenPaintAttrib *sAttrib,
+			     const CompTransform     *transform,
+			     CompOutput              *output);
 
 #define NUM_OPTIONS(s) (sizeof ((s)->opt) / sizeof (CompOption))
 
@@ -738,6 +749,121 @@ cubeIsActive (CompScreen *s)
 }
 
 static void
+cubeStopAudio (CubeScreen *cs)
+{
+    if (cs->audioFd >= 0)
+	close (cs->audioFd);
+
+    if (cs->audioPid > 0)
+    {
+	kill (cs->audioPid, SIGTERM);
+	waitpid (cs->audioPid, NULL, 0);
+    }
+
+    cs->audioFd = -1;
+    cs->audioPid = -1;
+}
+
+static void
+cubeStartAudio (CubeScreen *cs)
+{
+    int pipefd[2];
+    char sink[256];
+    char device[280];
+    FILE *defaultSink;
+    pid_t pid;
+
+    cs->audioPid = -1;
+    cs->audioFd = -1;
+
+    defaultSink = popen ("pactl get-default-sink", "r");
+    if (!defaultSink || !fgets (sink, sizeof (sink), defaultSink))
+    {
+	if (defaultSink) pclose (defaultSink);
+	return;
+    }
+    pclose (defaultSink);
+
+    sink[strcspn (sink, "\\r\\n")] = '\0';
+    if (!sink[0] || strpbrk (sink, "'\\\";|&`$"))
+	return;
+
+    snprintf (device, sizeof (device), "%s.monitor", sink);
+    if (pipe (pipefd) < 0)
+	return;
+
+    pid = fork ();
+    if (pid == 0)
+    {
+	close (pipefd[0]);
+	dup2 (pipefd[1], STDOUT_FILENO);
+	close (pipefd[1]);
+	execlp ("parec", "parec", "--device", device,
+		"--format=s16le", "--rate=8000", "--channels=1",
+		"--latency-msec=30", (char *) NULL);
+	_exit (127);
+    }
+
+    close (pipefd[1]);
+    if (pid < 0)
+    {
+	close (pipefd[0]);
+	return;
+    }
+
+    fcntl (pipefd[0], F_SETFL, O_NONBLOCK);
+    cs->audioPid = pid;
+    cs->audioFd = pipefd[0];
+}
+
+static void
+cubeUpdateAudio (CubeScreen *cs)
+{
+    short samples[512];
+    ssize_t bytes;
+    int i, count;
+    float level = 0.0f;
+    float bass = 0.0f;
+    float treble = 0.0f;
+
+    if (cs->audioFd < 0)
+	return;
+
+    bytes = read (cs->audioFd, samples, sizeof (samples));
+    if (bytes <= 0)
+	return;
+
+    count = bytes / (int) sizeof (short);
+    for (i = 0; i < count; i++)
+    {
+	float sample = fabsf ((float) samples[i] / 32768.0f);
+	float difference;
+
+	cs->audioLowpass += (sample - cs->audioLowpass) * 0.12f;
+	difference = fabsf (sample - cs->audioPreviousSample);
+	level += sample;
+	bass += cs->audioLowpass;
+	treble += difference;
+	cs->audioPreviousSample = sample;
+    }
+
+    level /= count;
+    bass /= count;
+    treble /= count;
+
+    /* Attack quickly on a beat, then decay smoothly when the sound drops. */
+    cs->audioLevel = level > cs->audioLevel ?
+	cs->audioLevel * 0.45f + level * 0.55f :
+	cs->audioLevel * 0.78f + level * 0.22f;
+    cs->audioBass = bass > cs->audioBass ?
+	cs->audioBass * 0.40f + bass * 0.60f :
+	cs->audioBass * 0.76f + bass * 0.24f;
+    cs->audioTreble = treble > cs->audioTreble ?
+	cs->audioTreble * 0.35f + treble * 0.65f :
+	cs->audioTreble * 0.72f + treble * 0.28f;
+}
+
+static void
 cubePreparePaintScreen (CompScreen *s,
 			int	   msSinceLastPaint)
 {
@@ -745,6 +871,8 @@ cubePreparePaintScreen (CompScreen *s,
     float x, progress;
 
     CUBE_SCREEN (s);
+
+    cubeUpdateAudio (cs);
 
     if (cs->grabIndex)
     {
@@ -783,8 +911,12 @@ cubePreparePaintScreen (CompScreen *s,
     if (!cubeIsActive (s))
 	cs->zoomTarget = 0.0f;
 
-    if (cubeIsActive (s))
-	cs->kernelTime += msSinceLastPaint * 0.004f;
+    cs->kernelTime += msSinceLastPaint *
+	(0.004f + MIN (1.0f, cs->audioLevel * 8.0f) * 0.018f);
+
+    /* The ambient kernel is animated even when the cube is folded. */
+    if (!cubeIsActive (s))
+	damageScreen (s);
 
     if (cs->kernelTime > 2.0f * M_PI)
 	cs->kernelTime = fmodf (cs->kernelTime, 2.0f * M_PI);
@@ -1391,22 +1523,28 @@ cubePaintKernel (CompScreen              *s,
 		 CompOutput              *output)
 {
     CompTransform kTransform = *transform;
-	int i;
-	float pulse;
-	float coreRadius;
+    int i;
+    float pulse;
+    float coreRadius;
+    float audioLevel;
+    float audioBass;
+    float audioTreble;
+    float kernelScale;
 
     CUBE_SCREEN (s);
 
-    /* The kernel belongs to the cube, never to the normal desktop or wall. */
-    if (!cubeIsActive (s))
-	return;
-
     (*s->applyScreenTransform) (s, sAttrib, output, &kTransform);
+
+	audioLevel = MIN (1.0f, cs->audioLevel * 8.0f);
+	audioBass = MIN (1.0f, cs->audioBass * 10.0f);
+	/* Keep a small idle core, then let the music expand the whole object. */
+	kernelScale = 0.35f + 0.85f * audioLevel + 0.55f * audioBass;
 
 	glPushAttrib (GL_ENABLE_BIT | GL_LINE_BIT | GL_POINT_BIT |
 		  GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glPushMatrix ();
     glLoadMatrixf (kTransform.m);
+	glScalef (kernelScale, kernelScale, kernelScale);
 
     glDisable (GL_TEXTURE_2D);
     glDisable (GL_LIGHTING);
@@ -1418,50 +1556,63 @@ cubePaintKernel (CompScreen              *s,
 	/* The breathing radius gives the core a visible life instead of making
 	 * it look like a static object placed in the middle of the cube. */
 	pulse = 0.5f + 0.5f * sinf (cs->kernelTime * 2.0f);
-	coreRadius = 0.085f + 0.012f * pulse;
+	audioTreble = MIN (1.0f, cs->audioTreble * 8.0f);
+	coreRadius = 0.085f + 0.012f * pulse + 0.060f * audioBass;
 
 	/* Additive cyan halos around the white Gorad kernel. */
-	glColor4f (0.02f, 0.45f, 1.0f, 0.045f + 0.025f * pulse);
-	cubeDrawKernelSphere (0.25f + 0.018f * pulse, 28, 14);
-	glColor4f (0.02f, 0.72f, 1.0f, 0.09f + 0.045f * pulse);
-	cubeDrawKernelSphere (0.17f + 0.012f * pulse, 28, 14);
-	glColor4f (0.72f, 0.95f, 1.0f, 0.90f + 0.08f * pulse);
-	cubeDrawKernelSphere (coreRadius, 28, 14);
+	glColor4f (0.02f, 0.45f, 1.0f,
+		   0.045f + 0.025f * pulse + 0.07f * audioLevel);
+	cubeDrawKernelSphere (0.25f + 0.018f * pulse + 0.04f * audioBass,
+			      32, 16);
+	glColor4f (0.02f, 0.72f, 1.0f,
+		   0.09f + 0.045f * pulse + 0.10f * audioLevel);
+	cubeDrawKernelSphere (0.17f + 0.012f * pulse + 0.025f * audioBass,
+			      32, 16);
+	glColor4f (0.72f, 0.95f, 1.0f,
+		   0.90f + 0.08f * pulse + 0.10f * audioLevel);
+	cubeDrawKernelSphere (coreRadius, 32, 16);
 
 	/* Three thin energy rings rotate at different speeds and tilt around
 	 * the core.  They remain visible while the cube itself rotates. */
-	glLineWidth (1.4f);
-	glColor4f (0.12f, 0.76f, 1.0f, 0.32f + 0.12f * pulse);
+	glLineWidth (1.4f + 2.0f * audioTreble);
+	glColor4f (0.12f, 0.76f, 1.0f,
+		   0.32f + 0.12f * pulse + 0.22f * audioTreble);
 	cubeDrawKernelRing (0.145f + 0.012f * pulse, 0.42f,
 			    cs->kernelTime * 55.0f, 64);
-	glColor4f (0.35f, 0.90f, 1.0f, 0.27f + 0.10f * pulse);
+	glColor4f (0.35f, 0.90f, 1.0f,
+		   0.27f + 0.10f * pulse + 0.18f * audioLevel);
 	cubeDrawKernelRing (0.185f + 0.010f * pulse, 0.68f,
 			    -cs->kernelTime * 38.0f + 55.0f, 64);
-	glColor4f (0.08f, 0.58f, 1.0f, 0.20f + 0.08f * pulse);
+	glColor4f (0.08f, 0.58f, 1.0f,
+		   0.20f + 0.08f * pulse + 0.15f * audioTreble);
 	cubeDrawKernelRing (0.215f, 1.0f,
 			    cs->kernelTime * 24.0f + 110.0f, 64);
 
 	glEnable (GL_POINT_SMOOTH);
-	glPointSize (2.4f + 1.0f * pulse);
+	glPointSize (2.4f + 1.0f * pulse + 5.0f * audioTreble);
 	glBegin (GL_POINTS);
 	for (i = 0; i < 72; i++)
 	{
 	float ring = (float) (i % 3);
 	float phase = (float) i * 2.399963f;
-	float angle = cs->kernelTime * (0.85f + ring * 0.36f) + phase;
-	float radius = 0.13f + 0.035f * sinf (cs->kernelTime * 1.7f + phase);
+	float angle = cs->kernelTime *
+	    (0.85f + ring * 0.36f + audioTreble * 3.5f) + phase;
+	float radius = 0.13f + 0.035f * sinf (cs->kernelTime * 1.7f + phase) +
+	    0.10f * audioLevel * (0.5f + 0.5f * sinf (phase));
 	float tilt = 0.30f + ring * 0.32f;
 	float x = radius * cosf (angle);
 	float y = radius * sinf (angle) * tilt;
 	float z = radius * sinf (angle) * (1.0f - tilt);
 	float alpha = 0.20f + 0.25f *
 	    (0.5f + 0.5f * sinf (cs->kernelTime * 2.8f + phase));
+	alpha += 0.35f * audioLevel;
 
-	glColor4f (0.10f, 0.70f, 1.0f, alpha);
+	glColor4f (0.10f + 0.25f * audioTreble,
+		   0.70f + 0.20f * audioBass, 1.0f, MIN (1.0f, alpha));
 	glVertex3f (x, y, z);
 	if ((i & 1) == 0)
 	    glVertex3f (-x, y, -z);
-	}
+    }
     glEnd ();
 
     glPopMatrix ();
@@ -1797,6 +1948,12 @@ cubePaintWindow (CompWindow		  *w,
 	status = (*s->paintWindow) (w, attrib, transform, region, mask);
 	WRAP (cs, s, paintWindow, cubePaintWindow);
     }
+
+    /* The desktop is painted before normal windows.  Draw the ambient
+     * kernel immediately after it so windows occlude it naturally. */
+    if (!cubeIsActive (s) && (w->type & CompWindowTypeDesktopMask))
+	cubePaintKernel (s, &defaultScreenPaintAttrib, transform,
+			 &s->outputDev[s->currentOutputDev]);
 
     return status;
 }
@@ -2359,6 +2516,13 @@ cubeInitScreen (CompPlugin *p,
     cs->zoom       = 0.0f;
     cs->zoomTarget = 0.0f;
     cs->kernelTime = 0.0f;
+    cs->audioPid = -1;
+    cs->audioFd = -1;
+    cs->audioLevel = 0.0f;
+    cs->audioBass = 0.0f;
+    cs->audioTreble = 0.0f;
+    cs->audioPreviousSample = 0.0f;
+    cs->audioLowpass = 0.0f;
 
     cs->paintAllViewports = FALSE;
     cs->fullscreenOutput  = TRUE;
@@ -2389,6 +2553,8 @@ cubeInitScreen (CompPlugin *p,
 	return FALSE;
     }
 
+    cubeStartAudio (cs);
+
     if (cs->opt[CUBE_SCREEN_OPTION_IMAGES].value.list.nValue)
     {
 	cubeLoadImg (s, cs->imgCurFile);
@@ -2414,6 +2580,8 @@ cubeFiniScreen (CompPlugin *p,
 		CompScreen *s)
 {
     CUBE_SCREEN (s);
+
+    cubeStopAudio (cs);
 
     if (cs->vertices)
 	free (cs->vertices);

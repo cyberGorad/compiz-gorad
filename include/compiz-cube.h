@@ -179,6 +179,14 @@ typedef struct _CubeScreen {
     GLfloat zoom, zoomTarget;
     GLfloat kernelTime;
 
+    int     audioPid;
+    int     audioFd;
+    GLfloat audioLevel;
+    GLfloat audioBass;
+    GLfloat audioTreble;
+    GLfloat audioPreviousSample;
+    GLfloat audioLowpass;
+
     GLfloat  *vertices;
     int      nVertices;
 
