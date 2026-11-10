@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: compiz 0.8.18\n"
 "Report-Msgid-Bugs-To: https://gitlab.com/compiz/compiz-core/issues\n"
-"POT-Creation-Date: 2023-02-16 10:27+0100\n"
+"POT-Creation-Date: 2026-11-09 16:35+0300\n"
 "PO-Revision-Date: 2023-11-01 14:19+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <(nothing)>\n"
@@ -1357,6 +1357,26 @@ msgstr "წინა სლაიდი"
 
 msgid "Go back to previous slide"
 msgstr "წინა სლაიდზე დაბრუნება"
+
+msgid "Zoom In"
+msgstr "გადიდება"
+
+msgid "Zoom in while the cube is active"
+msgstr ""
+
+msgid "Zoom Out"
+msgstr "დაპატარავება"
+
+msgid "Zoom out while the cube is active"
+msgstr ""
+
+#, fuzzy
+#| msgid "Rotation Zoom"
+msgid "Reset Zoom"
+msgstr "ბრუნვის გადიდება"
+
+msgid "Reset the cube zoom while it is active"
+msgstr ""
 
 msgid "Generate mipmaps when possible for higher quality scaling"
 msgstr ""
@@ -3068,12 +3088,6 @@ msgstr "სამუშაო მაგიდის_გადიდება"
 
 msgid "Zoom and pan desktop cube"
 msgstr "სამუშაო მაგიდის კუბის გადიდება და პანინგი"
-
-msgid "Zoom In"
-msgstr "გადიდება"
-
-msgid "Zoom Out"
-msgstr "დაპატარავება"
 
 msgid "Zoom Pan"
 msgstr "პანორამირება"

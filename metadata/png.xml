@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<compiz>
+  <plugin name="png">
+    <short>Png</short>
+    <short xml:lang="zh-Hant-TW">Png&#x5716;&#x6A94;</short>
+    <short xml:lang="zh-Hans-CN">Png</short>
+    <short xml:lang="uk">Png</short>
+    <short xml:lang="tr">Png</short>
+    <short xml:lang="sv">Png</short>
+    <short xml:lang="sk">PNG</short>
+    <short xml:lang="ru">Png</short>
+    <short xml:lang="ro">Png</short>
+    <short xml:lang="pt-BR">Png</short>
+    <short xml:lang="pt">Png</short>
+    <short xml:lang="pl">Png</short>
+    <short xml:lang="pa">Png</short>
+    <short xml:lang="or">Png</short>
+    <short xml:lang="nl">PNG</short>
+    <short xml:lang="nb">Png</short>
+    <short xml:lang="ko">Png</short>
+    <short xml:lang="ka">Png</short>
+    <short xml:lang="ja">Png</short>
+    <short xml:lang="it">PNG</short>
+    <short xml:lang="hu">PNG</short>
+    <short xml:lang="hr">Png</short>
+    <short xml:lang="hi">Png</short>
+    <short xml:lang="he">Png</short>
+    <short xml:lang="gu">Png</short>
+    <short xml:lang="gl">Png</short>
+    <short xml:lang="fr">Png</short>
+    <short xml:lang="fi">PNG</short>
+    <short xml:lang="eu">Png</short>
+    <short xml:lang="es">Png</short>
+    <short xml:lang="en-GB">Png</short>
+    <short xml:lang="el">Png</short>
+    <short xml:lang="de">PNG</short>
+    <short xml:lang="cs">PNG</short>
+    <short xml:lang="ca">Png</short>
+    <short xml:lang="bn">Png</short>
+    <short xml:lang="bn-IN">Png</short>
+    <short xml:lang="bg">Png</short>
+    <long>Png image loader</long>
+    <long xml:lang="zh-Hant-TW">&#x8B80;&#x53D6;Png&#x5F71;&#x97FF;&#x5716;&#x6A94;</long>
+    <long xml:lang="zh-Hans-CN">Png&#x56FE;&#x50CF;&#x52A0;&#x8F7D;&#x5DE5;&#x5177;</long>
+    <long xml:lang="uk">&#x417;&#x430;&#x432;&#x430;&#x43D;&#x442;&#x430;&#x436;&#x443;&#x432;&#x430;&#x447; &#x437;&#x43E;&#x431;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x44C; Png</long>
+    <long xml:lang="tr">Png resim y&#xFC;kleyici</long>
+    <long xml:lang="sv">Png-bildl&#xE4;sare</long>
+    <long xml:lang="sk"> Na&#x10D;&#xED;tanie PNG obr&#xE1;zkov</long>
+    <long xml:lang="ru">&#x417;&#x430;&#x433;&#x440;&#x443;&#x437;&#x447;&#x438;&#x43A; &#x438;&#x437;&#x43E;&#x431;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x438;&#x439; Png</long>
+    <long xml:lang="ro">&#xCE;nc&#x103;rc&#x103;tor de imagini Png</long>
+    <long xml:lang="pt-BR">Carregar imagens Png</long>
+    <long xml:lang="pt">Carregar imagens png</long>
+    <long xml:lang="pl">Wtyczka &#x142;aduj&#x105;ca obrazki .png</long>
+    <long xml:lang="pa">Png &#xA1A;&#xA3F;&#xA71;&#xA24;&#xA30; &#xA32;&#xA4B;&#xA21;&#xA30;</long>
+    <long xml:lang="or">Png &#xB1A;&#xB3F;&#xB24;&#xB4D;&#xB30; &#xB32;&#xB4B;&#xB21; &#xB15;&#xB3E;&#xB30;&#xB40;</long>
+    <long xml:lang="nl">PNG afbeelding lader</long>
+    <long xml:lang="nb">Png-bildelaster</long>
+    <long xml:lang="ko">Png &#xC774;&#xBBF8;&#xC9C0; &#xBD88;&#xB7EC;&#xC624;&#xAE30;</long>
+    <long xml:lang="ka">Png &#x10D2;&#x10D0;&#x10DB;&#x10DD;&#x10E1;&#x10D0;&#x10EE;&#x10E3;&#x10DA;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10E9;&#x10D0;&#x10DB;&#x10E2;&#x10D5;&#x10D8;&#x10E0;&#x10D7;&#x10D0;&#x10D5;&#x10D8;</long>
+    <long xml:lang="ja">Png &#x753B;&#x50CF;&#x8AAD;&#x307F;&#x8FBC;&#x307F;</long>
+    <long xml:lang="it">Caricatore immagini PNG</long>
+    <long xml:lang="hu">PNG k&#xE9;pbet&#xF6;lt&#x151;</long>
+    <long xml:lang="hr">U&#x10D;ita&#x10D; png slika</long>
+    <long xml:lang="hi">Png &#x91A;&#x93F;&#x924;&#x94D;&#x930; &#x932;&#x94B;&#x921;&#x930;</long>
+    <long xml:lang="he">&#x5D8;&#x5D5;&#x5E2;&#x5DF; &#x5EA;&#x5DE;&#x5D5;&#x5E0;&#x5D5;&#x5EA; Png</long>
+    <long xml:lang="gu">Png &#xA9A;&#xABF;&#xAA4;&#xACD;&#xAB0; &#xAB2;&#xABE;&#xAB5;&#xAA8;&#xABE;&#xAB0;</long>
+    <long xml:lang="gl">Cargador de imaxes Png</long>
+    <long xml:lang="fr">Chargeur d'Images png</long>
+    <long xml:lang="fi">PNG-kuvien lataaja</long>
+    <long xml:lang="eu">Png irudi kargatzailea</long>
+    <long xml:lang="es">Cargador de im&#xE1;genes Png</long>
+    <long xml:lang="en-GB">Png image loader</long>
+    <long xml:lang="el">&#x3A6;&#x3BF;&#x3C1;&#x3C4;&#x3C9;&#x3C4;&#x3AE;&#x3C2; &#x3B5;&#x3B9;&#x3BA;&#x3CC;&#x3BD;&#x3C9;&#x3BD; Png</long>
+    <long xml:lang="de">Plugin f&#xFC;r das Laden von Bildern im PNG-Format</long>
+    <long xml:lang="cs">Podpora obr&#xE1;zkov&#xE9;ho form&#xE1;tu PNG</long>
+    <long xml:lang="ca">Carregador d'imatges png</long>
+    <long xml:lang="bn">Png &#x99A;&#x9BF;&#x9A4;&#x9CD;&#x9B0; &#x9B2;&#x9CB;&#x9A1;&#x995;&#x9BE;&#x9B0;&#x9C0;</long>
+    <long xml:lang="bn-IN">Png &#x99A;&#x9BF;&#x9A4;&#x9CD;&#x9B0; &#x9B2;&#x9CB;&#x9A1;&#x995;&#x9BE;&#x9B0;&#x9C0;</long>
+    <long xml:lang="bg">&#x417;&#x430;&#x440;&#x435;&#x436;&#x434;&#x430;&#x43D;&#x435; &#x43D;&#x430; PNG &#x438;&#x437;&#x43E;&#x431;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x438;&#x44F;</long>
+    <category>Image Loading</category>
+    <feature>imageext:png</feature>
+    <feature>imagemime:image/png</feature>
+  </plugin>
+</compiz>

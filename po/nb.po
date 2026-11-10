@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: compiz\n"
 "Report-Msgid-Bugs-To: https://gitlab.com/compiz/compiz-core/issues\n"
-"POT-Creation-Date: 2020-11-04 22:19-0500\n"
+"POT-Creation-Date: 2026-11-09 16:35+0300\n"
 "PO-Revision-Date: 2008-04-03 23:15+0200\n"
 "Last-Translator: Ketil Wendelbo Aanensen <ketil.w.aanensen@gmail.com>\n"
 "Language-Team: Norwegian Bokmaal <nb@li.org>\n"
@@ -1495,6 +1495,26 @@ msgstr "Forrige bilde"
 
 msgid "Go back to previous slide"
 msgstr "Gå tilbake til forrige bilde"
+
+msgid "Zoom In"
+msgstr "Forstørr"
+
+msgid "Zoom in while the cube is active"
+msgstr ""
+
+msgid "Zoom Out"
+msgstr "Forminsk"
+
+msgid "Zoom out while the cube is active"
+msgstr ""
+
+#, fuzzy
+#| msgid "Rotation Zoom"
+msgid "Reset Zoom"
+msgstr "Rotasjonsforstørrelse"
+
+msgid "Reset the cube zoom while it is active"
+msgstr ""
 
 msgid "Generate mipmaps when possible for higher quality scaling"
 msgstr "Lag MIP-kart når det er mulig, for skalering med høyere kvalitet"
@@ -3298,12 +3318,6 @@ msgstr "Forstørr skrivebord"
 
 msgid "Zoom and pan desktop cube"
 msgstr "Forstørr og panorer skrivebordskuben"
-
-msgid "Zoom In"
-msgstr "Forstørr"
-
-msgid "Zoom Out"
-msgstr "Forminsk"
 
 msgid "Zoom Pan"
 msgstr "Panorer forstørrelse"

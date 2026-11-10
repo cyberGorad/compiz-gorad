@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: compiz\n"
 "Report-Msgid-Bugs-To: https://gitlab.com/compiz/compiz-core/issues\n"
-"POT-Creation-Date: 2020-11-04 22:19-0500\n"
+"POT-Creation-Date: 2026-11-09 16:35+0300\n"
 "PO-Revision-Date: 2007-12-15 09:26+0530\n"
 "Last-Translator: Amanpreet Singh Alam <aalam@users.sf.net>\n"
 "Language-Team: Punjabi <punjabi-users@llist.sf.net>\n"
@@ -1477,6 +1477,27 @@ msgstr "ਪਿਛਲਾ ਕਰਨਲ"
 #, fuzzy
 msgid "Go back to previous slide"
 msgstr "ਪਿਛਲਾ ਕਰਨਲ"
+
+#, fuzzy
+msgid "Zoom In"
+msgstr "ਲਾਗਆਉਟ"
+
+msgid "Zoom in while the cube is active"
+msgstr ""
+
+#, fuzzy
+msgid "Zoom Out"
+msgstr "ਲਾਗਆਉਟ"
+
+msgid "Zoom out while the cube is active"
+msgstr ""
+
+#, fuzzy
+msgid "Reset Zoom"
+msgstr "ਜਾਂਚ"
+
+msgid "Reset the cube zoom while it is active"
+msgstr ""
 
 msgid "Generate mipmaps when possible for higher quality scaling"
 msgstr "ਵੱਧ ਕੁਆਲਟੀ ਸਕੇਲਿੰਗ ਲਈ ਜਦੋਂ ਵੀ ਸੰਭਵ ਹੋਵੇ mip-ਮੈਪ ਬਣਾਓ"
@@ -3479,14 +3500,6 @@ msgstr "ਵੇਹੜਾ"
 
 msgid "Zoom and pan desktop cube"
 msgstr "ਜ਼ੂਮ ਅਤੇ ਪੈਨ ਡੈਸਕਟਾਪ ਘਣ"
-
-#, fuzzy
-msgid "Zoom In"
-msgstr "ਲਾਗਆਉਟ"
-
-#, fuzzy
-msgid "Zoom Out"
-msgstr "ਲਾਗਆਉਟ"
 
 #, fuzzy
 msgid "Zoom Pan"

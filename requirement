@@ -1,0 +1,16 @@
+apt update
+apt install \
+  pkg-config \
+  libx11-dev \
+  libxcomposite-dev \
+  libxext-dev \
+  libxfixes-dev \
+  libxdamage-dev \
+  libxrandr-dev \
+  libxi-dev \
+  libxinerama-dev \
+  libxcursor-dev \
+  libice-dev \
+  libsm-dev \
+  libxml2-dev \
+  libstartup-notification0-dev

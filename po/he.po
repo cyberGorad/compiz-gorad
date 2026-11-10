@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: compiz\n"
 "Report-Msgid-Bugs-To: https://gitlab.com/compiz/compiz-core/issues\n"
-"POT-Creation-Date: 2020-11-04 22:19-0500\n"
+"POT-Creation-Date: 2026-11-09 16:35+0300\n"
 "PO-Revision-Date: 2009-04-24 02:56+0200\n"
 "Last-Translator: Yotam Benshalom <benshalom@gmail.com>\n"
 "Language-Team: Hebrew <opensuse-translation@opensuse.org>\n"
@@ -1322,6 +1322,26 @@ msgstr "השקופית הקודמת"
 
 msgid "Go back to previous slide"
 msgstr "חזור לשקופית הקודמת"
+
+msgid "Zoom In"
+msgstr "תקריב הגדלה"
+
+msgid "Zoom in while the cube is active"
+msgstr ""
+
+msgid "Zoom Out"
+msgstr "תקריב הקטנה"
+
+msgid "Zoom out while the cube is active"
+msgstr ""
+
+#, fuzzy
+#| msgid "Rotation Zoom"
+msgid "Reset Zoom"
+msgstr "זום סיבוב"
+
+msgid "Reset the cube zoom while it is active"
+msgstr ""
 
 msgid "Generate mipmaps when possible for higher quality scaling"
 msgstr "במידת האפשר צור mipmap עבור שינוי קנה מידה באיכות גבוהה"
@@ -3269,12 +3289,6 @@ msgstr "תקריב"
 
 msgid "Zoom and pan desktop cube"
 msgstr "תקריב והטיה אל קובית שולחן העבודה"
-
-msgid "Zoom In"
-msgstr "תקריב הגדלה"
-
-msgid "Zoom Out"
-msgstr "תקריב הקטנה"
 
 msgid "Zoom Pan"
 msgstr "הטיית תקריב"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: compiz\n"
 "Report-Msgid-Bugs-To: https://gitlab.com/compiz/compiz-core/issues\n"
-"POT-Creation-Date: 2020-11-04 22:19-0500\n"
+"POT-Creation-Date: 2026-11-09 16:35+0300\n"
 "PO-Revision-Date: 2009-10-08 11:34+0200\n"
 "Last-Translator: Yichih Liu <liueigi@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) <opensuse-translation@opensuse.org>\n"
@@ -1287,6 +1287,26 @@ msgstr "上一個Slide"
 
 msgid "Go back to previous slide"
 msgstr "返回上一個slide"
+
+msgid "Zoom In"
+msgstr "放大"
+
+msgid "Zoom in while the cube is active"
+msgstr ""
+
+msgid "Zoom Out"
+msgstr "縮小"
+
+msgid "Zoom out while the cube is active"
+msgstr ""
+
+#, fuzzy
+#| msgid "Rotation Zoom"
+msgid "Reset Zoom"
+msgstr "旋轉縮放"
+
+msgid "Reset the cube zoom while it is active"
+msgstr ""
 
 msgid "Generate mipmaps when possible for higher quality scaling"
 msgstr "有可能產生mipmaps來產生更高品質的縮放"
@@ -3041,12 +3061,6 @@ msgstr "縮放桌面"
 
 msgid "Zoom and pan desktop cube"
 msgstr "縮放和平移桌面立方體"
-
-msgid "Zoom In"
-msgstr "放大"
-
-msgid "Zoom Out"
-msgstr "縮小"
 
 #, fuzzy
 msgid "Zoom Pan"

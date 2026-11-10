@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: compiz 0.8.14\n"
 "Report-Msgid-Bugs-To: https://gitlab.com/compiz/compiz-core/issues\n"
-"POT-Creation-Date: 2020-11-04 22:19-0500\n"
+"POT-Creation-Date: 2026-11-09 16:35+0300\n"
 "PO-Revision-Date: 2017-08-06 20:34+0100\n"
 "Last-Translator: gogo <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.6.10\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 msgid "Close Window"
 msgstr "Zatvori prozor"
@@ -1380,6 +1380,26 @@ msgstr "Prijašnji slajd"
 
 msgid "Go back to previous slide"
 msgstr "Natrag na prijašnji slajd"
+
+msgid "Zoom In"
+msgstr "Približi"
+
+msgid "Zoom in while the cube is active"
+msgstr ""
+
+msgid "Zoom Out"
+msgstr "Udalji"
+
+msgid "Zoom out while the cube is active"
+msgstr ""
+
+#, fuzzy
+#| msgid "Rotation Zoom"
+msgid "Reset Zoom"
+msgstr "Približavanje/Udaljavanje okreta"
+
+msgid "Reset the cube zoom while it is active"
+msgstr ""
 
 msgid "Generate mipmaps when possible for higher quality scaling"
 msgstr "Stvori mipmape kada je moguće, za prilagodbu veličine veće kvalitete"
@@ -3118,12 +3138,6 @@ msgstr "Približi/Udalji radnu površinu"
 
 msgid "Zoom and pan desktop cube"
 msgstr "Približi/Udalji i obreži radnu površinu kocke"
-
-msgid "Zoom In"
-msgstr "Približi"
-
-msgid "Zoom Out"
-msgstr "Udalji"
 
 msgid "Zoom Pan"
 msgstr "Približi/Udalji i obreži"

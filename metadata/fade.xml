@@ -1,0 +1,775 @@
+<?xml version="1.0"?>
+<compiz>
+  <plugin name="fade">
+    <short>Fading Windows</short>
+    <short xml:lang="zh-Hant-TW">&#x8996;&#x7A97;&#x6DE1;&#x5165;/&#x6DE1;&#x51FA;&#x4E2D;</short>
+    <short xml:lang="zh-Hans-CN">&#x6E10;&#x9690;&#x7A97;&#x53E3;</short>
+    <short xml:lang="uk">&#x41F;&#x440;&#x43E;&#x44F;&#x432; / &#x437;&#x43D;&#x438;&#x43A;&#x43D;&#x435;&#x43D;&#x43D;&#x44F; &#x432;&#x456;&#x43A;&#x43E;&#x43D;</short>
+    <short xml:lang="tr">Solan Pencereler</short>
+    <short xml:lang="sv">Tonande f&#xF6;nster</short>
+    <short xml:lang="sk">Stmievanie okien</short>
+    <short xml:lang="ru">&#x41F;&#x440;&#x43E;&#x44F;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x435;/&#x438;&#x441;&#x447;&#x435;&#x437;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x43A;&#x43E;&#x43D;</short>
+    <short xml:lang="ro">Decolorarea ferestrelor</short>
+    <short xml:lang="pt-BR">Janelas Desvanecidas</short>
+    <short xml:lang="pt">Janelas Esmaecidas</short>
+    <short xml:lang="pl">P&#x142;ynne rozja&#x15B;nianie/przyciemnianie okien</short>
+    <short xml:lang="or">&#xB09;&#xB07;&#xB23;&#xB4D;&#xB21;&#xB4B; &#xB2B;&#xB3F;&#xB15;&#xB3E;&#xB39;&#xB47;&#xB09;&#xB1B;&#xB3F;</short>
+    <short xml:lang="nl">Vervagende vensters</short>
+    <short xml:lang="nb">Inn- og uttonende vinduer</short>
+    <short xml:lang="ko">&#xCC3D; &#xD398;&#xC774;&#xB4DC; &#xD6A8;&#xACFC;</short>
+    <short xml:lang="ka">&#x10DB;&#x10D8;&#x10DC;&#x10D0;&#x10D5;&#x10DA;&#x10D4;&#x10D1;&#x10D0;&#x10D3;&#x10D8; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D4;&#x10D1;&#x10D8;</short>
+    <short xml:lang="ja">&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x306E;&#x30D5;&#x30A7;&#x30FC;&#x30C9;</short>
+    <short xml:lang="it">Finestre in dissolvenza</short>
+    <short xml:lang="hu">Ablakok elhalv&#xE1;ny&#xED;t&#xE1;sa</short>
+    <short xml:lang="hr">Izblje&#x111;ivanje prozora</short>
+    <short xml:lang="he">&#x5E2;&#x5DE;&#x5E2;&#x5D5;&#x5DD; &#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA;</short>
+    <short xml:lang="gl">Fiestras Desvanecidas</short>
+    <short xml:lang="fr">Types de fen&#xEA;tres &#xE0; animer</short>
+    <short xml:lang="fi">Ikkunoiden h&#xE4;ivytys</short>
+    <short xml:lang="eu">Leihoak iraungitzen</short>
+    <short xml:lang="es">Desvanecer ventanas</short>
+    <short xml:lang="en-GB">Fading Windows</short>
+    <short xml:lang="el">&#x39E;&#x3B5;&#x3B8;&#x3C9;&#x3C1;&#x3B9;&#x3AC;&#x3B6;&#x3BF;&#x3BD;&#x3C4;&#x3B1;&#x3C2; &#x3A0;&#x3B1;&#x3C1;&#x3AC;&#x3B8;&#x3C5;&#x3C1;&#x3B1;</short>
+    <short xml:lang="de">Fenster ein-/ausblenden</short>
+    <short xml:lang="da">Fading af vinduer</short>
+    <short xml:lang="cs">Sl&#xE1;bnut&#xED; oken</short>
+    <short xml:lang="ca">Esva&#xEF;ment de finestres</short>
+    <long>Fade in windows when mapped and fade out windows when unmapped</long>
+    <long xml:lang="zh-Hant-TW">&#x5728;&#x6620;&#x5C04;&#x6642;(mapped)&#x6DE1;&#x5165;&#x8996;&#x7A97;&#xFF0C;&#x4EE5;&#x53CA;&#x5728;&#x89E3;&#x9664;&#x6620;&#x5C04;&#x6642;&#x6DE1;&#x51FA;&#x8996;&#x7A97;</long>
+    <long xml:lang="zh-Hans-CN">&#x6620;&#x5C04;&#x65F6;&#x6E10;&#x73B0;&#x7A97;&#x53E3;&#x548C;&#x4E0D;&#x6620;&#x5C04;&#x65F6;&#x6E10;&#x5F31;&#x7A97;&#x53E3;</long>
+    <long xml:lang="uk">&#x41F;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x43E;&#x432;&#x438;&#x439; &#x43F;&#x440;&#x43E;&#x44F;&#x432; &#x432;&#x456;&#x43A;&#x43E;&#x43D; &#x43F;&#x440;&#x438; &#x432;&#x456;&#x434;&#x43E;&#x431;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x43D;&#x456; &#x456; &#x43F;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x43E;&#x432;&#x435; &#x437;&#x43D;&#x438;&#x43A;&#x43D;&#x435;&#x43D;&#x43D;&#x44F; &#x43F;&#x440;&#x438; &#x441;&#x43A;&#x430;&#x441;&#x443;&#x432;&#x430;&#x43D;&#x43D;&#x456; &#x432;&#x456;&#x434;&#x43E;&#x431;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x43D;&#x44F;</long>
+    <long xml:lang="tr">Haritaland&#x131;klar&#x131;nda pencereler belirsin, haritalanmad&#x131;klar&#x131;nda kaybolsun</long>
+    <long xml:lang="sv">Tona in f&#xF6;nster n&#xE4;r de kopplas och tona ut f&#xF6;nster n&#xE4;r de kopplas loss</long>
+    <long xml:lang="sk">Rozsvecovanie okien pri mapovan&#xED; a stmievania pri odmapovan&#xED;</long>
+    <long xml:lang="ru">&#x41F;&#x43E;&#x441;&#x442;&#x435;&#x43F;&#x435;&#x43D;&#x43D;&#x43E;&#x435; &#x43F;&#x440;&#x43E;&#x44F;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x435; &#x43E;&#x43A;&#x43E;&#x43D; &#x43F;&#x440;&#x438; &#x43E;&#x442;&#x43E;&#x431;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x438;&#x438; &#x438; &#x43F;&#x43E;&#x441;&#x442;&#x435;&#x43F;&#x435;&#x43D;&#x43D;&#x43E;&#x435; &#x438;&#x441;&#x447;&#x435;&#x437;&#x43D;&#x43E;&#x432;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x440;&#x438; &#x43E;&#x442;&#x43C;&#x435;&#x43D;&#x435; &#x43E;&#x442;&#x43E;&#x431;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x438;&#x44F;</long>
+    <long xml:lang="ro">Colorare ferestre la trecerea pe hart&#x103; &#x219;i decolorare la scoaterea de pe hart&#x103;</long>
+    <long xml:lang="pt-BR">Revitalizar janelas quando houver mapeamento e esmaec&#xEA;-las quando n&#xE3;o houver mapeamento</long>
+    <long xml:lang="pt">Avivar janelas quando houver mapeamento e esmaec&#xEA;-las quando n&#xE3;o houver mapeamento</long>
+    <long xml:lang="pl">Okna powinny p&#x142;ynnie rozja&#x15B;nia&#x107; si&#x119; podczas ich wyboru i p&#x142;ynnie przyciemnia&#x107; si&#x119; podczas wyboru innego okna.</long>
+    <long xml:lang="pa">&#xA1C;&#xA26;&#xA4B;&#xA02; &#xA2E;&#xA48;&#xA2A;&#xA3F;&#xA70;&#xA17; &#xA39;&#xA4B;&#xA35;&#xA47; &#xA24;&#xA3E;&#xA02; &#xA35;&#xA3F;&#xA70;&#xA21;&#xA4B; &#xA2B;&#xA47;&#xA21; &#xA07;&#xA28; &#xA05;&#xA24;&#xA47; &#xA1C;&#xA26;&#xA4B;&#xA02; &#xA05;&#xA23;-&#xA2E;&#xA48;&#xA2A; &#xA39;&#xA4B;&#xA35;&#xA47; &#xA24;&#xA3E;&#xA02; &#xA35;&#xA3F;&#xA70;&#xA21; &#xA2B;&#xA47;&#xA21; &#xA06;&#xA09;&#xA1F;</long>
+    <long xml:lang="or">&#xB09;&#xB07;&#xB23;&#xB4D;&#xB21;&#xB4B; &#xB05;&#xB02;&#xB15;&#xB3F;&#xB24; &#xB39;&#xB47;&#xB2C;&#xB3E; &#xB38;&#xB2E;&#xB2F;&#xB30;&#xB47; &#xB30;&#xB47; &#xB2B;&#xB3F;&#xB15;&#xB4D;&#xB15;&#xB3E; &#xB39;&#xB47;&#xB2C;&#xB3E; &#xB0F;&#xB2C;&#xB02; &#xB05;&#xB02;&#xB15;&#xB3F;&#xB24; &#xB28;&#xB39;&#xB47;&#xB2C;&#xB3E; &#xB38;&#xB2E;&#xB2F;&#xB30;&#xB47; &#xB2C;&#xB3E;&#xB39;&#xB3E;&#xB30;&#xB47; &#xB2B;&#xB3F;&#xB15;&#xB4D;&#xB15;&#xB3E; &#xB39;&#xB47;&#xB2C;&#xB3E;</long>
+    <long xml:lang="nl">Invagen van vensters als ze gemapped worden en uitvagen als ze gedemapped worden</long>
+    <long xml:lang="nb">Ton inn vinduer n&#xE5;r de kartlegges og ton ut vinduer n&#xE5;r de av-kartlegges</long>
+    <long xml:lang="ko">&#xCC3D;&#xC774; &#xC0DD;&#xC131;&#xB420; &#xB54C;&#xB294; &#xD398;&#xC774;&#xB4DC; &#xC778;, &#xC885;&#xB8CC;&#xB420; &#xB54C;&#xB294; &#xD398;&#xC774;&#xB4DC; &#xC544;&#xC6C3;</long>
+    <long xml:lang="ka">&#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10DB;&#x10D8;&#x10DC;&#x10D0;&#x10D5;&#x10DA;&#x10D4;&#x10D1;&#x10D0;, &#x10E0;&#x10DD;&#x10EA;&#x10D0; &#x10DB;&#x10D8;&#x10DB;&#x10D0;&#x10D2;&#x10E0;&#x10D4;&#x10D1;&#x10E3;&#x10DA;&#x10D8;&#x10D0; &#x10D3;&#x10D0; &#x10DE;&#x10D8;&#x10E0;&#x10D8;&#x10E5;&#x10D8;&#x10D7;, &#x10E0;&#x10DD;&#x10EA;&#x10D0; &#x10DB;&#x10D8;&#x10DB;&#x10D0;&#x10D2;&#x10E0;&#x10D4;&#x10D1;&#x10D0;&#x10E1; &#x10DB;&#x10DD;&#x10EE;&#x10E1;&#x10DC;&#x10D8;&#x10D7;</long>
+    <long xml:lang="ja">&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x304C;&#x958B;&#x304B;&#x308C;&#x305F;&#x6642;&#x30D5;&#x30A7;&#x30FC;&#x30C9;&#x30A4;&#x30F3;&#x3001;&#x9589;&#x3058;&#x305F;&#x6642;&#x30D5;&#x30A7;&#x30FC;&#x30C9;&#x30A2;&#x30A6;&#x30C8;</long>
+    <long xml:lang="it">Applica dissolvenza in entrata alle finestre quando associate e in uscita quando non associate</long>
+    <long xml:lang="hu">Lek&#xE9;pez&#xE9;s eset&#xE9;n az ablak er&#x151;s&#xED;t&#xE9;se, lecsatol&#xE1;s eset&#xE9;n elhalv&#xE1;ny&#xED;t&#xE1;sa</long>
+    <long xml:lang="hr">Izbljedi prozore kada su mapirani i prekini izblje&#x111;ivanje prozora kad nisu mapirani</long>
+    <long xml:lang="hi">&#x92E;&#x948;&#x92A; &#x930;&#x939;&#x928;&#x947; &#x92A;&#x930; &#x92B;&#x947;&#x921; &#x907;&#x928; &#x935;&#x93F;&#x902;&#x921;&#x94B;&#x91C; &#x914;&#x930; &#x92E;&#x948;&#x92A; &#x928;&#x939;&#x940;&#x902; &#x930;&#x939;&#x928;&#x947; &#x92A;&#x930; &#x92B;&#x940;&#x915;&#x93E; &#x92C;&#x93E;&#x939;&#x930; &#x935;&#x93F;&#x902;&#x921;&#x94B;&#x91C;</long>
+    <long xml:lang="he">&#x5E2;&#x5DE;&#x5E2;&#x5D5;&#x5DD; &#x5E4;&#x5E0;&#x5D9;&#x5DE;&#x5D4; &#x5DC;&#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA; &#x5D1;&#x5E2;&#x5EA; &#x5DE;&#x5D9;&#x5E4;&#x5D5;&#x5D9; &#x5D5;&#x5E2;&#x5DE;&#x5E2;&#x5D5;&#x5DD; &#x5D4;&#x5D7;&#x5D5;&#x5E6;&#x5D4; &#x5DC;&#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA; &#x5D1;&#x5E2;&#x5EA; &#x5DE;&#x5D7;&#x5D9;&#x5E7;&#x5D4;</long>
+    <long xml:lang="gu">&#xAB5;&#xABF;&#xAA8;&#xACD;&#xAA1;&#xACB; &#xA86;&#xA9B;&#xAC0; &#xA95;&#xAB0;&#xACB; &#xA9C;&#xACD;&#xAAF;&#xABE;&#xAB0;&#xAC7; &#xA9C;&#xACB;&#xAA1;&#xABE;&#xAAF;&#xAC7;&#xAB2; &#xAB9;&#xACB;&#xAAF; &#xA85;&#xAA8;&#xAC7; &#xA9C;&#xACD;&#xAAF;&#xABE;&#xAB0;&#xAC7; &#xA9C;&#xACB;&#xAA1;&#xABE;&#xAAF;&#xAC7;&#xAB2; &#xAA8;&#xAB9;&#xABF;&#xA82; &#xAB9;&#xACB;&#xAAF; &#xAA4;&#xACD;&#xAAF;&#xABE;&#xAB0;&#xAC7; &#xA98;&#xABE;&#xA9F;&#xAC0; &#xA95;&#xAB0;&#xACB;</long>
+    <long xml:lang="gl">Amosar as xanelas cando haxa mapeado e desvanecelas cando sexan desmapeadas</long>
+    <long xml:lang="fr">Apparition/disparition en fondu des fen&#xEA;tres &#xE0; l'ouverture/fermeture</long>
+    <long xml:lang="fi">Ikkunat h&#xE4;ivytet&#xE4;&#xE4;n n&#xE4;kyvist&#xE4;/n&#xE4;kyviin</long>
+    <long xml:lang="eu">Leihoak iraungiz agertu aukeratzean eta iraungiz desagertu aukeraketa galtzean</long>
+    <long xml:lang="es">Las ventanas aparecen progresivamente cuando se asignan y se desvanecen cuando se desasignan</long>
+    <long xml:lang="en-GB">Fade in windows when mapped and fade out windows when unmapped</long>
+    <long xml:lang="el">&#x39E;&#x3B5;&#x3B8;&#x3CE;&#x3C1;&#x3B9;&#x3B1;&#x3C3;&#x3BC;&#x3B1; &#x3BC;&#x3AD;&#x3C3;&#x3B1; &#x3C0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3C9;&#x3BD; &#x3CC;&#x3C4;&#x3B1;&#x3BD; &#x3C7;&#x3B1;&#x3C1;&#x3C4;&#x3BF;&#x3B3;&#x3C1;&#x3B1;&#x3C6;&#x3BF;&#x3CD;&#x3BD;&#x3C4;&#x3B1;&#x3B9; &#x3BA;&#x3B1;&#x3B9; &#x3BE;&#x3B5;&#x3B8;&#x3CE;&#x3C1;&#x3B9;&#x3B1;&#x3C3;&#x3BC;&#x3B1; &#x3AD;&#x3BE;&#x3C9; &#x3CC;&#x3C4;&#x3B1;&#x3BD; &#x3C4;&#x3B1; &#x3C0;&#x3B1;&#x3C1;&#x3AC;&#x3B8;&#x3C5;&#x3C1;&#x3B1; &#x3B1;&#x3C0;&#x3BF;&#x3C7;&#x3B1;&#x3C1;&#x3C4;&#x3BF;&#x3B3;&#x3C1;&#x3B1;&#x3C6;&#x3BF;&#x3CD;&#x3BD;&#x3C4;&#x3B1;&#x3B9;</long>
+    <long xml:lang="de">Fenster beim Zuordnen einblenden, beim Aufheben der Zuordnung ausblenden</long>
+    <long xml:lang="da">Vinduerne tones ind, n&#xE5;r de tilknyttes, og tones ud, n&#xE5;r tilknytningen oph&#xE6;ves.</long>
+    <long xml:lang="cs">Blednut&#xED; mapovan&#xFD;ch oken a materializace oken nemapovan&#xFD;ch</long>
+    <long xml:lang="ca">Es fan apar&#xE8;ixer progressivament les finestres quan s'assignen i s'esvaeixen quan no estan assignades</long>
+    <long xml:lang="bn">&#x9AE;&#x9CD;&#x9AF;&#x9BE;&#x9AA; &#x995;&#x9B0;&#x9BE;&#x9B0; &#x9B8;&#x9AE;&#x9DF; &#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB; &#x9AB;&#x9C7;&#x9A1; &#x987;&#x9A8; &#x995;&#x9B0;&#x9BE; &#x98F;&#x9AC;&#x982; &#x986;&#x9A8;&#x9AE;&#x9CD;&#x9AF;&#x9BE;&#x9AA; &#x995;&#x9B0;&#x9BE;&#x9B0; &#x9B8;&#x9AE;&#x9DF; &#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB; &#x9AB;&#x9C7;&#x9A1; &#x986;&#x989;&#x99F; &#x995;&#x9B0;&#x9BE;</long>
+    <long xml:lang="bn-IN">&#x9AE;&#x9CD;&#x9AF;&#x9BE;&#x9AA; &#x995;&#x9B0;&#x9BE;&#x9B0; &#x9B8;&#x9AE;&#x9DF; &#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB; &#x9AB;&#x9C7;&#x9A1; &#x987;&#x9A8; &#x995;&#x9B0;&#x9BE; &#x98F;&#x9AC;&#x982; &#x986;&#x9A8;&#x9AE;&#x9CD;&#x9AF;&#x9BE;&#x9AA; &#x995;&#x9B0;&#x9BE;&#x9B0; &#x9B8;&#x9AE;&#x9DF; &#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB; &#x9AB;&#x9C7;&#x9A1; &#x986;&#x989;&#x99F; &#x995;&#x9B0;&#x9BE;</long>
+    <category>Effects</category>
+    <deps>
+      <requirement>
+        <plugin>regex</plugin>
+      </requirement>
+      <relation type="after">
+        <plugin>regex</plugin>
+      </relation>
+      <relation type="before">
+        <plugin>cube</plugin>
+        <plugin>scale</plugin>
+        <plugin>move</plugin>
+        <plugin>switcher</plugin>
+      </relation>
+    </deps>
+    <screen>
+      <option name="fade_mode" type="int">
+        <short>Fade Mode</short>
+        <short xml:lang="zh-Hant-TW">&#x6DE1;&#x5165;/&#x6DE1;&#x51FA;&#x6A21;&#x5F0F;</short>
+        <short xml:lang="zh-Hans-CN">&#x6E10;&#x9690;&#x6A21;&#x5F0F;</short>
+        <short xml:lang="uk">&#x428;&#x432;&#x438;&#x434;&#x43A;&#x456;&#x441;&#x442;&#x44C; &#x437;&#x43D;&#x438;&#x43A;&#x43D;&#x435;&#x43D;&#x43D;&#x44F;</short>
+        <short xml:lang="tr">Solma Kipi</short>
+        <short xml:lang="ru">&#x421;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x44C; &#x438;&#x441;&#x447;&#x435;&#x437;&#x43D;&#x43E;&#x432;&#x435;&#x43D;&#x438;&#x44F;</short>
+        <short xml:lang="pt">Velocidade de Esmaecimento</short>
+        <short xml:lang="pl">Spos&#xF3;b zanikania</short>
+        <short xml:lang="ko">&#xD398;&#xC774;&#xB4DC; &#xBAA8;&#xB4DC;</short>
+        <short xml:lang="ka">&#x10DB;&#x10D8;&#x10DC;&#x10D0;&#x10D5;&#x10DA;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10E0;&#x10D4;&#x10DF;&#x10D8;&#x10DB;&#x10D8;</short>
+        <short xml:lang="ja">&#x30D5;&#x30A7;&#x30FC;&#x30C9;&#x30FB;&#x30E2;&#x30FC;&#x30C9;</short>
+        <short xml:lang="it">Modalit&#xE0; dissolvenza</short>
+        <short xml:lang="hu">Elhalv&#xE1;ny&#xED;t&#xE1;si &#xFC;zemm&#xF3;d</short>
+        <short xml:lang="hr">Na&#x10D;in izblje&#x111;ivanja</short>
+        <short xml:lang="he">&#x5DE;&#x5E6;&#x5D1; &#x5E2;&#x5DE;&#x5E2;&#x5D5;&#x5DD;</short>
+        <short xml:lang="gl">Modo de Desvanecemento</short>
+        <short xml:lang="fr">Mode de Fondu</short>
+        <short xml:lang="fi">H&#xE4;ivytystapa</short>
+        <short xml:lang="eu">Iraungitze modua</short>
+        <short xml:lang="es">Modo de desvanecimiento</short>
+        <short xml:lang="en-GB">Fade Mode</short>
+        <short xml:lang="el">&#x395;&#x3AF;&#x3B4;&#x3BF;&#x3C2; &#x39E;&#x3B5;&#x3B8;&#x3C9;&#x3C1;&#x3B9;&#x3AC;&#x3C3;&#x3BC;&#x3B1;&#x3C4;&#x3BF;&#x3C2;</short>
+        <short xml:lang="ca">Mode d'esva&#xEF;ment</short>
+        <long>Window fade mode</long>
+        <long xml:lang="zh-Hant-TW">&#x8996;&#x7A97;&#x6DE1;&#x5165;/&#x6DE1;&#x51FA;&#x6A21;&#x5F0F;</long>
+        <long xml:lang="zh-Hans-CN">&#x7A97;&#x53E3;&#x6E10;&#x9690;&#x6A21;&#x5F0F;</long>
+        <long xml:lang="uk">&#x420;&#x435;&#x436;&#x438;&#x43C; &#x43F;&#x440;&#x43E;&#x44F;&#x432;&#x443; / &#x437;&#x43D;&#x438;&#x43A;&#x43D;&#x435;&#x43D;&#x43D;&#x44F; &#x432;&#x456;&#x43A;&#x43D;&#x430;</long>
+        <long xml:lang="tr">Pencere solma kipi</long>
+        <long xml:lang="ru">&#x420;&#x435;&#x436;&#x438;&#x43C; &#x43F;&#x440;&#x43E;&#x44F;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x44F;/&#x438;&#x441;&#x447;&#x435;&#x437;&#x43D;&#x43E;&#x432;&#x435;&#x43D;&#x438;&#x44F; &#x43E;&#x43A;&#x43D;&#x430;</long>
+        <long xml:lang="pt">Modo de esvaecimento das janelas</long>
+        <long xml:lang="pl">Spos&#xF3;b zanikania okien</long>
+        <long xml:lang="ko">&#xCC3D; &#xD398;&#xC774;&#xB4DC; &#xBAA8;&#xB4DC;</long>
+        <long xml:lang="ka">&#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D8;&#x10E1; &#x10DB;&#x10D8;&#x10DC;&#x10D0;&#x10D5;&#x10DA;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10E0;&#x10D4;&#x10DF;&#x10D8;&#x10DB;&#x10D8;</long>
+        <long xml:lang="ja">&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x306E;&#x30D5;&#x30A7;&#x30FC;&#x30C9;&#x5F62;&#x5F0F;</long>
+        <long xml:lang="it">Modalit&#xE0; dissolvenza finestra</long>
+        <long xml:lang="hu">Ablak elhalv&#xE1;nyul&#xE1;s&#xE1;nak &#xFC;zemm&#xF3;dja</long>
+        <long xml:lang="hr">Na&#x10D;in izblje&#x111;ivanja prozora</long>
+        <long xml:lang="he">&#x5DE;&#x5E6;&#x5D1; &#x5E2;&#x5DE;&#x5E2;&#x5D5;&#x5DD; &#x5D7;&#x5DC;&#x5D5;&#x5DF;</long>
+        <long xml:lang="gl">Modo de desvanecemento das xanelas</long>
+        <long xml:lang="fr">Mode de fondu de la fen&#xEA;tre</long>
+        <long xml:lang="fi">Ikkunan h&#xE4;ivytystapa</long>
+        <long xml:lang="eu">Leiho iraungitze modua</long>
+        <long xml:lang="es">Modo de desvanecimiento de ventana</long>
+        <long xml:lang="en-GB">Window fade mode</long>
+        <long xml:lang="el">&#x395;&#x3AF;&#x3B4;&#x3BF;&#x3C2; &#x3BE;&#x3B5;&#x3B8;&#x3C9;&#x3C1;&#x3B9;&#x3AC;&#x3C3;&#x3BC;&#x3B1;&#x3C4;&#x3BF;&#x3C2; &#x3C0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3BF;&#x3C5;</long>
+        <long xml:lang="ca">Mode d'esva&#xEF;ment de la finestra</long>
+        <min>0</min>
+        <max>1</max>
+        <default>0</default>
+        <desc>
+          <value>0</value>
+          <name>Constant speed</name>
+          <name xml:lang="zh-Hant-TW">&#x901F;&#x5EA6;&#x5E38;&#x6578;</name>
+          <name xml:lang="zh-Hans-CN">&#x6052;&#x5B9A;&#x65CB;&#x8F6C;&#x901F;&#x5EA6;</name>
+          <name xml:lang="uk">&#x41F;&#x43E;&#x441;&#x442;&#x456;&#x439;&#x43D;&#x430; &#x448;&#x432;&#x438;&#x434;&#x43A;&#x456;&#x441;&#x442;&#x44C;</name>
+          <name xml:lang="ru">&#x41F;&#x43E;&#x441;&#x442;&#x43E;&#x44F;&#x43D;&#x43D;&#x430;&#x44F; &#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x44C;</name>
+          <name xml:lang="pt">Velocidade constante</name>
+          <name xml:lang="pl">Sta&#x142;a pr&#x119;dko&#x15B;&#x107;</name>
+          <name xml:lang="ko">&#xC77C;&#xC815;&#xD55C; &#xC18D;&#xB3C4;</name>
+          <name xml:lang="ka">&#x10DB;&#x10E3;&#x10D3;&#x10DB;&#x10D8;&#x10D5;&#x10D8; &#x10E1;&#x10D8;&#x10E9;&#x10E5;&#x10D0;&#x10E0;&#x10D4;</name>
+          <name xml:lang="ja">&#x4E00;&#x5B9A;&#x901F;&#x5EA6;</name>
+          <name xml:lang="it">Velocit&#xE0; costante</name>
+          <name xml:lang="hu">&#xC1;lland&#xF3; sebess&#xE9;g</name>
+          <name xml:lang="hr">Stalna brzina</name>
+          <name xml:lang="he">&#x5DE;&#x5D4;&#x5D9;&#x5E8;&#x5D5;&#x5EA; &#x5E7;&#x5D1;&#x5D5;&#x5E2;&#x5D4;</name>
+          <name xml:lang="gl">Velocidade constante</name>
+          <name xml:lang="fr">Vitesse constante</name>
+          <name xml:lang="fi">Vakionopeus</name>
+          <name xml:lang="eu">Abiadura konstantea</name>
+          <name xml:lang="es">Velocidad constante</name>
+          <name xml:lang="en-GB">Constant speed</name>
+          <name xml:lang="el">&#x3A3;&#x3C4;&#x3B1;&#x3B8;&#x3B5;&#x3C1;&#x3AE; &#x3C4;&#x3B1;&#x3C7;&#x3CD;&#x3C4;&#x3B7;&#x3C4;&#x3B1;</name>
+          <name xml:lang="ca">Velocitat constant</name>
+          <name xml:lang="bg">&#x41F;&#x43E;&#x441;&#x442;&#x43E;&#x44F;&#x43D;&#x43D;&#x430; &#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;</name>
+        </desc>
+        <desc>
+          <value>1</value>
+          <name>Constant time</name>
+          <name xml:lang="zh-Hant-TW">&#x6642;&#x9593;&#x5E38;&#x6578;</name>
+          <name xml:lang="zh-Hans-CN">&#x6052;&#x5B9A;&#x65CB;&#x8F6C;&#x65F6;&#x95F4;</name>
+          <name xml:lang="uk">&#x41F;&#x43E;&#x441;&#x442;&#x456;&#x439;&#x43D;&#x438;&#x439; &#x447;&#x430;&#x441;</name>
+          <name xml:lang="ru">&#x41F;&#x43E;&#x441;&#x442;&#x43E;&#x44F;&#x43D;&#x43D;&#x43E;&#x435; &#x432;&#x440;&#x435;&#x43C;&#x44F;</name>
+          <name xml:lang="pt">Tempo constante</name>
+          <name xml:lang="pl">Sta&#x142;y czas</name>
+          <name xml:lang="ko">&#xC77C;&#xC815;&#xD55C; &#xC2DC;&#xAC04;</name>
+          <name xml:lang="ka">&#x10DB;&#x10E3;&#x10D3;&#x10DB;&#x10D8;&#x10D5;&#x10D8; &#x10D3;&#x10E0;&#x10DD;</name>
+          <name xml:lang="ja">&#x4E00;&#x5B9A;&#x6642;&#x9593;</name>
+          <name xml:lang="it">Tempo costante</name>
+          <name xml:lang="hu">&#xC1;lland&#xF3; &#xFA;tid&#x151;</name>
+          <name xml:lang="hr">Stalno vrijeme</name>
+          <name xml:lang="he">&#x5DE;&#x5E9;&#x5DA; &#x5E7;&#x5D1;&#x5D5;&#x5E2;</name>
+          <name xml:lang="gl">Constante de tempo</name>
+          <name xml:lang="fr">Temps constant</name>
+          <name xml:lang="fi">Vakioaika</name>
+          <name xml:lang="eu">Denbora konstantea</name>
+          <name xml:lang="es">Tiempo constante</name>
+          <name xml:lang="en-GB">Constant time</name>
+          <name xml:lang="el">&#x3A3;&#x3C4;&#x3B1;&#x3B8;&#x3B5;&#x3C1;&#x3CC;&#x3C2; &#x3C7;&#x3C1;&#x3CC;&#x3BD;&#x3BF;&#x3C2;</name>
+          <name xml:lang="ca">Temps constant</name>
+          <name xml:lang="bg">&#x41F;&#x43E;&#x441;&#x442;&#x43E;&#x44F;&#x43D;&#x43D;&#x43E; &#x432;&#x440;&#x435;&#x43C;&#x435;</name>
+        </desc>
+      </option>
+      <option name="fade_speed" type="float">
+        <short>Fade Speed</short>
+        <short xml:lang="zh-Hant-TW">&#x6DE1;&#x5165;/&#x6DE1;&#x51FA;&#x901F;&#x5EA6;</short>
+        <short xml:lang="zh-Hans-CN">&#x6E10;&#x9690;&#x901F;&#x5EA6;</short>
+        <short xml:lang="uk">&#x428;&#x432;&#x438;&#x434;&#x43A;&#x456;&#x441;&#x442;&#x44C; &#x437;&#x43D;&#x435;&#x431;&#x430;&#x440;&#x432;&#x43B;&#x44E;&#x432;&#x430;&#x43D;&#x43D;&#x44F;</short>
+        <short xml:lang="tr">Solma H&#x131;z&#x131;</short>
+        <short xml:lang="sv">Toningshastighet</short>
+        <short xml:lang="sk">R&#xFD;chlos&#x165; stmievania</short>
+        <short xml:lang="ru">&#x421;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x44C; &#x437;&#x430;&#x442;&#x435;&#x43D;&#x435;&#x43D;&#x438;&#x44F;</short>
+        <short xml:lang="ro">Vitez&#x103; decolorare</short>
+        <short xml:lang="pt-BR">Velocidade de Esmaecimento</short>
+        <short xml:lang="pt">Velocidade de Esmaecimento</short>
+        <short xml:lang="pl">Szybko&#x15B;&#x107; rozja&#x15B;niania /&#x15B;ciemniania</short>
+        <short xml:lang="or">&#xB2B;&#xB3F;&#xB15;&#xB3E;&#xB39;&#xB47;&#xB2C;&#xB3E; &#xB17;&#xB24;&#xB3F;</short>
+        <short xml:lang="nl">Vervaag snelheid</short>
+        <short xml:lang="nb">Toningshastighet</short>
+        <short xml:lang="ko">&#xD398;&#xC774;&#xB4DC; &#xC18D;&#xB3C4;</short>
+        <short xml:lang="ka">&#x10DB;&#x10D8;&#x10DC;&#x10D0;&#x10D5;&#x10DA;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10E1;&#x10D8;&#x10E9;&#x10E5;&#x10D0;&#x10E0;&#x10D4;</short>
+        <short xml:lang="ja">&#x30D5;&#x30A7;&#x30FC;&#x30C9;&#x901F;&#x5EA6;</short>
+        <short xml:lang="it">Velocit&#xE0; dissolvenza</short>
+        <short xml:lang="hu">Elhalv&#xE1;nyul&#xE1;s sebess&#xE9;ge</short>
+        <short xml:lang="hr">Brzina izblje&#x111;ivanja</short>
+        <short xml:lang="he">&#x5DE;&#x5D4;&#x5D9;&#x5E8;&#x5D5;&#x5EA; &#x5E2;&#x5DE;&#x5E2;&#x5D5;&#x5DD;</short>
+        <short xml:lang="gu">&#xA86;&#xA9B;&#xABE;&#xAAA;&#xAA3;&#xABE;&#xAA8;&#xAC0; &#xA9D;&#xAA1;&#xAAA;</short>
+        <short xml:lang="gl">Velocidade de Desvanecemento</short>
+        <short xml:lang="fr">Vitesse de fondu</short>
+        <short xml:lang="fi">H&#xE4;ivytyksen nopeus</short>
+        <short xml:lang="eu">Iraungitze abiadura</short>
+        <short xml:lang="es">Velocidad de desvanecimiento</short>
+        <short xml:lang="en-GB">Fade Speed</short>
+        <short xml:lang="el">&#x3A4;&#x3B1;&#x3C7;&#x3CD;&#x3C4;&#x3B7;&#x3C4;&#x3B1; &#x39E;&#x3B5;&#x3B8;&#x3C9;&#x3C1;&#x3B9;&#x3AC;&#x3C3;&#x3BC;&#x3B1;&#x3C4;&#x3BF;&#x3C2;</short>
+        <short xml:lang="de">Ausblendgeschwindigkeit</short>
+        <short xml:lang="da">Fadehastighed</short>
+        <short xml:lang="cs">Rychlost blednut&#xED;</short>
+        <short xml:lang="ca">Velocitat de l'esva&#xEF;ment</short>
+        <long>Window fade speed in "Constant speed" mode</long>
+        <long xml:lang="zh-Hant-TW">&#x8996;&#x7A97;&#x6DE1;&#x5165;/&#x6DE1;&#x51FA;&#x901F;&#x5EA6;&#x4EE5;&#x300C;&#x901F;&#x5EA6;&#x5E38;&#x6578;&#x300D;&#x6A21;&#x5F0F;&#x9032;&#x884C;</long>
+        <long xml:lang="zh-Hans-CN">&#x7A97;&#x53E3;&#x6E10;&#x9690;&#x901F;&#x5EA6;&#x8BBE;&#x4E8E;&#x6052;&#x5B9A;&#x901F;&#x5EA6;&#x6A21;&#x5F0F;</long>
+        <long xml:lang="uk">&#x428;&#x432;&#x438;&#x434;&#x43A;&#x456;&#x441;&#x442;&#x44C; &#x437;&#x43D;&#x438;&#x43A;&#x43D;&#x435;&#x43D;&#x43D;&#x44F; &#x432;&#x456;&#x43A;&#x43D;&#x430; &#x432; &#x440;&#x435;&#x436;&#x438;&#x43C;&#x456; "&#x41F;&#x43E;&#x441;&#x442;&#x456;&#x439;&#x43D;&#x430; &#x448;&#x432;&#x438;&#x434;&#x43A;&#x456;&#x441;&#x442;&#x44C;"</long>
+        <long xml:lang="ru">&#x421;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x44C; &#x438;&#x441;&#x447;&#x435;&#x437;&#x43D;&#x43E;&#x432;&#x435;&#x43D;&#x438;&#x44F; &#x43E;&#x43A;&#x43D;&#x430; &#x432; &#x440;&#x435;&#x436;&#x438;&#x43C;&#x435; "&#x41F;&#x43E;&#x441;&#x442;&#x43E;&#x44F;&#x43D;&#x43D;&#x430;&#x44F; &#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x44C;"</long>
+        <long xml:lang="pt">Velocidade de esmaecimento das janelas, em modo "Velocidade constante"</long>
+        <long xml:lang="pl">Szybko&#x15B;&#x107; zanikania okien w trybie "Sta&#x142;a pr&#x119;dko&#x15B;&#x107;"</long>
+        <long xml:lang="ko">"&#xC77C;&#xC815;&#xD55C; &#xC18D;&#xB3C4;" &#xBAA8;&#xB4DC;&#xC5D0;&#xC11C; &#xCC3D; &#xC0AC;&#xB77C;&#xC9D0; &#xC18D;&#xB3C4;</long>
+        <long xml:lang="ka">&#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D8;&#x10E1; &#x10DB;&#x10D8;&#x10DC;&#x10D0;&#x10D5;&#x10DA;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10E1;&#x10D8;&#x10E9;&#x10E5;&#x10D0;&#x10E0;&#x10D4; "&#x10DB;&#x10E3;&#x10D3;&#x10DB;&#x10D8;&#x10D5;&#x10D8; &#x10E1;&#x10D8;&#x10E9;&#x10E5;&#x10D0;&#x10E0;&#x10D8;&#x10E1;" &#x10E0;&#x10D4;&#x10DF;&#x10D8;&#x10DB;&#x10E8;&#x10D8;</long>
+        <long xml:lang="ja">&#x300C;&#x4E00;&#x5B9A;&#x901F;&#x5EA6;&#x300D;&#x30E2;&#x30FC;&#x30C9;&#x306E;&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x306E;&#x30D5;&#x30A7;&#x30FC;&#x30C9;&#x901F;&#x5EA6;</long>
+        <long xml:lang="it">Velocit&#xE0; dissolvenza finestra nella modalit&#xE0; &#xAB;Velocit&#xE0; costante&#xBB;</long>
+        <long xml:lang="hu">Ablak elhalv&#xE1;nyul&#xE1;s&#xE1;nak sebess&#xE9;ge &#x201E;&#xC1;lland&#xF3; sebess&#xE9;g&#x201D; m&#xF3;dban</long>
+        <long xml:lang="hr">Vrijeme izblje&#x111;ivanja prozora u na&#x10D;inu rada "Stalno vrijeme"</long>
+        <long xml:lang="he">&#x5DE;&#x5D4;&#x5D9;&#x5E8;&#x5D5;&#x5EA; &#x5E2;&#x5DE;&#x5E2;&#x5D5;&#x5DD; &#x5D7;&#x5DC;&#x5D5;&#x5DF; &#x5D1;&#x5DE;&#x5E6;&#x5D1; "&#x5DE;&#x5D4;&#x5D9;&#x5E8;&#x5D5;&#x5EA; &#x5E7;&#x5D1;&#x5D5;&#x5E2;&#x5D4;"</long>
+        <long xml:lang="gl">Modo "Velocidade Constante" para a Velocidade de Desvanecemento das Fiestras</long>
+        <long xml:lang="fr">Vitesse du fondu d'une fen&#xEA;tre dans le mode de "Vitesse constante"</long>
+        <long xml:lang="fi">Ikkunan h&#xE4;ivytysnopeus "Vakionopeus"-tilassa</long>
+        <long xml:lang="eu">Leiho iraungitze abiadura "abiadura konstante" moduan</long>
+        <long xml:lang="es">Velocidad de desvanecimiento de ventana cuando "Velocidad constante" est&#xE1; activado</long>
+        <long xml:lang="en-GB">Window fade speed in "Constant speed" mode</long>
+        <long xml:lang="el">&#x3A4;&#x3B1;&#x3C7;&#x3CD;&#x3C4;&#x3B7;&#x3C4;&#x3B1; &#x3BE;&#x3B5;&#x3B8;&#x3C9;&#x3C1;&#x3B9;&#x3AC;&#x3C3;&#x3BC;&#x3B1;&#x3C4;&#x3BF;&#x3C2; &#x3C0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3BF;&#x3C5; &#x3C3;&#x3C4;&#x3B7;&#x3BD; &#x3BA;&#x3B1;&#x3C4;&#x3AC;&#x3C3;&#x3C4;&#x3B1;&#x3C3;&#x3B7; "&#x3A3;&#x3C4;&#x3B1;&#x3B8;&#x3B5;&#x3C1;&#x3AE;&#x3C2; &#x3C4;&#x3B1;&#x3C7;&#x3CD;&#x3C4;&#x3B7;&#x3C4;&#x3B1;&#x3C2;"</long>
+        <long xml:lang="ca">Velocitat d'esva&#xEF;ment de la finestra al mode &#xAB;Temps constant&#xBB;</long>
+        <default>5.0</default>
+        <min>0.1</min>
+        <max>25.0</max>
+        <precision>0.1</precision>
+      </option>
+      <option name="fade_time" type="int">
+        <short>Fade Time</short>
+        <short xml:lang="zh-Hant-TW">&#x6DE1;&#x5165;/&#x6DE1;&#x51FA;&#x6642;&#x9593;</short>
+        <short xml:lang="zh-Hans-CN">&#x6E10;&#x9690;&#x65F6;&#x95F4;</short>
+        <short xml:lang="uk">&#x427;&#x430;&#x441; &#x437;&#x43D;&#x438;&#x43A;&#x43D;&#x435;&#x43D;&#x43D;&#x44F;</short>
+        <short xml:lang="tr">Solma S&#xFC;resi</short>
+        <short xml:lang="sv">Toningstid</short>
+        <short xml:lang="sk">Doba stmavnutia</short>
+        <short xml:lang="ru">&#x412;&#x440;&#x435;&#x43C;&#x44F; &#x438;&#x441;&#x447;&#x435;&#x437;&#x43D;&#x43E;&#x432;&#x435;&#x43D;&#x438;&#x44F;</short>
+        <short xml:lang="pt-BR">Tempo de desvanecimento</short>
+        <short xml:lang="pt">Tempo de Esmaecimento</short>
+        <short xml:lang="pl">Czas przenikania</short>
+        <short xml:lang="or">&#xB2B;&#xB3F;&#xB15;&#xB3E;&#xB39;&#xB47;&#xB2C;&#xB3E; &#xB38;&#xB2E;&#xB2F;</short>
+        <short xml:lang="nl">Verduisteren tijdsduur</short>
+        <short xml:lang="nb">Uttoningstid</short>
+        <short xml:lang="ko">&#xD398;&#xC774;&#xB4DC; &#xC2DC;&#xAC04;</short>
+        <short xml:lang="ka">&#x10DB;&#x10D8;&#x10DC;&#x10D0;&#x10D5;&#x10DA;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10D3;&#x10E0;&#x10DD;</short>
+        <short xml:lang="ja">&#x30D5;&#x30A7;&#x30FC;&#x30C9;&#x6642;&#x9593;</short>
+        <short xml:lang="it">Tempo dissolvenza</short>
+        <short xml:lang="hu">Elhalv&#xE1;ny&#xED;t&#xE1;si id&#x151;</short>
+        <short xml:lang="hr">Vrijeme izblje&#x111;ivanja</short>
+        <short xml:lang="he">&#x5DE;&#x5E9;&#x5DA; &#x5E2;&#x5DE;&#x5E2;&#x5D5;&#x5DD;</short>
+        <short xml:lang="gu">&#xA86;&#xA9B;&#xABE;&#xAAA;&#xAA3;&#xABE;&#xAA8;&#xACB; &#xAB8;&#xAAE;&#xAAF;</short>
+        <short xml:lang="gl">Tempo de desvanecemento</short>
+        <short xml:lang="fr">Temps de Fondu</short>
+        <short xml:lang="fi">H&#xE4;ivytysviive</short>
+        <short xml:lang="eu">Iraungitze denbora</short>
+        <short xml:lang="es">Tiempo de desvanecimiento</short>
+        <short xml:lang="en-GB">Fade Time</short>
+        <short xml:lang="el">&#x3A7;&#x3C1;&#x3CC;&#x3BD;&#x3BF;&#x3C2; &#x39E;&#x3B5;&#x3B8;&#x3C9;&#x3C1;&#x3B9;&#x3AC;&#x3C3;&#x3BC;&#x3B1;&#x3C4;&#x3BF;&#x3C2;</short>
+        <short xml:lang="de">Ausblendungszeit</short>
+        <short xml:lang="cs">Doba zpr&#x16F;hledn&#x11B;n&#xED;</short>
+        <short xml:lang="ca">Temps d'esva&#xEF;ment</short>
+        <long>Window fade time (in ms) in "Constant time" mode</long>
+        <long xml:lang="zh-Hant-TW">&#x8996;&#x7A97;&#x6DE1;&#x5165;/&#x6DE1;&#x51FA;&#x901F;&#x5EA6;&#x4EE5;&#x300C;&#x6642;&#x9593;&#x5E38;&#x6578;&#x300D;&#x6A21;&#x5F0F;&#x9032;&#x884C;(&#x4EE5;ms&#x6BEB;&#x79D2;&#x70BA;&#x57FA;&#x6578;)</long>
+        <long xml:lang="zh-Hans-CN">&#x7A97;&#x53E3;&#x6E10;&#x9690;&#x65F6;&#x95F4;&#xFF08;&#x79D2;&#xFF09;&#x8BBE;&#x4E8E;&#x6052;&#x5B9A;&#x65F6;&#x95F4;&#x6A21;&#x5F0F;</long>
+        <long xml:lang="uk">&#x427;&#x430;&#x441; &#x437;&#x43D;&#x438;&#x43A;&#x43D;&#x435;&#x43D;&#x43D;&#x44F; &#x432;&#x456;&#x43A;&#x43D;&#x430; (&#x432; &#x43C;&#x441;) &#x432; &#x440;&#x435;&#x436;&#x438;&#x43C;&#x456; "&#x41F;&#x43E;&#x441;&#x442;&#x456;&#x439;&#x43D;&#x430; &#x448;&#x432;&#x438;&#x434;&#x43A;&#x456;&#x441;&#x442;&#x44C;"</long>
+        <long xml:lang="ru">&#x412;&#x440;&#x435;&#x43C;&#x44F; &#x438;&#x441;&#x447;&#x435;&#x437;&#x43D;&#x43E;&#x432;&#x435;&#x43D;&#x438;&#x44F; &#x43E;&#x43A;&#x43D;&#x430; (&#x432; &#x43C;&#x441;) &#x432; &#x440;&#x435;&#x436;&#x438;&#x43C;&#x435; "&#x41F;&#x43E;&#x441;&#x442;&#x43E;&#x44F;&#x43D;&#x43D;&#x430;&#x44F; &#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x44C;"</long>
+        <long xml:lang="pt">Tempo de esmaecimento (em ms) das janelas, em modo "Velocidade constante"</long>
+        <long xml:lang="pl">Czas zanikania okien (w ms) w trybie "Sta&#x142;a pr&#x119;dko&#x15B;&#x107;"</long>
+        <long xml:lang="ko">"&#xC77C;&#xC815;&#xD55C; &#xC2DC;&#xAC04;" &#xBAA8;&#xB4DC;&#xC5D0;&#xC11C; &#xCC3D; &#xC0AC;&#xB77C;&#xC9D0; &#xC18D;&#xB3C4;(ms)</long>
+        <long xml:lang="ka">&#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D8;&#x10E1; &#x10DB;&#x10D8;&#x10DC;&#x10D0;&#x10D5;&#x10DA;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10D3;&#x10E0;&#x10DD; (&#x10DB;&#x10EC;&#x10DB;-&#x10E8;&#x10D8;) "&#x10DB;&#x10E3;&#x10D3;&#x10DB;&#x10D8;&#x10D5;&#x10D8; &#x10D3;&#x10E0;&#x10DD;&#x10D8;&#x10E1;" &#x10E0;&#x10D4;&#x10DF;&#x10D8;&#x10DB;&#x10E8;&#x10D8;</long>
+        <long xml:lang="ja">&#x300C;&#x4E00;&#x5B9A;&#x6642;&#x9593;&#x300D;&#x30E2;&#x30FC;&#x30C9;&#x306E;&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x306E;&#x30D5;&#x30A7;&#x30FC;&#x30C9;&#x6642;&#x9593;&#xFF08;&#x30DF;&#x30EA;&#x79D2;&#xFF09;</long>
+        <long xml:lang="it">Tempo (in ms) dissolvenza finestra nella modalit&#xE0; &#xAB;Tempo costante&#xBB;</long>
+        <long xml:lang="hu">Ablak elhalv&#xE1;nyul&#xE1;s&#xE1;nak sebess&#xE9;ge &#x201E;&#xC1;lland&#xF3; &#xFA;tid&#x151;&#x201D; m&#xF3;dban</long>
+        <long xml:lang="hr">Vrijeme izblje&#x111;ivanja prozora (u ms) u na&#x10D;inu rada "Stalno vrijeme"</long>
+        <long xml:lang="he">&#x5DE;&#x5E9;&#x5DA; &#x5E2;&#x5DE;&#x5E2;&#x5D5;&#x5DD; &#x5D7;&#x5DC;&#x5D5;&#x5DF; &#x5D1;&#x5DE;&#x5E6;&#x5D1; "&#x5DE;&#x5E9;&#x5DA; &#x5E7;&#x5D1;&#x5D5;&#x5E2;" (&#x5D1;&#x5DE;&#x5D9;&#x5DC;&#x5D9;&#x5E9;&#x5E0;&#x5D9;&#x5D5;&#x5EA;)</long>
+        <long xml:lang="gl">Modo "Tempo constante" para a Duraci&#xF3;n do Desvanecemento de Fiestra</long>
+        <long xml:lang="fr">Temps (en ms) du fondu d'une fen&#xEA;tre dans le mode de "Vitesse constante"</long>
+        <long xml:lang="fi">Ikkunan h&#xE4;ivytysaika (millisekunneissa) "Vakioaika"-tilassa</long>
+        <long xml:lang="eu">Leiho iraungitze denbora (ms) "denbora konstante" moduan</long>
+        <long xml:lang="es">Tiempo de desvanecimiento (en ms) de ventana cuando "Tiempo constante" est&#xE1; activado</long>
+        <long xml:lang="en-GB">Window fade time (in ms) in "Constant time" mode</long>
+        <long xml:lang="el">&#x3A7;&#x3C1;&#x3CC;&#x3BD;&#x3BF;&#x3C2; &#x3BE;&#x3B5;&#x3B8;&#x3C9;&#x3C1;&#x3B9;&#x3AC;&#x3C3;&#x3BC;&#x3B1;&#x3C4;&#x3BF;&#x3C2; &#x3C0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3BF;&#x3C5; (&#x3C3;&#x3B5; ms) &#x3C3;&#x3C4;&#x3B7;&#x3BD; &#x3BA;&#x3B1;&#x3C4;&#x3AC;&#x3C3;&#x3C4;&#x3B1;&#x3C3;&#x3B7; "&#x3A3;&#x3C4;&#x3B1;&#x3B8;&#x3B5;&#x3C1;&#x3AE;&#x3C2; &#x3A4;&#x3B1;&#x3C7;&#x3CD;&#x3C4;&#x3B7;&#x3C4;&#x3B1;&#x3C2;"</long>
+        <long xml:lang="ca">Temps d'esva&#xEF;ment de la finestra (en ms) al mode &#xAB;Temps constant&#xBB;</long>
+        <default>100</default>
+        <min>1</min>
+        <max>5000</max>
+      </option>
+      <option name="window_match" type="match">
+        <short>Fade windows</short>
+        <short xml:lang="zh-Hant-TW">&#x6DE1;&#x5165;/&#x6DE1;&#x51FA;&#x8996;&#x7A97;</short>
+        <short xml:lang="zh-Hans-CN">&#x6E10;&#x9690;&#x7A97;&#x53E3;</short>
+        <short xml:lang="uk">&#x417;&#x43D;&#x435;&#x431;&#x430;&#x440;&#x432;&#x438;&#x442;&#x438; &#x432;&#x456;&#x43A;&#x43D;&#x430;</short>
+        <short xml:lang="tr">Pencereleri soldur</short>
+        <short xml:lang="sv">Tona f&#xF6;nster</short>
+        <short xml:lang="sk">Stmievanie okien</short>
+        <short xml:lang="ru">&#x417;&#x430;&#x442;&#x435;&#x43D;&#x435;&#x43D;&#x438;&#x435; &#x43E;&#x43A;&#x43E;&#x43D;</short>
+        <short xml:lang="ro">Decolorare ferestre</short>
+        <short xml:lang="pt-BR">Desvanecer janelas</short>
+        <short xml:lang="pt">Desvanecer janelas</short>
+        <short xml:lang="pl">Przyciemniaj/rozja&#x15B;niaj okna</short>
+        <short xml:lang="or">&#xB2B;&#xB3F;&#xB15;&#xB3E; &#xB09;&#xB07;&#xB23;&#xB4D;&#xB21;&#xB4B;</short>
+        <short xml:lang="nl">Vervaag vensters</short>
+        <short xml:lang="nb">Ton vinduer</short>
+        <short xml:lang="ko">&#xCC3D; &#xD398;&#xC774;&#xB4DC; &#xD6A8;&#xACFC;</short>
+        <short xml:lang="ka">&#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10DB;&#x10DC;&#x10D0;&#x10D5;&#x10DA;&#x10D4;&#x10D1;&#x10D0;</short>
+        <short xml:lang="ja">&#x30D5;&#x30A7;&#x30FC;&#x30C9;&#x30FB;&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;</short>
+        <short xml:lang="it">Finestre da dissolvere</short>
+        <short xml:lang="hu">Ablak elhalv&#xE1;ny&#xED;t&#xE1;sa</short>
+        <short xml:lang="hr">Izbljedi prozore</short>
+        <short xml:lang="he">&#x5E2;&#x5DE;&#x5E2;&#x5D5;&#x5DD; &#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA;</short>
+        <short xml:lang="gl">Desvanecer xanelas</short>
+        <short xml:lang="fr">Fondu des Fen&#xEA;tres</short>
+        <short xml:lang="fi">H&#xE4;ivyt&#xE4; ikkunat</short>
+        <short xml:lang="eu">Iraungi leihoak</short>
+        <short xml:lang="es">Desvanecer ventanas</short>
+        <short xml:lang="en-GB">Fade windows</short>
+        <short xml:lang="el">&#x39E;&#x3B5;&#x3B8;&#x3CE;&#x3C1;&#x3B9;&#x3B1;&#x3C3;&#x3BC;&#x3B1; &#x3C0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3C9;&#x3BD;</short>
+        <short xml:lang="de">Ein-/Ausblenden f&#xFC;r Fenster</short>
+        <short xml:lang="cs">Blednut&#xED;</short>
+        <short xml:lang="ca">Esva&#xEF;ment de les finestres</short>
+        <long>Windows that should be fading</long>
+        <long xml:lang="zh-Hant-TW">&#x61C9;&#x8A72;&#x6DE1;&#x5165;/&#x6DE1;&#x51FA;&#x7684;&#x8996;&#x7A97;&#x985E;&#x578B;</long>
+        <long xml:lang="zh-Hans-CN">&#x5E94;&#x6E10;&#x9690;&#x7684;&#x7A97;&#x53E3;</long>
+        <long xml:lang="uk">&#x412;&#x456;&#x43A;&#x43D;&#x430;, &#x434;&#x43E; &#x44F;&#x43A;&#x438;&#x445; &#x441;&#x43B;&#x456;&#x434; &#x437;&#x430;&#x441;&#x442;&#x43E;&#x441;&#x43E;&#x432;&#x443;&#x432;&#x430;&#x442;&#x438; &#x435;&#x444;&#x435;&#x43A;&#x442; &#x43F;&#x440;&#x43E;&#x44F;&#x432;&#x443; / &#x437;&#x43D;&#x438;&#x43A;&#x43D;&#x435;&#x43D;&#x43D;&#x44F;</long>
+        <long xml:lang="tr">Solmas&#x131; gereken pencereler</long>
+        <long xml:lang="sv">F&#xF6;nster som ska tonas</long>
+        <long xml:lang="sk">Okn&#xE1;, ktor&#xE9; by mali bledn&#xFA;&#x165;</long>
+        <long xml:lang="ru">&#x41E;&#x43A;&#x43D;&#x430;, &#x43A; &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x43C; &#x441;&#x43B;&#x435;&#x434;&#x443;&#x435;&#x442; &#x43F;&#x440;&#x438;&#x43C;&#x435;&#x43D;&#x44F;&#x442;&#x44C; &#x44D;&#x444;&#x444;&#x435;&#x43A;&#x442; &#x43F;&#x440;&#x43E;&#x44F;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x44F;/&#x438;&#x441;&#x447;&#x435;&#x437;&#x430;&#x43D;&#x438;&#x44F;</long>
+        <long xml:lang="ro">Ferestrele care trebuie s&#x103; se decoloreze</long>
+        <long xml:lang="pt-BR">Janelas que devem desvanecer</long>
+        <long xml:lang="pt">Janelas que devem desvanecer</long>
+        <long xml:lang="pl">Typy okien, kt&#xF3;re powinny by&#x107; poddawane rozja&#x15B;nieniu/&#x15B;ciemnieniu</long>
+        <long xml:lang="pa">&#xA35;&#xA3F;&#xA70;&#xA21;&#xA4B;, &#xA1C;&#xA4B; &#xA15;&#xA3F; &#xA2B;&#xA47;&#xA21; &#xA15;&#xA40;&#xA24;&#xA40; &#xA1C;&#xA3E;&#xA35;&#xA47;</long>
+        <long xml:lang="or">&#xB09;&#xB07;&#xB23;&#xB4D;&#xB21;&#xB4B; &#xB5F;&#xB3E;&#xB39;&#xB3E;&#xB15;&#xB3F; &#xB2B;&#xB3F;&#xB15;&#xB4D;&#xB15;&#xB3E; &#xB39;&#xB47;&#xB2C;&#xB3E; &#xB09;&#xB1A;&#xB3F;&#xB24;</long>
+        <long xml:lang="nl">Vensters die moeten vervagen</long>
+        <long xml:lang="nb">Vinduer som skal tones</long>
+        <long xml:lang="ko">&#xD398;&#xC774;&#xB4DC; &#xD6A8;&#xACFC;&#xAC00; &#xC801;&#xC6A9;&#xB418;&#xB294; &#xCC3D;</long>
+        <long xml:lang="ka">&#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D4;&#x10D1;&#x10D8;, &#x10E0;&#x10DD;&#x10DB;&#x10DA;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10DB;&#x10D8;&#x10DC;&#x10D0;&#x10D5;&#x10DA;&#x10D4;&#x10D1;&#x10D0;&#x10EA; &#x10DB;&#x10DD;&#x10EE;&#x10D3;&#x10D4;&#x10D1;&#x10D0;</long>
+        <long xml:lang="ja">&#x30D5;&#x30A7;&#x30FC;&#x30C9;&#x3055;&#x305B;&#x308B;&#x5BFE;&#x8C61;&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;</long>
+        <long xml:lang="it">Tipi di finestre a cui applicare la dissolvenza</long>
+        <long xml:lang="hu">Ablakt&#xED;pusok, amelyek elhalv&#xE1;nyulhatnak</long>
+        <long xml:lang="hr">Prozori koje se trebaju izbljediti</long>
+        <long xml:lang="hi">&#x935;&#x93F;&#x902;&#x921;&#x94B;&#x91C;&#x93C; &#x91C;&#x93F;&#x938;&#x947; &#x92B;&#x947;&#x921; &#x915;&#x930;&#x928;&#x93E; &#x91A;&#x93E;&#x939;&#x93F;&#x90F;</long>
+        <long xml:lang="he">&#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA; &#x5D4;&#x5D0;&#x5DE;&#x5D5;&#x5E8;&#x5D9;&#x5DD; &#x5DC;&#x5E2;&#x5D1;&#x5D5;&#x5E8; &#x5E2;&#x5DE;&#x5E2;&#x5D5;&#x5DD;</long>
+        <long xml:lang="gu">&#xAB5;&#xABF;&#xAA8;&#xACD;&#xAA1;&#xACB; &#xA95;&#xAC7; &#xA9C;&#xAC7;&#xA93; &#xA86;&#xA9B;&#xAC0; &#xAA5;&#xAB5;&#xAC0; &#xA9C;&#xACB;&#xA88;&#xA8F;</long>
+        <long xml:lang="gl">Fiestras que se deben desvanecer</long>
+        <long xml:lang="fr">Types de Fen&#xEA;tres devant utiliser le fondu</long>
+        <long xml:lang="fi">Ikkunatyypit, joita tulisi h&#xE4;ivytt&#xE4;&#xE4;</long>
+        <long xml:lang="eu">Iraungitu beharreko leihoak</long>
+        <long xml:lang="es">Ventanas que deber&#xED;an desvanecerse</long>
+        <long xml:lang="en-GB">Windows that should be fading</long>
+        <long xml:lang="el">&#x3A0;&#x3B1;&#x3C1;&#x3AC;&#x3B8;&#x3C5;&#x3C1;&#x3B1; &#x3C0;&#x3BF;&#x3C5; &#x3C0;&#x3C1;&#x3AD;&#x3C0;&#x3B5;&#x3B9; &#x3BD;&#x3B1; &#x3BE;&#x3B5;&#x3B8;&#x3C9;&#x3C1;&#x3B9;&#x3AC;&#x3B6;&#x3BF;&#x3C5;&#x3BD;</long>
+        <long xml:lang="de">Fenster, die ein- und ausgeblendet werden sollen</long>
+        <long xml:lang="cs">Typy oken, kter&#xE1; mohou blednout</long>
+        <long xml:lang="ca">Finestres que s'han d'esvair</long>
+        <long xml:lang="bn">&#x9AF;&#x9C7; &#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB;&#x997;&#x9C1;&#x9B2;&#x9BF; &#x9AE;&#x9B2;&#x9BF;&#x9A8; &#x995;&#x9B0;&#x9BE; &#x9B9;&#x9AC;&#x9C7;</long>
+        <long xml:lang="bn-IN">&#x9AF;&#x9C7; &#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB;&#x997;&#x9C1;&#x9B2;&#x9BF; &#x9AE;&#x9B2;&#x9BF;&#x9A8; &#x995;&#x9B0;&#x9BE; &#x9B9;&#x9AC;&#x9C7;</long>
+        <default>any</default>
+      </option>
+      <option name="visual_bell" type="bool">
+        <short>Visual Bell</short>
+        <short xml:lang="zh-Hant-TW">&#x8996;&#x89BA;&#x9234;&#x8072;</short>
+        <short xml:lang="zh-Hans-CN">&#x89C6;&#x89C9;&#x632F;&#x94C3;</short>
+        <short xml:lang="uk">&#x412;&#x456;&#x437;&#x443;&#x430;&#x43B;&#x456;&#x437;&#x430;&#x446;&#x456;&#x44F; &#x437;&#x432;&#x443;&#x43A;&#x43E;&#x432;&#x43E;&#x433;&#x43E; &#x441;&#x438;&#x433;&#x43D;&#x430;&#x43B;&#x443;</short>
+        <short xml:lang="tr">G&#xF6;r&#xFC;n&#xFC;r Zil</short>
+        <short xml:lang="sv">Visuell signal</short>
+        <short xml:lang="sk">Vizu&#xE1;lny zvon&#x10D;ek</short>
+        <short xml:lang="ru">&#x412;&#x438;&#x437;&#x443;&#x430;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x44F; &#x437;&#x432;&#x443;&#x43A;&#x43E;&#x432;&#x43E;&#x433;&#x43E; &#x441;&#x438;&#x433;&#x43D;&#x430;&#x43B;&#x430;</short>
+        <short xml:lang="ro">Clopo&#x21B;el vizibil</short>
+        <short xml:lang="pt-BR">Campainha Visual</short>
+        <short xml:lang="pt">Campainha Visual</short>
+        <short xml:lang="pl">Wizualny dzwonek systemowy</short>
+        <short xml:lang="pa">&#xA26;&#xA3F;&#xA71;&#xA16; &#xA2C;&#xA3F;&#xA71;&#xA32;</short>
+        <short xml:lang="or">&#xB26;&#xB43;&#xB36;&#xB4D;&#xB2F;&#xB15;&#xB4D;&#xB37;&#xB2E; &#xB18;&#xB23;&#xB4D;&#xB1F;&#xB3E;</short>
+        <short xml:lang="nl">Visueel alarm</short>
+        <short xml:lang="nb">Visuell bjelle</short>
+        <short xml:lang="ko">&#xC2DC;&#xAC01; &#xACBD;&#xACE0;&#xC74C;</short>
+        <short xml:lang="ka">&#x10D5;&#x10D8;&#x10D6;&#x10E3;&#x10D0;&#x10DA;&#x10E3;&#x10E0;&#x10D8; &#x10D6;&#x10D0;&#x10E0;&#x10D8;</short>
+        <short xml:lang="ja">&#x8996;&#x899A;&#x30D9;&#x30EB;</short>
+        <short xml:lang="it">Segnale acustico visivo</short>
+        <short xml:lang="hu">Vizu&#xE1;lis cseng&#x151;</short>
+        <short xml:lang="hr">Vizualno zvono</short>
+        <short xml:lang="hi">&#x926;&#x943;&#x936;&#x94D;&#x92F; &#x92C;&#x947;&#x932;</short>
+        <short xml:lang="he">&#x5E4;&#x5E2;&#x5DE;&#x5D5;&#x5DF; &#x5D7;&#x5D6;&#x5D5;&#x5EA;&#x5D9;</short>
+        <short xml:lang="gu">&#xAA6;&#xAC3;&#xAB6;&#xACD;&#xAAF;&#xAAE;&#xABE;&#xAA8; &#xA98;&#xA82;&#xA9F;&#xAA1;&#xAC0;</short>
+        <short xml:lang="gl">Camp&#xE1; Visual</short>
+        <short xml:lang="fr">Cloche visuelle</short>
+        <short xml:lang="fi">N&#xE4;kyv&#xE4; kello</short>
+        <short xml:lang="eu">Ikus-Kanpaia</short>
+        <short xml:lang="es">Timbre visual</short>
+        <short xml:lang="en-GB">Visual Bell</short>
+        <short xml:lang="el">&#x39F;&#x3C0;&#x3C4;&#x3B9;&#x3BA;&#x3CC; &#x39A;&#x3BF;&#x3C5;&#x3B4;&#x3BF;&#x3CD;&#x3BD;&#x3B9;</short>
+        <short xml:lang="de">Visuelle Glocke</short>
+        <short xml:lang="da">Visuel klokke</short>
+        <short xml:lang="cs">Vizu&#xE1;ln&#xED; zvonek</short>
+        <short xml:lang="ca">Campana visual</short>
+        <short xml:lang="bn">&#x9A6;&#x9C3;&#x9B6;&#x9CD;&#x9AF;&#x9AE;&#x9BE;&#x9A8; &#x9AC;&#x9C7;&#x9B2;</short>
+        <short xml:lang="bn-IN">&#x9A6;&#x9C3;&#x9B6;&#x9CD;&#x9AF;&#x9AE;&#x9BE;&#x9A8; &#x9AC;&#x9C7;&#x9B2;</short>
+        <long>Fade effect on system beep</long>
+        <long xml:lang="zh-Hant-TW">&#x7CFB;&#x7D71;&#x767C;&#x51FA;&#x55F6;&#x8072;&#x6642;&#x555F;&#x7528;&#x6DE1;&#x5165;/&#x6DE1;&#x51FA;&#x7279;&#x6548;</long>
+        <long xml:lang="zh-Hans-CN">&#x7CFB;&#x7EDF;&#x561F;&#x561F;&#x58F0;&#x65F6;&#x4F7F;&#x7528;&#x6E10;&#x9690;&#x6548;&#x679C;</long>
+        <long xml:lang="uk">&#x415;&#x444;&#x435;&#x43A;&#x442; &#x437;&#x43D;&#x435;&#x431;&#x430;&#x440;&#x432;&#x43B;&#x44E;&#x432;&#x430;&#x43D;&#x43D;&#x44F; &#x43F;&#x440;&#x438; &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x43D;&#x43E;&#x43C;&#x443; &#x437;&#x432;&#x443;&#x43A;&#x43E;&#x432;&#x43E;&#x43C;&#x443; &#x441;&#x438;&#x433;&#x43D;&#x430;&#x43B;&#x456;</long>
+        <long xml:lang="tr">Sistem bip sesinde solma efekti a&#xE7;&#x131;k</long>
+        <long xml:lang="sv">Toningseffekt vid systemsignal</long>
+        <long xml:lang="sk">Efekt stmievania pri syst&#xE9;movom p&#xED;pnut&#xED;</long>
+        <long xml:lang="ru">&#x42D;&#x444;&#x444;&#x435;&#x43A;&#x442; &#x437;&#x430;&#x442;&#x435;&#x43D;&#x435;&#x43D;&#x438;&#x44F; &#x43F;&#x440;&#x438; &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x43D;&#x43E;&#x43C; &#x437;&#x432;&#x443;&#x43A;&#x43E;&#x432;&#x43E;&#x43C; &#x441;&#x438;&#x433;&#x43D;&#x430;&#x43B;&#x435;</long>
+        <long xml:lang="ro">Efect decolorare la sunet de sistem</long>
+        <long xml:lang="pt-BR">Efeito de desvanecimento no bip do sistema</long>
+        <long xml:lang="pt">Efeito de esmaecimento no bip do sistema</long>
+        <long xml:lang="pl">Efekt &#x15B;ciemniania przy dzwonku systemowym</long>
+        <long xml:lang="or">&#xB38;&#xB3F;&#xB37;&#xB4D;&#xB1F;&#xB2E; &#xB2C;&#xB3F;&#xB2A; &#xB36;&#xB2C;&#xB4D;&#xB26;&#xB30;&#xB47; &#xB2B;&#xB3F;&#xB15;&#xB3E;&#xB39;&#xB47;&#xB2C;&#xB3E; &#xB2A;&#xB4D;&#xB30;&#xB2D;&#xB3E;&#xB2C;</long>
+        <long xml:lang="nl">Vervaag effect bij systeem piep</long>
+        <long xml:lang="nb">Toningseffekt ved systempip</long>
+        <long xml:lang="ko">&#xC2DC;&#xC2A4;&#xD15C; &#xACBD;&#xACE0;&#xC74C; &#xB300;&#xC2E0; &#xD398;&#xC774;&#xB4DC; &#xD6A8;&#xACFC;</long>
+        <long xml:lang="ka">&#x10DB;&#x10D8;&#x10DC;&#x10D0;&#x10D5;&#x10DA;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10D4;&#x10E4;&#x10D4;&#x10E5;&#x10E2;&#x10D8; &#x10E1;&#x10D8;&#x10E1;&#x10E2;&#x10D4;&#x10DB;&#x10E3;&#x10E0; &#x10DE;&#x10D8;&#x10DE;&#x10D8;&#x10DC;&#x10D6;&#x10D4;</long>
+        <long xml:lang="ja">&#x30B7;&#x30B9;&#x30C6;&#x30E0;&#x30D3;&#x30FC;&#x30D7;&#x97F3;&#x6642;&#x306E;&#x30D5;&#x30A7;&#x30FC;&#x30C9;&#x52B9;&#x679C;</long>
+        <long xml:lang="it">Effetto dissolvenza al suono di sistema</long>
+        <long xml:lang="hu">Elhalv&#xE1;nyul&#xE1;s effektus rendszerhang eset&#xE9;n</long>
+        <long xml:lang="hr">Efekt izblje&#x111;ivanja pri zvuku sustava (beep)</long>
+        <long xml:lang="he">&#x5D0;&#x5E4;&#x5E7;&#x5D8; &#x5E2;&#x5DE;&#x5E2;&#x5D5;&#x5DD; &#x5D1;&#x5E2;&#x5EA; &#x5E6;&#x5E4;&#x5E6;&#x5D5;&#x5E3; &#x5DE;&#x5E2;&#x5E8;&#x5DB;&#x5EA;</long>
+        <long xml:lang="gu">&#xAB8;&#xABF;&#xAB8;&#xACD;&#xA9F;&#xAAE; &#xAAC;&#xAC0;&#xAAA; &#xAAA;&#xAB0; &#xA86;&#xA9B;&#xABE;&#xAAA;&#xAA3;&#xABE;&#xAA8;&#xAC0; &#xA85;&#xAB8;&#xAB0;</long>
+        <long xml:lang="gl">Efecto de desvanecemento ao soar a camp&#xE1; do sistema</long>
+        <long xml:lang="fr">Effet de fondu au signal sonore du syst&#xE8;me</long>
+        <long xml:lang="fi">H&#xE4;ivitystehoste j&#xE4;rjestelm&#xE4;n piipauksesta</long>
+        <long xml:lang="eu">Sistemako kanpaian iraungitze efektua</long>
+        <long xml:lang="es">Efecto de desvanecimiento con pitido del sistema</long>
+        <long xml:lang="en-GB">Fade effect on system beep</long>
+        <long xml:lang="el">&#x395;&#x3C6;&#x3AD; &#x3BE;&#x3B5;&#x3B8;&#x3C9;&#x3C1;&#x3B9;&#x3AC;&#x3C3;&#x3BC;&#x3B1;&#x3C4;&#x3BF;&#x3C2; &#x3C3;&#x3C4;&#x3BF; &#x3BC;&#x3C0;&#x3AF;&#x3C0; &#x3C3;&#x3C5;&#x3C3;&#x3C4;&#x3AE;&#x3BC;&#x3B1;&#x3C4;&#x3BF;&#x3C2;</long>
+        <long xml:lang="de">Ausblendeffekt f&#xFC;r visuelle Glocke</long>
+        <long xml:lang="da">Fadeeffekt ved systemtone</long>
+        <long xml:lang="cs">Efekt blednut&#xED; p&#x159;i syst&#xE9;mov&#xE9;m p&#xED;pnut&#xED;</long>
+        <long xml:lang="ca">Efecte d'esva&#xEF;ment amb el so d'av&#xED;s del sistema</long>
+        <long xml:lang="bn">&#x9B8;&#x9BF;&#x9B8;&#x9CD;&#x99F;&#x9C7;&#x9AE; &#x9AC;&#x9BF;&#x9AA;&#x9C7; &#x9AE;&#x9B2;&#x9BF;&#x9A8;&#x9A4;&#x9BE;&#x9B0; &#x9AA;&#x9CD;&#x9B0;&#x9AD;&#x9BE;&#x9AC;</long>
+        <long xml:lang="bn-IN">&#x9B8;&#x9BF;&#x9B8;&#x9CD;&#x99F;&#x9C7;&#x9AE; &#x9AC;&#x9BF;&#x9AA;&#x9C7; &#x9AE;&#x9B2;&#x9BF;&#x9A8;&#x9A4;&#x9BE;&#x9B0; &#x9AA;&#x9CD;&#x9B0;&#x9AD;&#x9BE;&#x9AC;</long>
+        <default>false</default>
+      </option>
+      <option name="fullscreen_visual_bell" type="bool">
+        <short>Fullscreen Visual Bell</short>
+        <short xml:lang="zh-Hant-TW">&#x5168;&#x87A2;&#x5E55;&#x8B66;&#x793A;&#x9234;&#x8072;</short>
+        <short xml:lang="zh-Hans-CN">&#x5168;&#x5C4F;&#x9759;&#x97F3;</short>
+        <short xml:lang="uk">&#x41F;&#x43E;&#x432;&#x43D;&#x43E;&#x435;&#x43A;&#x440;&#x430;&#x43D;&#x43D;&#x430; &#x432;&#x456;&#x437;&#x443;&#x430;&#x43B;&#x456;&#x437;&#x430;&#x446;&#x456;&#x44F; &#x437;&#x432;&#x443;&#x43A;&#x43E;&#x432;&#x43E;&#x433;&#x43E; &#x441;&#x438;&#x433;&#x43D;&#x430;&#x43B;&#x443;</short>
+        <short xml:lang="tr">Tam Ekran G&#xF6;r&#xFC;n&#xFC;r Zil</short>
+        <short xml:lang="sv">Visuell helsk&#xE4;rmssignal</short>
+        <short xml:lang="sk">Celoobrazovkov&#xFD; vizu&#xE1;lny zvon&#x10D;ek</short>
+        <short xml:lang="ru">&#x41F;&#x43E;&#x43B;&#x43D;&#x43E;&#x44D;&#x43A;&#x440;&#x430;&#x43D;&#x43D;&#x430;&#x44F; &#x432;&#x438;&#x437;&#x443;&#x430;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x44F; &#x437;&#x432;&#x443;&#x43A;&#x43E;&#x432;&#x43E;&#x433;&#x43E; &#x441;&#x438;&#x433;&#x43D;&#x430;&#x43B;&#x430;</short>
+        <short xml:lang="ro">Clopo&#x21B;el vizibil &#xEE;n ecran complet</short>
+        <short xml:lang="pt-BR">Campainha Visual de Tela Inteira</short>
+        <short xml:lang="pt">Campainha Visual de Tela Inteira</short>
+        <short xml:lang="pl">Pe&#x142;noekranowy wizualny dzwonek systemowy</short>
+        <short xml:lang="or">&#xB2A;&#xB42;&#xB30;&#xB4D;&#xB23;&#xB4D;&#xB23; &#xB38;&#xB4D;&#xB15;&#xB4D;&#xB30;&#xB3F;&#xB28; &#xB26;&#xB43;&#xB36;&#xB4D;&#xB2F;&#xB15;&#xB4D;&#xB37;&#xB2E; &#xB18;&#xB23;&#xB4D;&#xB1F;&#xB3E;</short>
+        <short xml:lang="nl">Visueel alarm is volledigscherm</short>
+        <short xml:lang="nb">Visuell bjelle i fullskjerm</short>
+        <short xml:lang="ko">&#xC804;&#xCCB4; &#xD654;&#xBA74; &#xC2DC;&#xAC01; &#xACBD;&#xACE0;&#xC74C;</short>
+        <short xml:lang="ka">&#x10E1;&#x10E0;&#x10E3;&#x10DA; &#x10D4;&#x10D9;&#x10E0;&#x10D0;&#x10DC;&#x10D8;&#x10E1; &#x10D5;&#x10D8;&#x10D6;&#x10E3;&#x10D0;&#x10DA;&#x10E3;&#x10E0;&#x10D8; &#x10D6;&#x10D0;&#x10E0;&#x10D8;</short>
+        <short xml:lang="ja">&#x5168;&#x753B;&#x9762;&#x52B9;&#x679C;&#x306B;&#x3088;&#x308B;&#x8996;&#x899A;&#x30D9;&#x30EB;</short>
+        <short xml:lang="it">Segnale visivo schermo intero</short>
+        <short xml:lang="hu">Teljes k&#xE9;perny&#x151; vizu&#xE1;lis cseng&#x151;</short>
+        <short xml:lang="hr">Cjelozaslonsko vizualno zvono</short>
+        <short xml:lang="hi">&#x92A;&#x942;&#x930;&#x94D;&#x923; &#x938;&#x94D;&#x915;&#x94D;&#x930;&#x940;&#x928; &#x926;&#x943;&#x936;&#x94D;&#x92F; &#x92C;&#x947;&#x932;</short>
+        <short xml:lang="he">&#x5E4;&#x5E2;&#x5DE;&#x5D5;&#x5DF; &#x5D7;&#x5D6;&#x5D5;&#x5EA;&#x5D9; &#x5D1;&#x5DE;&#x5E1;&#x5DA; &#x5DE;&#x5DC;&#x5D0;</short>
+        <short xml:lang="gu">&#xAB8;&#xA82;&#xAAA;&#xAC2;&#xAB0;&#xACD;&#xAA3;&#xAB8;&#xACD;&#xA95;&#xACD;&#xAB0;&#xAC0;&#xAA8; &#xAA6;&#xAC7;&#xA96;&#xAC0;&#xAA4;&#xAC0; &#xA98;&#xA82;&#xA9F;&#xAA1;&#xAC0;</short>
+        <short xml:lang="gl">Camp&#xE1; Visual a Pantalla Completa</short>
+        <short xml:lang="fr">Cloche visuelle plein &#xE9;cran</short>
+        <short xml:lang="fi">Kokoruudun n&#xE4;kyv&#xE4; kello</short>
+        <short xml:lang="eu">Pantaila osoko ikus-kanpaia</short>
+        <short xml:lang="es">Timbre visual a pantalla completa</short>
+        <short xml:lang="en-GB">Fullscreen Visual Bell</short>
+        <short xml:lang="el">&#x39F;&#x3C0;&#x3C4;&#x3B9;&#x3BA;&#x3CC; &#x39A;&#x3BF;&#x3C5;&#x3B4;&#x3BF;&#x3CD;&#x3BD;&#x3B9; &#x3A0;&#x3BB;&#x3AE;&#x3C1;&#x3BF;&#x3C5;&#x3C2; &#x39F;&#x3B8;&#x3CC;&#x3BD;&#x3B7;&#x3C2;</short>
+        <short xml:lang="de">Visuelle Glocke in Vollbild</short>
+        <short xml:lang="da">Visuel klokke i fuld sk&#xE6;rm</short>
+        <short xml:lang="cs">Celoobrazovkov&#xFD; vizu&#xE1;ln&#xED; zvonek</short>
+        <short xml:lang="ca">Campana visual a pantalla completa</short>
+        <short xml:lang="bn">&#x9AA;&#x9C2;&#x9B0;&#x9CD;&#x9A3;&#x9B8;&#x9CD;&#x995;&#x9CD;&#x9B0;&#x9BF;&#x9A8;&#x9C7;&#x9B0; &#x9A6;&#x9C3;&#x9B6;&#x9CD;&#x9AF;&#x9AE;&#x9BE;&#x9A8; &#x9AC;&#x9C7;&#x9B2;</short>
+        <short xml:lang="bn-IN">&#x9AA;&#x9C2;&#x9B0;&#x9CD;&#x9A3;&#x9B8;&#x9CD;&#x995;&#x9CD;&#x9B0;&#x9BF;&#x9A8;&#x9C7;&#x9B0; &#x9A6;&#x9C3;&#x9B6;&#x9CD;&#x9AF;&#x9AE;&#x9BE;&#x9A8; &#x9AC;&#x9C7;&#x9B2;</short>
+        <long>Fullscreen fade effect on system beep</long>
+        <long xml:lang="zh-Hant-TW">&#x7CFB;&#x7D71;&#x767C;&#x51FA;&#x55F6;&#x8072;&#x6642;&#x555F;&#x7528;&#x5168;&#x87A2;&#x5E55;&#x6DE1;&#x51FA;/&#x6DE1;&#x5165;&#x7279;&#x6548;</long>
+        <long xml:lang="zh-Hans-CN">&#x7CFB;&#x7EDF;&#x561F;&#x561F;&#x58F0;&#x7684;&#x5168;&#x5C4F;&#x6E10;&#x9690;&#x6548;&#x679C;</long>
+        <long xml:lang="uk">&#x41F;&#x43E;&#x432;&#x43D;&#x43E;&#x435;&#x43A;&#x440;&#x430;&#x43D;&#x43D;&#x438;&#x439; &#x435;&#x444;&#x435;&#x43A;&#x442; &#x43F;&#x440;&#x43E;&#x44F;&#x432;&#x443; / &#x437;&#x43D;&#x438;&#x43A;&#x43D;&#x435;&#x43D;&#x43D;&#x44F; &#x43F;&#x440;&#x438; &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x43D;&#x43E;&#x43C;&#x443; &#x437;&#x432;&#x443;&#x43A;&#x43E;&#x432;&#x43E;&#x43C;&#x443; &#x441;&#x438;&#x433;&#x43D;&#x430;&#x43B;&#x456;</long>
+        <long xml:lang="tr">Sistem bip durumunda tam ekran solma efektini uygula</long>
+        <long xml:lang="sv">Helsk&#xE4;rmstoningseffekt vid systemsignal</long>
+        <long xml:lang="sk">Celoobrazovkov&#xFD; efekt blednutia pri syst&#xE9;movom p&#xED;pnut&#xED;</long>
+        <long xml:lang="ru">&#x41F;&#x43E;&#x43B;&#x43D;&#x43E;&#x44D;&#x43A;&#x440;&#x430;&#x43D;&#x43D;&#x44B;&#x439; &#x44D;&#x444;&#x444;&#x435;&#x43A;&#x442; &#x43F;&#x440;&#x43E;&#x44F;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x44F;/&#x438;&#x441;&#x447;&#x435;&#x437;&#x430;&#x43D;&#x438;&#x44F; &#x43F;&#x440;&#x438; &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x43D;&#x43E;&#x43C; &#x437;&#x432;&#x443;&#x43A;&#x43E;&#x432;&#x43E;&#x43C; &#x441;&#x438;&#x433;&#x43D;&#x430;&#x43B;&#x435;</long>
+        <long xml:lang="ro">Efect de decolorare la sunet de sistem &#xEE;n ecran complet</long>
+        <long xml:lang="pt-BR">Efeito de desvanecimento de tela inteira ao som de bip do sistema</long>
+        <long xml:lang="pt">Efeito de esmaecimento de tela inteira ao som de bip do sistema</long>
+        <long xml:lang="pl">Pe&#x142;noekranowy efekt przyciemnienia przy dzwonku systemowym</long>
+        <long xml:lang="pa">&#xA38;&#xA3F;&#xA38;&#xA1F;&#xA2E; &#xA2C;&#xA40;&#xA2A; &#xA09;&#xA71;&#xA24;&#xA47; &#xA2A;&#xA42;&#xA30;&#xA40; &#xA38;&#xA15;&#xA30;&#xA40;&#xA28; &#xA2B;&#xA47;&#xA21; &#xA2A;&#xA30;&#xA2D;&#xA3E;&#xA35;</long>
+        <long xml:lang="or">&#xB38;&#xB3F;&#xB37;&#xB4D;&#xB1F;&#xB2E; &#xB2C;&#xB3F;&#xB2A; &#xB36;&#xB2C;&#xB4D;&#xB26;&#xB30;&#xB47; &#xB2A;&#xB42;&#xB30;&#xB4D;&#xB23;&#xB4D;&#xB23; &#xB38;&#xB4D;&#xB15;&#xB4D;&#xB30;&#xB3F;&#xB28; &#xB2B;&#xB3F;&#xB15;&#xB4D;&#xB15;&#xB3E; &#xB2A;&#xB4D;&#xB30;&#xB2D;&#xB3E;&#xB2C;</long>
+        <long xml:lang="nl">Volledig scherm vervagen b&#x133; systeem piep</long>
+        <long xml:lang="nb">Fullskjerms toningseffekt ved systempip</long>
+        <long xml:lang="ko">&#xC2DC;&#xC2A4;&#xD15C; &#xACBD;&#xACE0;&#xC74C; &#xB300;&#xC2E0; &#xC804;&#xCCB4; &#xD654;&#xBA74; &#xD398;&#xC774;&#xB4DC; &#xD6A8;&#xACFC;</long>
+        <long xml:lang="ka">&#x10E1;&#x10E0;&#x10E3;&#x10DA;&#x10D8; &#x10D4;&#x10D9;&#x10E0;&#x10D0;&#x10DC;&#x10D8;&#x10E1; &#x10DB;&#x10D8;&#x10DC;&#x10D0;&#x10D5;&#x10DA;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10D4;&#x10E4;&#x10D4;&#x10E5;&#x10E2;&#x10D8; &#x10E1;&#x10D8;&#x10E1;&#x10E2;&#x10D4;&#x10DB;&#x10E3;&#x10E0; &#x10DE;&#x10D8;&#x10DE;&#x10D8;&#x10DC;&#x10D6;&#x10D4;</long>
+        <long xml:lang="ja">&#x30B7;&#x30B9;&#x30C6;&#x30E0;&#x30D3;&#x30FC;&#x30D7;&#x97F3;&#x30A4;&#x30D9;&#x30F3;&#x30C8;&#x6642;&#x306E;&#x5168;&#x753B;&#x9762;&#x30D5;&#x30A7;&#x30FC;&#x30C9;&#x52B9;&#x679C;</long>
+        <long xml:lang="it">Effetto dissolvenza schermo intero al suono di sistema</long>
+        <long xml:lang="hu">Teljes k&#xE9;perny&#x151; halv&#xE1;nyul&#xF3; effektus rendszercseng&#x151; eset&#xE9;n</long>
+        <long xml:lang="hr">Cjelozaslonski efekt izblje&#x111;ivanja pri zvuku sustava (beep)</long>
+        <long xml:lang="hi">&#x938;&#x93F;&#x938;&#x94D;&#x91F;&#x92E; &#x92C;&#x940;&#x92A; &#x92A;&#x930; &#x92A;&#x942;&#x930;&#x94D;&#x923; &#x938;&#x94D;&#x915;&#x94D;&#x930;&#x940;&#x928; &#x92B;&#x947;&#x921; &#x92A;&#x94D;&#x930;&#x92D;&#x93E;&#x935;</long>
+        <long xml:lang="he">&#x5D0;&#x5E4;&#x5E7;&#x5D8; &#x5E2;&#x5DE;&#x5E2;&#x5D5;&#x5DD; &#x5D1;&#x5DE;&#x5E1;&#x5DA; &#x5DE;&#x5DC;&#x5D0; &#x5D1;&#x5E2;&#x5EA; &#x5E6;&#x5E4;&#x5E6;&#x5D5;&#x5E3; &#x5DE;&#x5E2;&#x5E8;&#x5DB;&#x5EA;</long>
+        <long xml:lang="gu">&#xAB8;&#xABF;&#xAB8;&#xACD;&#xA9F;&#xAAE; &#xAAC;&#xAC0;&#xAAA; &#xAAA;&#xAB0; &#xAB8;&#xA82;&#xAAA;&#xAC2;&#xAB0;&#xACD;&#xAA3;&#xAB8;&#xACD;&#xA95;&#xACD;&#xAB0;&#xAC0;&#xAA8; &#xAB8;&#xACD;&#xA95;&#xACD;&#xAB0;&#xAC0;&#xAA8; &#xA86;&#xA9B;&#xABE;&#xAAA;&#xAA3;&#xABE;&#xAA8;&#xAC0; &#xA85;&#xAB8;&#xAB0;</long>
+        <long xml:lang="gl">Efecto de desvanecemento da pantalla completa cando sona a camp&#xE1; do sistema</long>
+        <long xml:lang="fr">Effet de fondu plein &#xE9;cran au signal sonore du syst&#xE8;me</long>
+        <long xml:lang="fi">Kokoruudun h&#xE4;ivytystehoste j&#xE4;rjestelm&#xE4;n piippauksesta</long>
+        <long xml:lang="eu">Pantaila osoko iraungitzea sistema kanpaiak jotzean</long>
+        <long xml:lang="es">Efecto de desvanecimiento a pantalla completa con el pitido del sistema</long>
+        <long xml:lang="en-GB">Fullscreen fade effect on system beep</long>
+        <long xml:lang="el">&#x395;&#x3C6;&#x3AD; &#x3BE;&#x3B5;&#x3B8;&#x3C9;&#x3C1;&#x3B9;&#x3AC;&#x3C3;&#x3BC;&#x3B1;&#x3C4;&#x3BF;&#x3C2; &#x3C0;&#x3BB;&#x3AE;&#x3C1;&#x3BF;&#x3C5;&#x3C2; &#x3BF;&#x3B8;&#x3CC;&#x3BD;&#x3B7;&#x3C2; &#x3C3;&#x3C4;&#x3BF; &#x3BC;&#x3C0;&#x3AF;&#x3C0; &#x3C3;&#x3C5;&#x3C3;&#x3C4;&#x3AE;&#x3BC;&#x3B1;&#x3C4;&#x3BF;&#x3C2;</long>
+        <long xml:lang="de">Ausblendeffekt f&#xFC;r visuelle Glocke im Vollbildmodus</long>
+        <long xml:lang="da">Fadeeffekt i fuld sk&#xE6;rm ved systemtone</long>
+        <long xml:lang="cs">Celoobrazovkov&#xFD; efekt sl&#xE1;bnut&#xED; p&#x159;i syst&#xE9;mov&#xE9;m p&#xED;pnut&#xED;</long>
+        <long xml:lang="ca">Efecte d'esva&#xEF;ment a pantalla completa amb el so d'av&#xED;s del sistema</long>
+        <long xml:lang="bn">&#x9B8;&#x9BF;&#x9B8;&#x9CD;&#x99F;&#x9C7;&#x9AE; &#x9AC;&#x9BF;&#x9AA;&#x9C7; &#x9AA;&#x9C2;&#x9B0;&#x9CD;&#x9A3; &#x9AA;&#x9B0;&#x9CD;&#x9A6;&#x9BE;&#x9B0; &#x9AE;&#x9B2;&#x9BF;&#x9A8; &#x9AA;&#x9CD;&#x9B0;&#x9AD;&#x9BE;&#x9AC;</long>
+        <long xml:lang="bn-IN">&#x9B8;&#x9BF;&#x9B8;&#x9CD;&#x99F;&#x9C7;&#x9AE; &#x9AC;&#x9BF;&#x9AA;&#x9C7; &#x9AA;&#x9C2;&#x9B0;&#x9CD;&#x9A3; &#x9AA;&#x9B0;&#x9CD;&#x9A6;&#x9BE;&#x9B0; &#x9AE;&#x9B2;&#x9BF;&#x9A8; &#x9AA;&#x9CD;&#x9B0;&#x9AD;&#x9BE;&#x9AC;</long>
+        <default>false</default>
+      </option>
+      <option name="minimize_open_close" type="bool">
+        <short>Fade On Minimize/Open/Close</short>
+        <short xml:lang="zh-Hant-TW">&#x6700;&#x5C0F;&#x5316;/&#x958B;&#x555F;/&#x95DC;&#x9589; &#x8996;&#x7A97;&#x6642;&#x6DE1;&#x5165;/&#x6DE1;&#x51FA;</short>
+        <short xml:lang="zh-Hans-CN">&#x5F53;&#x6700;&#x5C0F;&#x5316;/&#x6253;&#x5F00;/&#x5173;&#x95ED;&#x65F6;&#x6E10;&#x9690;</short>
+        <short xml:lang="uk">&#x417;&#x43D;&#x435;&#x431;&#x430;&#x440;&#x432;&#x43B;&#x44E;&#x432;&#x430;&#x442;&#x438; &#x43F;&#x440;&#x438; &#x437;&#x433;&#x43E;&#x440;&#x442;&#x430;&#x43D;&#x43D;&#x456; / &#x432;&#x456;&#x434;&#x43A;&#x440;&#x438;&#x442;&#x442;&#x456; / &#x437;&#x430;&#x43A;&#x440;&#x438;&#x442;&#x442;&#x456;</short>
+        <short xml:lang="tr">K&#xFC;&#xE7;&#xFC;ltme /A&#xE7;ma /Kapatma durumunda Solsun</short>
+        <short xml:lang="sv">Tona vid minimering/&#xF6;ppna/st&#xE4;ng</short>
+        <short xml:lang="sk">Stmieva&#x165; pri minimalizovan&#xED;/otvoren&#xED;/zatvoren&#xED;</short>
+        <short xml:lang="ru">&#x417;&#x430;&#x442;&#x435;&#x43D;&#x44F;&#x442;&#x44C; &#x43F;&#x440;&#x438; &#x441;&#x432;&#x435;&#x440;&#x442;&#x44B;&#x432;&#x430;&#x43D;&#x438;&#x438;/&#x43E;&#x442;&#x43A;&#x440;&#x44B;&#x442;&#x438;&#x438;/&#x437;&#x430;&#x43A;&#x440;&#x44B;&#x442;&#x438;&#x438;</short>
+        <short xml:lang="ro">Decolorare la minimizare/deschidere/&#xEE;nchidere</short>
+        <short xml:lang="pt-BR">Desvanecer ao Minimizar/Abrir/Fechar</short>
+        <short xml:lang="pt">Desvanecer ao Minimizar/Abrir/Fechar</short>
+        <short xml:lang="pl">&#x15A;ciemnianie podczas minimalizacji/otwierania/zamykania</short>
+        <short xml:lang="pa">&#xA18;&#xA71;&#xA1F;&#xA4B;-&#xA18;&#xA71;&#xA1F;/&#xA16;&#xA4B;&#xA32;&#xA4D;&#xA39;&#xA23;/&#xA2C;&#xA70;&#xA26; &#xA15;&#xA30;&#xA28; &#xA26;&#xA4C;&#xA30;&#xA3E;&#xA28; &#xA2B;&#xA47;&#xA21; &#xA06;&#xA28;</short>
+        <short xml:lang="or">&#xB28;&#xB4D;&#xB2F;&#xB41;&#xB28;&#xB24;&#xB2E;&#xB39;&#xB47;&#xB2C;&#xB3E;/&#xB16;&#xB4B;&#xB32;&#xB3F;&#xB2C;&#xB3E;/&#xB2C;&#xB28;&#xB4D;&#xB26;&#xB39;&#xB47;&#xB2C;&#xB3E; &#xB30;&#xB47; &#xB2B;&#xB3F;&#xB15;&#xB3E; &#xB15;&#xB30;</short>
+        <short xml:lang="nl">Vervaag bij Minimaliseren/Openen/Sluiten</short>
+        <short xml:lang="nb">Ton ved minimer/&#xE5;pne/lukk</short>
+        <short xml:lang="ko">&#xCD5C;&#xC18C;&#xD654;/&#xC5F4;&#xAE30;/&#xB2EB;&#xAE30; &#xC2DC; &#xD398;&#xC774;&#xB4DC; &#xD6A8;&#xACFC;</short>
+        <short xml:lang="ka">&#x10DB;&#x10D8;&#x10DC;&#x10D0;&#x10D5;&#x10DA;&#x10D4;&#x10D1;&#x10D0; &#x10E9;&#x10D0;&#x10D9;&#x10D4;&#x10EA;&#x10D5;&#x10D0;/&#x10D2;&#x10D0;&#x10EE;&#x10E1;&#x10DC;&#x10D0;/&#x10D3;&#x10D0;&#x10EE;&#x10E3;&#x10E0;&#x10D5;&#x10D8;&#x10E1;&#x10D0;&#x10E1;</short>
+        <short xml:lang="ja">&#x6700;&#x5C0F;&#x5316;/&#x958B;&#x304F;/&#x9589;&#x3058;&#x308B; &#x6642;&#x306B;&#x30D5;&#x30A7;&#x30FC;&#x30C9;</short>
+        <short xml:lang="it">Dissolvere alla minimizzazione/apertura/chiusura</short>
+        <short xml:lang="hu">Ablakelhalv&#xE1;ny&#xED;t&#xE1;s minimaliz&#xE1;l&#xE1;skor, megnyit&#xE1;skor &#xE9;s bez&#xE1;r&#xE1;skor</short>
+        <short xml:lang="hr">Izbljedi pri Uve&#x107;anju/Smanjenju/Zatvaranju</short>
+        <short xml:lang="hi">&#x928;&#x94D;&#x92F;&#x942;&#x928;&#x924;&#x92E;/ &#x916;&#x94B;&#x932;&#x947;&#x902;/ &#x92C;&#x928;&#x94D;&#x926; &#x915;&#x930;&#x947;&#x902; &#x92A;&#x930; &#x92B;&#x940;&#x915;&#x93E; &#x915;&#x940;&#x91C;&#x93F;&#x92F;&#x947;</short>
+        <short xml:lang="he">&#x5E2;&#x5DE;&#x5E2;&#x5D5;&#x5DD; &#x5D1;&#x5E2;&#x5EA; &#x5DE;&#x5D6;&#x5E2;&#x5D5;&#x5E8;\&#x5E4;&#x5EA;&#x5D9;&#x5D7;&#x5D4;\&#x5E1;&#x5D2;&#x5D9;&#x5E8;&#x5D4;</short>
+        <short xml:lang="gu">&#xAA8;&#xABE;&#xAA8;&#xAC1;&#xA82; &#xA95;&#xAB0;&#xAB5;&#xABE; &#xAAA;&#xAB0;/&#xA96;&#xACB;&#xAB2;&#xAB5;&#xABE; &#xAAA;&#xAB0;/&#xAAC;&#xA82;&#xAA7; &#xA95;&#xAB0;&#xAB5;&#xABE; &#xAAA;&#xAB0; &#xA86;&#xA9B;&#xAC1;&#xA82; &#xA95;&#xAB0;&#xACB;</short>
+        <short xml:lang="gl">Aparecer ao Minimizar/Abrir/Pechar</short>
+        <short xml:lang="fr">Fondu quand une fen&#xEA;tre est Minimis&#xE9;e/ouverte/ferm&#xE9;e</short>
+        <short xml:lang="fi">H&#xE4;ivyt&#xE4; pienent&#xE4;misen, avaamisen ja sulkemisen yhteydess&#xE4;</short>
+        <short xml:lang="eu">Iraungi minimizatu/ireki/ixtean</short>
+        <short xml:lang="es">Desvanecer en Minimizar/Abrir/Cerrar</short>
+        <short xml:lang="en-GB">Fade On Minimise/Open/Close</short>
+        <short xml:lang="el">&#x39E;&#x3B5;&#x3B8;&#x3CE;&#x3C1;&#x3B9;&#x3B1;&#x3C3;&#x3BC;&#x3B1; &#x3C3;&#x3C4;&#x3BF; &#x386;&#x3BD;&#x3BF;&#x3B9;&#x3B3;&#x3BC;&#x3B1;/&#x39A;&#x3BB;&#x3B5;&#x3AF;&#x3C3;&#x3B9;&#x3BC;&#x3BF;/&#x395;&#x3BB;&#x3B1;&#x3C7;&#x3B9;&#x3C3;&#x3C4;&#x3BF;&#x3C0;&#x3BF;&#x3AF;&#x3B7;&#x3C3;&#x3B7;</short>
+        <short xml:lang="de">Ausblenden bei Minimieren/&#xD6;ffnen/Schliessen</short>
+        <short xml:lang="cs">Sl&#xE1;bnout p&#x159;&#xED; minimalizaci/otev&#x159;en&#xED;/zav&#x159;en&#xED;</short>
+        <short xml:lang="ca">Esva&#xEF;ment en minimitzar, obrir o tancar</short>
+        <short xml:lang="bn">&#x99B;&#x9CB;&#x99F; &#x995;&#x9B0;&#x9BE;/&#x996;&#x9CB;&#x9B2;&#x9BE;/&#x9AC;&#x9A8;&#x9CD;&#x9A7; &#x995;&#x9B0;&#x9BE;&#x9B0; &#x993;&#x9AA;&#x9B0; &#x9AE;&#x9B2;&#x9BF;&#x9A8;&#x9A4;&#x9BE;&#x9B0; &#x9AA;&#x9CD;&#x9B0;&#x9AD;&#x9BE;&#x9AC;</short>
+        <short xml:lang="bn-IN">&#x99B;&#x9CB;&#x99F; &#x995;&#x9B0;&#x9BE;/&#x996;&#x9CB;&#x9B2;&#x9BE;/&#x9AC;&#x9A8;&#x9CD;&#x9A7; &#x995;&#x9B0;&#x9BE;&#x9B0; &#x993;&#x9AA;&#x9B0; &#x9AE;&#x9B2;&#x9BF;&#x9A8;&#x9A4;&#x9BE;&#x9B0; &#x9AA;&#x9CD;&#x9B0;&#x9AD;&#x9BE;&#x9AC;</short>
+        <long>Fade effect on minimize/open/close window events</long>
+        <long xml:lang="zh-Hant-TW">&#x7576;&#x8996;&#x7A97;&#x63A1;&#x53D6; &#x6700;&#x5C0F;&#x5316;/&#x958B;&#x555F;/&#x95DC;&#x9589; &#x7684;&#x52D5;&#x4F5C;&#x6642;&#xFF0C;&#x4F7F;&#x7528;&#x6DE1;&#x5165;/&#x6DE1;&#x51FA;&#x7279;&#x6548;</long>
+        <long xml:lang="zh-Hans-CN">&#x4EA7;&#x751F;&#x7A97;&#x53E3;&#x6700;&#x5C0F;&#x5316;/&#x6253;&#x5F00;/&#x5173;&#x95ED;&#x4E8B;&#x4EF6;&#x65F6;&#x4F7F;&#x7528;&#x6E10;&#x9690;&#x6548;&#x679C;</long>
+        <long xml:lang="uk">&#x415;&#x444;&#x435;&#x43A;&#x442; &#x437;&#x43D;&#x435;&#x431;&#x430;&#x440;&#x432;&#x43B;&#x44E;&#x432;&#x430;&#x43D;&#x43D;&#x44F; &#x43F;&#x440;&#x438; &#x437;&#x433;&#x43E;&#x440;&#x442;&#x430;&#x43D;&#x43D;&#x456; / &#x432;&#x456;&#x434;&#x43A;&#x440;&#x438;&#x442;&#x442;&#x456; / &#x437;&#x430;&#x43A;&#x440;&#x438;&#x442;&#x442;&#x456; &#x432;&#x456;&#x43A;&#x43E;&#x43D;</long>
+        <long xml:lang="tr">K&#xFC;&#xE7;&#xFC;ltme /a&#xE7;ma /kapatma olayar&#x131;nda solma efekti kullan</long>
+        <long xml:lang="sk">Efekt stmievania pri minimalizovan&#xED;/otvoren&#xED;/zatvoren&#xED; okna</long>
+        <long xml:lang="ru">&#x42D;&#x444;&#x444;&#x435;&#x43A;&#x442; &#x437;&#x430;&#x442;&#x435;&#x43D;&#x435;&#x43D;&#x438;&#x44F; &#x43F;&#x440;&#x438; &#x441;&#x432;&#x435;&#x440;&#x442;&#x44B;&#x432;&#x430;&#x43D;&#x438;&#x438;/&#x43E;&#x442;&#x43A;&#x440;&#x44B;&#x442;&#x438;&#x438;/&#x437;&#x430;&#x43A;&#x440;&#x44B;&#x442;&#x438;&#x438; &#x43E;&#x43A;&#x43E;&#x43D;</long>
+        <long xml:lang="ro">Efect de decolorare la minimizarea/deschiderea/&#xEE;nchiderea ferestrelor</long>
+        <long xml:lang="pt-BR">Efeito de desvanecimento ao eventos de minimizar/abrir/fechar janelas</long>
+        <long xml:lang="pt">Efeito de desvanecimento ao eventos de minimizar/abrir/fechar janelas</long>
+        <long xml:lang="pl">Efekt rozja&#x15B;niania/&#x15B;ciemniania podczas minimalizacji/otwarcia/zamkni&#x119;cia okien</long>
+        <long xml:lang="pa">&#xA35;&#xA3F;&#xA70;&#xA21;&#xA4B; &#xA18;&#xA71;&#xA1F;&#xA4B;-&#xA18;&#xA71;&#xA1F;/&#xA16;&#xA4B;&#xA32;&#xA4D;&#xA39;&#xA23;/&#xA2C;&#xA70;&#xA26; &#xA15;&#xA30;&#xA28; &#xA26;&#xA47; &#xA08;&#xA35;&#xA48;&#xA02;&#xA1F; &#xA38;&#xA2E;&#xA47;&#xA02; &#xA2B;&#xA47;&#xA21; &#xA2A;&#xA30;&#xA2D;&#xA3E;&#xA35;</long>
+        <long xml:lang="or">&#xB28;&#xB4D;&#xB2F;&#xB41;&#xB28;&#xB24;&#xB2E;&#xB39;&#xB47;&#xB2C;&#xB3E;/&#xB16;&#xB4B;&#xB32;&#xB3F;&#xB2C;&#xB3E;/&#xB2C;&#xB28;&#xB4D;&#xB26;&#xB39;&#xB47;&#xB2C;&#xB3E; &#xB09;&#xB07;&#xB23;&#xB4D;&#xB21;&#xB4B; &#xB18;&#xB1F;&#xB23;&#xB3E; &#xB30;&#xB47; &#xB2B;&#xB3F;&#xB15;&#xB4D;&#xB15;&#xB3E; &#xB2A;&#xB4D;&#xB30;&#xB2D;&#xB3E;&#xB2C;</long>
+        <long xml:lang="nl">Vervaag effect bij Minimaliseren/Openen/Sluiten</long>
+        <long xml:lang="nb">Toningseffekt p&#xE5; minimer/&#xE5;pne/lukk</long>
+        <long xml:lang="ko">&#xCD5C;&#xC18C;&#xD654;/&#xC5F4;&#xAE30;/&#xB2EB;&#xAE30; &#xCC3D; &#xC774;&#xBCA4;&#xD2B8; &#xBC1C;&#xC0DD;&#xC2DC; &#xD398;&#xC774;&#xB4DC; &#xD6A8;&#xACFC;</long>
+        <long xml:lang="ka">&#x10DB;&#x10D8;&#x10DC;&#x10D0;&#x10D5;&#x10DA;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10D4;&#x10E4;&#x10D4;&#x10E5;&#x10E2;&#x10D8; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D8;&#x10E1; &#x10E9;&#x10D0;&#x10D9;&#x10D4;&#x10EA;&#x10D5;&#x10D0;/&#x10D2;&#x10D0;&#x10EE;&#x10E1;&#x10DC;&#x10D0;/&#x10D3;&#x10D0;&#x10EE;&#x10E3;&#x10E0;&#x10D5;&#x10D8;&#x10E1; &#x10DB;&#x10DD;&#x10D5;&#x10DA;&#x10D4;&#x10DC;&#x10D4;&#x10D1;&#x10D6;&#x10D4;</long>
+        <long xml:lang="ja">&#x6700;&#x5C0F;&#x5316;/&#x958B;&#x304F;/&#x9589;&#x3058;&#x308B; &#x30A4;&#x30D9;&#x30F3;&#x30C8;&#x6642;&#x306E;&#x30D5;&#x30A7;&#x30FC;&#x30C9;&#x52B9;&#x679C;</long>
+        <long xml:lang="it">Effetto dissolvenza agli eventi di minimizzazione/apertura/chiusura della finestra</long>
+        <long xml:lang="hu">Ablakelhalv&#xE1;ny&#xED;t&#xE1;si effektus alkalmaz&#xE1;sa minimaliz&#xE1;l&#xE1;skor, megnyit&#xE1;skor &#xE9;s bez&#xE1;r&#xE1;skor</long>
+        <long xml:lang="hr">Efekt izblje&#x111;ivanja pri Uve&#x107;anju/Smanjenju/Zatvaranju doga&#x111;aja prozora</long>
+        <long xml:lang="hi">&#x935;&#x93F;&#x902;&#x921;&#x94B; &#x918;&#x91F;&#x928;&#x93E; &#x928;&#x94D;&#x92F;&#x942;&#x928;&#x924;&#x92E;/ &#x916;&#x94B;&#x932;&#x947;&#x902; /&#x92C;&#x902;&#x926; &#x915;&#x930;&#x947;&#x902; &#x92A;&#x930; &#x92B;&#x940;&#x915;&#x93E; &#x92A;&#x94D;&#x930;&#x92D;&#x93E;&#x935;</long>
+        <long xml:lang="he">&#x5D0;&#x5E4;&#x5E7;&#x5D8; &#x5E2;&#x5DE;&#x5E2;&#x5D5;&#x5DD; &#x5D1;&#x5E2;&#x5EA; &#x5D0;&#x5E8;&#x5D5;&#x5E2;&#x5D9; &#x5DE;&#x5D6;&#x5E2;&#x5D5;&#x5E8;, &#x5E4;&#x5EA;&#x5D9;&#x5D7;&#x5D4; &#x5D5;&#x5E1;&#x5D2;&#x5D9;&#x5E8;&#x5D4; &#x5E9;&#x5DC; &#x5D7;&#x5DC;&#x5D5;&#x5DF;</long>
+        <long xml:lang="gu">&#xAB5;&#xABF;&#xAA8;&#xACD;&#xAA1;&#xACB; &#xAA8;&#xABE;&#xAA8;&#xAC1;&#xA82; &#xA95;&#xAB0;&#xACB;/&#xA96;&#xACB;&#xAB2;&#xACB;/&#xAAC;&#xA82;&#xAA7; &#xA95;&#xAB0;&#xACB; &#xA98;&#xA9F;&#xAA8;&#xABE;&#xA93; &#xAAA;&#xAB0; &#xA86;&#xA9B;&#xABE;&#xAAA;&#xAA3;&#xABE;&#xAA8;&#xAC0; &#xA85;&#xAB8;&#xAB0;</long>
+        <long xml:lang="gl">Realizar Efecto de Desvanecemento cos eventos de minimizar/abrir/pechar xanelas</long>
+        <long xml:lang="fr">Effet de fondu lors des &#xE9;v&#xE9;nements Minimiser/Ouvrir/Fermer la fen&#xEA;tre</long>
+        <long xml:lang="fi">H&#xE4;ivystehoste pienent&#xE4;misen, avaamisen ja sulkemisen yhteydess&#xE4;</long>
+        <long xml:lang="eu">Iraungitze efektua ondorengo leiho gertaeretan minimizatu/ireki/itxi</long>
+        <long xml:lang="es">Efecto de desvanecimiento cuando minimizas/abres/cierras ventanas</long>
+        <long xml:lang="en-GB">Fade effect on minimise/open/close window events</long>
+        <long xml:lang="el">&#x395;&#x3C6;&#x3AD; &#x3BE;&#x3B5;&#x3B8;&#x3C9;&#x3C1;&#x3B9;&#x3AC;&#x3C3;&#x3BC;&#x3B1;&#x3C4;&#x3BF;&#x3C2; &#x3C3;&#x3C4;&#x3BF; &#x3AC;&#x3BD;&#x3BF;&#x3B9;&#x3B3;&#x3BC;&#x3B1;/&#x3BA;&#x3BB;&#x3B5;&#x3AF;&#x3C3;&#x3B9;&#x3BC;&#x3BF;/&#x3B5;&#x3BB;&#x3B1;&#x3C7;&#x3B9;&#x3C3;&#x3C4;&#x3BF;&#x3C0;&#x3BF;&#x3AF;&#x3B7;&#x3C3;&#x3B7; &#x3C0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3C9;&#x3BD;</long>
+        <long xml:lang="de">Ausblendeffekt bei Minimieren/&#xD6;ffnen/Schliessen</long>
+        <long xml:lang="cs">Efekt sl&#xE1;bnut&#xED; okna p&#x159;&#xED; ud&#xE1;lostech :  Minimalizace/Otev&#x159;en&#xED;/Zav&#x159;en&#xED;</long>
+        <long xml:lang="ca">Esva&#xEF;ment amb els esdeveniments de minimitzar, obrir o tancar la finestra</long>
+        <long xml:lang="bn">&#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB; &#x99B;&#x9CB;&#x99F; &#x995;&#x9B0;&#x9BE;/&#x996;&#x9CB;&#x9B2;&#x9BE;/&#x9AC;&#x9A8;&#x9CD;&#x9A7; &#x995;&#x9B0;&#x9BE;&#x9B0; &#x993;&#x9AA;&#x9B0; &#x9AE;&#x9B2;&#x9BF;&#x9A8;&#x9A4;&#x9BE;&#x9B0; &#x9AA;&#x9CD;&#x9B0;&#x9AD;&#x9BE;&#x9AC;</long>
+        <long xml:lang="bn-IN">&#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB; &#x99B;&#x9CB;&#x99F; &#x995;&#x9B0;&#x9BE;/&#x996;&#x9CB;&#x9B2;&#x9BE;/&#x9AC;&#x9A8;&#x9CD;&#x9A7; &#x995;&#x9B0;&#x9BE;&#x9B0; &#x993;&#x9AA;&#x9B0; &#x9AE;&#x9B2;&#x9BF;&#x9A8;&#x9A4;&#x9BE;&#x9B0; &#x9AA;&#x9CD;&#x9B0;&#x9AD;&#x9BE;&#x9AC;</long>
+        <default>true</default>
+      </option>
+      <option name="dim_unresponsive" type="bool">
+        <short>Dim Unresponsive Windows</short>
+        <short xml:lang="zh-Hant-TW">&#x6697;&#x6DE1;&#x7121;&#x97FF;&#x61C9;&#x8996;&#x7A97;</short>
+        <short xml:lang="zh-Hans-CN">&#x6697;&#x5316;&#x65E0;&#x53CD;&#x5E94;&#x7A97;&#x53E3;</short>
+        <short xml:lang="uk">&#x417;&#x430;&#x442;&#x435;&#x43C;&#x43D;&#x435;&#x43D;&#x43D;&#x44F; &#x432;&#x456;&#x43A;&#x43D;&#x430;, &#x449;&#x43E; &#x43D;&#x435; &#x432;&#x456;&#x434;&#x43F;&#x43E;&#x432;&#x456;&#x434;&#x430;&#x454;</short>
+        <short xml:lang="tr">Tepki Vermeyen Pencreleri Donukla&#x15F;t&#x131;r</short>
+        <short xml:lang="ru">&#x417;&#x430;&#x442;&#x435;&#x43C;&#x43D;&#x435;&#x43D;&#x438;&#x435; &#x43D;&#x435; &#x43E;&#x442;&#x432;&#x435;&#x447;&#x430;&#x44E;&#x449;&#x435;&#x433;&#x43E; &#x43E;&#x43A;&#x43D;&#x430;</short>
+        <short xml:lang="pt">Escurecer Janelas que N&#xE3;o Respondem</short>
+        <short xml:lang="pl">Przyciemnienie nieodpowiadaj&#x105;cych okien</short>
+        <short xml:lang="ko">&#xC751;&#xB2F5;&#xD558;&#xC9C0; &#xC54A;&#xB294; &#xCC3D;&#xC744; &#xD750;&#xB9AC;&#xAC8C; &#xD568;</short>
+        <short xml:lang="ka">&#x10E3;&#x10E0;&#x10D4;&#x10D0;&#x10E5;&#x10EA;&#x10D8;&#x10DD; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10E3;&#x10E4;&#x10D4;&#x10E0;&#x10E3;&#x10DA;&#x10D4;&#x10D1;&#x10D0;</short>
+        <short xml:lang="ja">&#x4E0D;&#x5FDC;&#x7B54;&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x3092;&#x8584;&#x6697;&#x304F;&#x3059;&#x308B;</short>
+        <short xml:lang="it">Oscurare finestre bloccate</short>
+        <short xml:lang="hu">Nem v&#xE1;laszol&#xF3; ablak elhalv&#xE1;ny&#xED;t&#xE1;sa</short>
+        <short xml:lang="hr">Zatamni prozore koji ne reagiraju</short>
+        <short xml:lang="he">&#x5E2;&#x5DE;&#x5E2;&#x5DD; &#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA; &#x5E9;&#x5D0;&#x5D9;&#x5E0;&#x5DD; &#x5DE;&#x5D2;&#x5D9;&#x5D1;&#x5D9;&#x5DD;</short>
+        <short xml:lang="gl">Escurecer as Fiestras que non Responden</short>
+        <short xml:lang="fr">Fen&#xEA;tres ne r&#xE9;pondant pas ternes</short>
+        <short xml:lang="fi">Himmenn&#xE4; ikkunat, jotka eiv&#xE4;t vastaa</short>
+        <short xml:lang="eu">Erantzuten ez duten leihoen tamaina aldatu</short>
+        <short xml:lang="es">Atenuar las ventanas que no respondan</short>
+        <short xml:lang="en-GB">Dim Unresponsive Windows</short>
+        <short xml:lang="el">&#x3A3;&#x3BA;&#x3BF;&#x3C4;&#x3B5;&#x3AF;&#x3BD;&#x3B9;&#x3B1;&#x3C3;&#x3BC;&#x3B1; &#x39C;&#x3B7;-&#x391;&#x3BD;&#x3C4;&#x3B1;&#x3C0;&#x3BF;&#x3BA;&#x3C1;&#x3B9;&#x3BD;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3C9;&#x3BD; &#x3A0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3C9;&#x3BD;</short>
+        <short xml:lang="ca">Dimensiona les finestres no receptives</short>
+        <long>Dim windows that are not responding to window manager requests</long>
+        <long xml:lang="zh-Hant-TW">&#x6697;&#x6DE1;&#x5316;&#x5C0D;&#x65BC;&#x8996;&#x7A97;&#x7BA1;&#x7406;&#x5668;&#x6C92;&#x6709;&#x53CD;&#x61C9;&#x7684;&#x8996;&#x7A97;</long>
+        <long xml:lang="zh-Hans-CN">&#x6697;&#x5316;&#x5BF9;&#x7A97;&#x53E3;&#x7BA1;&#x7406;&#x5668;&#x8BF7;&#x6C42;&#x65E0;&#x53CD;&#x5E94;&#x7684;&#x7A97;&#x53E3;</long>
+        <long xml:lang="uk">&#x417;&#x430;&#x442;&#x435;&#x43C;&#x43D;&#x435;&#x43D;&#x43D;&#x44F; &#x432;&#x456;&#x43A;&#x43D;&#x430;, &#x44F;&#x43A;&#x435; &#x43D;&#x435; &#x432;&#x456;&#x434;&#x43F;&#x43E;&#x432;&#x456;&#x434;&#x430;&#x454; &#x43D;&#x430; &#x437;&#x430;&#x43F;&#x438;&#x442;&#x438; &#x43C;&#x435;&#x43D;&#x435;&#x434;&#x436;&#x435;&#x440;&#x430; &#x432;&#x456;&#x43A;&#x43E;&#x43D;</long>
+        <long xml:lang="tr">Pencere y&#xF6;neticisinin isteklerine yan&#x131;t vermeyen pencereleri donukla&#x15F;t&#x131;r</long>
+        <long xml:lang="ru">&#x417;&#x430;&#x442;&#x435;&#x43C;&#x43D;&#x435;&#x43D;&#x438;&#x435; &#x43E;&#x43A;&#x43D;&#x430;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x43E;&#x435; &#x43D;&#x435; &#x43E;&#x442;&#x432;&#x435;&#x447;&#x430;&#x435;&#x442; &#x43D;&#x430; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x44B; &#x43C;&#x435;&#x43D;&#x435;&#x434;&#x436;&#x435;&#x440;&#x430; &#x43E;&#x43A;&#x43E;&#x43D;</long>
+        <long xml:lang="pt">Escurece janelas que n&#xE3;o respondem aos pedidos do gestor de janelas</long>
+        <long xml:lang="pl">Przyciemnienie okien, kt&#xF3;re nie odpowiadaj&#x105; na polecenia menad&#x17C;era okien</long>
+        <long xml:lang="ko">&#xCC3D;&#xAD00;&#xB9AC;&#xC790;&#xC758; &#xC694;&#xCCAD;&#xC5D0; &#xC751;&#xB2F5;&#xD558;&#xC9C0; &#xC54A;&#xB294; &#xCC3D;&#xC744; &#xD750;&#xB9AC;&#xAC8C; &#xD568;</long>
+        <long xml:lang="ka">&#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D4;&#x10D1;&#x10D8;&#x10E1;, &#x10E0;&#x10DD;&#x10DB;&#x10DA;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D8;&#x10E1; &#x10DB;&#x10DB;&#x10D0;&#x10E0;&#x10D7;&#x10D5;&#x10D4;&#x10DA;&#x10D8;&#x10E1; &#x10DB;&#x10DD;&#x10D7;&#x10EE;&#x10DD;&#x10D5;&#x10DC;&#x10D4;&#x10D1;&#x10E1; &#x10D0;&#x10E0; &#x10DE;&#x10D0;&#x10E1;&#x10E3;&#x10EE;&#x10DD;&#x10D1;&#x10D4;&#x10DC;, &#x10D2;&#x10D0;&#x10E3;&#x10E4;&#x10D4;&#x10E0;&#x10E3;&#x10DA;&#x10D4;&#x10D1;&#x10D0;</long>
+        <long xml:lang="ja">&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x30FB;&#x30DE;&#x30CD;&#x30FC;&#x30B8;&#x30E3;&#x306E;&#x8981;&#x6C42;&#x306B;&#x5FDC;&#x7B54;&#x3057;&#x306A;&#x3044;&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x3092;&#x8584;&#x6697;&#x304F;&#x3059;&#x308B;</long>
+        <long xml:lang="it">Oscurare le finestre che non rispondono alle richieste del gestore di finestre</long>
+        <long xml:lang="hu">Azon ablakok elhalv&#xE1;ny&#xED;t&#xE1;sa, amelyek nem v&#xE1;laszolnak az ablakkezel&#x151; k&#xE9;r&#xE9;seire</long>
+        <long xml:lang="hr">Zatamni prozore koji ne reagiraju na zahtjev upravitelja prozorima</long>
+        <long xml:lang="he">&#x5E2;&#x5DE;&#x5E2;&#x5DD; &#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA; &#x5E9;&#x5D0;&#x5D9;&#x5E0;&#x5DD; &#x5DE;&#x5D2;&#x5D9;&#x5D1;&#x5D9;&#x5DD; &#x5DC;&#x5D4;&#x5D5;&#x5D3;&#x5E2;&#x5D5;&#x5EA; &#x5DE;&#x5E0;&#x5D4;&#x5DC; &#x5D4;&#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA;</long>
+        <long xml:lang="gl">Escurecer as xanelas que non est&#xE1;n a responder ao que o xestor de xanelas require</long>
+        <long xml:lang="fr">Les fen&#xEA;tres ternes qui ne r&#xE9;pondent pas aux requ&#xEA;tes du gestionnaire de fen&#xEA;tres.</long>
+        <long xml:lang="fi">Himmenn&#xE4; ikkunat, jotka eiv&#xE4;t vastaa ikkunanhallinnan pyynt&#xF6;ihin</long>
+        <long xml:lang="eu">Leiho kudeatzailearen eskariei erantzuten ez duten leihoen tamaina aldatu</long>
+        <long xml:lang="es">Atenuar las ventanas que no est&#xE9;n respondiendo las peticiones del gestor de ventanas</long>
+        <long xml:lang="en-GB">Dim windows that are not responding to window manager requests</long>
+        <long xml:lang="el">&#x3A3;&#x3BA;&#x3BF;&#x3C4;&#x3B5;&#x3AF;&#x3BD;&#x3B9;&#x3B1;&#x3C3;&#x3BC;&#x3B1; &#x3C0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3C9;&#x3BD; &#x3C0;&#x3BF;&#x3C5; &#x3B4;&#x3B5;&#x3BD; &#x3B1;&#x3BD;&#x3C4;&#x3B1;&#x3C0;&#x3BF;&#x3BA;&#x3C1;&#x3AF;&#x3BD;&#x3BF;&#x3BD;&#x3C4;&#x3B1;&#x3B9; &#x3C3;&#x3C4;&#x3B9;&#x3C2; &#x3B5;&#x3BD;&#x3C4;&#x3BF;&#x3BB;&#x3AD;&#x3C2; &#x3C4;&#x3BF;&#x3C5; &#x3B4;&#x3B9;&#x3B1;&#x3C7;&#x3B5;&#x3B9;&#x3C1;&#x3B9;&#x3C3;&#x3C4;&#x3AE; &#x3C0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3C9;&#x3BD;</long>
+        <long xml:lang="ca">Dimensiona les finestres que no estiguin responent a les peticions del gestor de finestres</long>
+        <default>true</default>
+      </option>
+      <option name="unresponsive_brightness" type="int">
+        <short>Unresponsive Window Brightness</short>
+        <short xml:lang="zh-Hant-TW">&#x7121;&#x53CD;&#x61C9;&#x8996;&#x7A97;&#x7684;&#x4EAE;&#x5EA6;</short>
+        <short xml:lang="zh-Hans-CN">&#x65E0;&#x53CD;&#x5E94;&#x7A97;&#x53E3;&#x7684;&#x4EAE;&#x5EA6;</short>
+        <short xml:lang="uk">&#x42F;&#x441;&#x43A;&#x440;&#x430;&#x432;&#x456;&#x441;&#x442;&#x44C; &#x432;&#x456;&#x43A;&#x43D;&#x430; &#x449;&#x43E; &#x43D;&#x435; &#x432;&#x456;&#x434;&#x43F;&#x43E;&#x432;&#x456;&#x434;&#x430;&#x454;</short>
+        <short xml:lang="tr">Tepki Vermeyen Pencere Parlakl&#x131;&#x11F;&#x131;</short>
+        <short xml:lang="ru">&#x42F;&#x440;&#x43A;&#x43E;&#x441;&#x442;&#x44C; &#x43D;&#x435; &#x43E;&#x442;&#x432;&#x435;&#x447;&#x430;&#x44E;&#x449;&#x435;&#x433;&#x43E; &#x43E;&#x43A;&#x43D;&#x430;</short>
+        <short xml:lang="pt">Luminosidade Janelas que N&#xE3;o Respondem</short>
+        <short xml:lang="pl">Jasno&#x15B;&#x107; nieodpowiadaj&#x105;cych okien</short>
+        <short xml:lang="ko">&#xC751;&#xB2F5;&#xD558;&#xC9C0; &#xC54A;&#xB294; &#xCC3D; &#xBC1D;&#xAE30;</short>
+        <short xml:lang="ka">&#x10E3;&#x10E0;&#x10D4;&#x10D0;&#x10E5;&#x10EA;&#x10D8;&#x10DD; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D8;&#x10E1; &#x10E1;&#x10D8;&#x10D9;&#x10D0;&#x10E8;&#x10D9;&#x10D0;&#x10E8;&#x10D4;</short>
+        <short xml:lang="ja">&#x4E0D;&#x5FDC;&#x7B54;&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x306E;&#x660E;&#x5EA6;</short>
+        <short xml:lang="it">Luminosit&#xE0; finestre bloccate</short>
+        <short xml:lang="hu">Nem v&#xE1;laszol&#xF3; ablak f&#xE9;nyer&#x151;ss&#xE9;ge</short>
+        <short xml:lang="hr">Svjetlina nereagiraju&#x107;eg prozora</short>
+        <short xml:lang="he">&#x5D1;&#x5D4;&#x5D9;&#x5E8;&#x5D5;&#x5EA; &#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA; &#x5E9;&#x5D0;&#x5D9;&#x5E0;&#x5DD; &#x5DE;&#x5D2;&#x5D9;&#x5D1;&#x5D9;&#x5DD;</short>
+        <short xml:lang="gl">Brillo das Fiestras Bloqueadas</short>
+        <short xml:lang="fr">Luminosit&#xE9; d'une fen&#xEA;tre ne r&#xE9;pondant pas</short>
+        <short xml:lang="fi">Kirkkaus ikkunoille, jotka eiv&#xE4;t vastaa</short>
+        <short xml:lang="eu">Erantzuten ez duen leiho distira</short>
+        <short xml:lang="es">Brillo de las ventanas que no respondan</short>
+        <short xml:lang="en-GB">Unresponsive Window Brightness</short>
+        <short xml:lang="el">&#x3A6;&#x3C9;&#x3C4;&#x3B5;&#x3B9;&#x3BD;&#x3CC;&#x3C4;&#x3B7;&#x3C4;&#x3B1; &#x39C;&#x3B7;-&#x391;&#x3BD;&#x3C4;&#x3B1;&#x3C0;&#x3BF;&#x3BA;&#x3C1;&#x3B9;&#x3BD;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3C9;&#x3BD; &#x3A0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3C9;&#x3BD;</short>
+        <short xml:lang="de">Helligkeit von nicht-reagierenden Fenstern</short>
+        <short xml:lang="ca">Brillantor de les finestres no receptives</short>
+        <long>Brightness (in %) of unresponsive windows</long>
+        <long xml:lang="zh-Hant-TW">&#x672A;&#x97FF;&#x61C9;&#x8996;&#x7A97;&#x4EAE;&#x5EA6;(%)</long>
+        <long xml:lang="zh-Hans-CN">&#x672A;&#x54CD;&#x5E94;&#x7A97;&#x53E3;&#x7684;&#x4EAE;&#x5EA6;(%)</long>
+        <long xml:lang="uk">&#x42F;&#x441;&#x43A;&#x440;&#x430;&#x432;&#x456;&#x441;&#x442;&#x44C; (&#x443; %) &#x432;&#x456;&#x43A;&#x43E;&#x43D; &#x44F;&#x43A;&#x456; &#x43D;&#x435; &#x432;&#x456;&#x434;&#x43F;&#x43E;&#x432;&#x456;&#x434;&#x430;&#x44E;&#x442;&#x44C;</long>
+        <long xml:lang="ru">&#x42F;&#x440;&#x43A;&#x43E;&#x441;&#x442;&#x44C; (&#x432; %) &#x43D;&#x435;&#x43E;&#x442;&#x432;&#x435;&#x447;&#x430;&#x44E;&#x449;&#x438;&#x445; &#x43E;&#x43A;&#x43E;&#x43D;</long>
+        <long xml:lang="pt">Luminosidade (em %) de janelas que n&#xE3;o respondem</long>
+        <long xml:lang="pl">Jasno&#x15B;&#x107; (w %) nieodpowiadaj&#x105;cych okien</long>
+        <long xml:lang="ko">&#xBC18;&#xC751;&#xD558;&#xC9C0; &#xC54A;&#xB294; &#xCC3D;&#xC758; &#xBC1D;&#xAE30;(%)</long>
+        <long xml:lang="ka">&#x10E1;&#x10D8;&#x10D9;&#x10D0;&#x10E8;&#x10D9;&#x10D0;&#x10E8;&#x10D4; (%-&#x10E8;&#x10D8;) &#x10E3;&#x10E0;&#x10D4;&#x10D0;&#x10E5;&#x10EA;&#x10D8;&#x10DD; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D4;&#x10D1;&#x10D8;&#x10E1;&#x10D7;&#x10D5;&#x10D8;&#x10E1;</long>
+        <long xml:lang="ja">&#x4E0D;&#x5FDC;&#x7B54;&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x306E;&#x660E;&#x5EA6;&#xFF08;&#x30D1;&#x30FC;&#x30BB;&#x30F3;&#x30C8;&#xFF09;</long>
+        <long xml:lang="it">Luminosit&#xE0; (in percentuale) delle finestre bloccate</long>
+        <long xml:lang="hu">Nem v&#xE1;laszol&#xF3; ablak f&#xE9;nyer&#x151;ss&#xE9;ge (sz&#xE1;zal&#xE9;kban megadva)</long>
+        <long xml:lang="hr">Svjetlina (u %) prozora koji ne reagiraju</long>
+        <long xml:lang="he">&#x5D1;&#x5D4;&#x5D9;&#x5E8;&#x5D5;&#x5EA; &#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA; &#x5E9;&#x5D0;&#x5D9;&#x5E0;&#x5DD; &#x5DE;&#x5D2;&#x5D9;&#x5D1;&#x5D9;&#x5DD; (&#x5D1;&#x5D0;&#x5D7;&#x5D5;&#x5D6;&#x5D9;&#x5DD;)</long>
+        <long xml:lang="gl">Brillo (en %) das xanelas bloqueadas</long>
+        <long xml:lang="fr">Luminosit&#xE9; (en %) des fen&#xEA;tres ne r&#xE9;pondant pas</long>
+        <long xml:lang="fi">Kirkkaus prosenteissa ikkunoille, jotka eiv&#xE4;t vastaa</long>
+        <long xml:lang="eu">Distira (%tan) erantzuten ez duen leihoek</long>
+        <long xml:lang="es">Brillo (en %) de las ventanas que no respondan</long>
+        <long xml:lang="en-GB">Brightness (in %) of unresponsive windows</long>
+        <long xml:lang="el">&#x3A6;&#x3C9;&#x3C4;&#x3B5;&#x3B9;&#x3BD;&#x3CC;&#x3C4;&#x3B7;&#x3C4;&#x3B1; (&#x3C3;&#x3B5; %) &#x3C4;&#x3C9;&#x3BD; &#x3BC;&#x3B7;-&#x3B1;&#x3BD;&#x3C4;&#x3B1;&#x3C0;&#x3BF;&#x3BA;&#x3C1;&#x3B9;&#x3BD;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3C9;&#x3BD; &#x3C0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3C9;&#x3BD;</long>
+        <long xml:lang="de">Helligkeit (%) von nicht-reagierenden Fenstern</long>
+        <long xml:lang="ca">Brillantor (en %) de les finestres no receptives</long>
+        <long xml:lang="bg">&#x42F;&#x440;&#x43A;&#x43E;&#x441;&#x442;(&#x432; %) &#x43D;&#x430; &#x43F;&#x440;&#x43E;&#x437;&#x43E;&#x440;&#x446;&#x438;&#x442;&#x435; &#x43A;&#x43E;&#x438;&#x442;&#x43E; &#x43D;&#x435; &#x43E;&#x442;&#x433;&#x43E;&#x432;&#x430;&#x440;&#x44F;&#x442;</long>
+        <min>0</min>
+        <max>100</max>
+        <default>65</default>
+      </option>
+      <option name="unresponsive_saturation" type="int">
+        <short>Unresponsive Window Saturation</short>
+        <short xml:lang="zh-Hant-TW">&#x7121;&#x53CD;&#x61C9;&#x8996;&#x7A97;&#x7684;&#x98FD;&#x548C;&#x5EA6;</short>
+        <short xml:lang="zh-Hans-CN">&#x65E0;&#x53CD;&#x5E94;&#x7A97;&#x53E3;&#x7684;&#x9971;&#x548C;&#x5EA6;</short>
+        <short xml:lang="uk">&#x41D;&#x430;&#x441;&#x438;&#x447;&#x435;&#x43D;&#x456;&#x441;&#x442;&#x44C; &#x432;&#x456;&#x43A;&#x43D;&#x430;, &#x449;&#x43E; &#x43D;&#x435; &#x432;&#x456;&#x434;&#x43F;&#x43E;&#x432;&#x456;&#x434;&#x430;&#x454;</short>
+        <short xml:lang="tr">Tepki Vermeyen Pencere Doygunlu&#x11F;u</short>
+        <short xml:lang="ru">&#x41D;&#x430;&#x441;&#x44B;&#x449;&#x435;&#x43D;&#x43D;&#x43E;&#x441;&#x442;&#x44C; &#x43D;&#x435; &#x43E;&#x442;&#x432;&#x435;&#x447;&#x430;&#x44E;&#x449;&#x435;&#x433;&#x43E; &#x43E;&#x43A;&#x43D;&#x430;</short>
+        <short xml:lang="pt">Satura&#xE7;&#xE3;o Janelas que N&#xE3;o Respondem</short>
+        <short xml:lang="pl">Nasycenie nieodpowiadaj&#x105;cych okien</short>
+        <short xml:lang="ko">&#xC751;&#xB2F5;&#xD558;&#xC9C0; &#xC54A;&#xB294; &#xCC3D; &#xCC44;&#xB3C4;</short>
+        <short xml:lang="ka">&#x10E3;&#x10E0;&#x10D4;&#x10D0;&#x10E5;&#x10EA;&#x10D8;&#x10DD; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10EF;&#x10D4;&#x10E0;&#x10D4;&#x10D1;&#x10E3;&#x10DA;&#x10DD;&#x10D1;&#x10D0;</short>
+        <short xml:lang="ja">&#x4E0D;&#x5FDC;&#x7B54;&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x306E;&#x5F69;&#x5EA6;</short>
+        <short xml:lang="it">Saturazione finestre bloccate</short>
+        <short xml:lang="hu">Nem v&#xE1;laszol&#xF3; ablak tel&#xED;tetts&#xE9;ge</short>
+        <short xml:lang="hr">Zasi&#x107;enje nereagiraju&#x107;eg prozora</short>
+        <short xml:lang="he">&#x5E8;&#x5D5;&#x5D5;&#x5D9;&#x5EA; &#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA; &#x5E9;&#x5D0;&#x5D9;&#x5E0;&#x5DD; &#x5DE;&#x5D2;&#x5D9;&#x5D1;&#x5D9;&#x5DD;</short>
+        <short xml:lang="gl">Saturaci&#xF3;n das Fiestras Bloqueadas</short>
+        <short xml:lang="fr">Saturation d'une fen&#xEA;tre ne r&#xE9;pondant pas</short>
+        <short xml:lang="fi">V&#xE4;rikyll&#xE4;isyys ikkunoille, jotka eiv&#xE4;t vastaa</short>
+        <short xml:lang="eu">Erantzuten ez duen leiho saturazioa</short>
+        <short xml:lang="es">Saturaci&#xF3;n de las ventanas que no respondan</short>
+        <short xml:lang="en-GB">Unresponsive Window Saturation</short>
+        <short xml:lang="el">&#x39A;&#x3BF;&#x3C1;&#x3B5;&#x3C3;&#x3BC;&#x3CC;&#x3C2; &#x39C;&#x3AE;-&#x391;&#x3BD;&#x3C4;&#x3B1;&#x3C0;&#x3BF;&#x3BA;&#x3C1;&#x3B9;&#x3BD;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3C9;&#x3BD; &#x3A0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3C9;&#x3BD;</short>
+        <short xml:lang="de">S&#xE4;ttigung von nicht-reagierenden Fenstern</short>
+        <short xml:lang="ca">Saturaci&#xF3; de les finestres no receptives</short>
+        <long>Saturation (in %) of unresponsive windows</long>
+        <long xml:lang="zh-Hant-TW">&#x7121;&#x53CD;&#x61C9;&#x8996;&#x7A97;&#x7684;&#x98FD;&#x548C;&#x5EA6;(&#x4EE5;%&#x4F86;&#x8A2D;&#x5B9A;)</long>
+        <long xml:lang="zh-Hans-CN">&#x65E0;&#x53CD;&#x5E94;&#x7A97;&#x53E3;&#x7684;&#x9971;&#x548C;&#x5EA6;&#x767E;&#x5206;&#x6BD4;</long>
+        <long xml:lang="uk">&#x41D;&#x430;&#x441;&#x438;&#x447;&#x435;&#x43D;&#x456;&#x441;&#x442;&#x44C; (&#x443; %) &#x432;&#x456;&#x43A;&#x43D;&#x430;, &#x449;&#x43E; &#x43D;&#x435; &#x432;&#x456;&#x434;&#x43F;&#x43E;&#x432;&#x456;&#x434;&#x430;&#x454;</long>
+        <long xml:lang="tr">Tepki vermeyen pencerelerin doygunlu&#x11F;u (in %)</long>
+        <long xml:lang="ru">&#x41D;&#x430;&#x441;&#x44B;&#x449;&#x435;&#x43D;&#x43D;&#x43E;&#x441;&#x442;&#x44C; (&#x432; %) &#x43D;&#x435; &#x43E;&#x442;&#x432;&#x435;&#x447;&#x430;&#x44E;&#x449;&#x435;&#x433;&#x43E; &#x43E;&#x43A;&#x43D;&#x430;</long>
+        <long xml:lang="pt">Satura&#xE7;&#xE3;o (em %) de janelas que n&#xE3;o respondem</long>
+        <long xml:lang="pl">Nasycenie (w %) nieodpowiadaj&#x105;cych okien</long>
+        <long xml:lang="ko">&#xC751;&#xB2F5;&#xD558;&#xC9C0; &#xC54A;&#xB294; &#xCC3D;&#xC758; &#xCC44;&#xB3C4;(%)</long>
+        <long xml:lang="ka">&#x10D2;&#x10D0;&#x10EF;&#x10D4;&#x10E0;&#x10D4;&#x10D1;&#x10E3;&#x10DA;&#x10DD;&#x10D1;&#x10D0; (%-&#x10E8;&#x10D8;) &#x10E3;&#x10E0;&#x10D4;&#x10D0;&#x10E5;&#x10EA;&#x10D8;&#x10DD; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D4;&#x10D1;&#x10D8;&#x10E1;&#x10D7;&#x10D5;&#x10D8;&#x10E1;</long>
+        <long xml:lang="ja">&#x4E0D;&#x5FDC;&#x7B54;&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x306E;&#x5F69;&#x5EA6;&#xFF08;&#x30D1;&#x30FC;&#x30BB;&#x30F3;&#x30C8;&#xFF09;</long>
+        <long xml:lang="it">Saturazione (in percentuale) delle finestre bloccate</long>
+        <long xml:lang="hu">Nem v&#xE1;laszol&#xF3; ablak tel&#xED;tetts&#xE9;ge (sz&#xE1;zal&#xE9;kban megadva)</long>
+        <long xml:lang="hr">Zasi&#x107;enje (u %) prozora koji ne reagiraju</long>
+        <long xml:lang="he">&#x5E8;&#x5D5;&#x5D5;&#x5D9;&#x5EA; &#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA; &#x5E9;&#x5D0;&#x5D9;&#x5E0;&#x5DD; &#x5DE;&#x5D2;&#x5D9;&#x5D1;&#x5D9;&#x5DD; (&#x5D1;&#x5D0;&#x5D7;&#x5D5;&#x5D6;&#x5D9;&#x5DD;)</long>
+        <long xml:lang="gl">Saturaci&#xF3;n das xanelas bloqueadas (en %)</long>
+        <long xml:lang="fr">Saturation (en %) des fen&#xEA;tres ne r&#xE9;pondant pas</long>
+        <long xml:lang="fi">V&#xE4;rikyll&#xE4;isyys prosenteissa ikkunoille, jotka eiv&#xE4;t vastaa</long>
+        <long xml:lang="eu">Erantzuten ez duten leihoen saturazioa (%tan)</long>
+        <long xml:lang="es">Saturaci&#xF3;n (en %) de las ventanas que no respondan</long>
+        <long xml:lang="en-GB">Saturation (in %) of unresponsive windows</long>
+        <long xml:lang="el">&#x39A;&#x3BF;&#x3C1;&#x3B5;&#x3C3;&#x3BC;&#x3CC;&#x3C2; (&#x3C3;&#x3B5; %) &#x3C4;&#x3C9;&#x3BD; &#x3BC;&#x3B7;-&#x3B1;&#x3BD;&#x3C4;&#x3B1;&#x3C0;&#x3BF;&#x3BA;&#x3C1;&#x3B9;&#x3BD;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3C9;&#x3BD; &#x3C0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3C9;&#x3BD;</long>
+        <long xml:lang="de">S&#xE4;ttigung (%) von nicht-reagierenden Fenstern</long>
+        <long xml:lang="ca">Saturaci&#xF3; (en %) de les finestres no receptives</long>
+        <min>0</min>
+        <max>100</max>
+        <default>0</default>
+      </option>
+    </screen>
+  </plugin>
+</compiz>

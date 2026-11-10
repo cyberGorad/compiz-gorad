@@ -32,6 +32,16 @@
 		<short>Prev Slide</short>
 		<long>Go back to previous slide</long>
 	    </option>
+	    <option name="zoom_reset_key" type="key">
+		<short>Reset Zoom</short>
+		<long>Reset the cube zoom while it is active</long>
+		<default>&lt;Primary&gt;&lt;Alt&gt;&lt;Shift&gt;Home</default>
+	    </option>
+	    <option name="toggle_button" type="button">
+		<short>Lock Cube</short>
+		<long>Lock or unlock the cube with the middle mouse button</long>
+		<default>&lt;Primary&gt;&lt;Alt&gt;Button2</default>
+	    </option>
 	</display>
 	<screen>
 	    <option name="mipmap" type="bool">

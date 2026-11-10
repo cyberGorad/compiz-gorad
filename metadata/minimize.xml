@@ -1,0 +1,396 @@
+<?xml version="1.0"?>
+<compiz>
+  <plugin name="minimize">
+    <short>Minimize Effect</short>
+    <short xml:lang="zh-Hant-TW">&#x6700;&#x5C0F;&#x5316;&#x7279;&#x6548;</short>
+    <short xml:lang="zh-Hans-CN">&#x6700;&#x5C0F;&#x5316;&#x6548;&#x679C;</short>
+    <short xml:lang="uk">&#x415;&#x444;&#x435;&#x43A;&#x442; &#x437;&#x433;&#x43E;&#x440;&#x442;&#x430;&#x43D;&#x43D;&#x44F;</short>
+    <short xml:lang="tr">K&#xFC;&#xE7;&#xFC;ltme Efekti</short>
+    <short xml:lang="sv">Minimeringseffekt</short>
+    <short xml:lang="sk">Efekt pri minimalizovan&#xED;</short>
+    <short xml:lang="ru">&#x42D;&#x444;&#x444;&#x435;&#x43A;&#x442; &#x441;&#x432;&#x435;&#x440;&#x442;&#x44B;&#x432;&#x430;&#x43D;&#x438;&#x44F;</short>
+    <short xml:lang="ro">Efect de minimizare</short>
+    <short xml:lang="pt-BR">Efeito ao Minimizar</short>
+    <short xml:lang="pt">Minimizar Efeito</short>
+    <short xml:lang="pl">Efekt minimalizacji</short>
+    <short xml:lang="or">&#xB28;&#xB4D;&#xB2F;&#xB41;&#xB28;&#xB24;&#xB2E; &#xB2A;&#xB4D;&#xB30;&#xB2D;&#xB3E;&#xB2C;</short>
+    <short xml:lang="nl">Minimaliseer effect</short>
+    <short xml:lang="nb">Minimereffekt</short>
+    <short xml:lang="ko">&#xCD5C;&#xC18C;&#xD654; &#xD6A8;&#xACFC;</short>
+    <short xml:lang="ka">&#x10E9;&#x10D0;&#x10D9;&#x10D4;&#x10EA;&#x10D5;&#x10D8;&#x10E1; &#x10D4;&#x10E4;&#x10D4;&#x10E5;&#x10E2;&#x10D8;</short>
+    <short xml:lang="ja">&#x6700;&#x5C0F;&#x5316;&#x6642;&#x306E;&#x52B9;&#x679C;</short>
+    <short xml:lang="it">Effetto minimizzazione</short>
+    <short xml:lang="hu">Minimaliz&#xE1;l&#xE1;s effektus</short>
+    <short xml:lang="hr">Efekt smanjivanja</short>
+    <short xml:lang="he">&#x5D0;&#x5E4;&#x5E7;&#x5D8; &#x5DE;&#x5D6;&#x5E2;&#x5D5;&#x5E8;</short>
+    <short xml:lang="gu">&#xAA8;&#xACD;&#xAAF;&#xAC2;&#xAA8;&#xAA4;&#xAAE; &#xA85;&#xAB8;&#xAB0;</short>
+    <short xml:lang="gl">Efecto ao Minimizar</short>
+    <short xml:lang="fr">Effet de Minimisation</short>
+    <short xml:lang="fi">Pienennystehoste</short>
+    <short xml:lang="eu">Ikonotze Efektua</short>
+    <short xml:lang="es">Efecto Minimizar</short>
+    <short xml:lang="en-GB">Minimise Effect</short>
+    <short xml:lang="el">&#x395;&#x3C6;&#x3AD; &#x395;&#x3BB;&#x3B1;&#x3C7;&#x3B9;&#x3C3;&#x3C4;&#x3BF;&#x3C0;&#x3BF;&#x3AF;&#x3B7;&#x3C3;&#x3B7;&#x3C2;</short>
+    <short xml:lang="de">Minimierungseffekt</short>
+    <short xml:lang="da">Minimer effekt</short>
+    <short xml:lang="cs">Efekt minimalizace</short>
+    <short xml:lang="ca">Efecte de minimitzaci&#xF3;</short>
+    <short xml:lang="bn">&#x9AA;&#x9CD;&#x9B0;&#x9AD;&#x9BE;&#x9AC; &#x9B8;&#x9B0;&#x9CD;&#x9AC;&#x9A8;&#x9BF;&#x9AE;&#x9CD;&#x9A8; &#x995;&#x9B0;&#x9BE;</short>
+    <short xml:lang="bn-IN">&#x9AA;&#x9CD;&#x9B0;&#x9AD;&#x9BE;&#x9AC; &#x9B8;&#x9B0;&#x9CD;&#x9AC;&#x9A8;&#x9BF;&#x9AE;&#x9CD;&#x9A8; &#x995;&#x9B0;&#x9BE;</short>
+    <long>Transform windows when they are minimized and unminimized</long>
+    <long xml:lang="zh-Hant-TW">&#x5728;&#x6700;&#x5C0F;&#x5316;&#x548C;&#x89E3;&#x9664;&#x6700;&#x5C0F;&#x5316;&#x6642;&#x8B8A;&#x5316;&#x8996;&#x7A97;</long>
+    <long xml:lang="zh-Hans-CN">&#x6700;&#x5C0F;&#x5316;&#x548C;&#x53D6;&#x6D88;&#x6700;&#x5C0F;&#x5316;&#x65F6;&#x53D8;&#x5F62;&#x7A97;&#x53E3;</long>
+    <long xml:lang="uk">&#x41F;&#x435;&#x440;&#x435;&#x442;&#x432;&#x43E;&#x440;&#x44E;&#x432;&#x430;&#x442;&#x438; &#x432;&#x456;&#x43A;&#x43D;&#x430; &#x43F;&#x440;&#x438; &#x437;&#x433;&#x43E;&#x440;&#x442;&#x430;&#x43D;&#x43D;&#x456; &#x442;&#x430; &#x441;&#x43A;&#x430;&#x441;&#x443;&#x432;&#x430;&#x43D;&#x43D;&#x456; &#x437;&#x433;&#x43E;&#x440;&#x442;&#x430;&#x43D;&#x43D;&#x44F;</long>
+    <long xml:lang="tr">Pencereleri k&#xFC;&#xE7;&#xFC;lt&#xFC;ld&#xFC;klerinde ve geri y&#xFC;klendiklerinde d&#xF6;n&#xFC;&#x15F;t&#xFC;r</long>
+    <long xml:lang="sv">Transformera f&#xF6;nster n&#xE4;r de minimeras och avminimeras</long>
+    <long xml:lang="sk">Transformova&#x165; okn&#xE1; pri ich minimalizovan&#xED; a sp&#xE4;tnom obnoven&#xED;</long>
+    <long xml:lang="ru">&#x41F;&#x440;&#x435;&#x43E;&#x431;&#x440;&#x430;&#x437;&#x43E;&#x432;&#x44B;&#x432;&#x430;&#x442;&#x44C; &#x43E;&#x43A;&#x43D;&#x430; &#x43F;&#x440;&#x438; &#x441;&#x432;&#x435;&#x440;&#x442;&#x44B;&#x432;&#x430;&#x43D;&#x438;&#x438; &#x438; &#x43E;&#x442;&#x43C;&#x435;&#x43D;&#x435; &#x441;&#x432;&#x435;&#x440;&#x442;&#x44B;&#x432;&#x430;&#x43D;&#x438;&#x44F;</long>
+    <long xml:lang="ro">Transformare ferestre c&#xEE;nd s&#xEE;nt minimizate &#x219;i deminimizate</long>
+    <long xml:lang="pt-BR">Transformar janelas quando elas forem minimizadas e desminimizadas</long>
+    <long xml:lang="pt">Transformar janelas quando elas forem minimizadas e desminimizadas</long>
+    <long xml:lang="pl">Przekszta&#x142;caj okna podczas minimalizacji i cofania minimalizacji</long>
+    <long xml:lang="pa">&#xA35;&#xA3F;&#xA70;&#xA21;&#xA4B; &#xA1F;&#xA30;&#xA3E;&#xA02;&#xA38;&#xA2B;&#xA30;&#xA2E; &#xA15;&#xA30;&#xA4B;, &#xA1C;&#xA26;&#xA4B;&#xA02; &#xA09;&#xA39; &#xA18;&#xA71;&#xA1F;&#xA4B;-&#xA18;&#xA71;&#xA1F; &#xA05;&#xA24;&#xA47; &#xA05;&#xA23;-&#xA18;&#xA71;&#xA1F;&#xA4B;-&#xA18;&#xA71;&#xA1F; &#xA39;&#xA4B;&#xA23;</long>
+    <long xml:lang="or">&#xB09;&#xB07;&#xB23;&#xB4D;&#xB21;&#xB4B; &#xB17;&#xB41;&#xB21;&#xB3F;&#xB15;&#xB41; &#xB30;&#xB42;&#xB2A;&#xB3E;&#xB28;&#xB4D;&#xB24;&#xB30; &#xB15;&#xB30; &#xB5F;&#xB47;&#xB2C;&#xB47; &#xB38;&#xB47;&#xB17;&#xB41;&#xB21;&#xB3F;&#xB15; &#xB28;&#xB4D;&#xB2F;&#xB41;&#xB28;&#xB24;&#xB2E; &#xB15;&#xB3F;&#xB2E;&#xB4D;&#xB2C;&#xB3E; &#xB05;&#xB23;-&#xB28;&#xB4D;&#xB2F;&#xB41;&#xB28;&#xB24;&#xB2E; &#xB39;&#xB41;&#xB05;&#xB28;&#xB4D;&#xB24;&#xB3F; </long>
+    <long xml:lang="nl">Transformeer vensters als deze worden geminimaliseerd en gemaximaliseerd</long>
+    <long xml:lang="nb">Omdann vinduer n&#xE5;r de minimeres og avminimeres</long>
+    <long xml:lang="ko">&#xCD5C;&#xC18C;&#xD654;&#xD558;&#xAC70;&#xB098; &#xD574;&#xC81C;&#xD560; &#xB54C; &#xCC3D; &#xBCC0;&#xD615;&#xD558;&#xAE30;</long>
+    <long xml:lang="ka">&#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10E0;&#x10D3;&#x10D0;&#x10E5;&#x10DB;&#x10DC;&#x10D0;, &#x10E0;&#x10DD;&#x10EA;&#x10D0; &#x10DB;&#x10D0;&#x10D7;&#x10D8; &#x10E9;&#x10D0;&#x10D9;&#x10D4;&#x10EA;&#x10D5;&#x10D0; &#x10D0;&#x10DC; &#x10D0;&#x10E6;&#x10D3;&#x10D2;&#x10D4;&#x10DC;&#x10D0; &#x10EE;&#x10D3;&#x10D4;&#x10D1;&#x10D0;</long>
+    <long xml:lang="ja">&#x6700;&#x5C0F;&#x5316;&#x304A;&#x3088;&#x3073;&#x6700;&#x5C0F;&#x5316;&#x89E3;&#x9664;&#x6642;&#x306E;&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x306E;&#x62E1;&#x7E2E;</long>
+    <long xml:lang="it">Trasforma le finestre quando vengono minimizzate e deminimizzate</long>
+    <long xml:lang="hu">Ablakok &#xE1;talak&#xED;t&#xE1;sa minimaliz&#xE1;l&#xE1;skor &#xE9;s vissza&#xE1;ll&#xED;t&#xE1;skor</long>
+    <long xml:lang="hr">Preoblikuj prozore kada se smanje i uve&#x107;aju</long>
+    <long xml:lang="hi">&#x935;&#x93F;&#x902;&#x921;&#x94B; &#x92C;&#x926;&#x932;&#x947;&#x902; &#x91C;&#x92C; &#x935;&#x947; &#x928;&#x94D;&#x92F;&#x942;&#x928;&#x924;&#x92E; &#x914;&#x930; &#x905;&#x927;&#x93F;&#x915;&#x924;&#x92E; &#x915;&#x93F;&#x90F; &#x91C;&#x93E;&#x924;&#x947; &#x939;&#x948;&#x902;</long>
+    <long xml:lang="he">&#x5E9;&#x5E0;&#x5D4; &#x5D0;&#x5EA; &#x5E6;&#x5D5;&#x5E8;&#x5EA; &#x5D4;&#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA; &#x5D1;&#x5E2;&#x5EA; &#x5DE;&#x5D6;&#x5E2;&#x5D5;&#x5E8; &#x5D5;&#x5E9;&#x5D7;&#x5D6;&#x5D5;&#x5E8;</long>
+    <long xml:lang="gu">&#xA9C;&#xACD;&#xAAF;&#xABE;&#xAB0;&#xAC7; &#xAB5;&#xABF;&#xAA8;&#xACD;&#xAA1;&#xACB; &#xAA8;&#xABE;&#xAA8;&#xAC0; &#xAA5;&#xABE;&#xAAF; &#xA85;&#xAA8;&#xAC7; &#xAA8;&#xABE;&#xAA8;&#xABE;&#xAAE;&#xABE;&#xA82;&#xAA5;&#xAC0; &#xAAA;&#xABE;&#xA9B;&#xAC0; &#xA86;&#xAB5;&#xAC7; &#xAA4;&#xACD;&#xAAF;&#xABE;&#xAB0;&#xAC7; &#xAAA;&#xAB0;&#xABF;&#xAB5;&#xAB9;&#xAA8; &#xA95;&#xAB0;&#xAB5;&#xABE;&#xAA8;&#xAC0; &#xAB5;&#xABF;&#xAA8;&#xACD;&#xAA1;&#xACB;</long>
+    <long xml:lang="gl">Transforma as xanelas cando son minimizadas e restauradas</long>
+    <long xml:lang="fr">Transformer les fen&#xEA;tres lorsqu'elles sont r&#xE9;duites ou agrandies</long>
+    <long xml:lang="fi">Animoi ikkunoiden pienennys ja suurennus</long>
+    <long xml:lang="eu">Eraldatu leihoak ikonotzean edo handitzean</long>
+    <long xml:lang="es">Transforma las ventanas cuando se minimizan o desminimizan</long>
+    <long xml:lang="en-GB">Transform windows when they are minimised and unminimised</long>
+    <long xml:lang="el">&#x39C;&#x3B5;&#x3C4;&#x3B1;&#x3C4;&#x3C1;&#x3BF;&#x3C0;&#x3AE; &#x3C0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3C9;&#x3BD; &#x3CC;&#x3C4;&#x3B1;&#x3BD; &#x3B5;&#x3AF;&#x3BD;&#x3B1;&#x3B9; &#x3B5;&#x3BB;&#x3B1;&#x3C7;&#x3B9;&#x3C3;&#x3C4;&#x3BF;&#x3C0;&#x3BF;&#x3B9;&#x3B7;&#x3BC;&#x3AD;&#x3BD;&#x3B1; &#x3BA;&#x3B1;&#x3B9; &#x3BC;&#x3AE;-&#x3B5;&#x3BB;&#x3B1;&#x3C7;&#x3B9;&#x3C3;&#x3C4;&#x3BF;&#x3C0;&#x3BF;&#x3B9;&#x3B7;&#x3BC;&#x3AD;&#x3BD;&#x3B1;</long>
+    <long xml:lang="de">Fenster beim Minimieren und beim Aufheben der Minimierung verformen</long>
+    <long xml:lang="da">Vinduer skal &#xE6;ndres, n&#xE5;r de minimeres og gendannes</long>
+    <long xml:lang="cs">Transformovat okna p&#x159;i jejich minimalizaci a zru&#x161;en&#xED; minimalizace</long>
+    <long xml:lang="ca">Transforma les finestres quan es minimitzen i es maximitzen</long>
+    <long xml:lang="bn">&#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB;&#x997;&#x9C1;&#x9B2;&#x9BF; &#x99B;&#x9CB;&#x99F; &#x98F;&#x9AC;&#x982; &#x9AC;&#x9A1;&#x9BC; &#x995;&#x9B0;&#x9BE;&#x9B0; &#x9B8;&#x9AE;&#x9DF; &#x9B8;&#x9C7;&#x997;&#x9C1;&#x9B2;&#x9BF; &#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9A8;&#x9BE;&#x9A8;&#x9CD;&#x9A4;&#x9B0;&#x9BF;&#x9A4; &#x995;&#x9B0;&#x9C7;</long>
+    <long xml:lang="bn-IN">&#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB;&#x997;&#x9C1;&#x9B2;&#x9BF; &#x99B;&#x9CB;&#x99F; &#x98F;&#x9AC;&#x982; &#x9AC;&#x9A1;&#x9BC; &#x995;&#x9B0;&#x9BE;&#x9B0; &#x9B8;&#x9AE;&#x9DF; &#x9B8;&#x9C7;&#x997;&#x9C1;&#x9B2;&#x9BF; &#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9A8;&#x9BE;&#x9A8;&#x9CD;&#x9A4;&#x9B0;&#x9BF;&#x9A4; &#x995;&#x9B0;&#x9C7;</long>
+    <category>Effects</category>
+    <feature>windowanimations</feature>
+    <deps>
+      <relation type="before">
+        <plugin>cube</plugin>
+        <plugin>scale</plugin>
+      </relation>
+    </deps>
+    <screen>
+      <option name="speed" type="float">
+        <short>Speed</short>
+        <short xml:lang="zh-Hant-TW">&#x901F;&#x5EA6;</short>
+        <short xml:lang="zh-Hans-CN">&#x901F;&#x5EA6;</short>
+        <short xml:lang="uk">&#x428;&#x432;&#x438;&#x434;&#x43A;&#x456;&#x441;&#x442;&#x44C;</short>
+        <short xml:lang="tr">H&#x131;z</short>
+        <short xml:lang="sv">Hastighet</short>
+        <short xml:lang="sk">R&#xFD;chlos&#x165;</short>
+        <short xml:lang="ru">&#x421;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x44C;</short>
+        <short xml:lang="ro">Vitez&#x103;</short>
+        <short xml:lang="pt-BR">Velocidade</short>
+        <short xml:lang="pt">Velocidade</short>
+        <short xml:lang="pl">Szybko&#x15B;&#x107;</short>
+        <short xml:lang="or">&#xB17;&#xB24;&#xB3F;</short>
+        <short xml:lang="nl">Snelheid</short>
+        <short xml:lang="nb">Hastighet</short>
+        <short xml:lang="ko">&#xC18D;&#xB3C4;</short>
+        <short xml:lang="ka">&#x10E1;&#x10D8;&#x10E9;&#x10E5;&#x10D0;&#x10E0;&#x10D4;</short>
+        <short xml:lang="ja">&#x901F;&#x5EA6;</short>
+        <short xml:lang="it">Velocit&#xE0;</short>
+        <short xml:lang="hu">Sebess&#xE9;g</short>
+        <short xml:lang="hr">Brzina</short>
+        <short xml:lang="he">&#x5DE;&#x5D4;&#x5D9;&#x5E8;&#x5D5;&#x5EA;</short>
+        <short xml:lang="gu">&#xA9D;&#xAA1;&#xAAA;</short>
+        <short xml:lang="gl">Velocidade</short>
+        <short xml:lang="fr">Vitesse</short>
+        <short xml:lang="fi">Nopeus</short>
+        <short xml:lang="eu">Abiadura</short>
+        <short xml:lang="es">Velocidad</short>
+        <short xml:lang="en-GB">Speed</short>
+        <short xml:lang="el">&#x3A4;&#x3B1;&#x3C7;&#x3CD;&#x3C4;&#x3B7;&#x3C4;&#x3B1;</short>
+        <short xml:lang="de">Geschwindigkeit</short>
+        <short xml:lang="da">Hastighed</short>
+        <short xml:lang="cs">Rychlost</short>
+        <short xml:lang="ca">Velocitat</short>
+        <short xml:lang="bg">&#x421;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;</short>
+        <long>Minimize speed</long>
+        <long xml:lang="zh-Hant-TW">&#x6700;&#x5C0F;&#x5316;&#x901F;&#x5EA6;</long>
+        <long xml:lang="zh-Hans-CN">&#x6700;&#x5C0F;&#x5316;&#x901F;&#x5EA6;</long>
+        <long xml:lang="uk">&#x428;&#x432;&#x438;&#x434;&#x43A;&#x456;&#x441;&#x442;&#x44C; &#x437;&#x433;&#x43E;&#x440;&#x442;&#x430;&#x43D;&#x43D;&#x44F;</long>
+        <long xml:lang="tr">K&#xFC;&#xE7;&#xFC;ltme H&#x131;z&#x131;</long>
+        <long xml:lang="sv">Minimeringshastighet</long>
+        <long xml:lang="sk">Minimalizova&#x165; r&#xFD;chlos&#x165;</long>
+        <long xml:lang="ru">&#x421;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x44C; &#x441;&#x432;&#x435;&#x440;&#x442;&#x44B;&#x432;&#x430;&#x43D;&#x438;&#x44F;</long>
+        <long xml:lang="ro">Vitez&#x103; minimizare</long>
+        <long xml:lang="pt-BR">Velocidade de minimiza&#xE7;&#xE3;o</long>
+        <long xml:lang="pt">Velocidade de minimiza&#xE7;&#xE3;o</long>
+        <long xml:lang="pl">Szybko&#x15B;&#x107; minimalizacji</long>
+        <long xml:lang="or">&#xB17;&#xB24;&#xB3F;&#xB15;&#xB41; &#xB28;&#xB4D;&#xB2F;&#xB41;&#xB28;&#xB24;&#xB2E;&#xB15;&#xB30;</long>
+        <long xml:lang="nl">Minimaliseer snelheid</long>
+        <long xml:lang="nb">Minimeringshastighet</long>
+        <long xml:lang="ko">&#xCD5C;&#xC18C;&#xD654; &#xC18D;&#xB3C4;</long>
+        <long xml:lang="ka">&#x10E9;&#x10D0;&#x10D9;&#x10D4;&#x10EA;&#x10D5;&#x10D8;&#x10E1; &#x10E1;&#x10D8;&#x10E9;&#x10E5;&#x10D0;&#x10E0;&#x10D4;</long>
+        <long xml:lang="ja">&#x6700;&#x5C0F;&#x5316;&#x901F;&#x5EA6;</long>
+        <long xml:lang="it">Velocit&#xE0; minimizzazione</long>
+        <long xml:lang="hu">Minimaliz&#xE1;l&#xE1;s sebess&#xE9;ge</long>
+        <long xml:lang="hr">Brzina smanjivanja</long>
+        <long xml:lang="he">&#x5DE;&#x5D4;&#x5D9;&#x5E8;&#x5D5;&#x5EA; &#x5DE;&#x5D6;&#x5E2;&#x5D5;&#x5E8;</long>
+        <long xml:lang="gu">&#xAA8;&#xACD;&#xAAF;&#xAC2;&#xAA8;&#xAA4;&#xAAE; &#xA95;&#xAB0;&#xAB5;&#xABE;&#xAA8;&#xAC0; &#xA9D;&#xAA1;&#xAAA;</long>
+        <long xml:lang="gl">Velocidade de minimizado</long>
+        <long xml:lang="fr">Vitesse de minimisation</long>
+        <long xml:lang="fi">Pienennykseen k&#xE4;ytetty aika</long>
+        <long xml:lang="eu">Ikonotze abiadura</long>
+        <long xml:lang="es">Velocidad al minimizar</long>
+        <long xml:lang="en-GB">Minimise speed</long>
+        <long xml:lang="el">&#x3A4;&#x3B1;&#x3C7;&#x3CD;&#x3C4;&#x3B7;&#x3C4;&#x3B1; &#x3B5;&#x3BB;&#x3B1;&#x3C7;&#x3B9;&#x3C3;&#x3C4;&#x3BF;&#x3C0;&#x3BF;&#x3AF;&#x3B7;&#x3C3;&#x3B7;&#x3C2;</long>
+        <long xml:lang="de">Minimiergeschwindigkeit</long>
+        <long xml:lang="da">S&#xE6;nk hastighed</long>
+        <long xml:lang="cs">Rychlost minimalizace</long>
+        <long xml:lang="ca">Minimitza la velocitat</long>
+        <long xml:lang="bn">&#x9B8;&#x9B0;&#x9CD;&#x9AC;&#x9A8;&#x9BF;&#x9AE;&#x9CD;&#x9A8; &#x995;&#x9B0;&#x9BE;&#x9B0; &#x997;&#x9A4;&#x9BF;</long>
+        <long xml:lang="bn-IN">&#x9B8;&#x9B0;&#x9CD;&#x9AC;&#x9A8;&#x9BF;&#x9AE;&#x9CD;&#x9A8; &#x995;&#x9B0;&#x9BE;&#x9B0; &#x997;&#x9A4;&#x9BF;</long>
+        <default>1.5</default>
+        <min>0.1</min>
+        <max>50.0</max>
+        <precision>0.1</precision>
+      </option>
+      <option name="timestep" type="float">
+        <short>Timestep</short>
+        <short xml:lang="zh-Hant-TW">&#x6642;&#x9593;&#x9593;&#x9694;</short>
+        <short xml:lang="zh-Hans-CN">&#x65F6;&#x95F4;&#x6B65;&#x957F;</short>
+        <short xml:lang="uk">&#x41A;&#x440;&#x43E;&#x43A; &#x447;&#x430;&#x441;&#x443;</short>
+        <short xml:lang="tr">S&#xFC;re aral&#x131;&#x11F;&#x131;</short>
+        <short xml:lang="sv">Tidsintervall</short>
+        <short xml:lang="sk">Krok</short>
+        <short xml:lang="ru">&#x428;&#x430;&#x433; &#x432;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x438;</short>
+        <short xml:lang="ro">Pas de timp</short>
+        <short xml:lang="pt-BR">Intervalo de tempo</short>
+        <short xml:lang="pt">Espa&#xE7;o de tempo</short>
+        <short xml:lang="pl">Op&#xF3;&#x17A;nienie</short>
+        <short xml:lang="or">&#xB38;&#xB2E;&#xB2F;&#xB38;&#xB4B;&#xB2A;&#xB3E;&#xB28;</short>
+        <short xml:lang="nl">Tijdstempel</short>
+        <short xml:lang="nb">Tidsskritt</short>
+        <short xml:lang="ko">&#xC2DC;&#xAC04; &#xAC04;&#xACA9;</short>
+        <short xml:lang="ka">&#x10D3;&#x10E0;&#x10DD;&#x10D8;&#x10E1; &#x10DC;&#x10D0;&#x10D1;&#x10D8;&#x10EF;&#x10D8;</short>
+        <short xml:lang="ja">&#x63CF;&#x753B;&#x306E;&#x6642;&#x9593;&#x523B;&#x307F;</short>
+        <short xml:lang="it">Intervallo</short>
+        <short xml:lang="hu">Id&#x151;k&#xF6;z</short>
+        <short xml:lang="hr">Vremenski korak</short>
+        <short xml:lang="he">&#x5D9;&#x5D7;&#x5D9;&#x5D3;&#x5EA; &#x5D6;&#x5DE;&#x5DF;</short>
+        <short xml:lang="gu">&#xAB8;&#xAAE;&#xAAF;&#xAAA;&#xA97;&#xAB2;&#xAC1;&#xA82;</short>
+        <short xml:lang="gl">Saltos do tempo</short>
+        <short xml:lang="fr">Intervalle</short>
+        <short xml:lang="fi">Aikaviive</short>
+        <short xml:lang="eu">denbora-pausoa</short>
+        <short xml:lang="es">Paso</short>
+        <short xml:lang="en-GB">Timestep</short>
+        <short xml:lang="el">&#x3A7;&#x3C1;&#x3BF;&#x3BD;&#x3B9;&#x3BA;&#x3CC; &#x392;&#x3AE;&#x3BC;&#x3B1;</short>
+        <short xml:lang="de">Zeitintervall</short>
+        <short xml:lang="da">Tidstrin</short>
+        <short xml:lang="cs">&#x10C;asov&#xFD; krok</short>
+        <short xml:lang="ca">Gradual</short>
+        <long>Minimize timestep</long>
+        <long xml:lang="zh-Hant-TW">&#x6700;&#x5C0F;&#x5316;&#x6642;&#x9593;&#x9593;&#x9694;</long>
+        <long xml:lang="zh-Hans-CN">&#x6700;&#x5C0F;&#x5316;&#x65F6;&#x95F4;&#x6B65;&#x957F;</long>
+        <long xml:lang="uk">&#x41A;&#x432;&#x430;&#x43D;&#x442; &#x447;&#x430;&#x441;&#x443; &#x437;&#x433;&#x43E;&#x440;&#x442;&#x430;&#x43D;&#x43D;&#x44F;</long>
+        <long xml:lang="tr">K&#xFC;&#xE7;&#xFC;ltme zaman aral&#x131;&#x11F;&#x131;</long>
+        <long xml:lang="sv">Tidsintervall f&#xF6;r minimering</long>
+        <long xml:lang="sk">Minimalizova&#x165; &#x10D;asov&#xFD; krok</long>
+        <long xml:lang="ru">&#x41A;&#x432;&#x430;&#x43D;&#x442; &#x432;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x438; &#x441;&#x432;&#x435;&#x440;&#x442;&#x44B;&#x432;&#x430;&#x43D;&#x438;&#x44F;</long>
+        <long xml:lang="ro">Pas de timp minimizare</long>
+        <long xml:lang="pt-BR">Intervalo de tempo de minimiza&#xE7;&#xE3;o</long>
+        <long xml:lang="pt">Timestep de minimiza&#xE7;&#xE3;o</long>
+        <long xml:lang="pl">Op&#xF3;&#x17A;nienie minimalizacji</long>
+        <long xml:lang="or">&#xB38;&#xB2E;&#xB2F;&#xB38;&#xB4B;&#xB2A;&#xB3E;&#xB28;&#xB15;&#xB41; &#xB28;&#xB4D;&#xB2F;&#xB41;&#xB28;&#xB24;&#xB2E;&#xB15;&#xB30;</long>
+        <long xml:lang="nl">Minimaliseer tijdstempel</long>
+        <long xml:lang="nb">Tidsskritt for minimering</long>
+        <long xml:lang="ko">&#xCD5C;&#xC18C;&#xD654; &#xC2DC;&#xAC04; &#xAC04;&#xACA9;</long>
+        <long xml:lang="ka">&#x10E9;&#x10D0;&#x10D9;&#x10D4;&#x10EA;&#x10D5;&#x10D8;&#x10E1; &#x10D3;&#x10E0;&#x10DD;&#x10D8;&#x10E1; &#x10D1;&#x10D8;&#x10EF;&#x10D8;</long>
+        <long xml:lang="ja">&#x6700;&#x5C0F;&#x5316;&#x306E;&#x63CF;&#x753B;&#x6642;&#x9593;&#x523B;&#x307F;</long>
+        <long xml:lang="it">Intervallo minimizzazione</long>
+        <long xml:lang="hu">Minimaliz&#xE1;l&#xE1;si id&#x151;k&#xF6;z</long>
+        <long xml:lang="hr">Vremenski korak smanjivanja</long>
+        <long xml:lang="he">&#x5D9;&#x5D7;&#x5D9;&#x5D3;&#x5EA; &#x5D6;&#x5DE;&#x5DF; &#x5DC;&#x5DE;&#x5D6;&#x5E2;&#x5D5;&#x5E8;</long>
+        <long xml:lang="gu">&#xAB8;&#xAAE;&#xAAF;&#xAA8;&#xACB;&#xA82;&#xAA7; &#xAA8;&#xACD;&#xAAF;&#xAC2;&#xAA8;&#xAA4;&#xAAE; &#xA95;&#xAB0;&#xACB;</long>
+        <long xml:lang="gl">Atraso no minimizado</long>
+        <long xml:lang="fr">Intervalle de minimisation</long>
+        <long xml:lang="fi">Pienennyksen aikav&#xE4;li</long>
+        <long xml:lang="eu">Ikonotze denbora-pausoa</long>
+        <long xml:lang="es">Paso al minimizar</long>
+        <long xml:lang="en-GB">Minimise timestep</long>
+        <long xml:lang="el">&#x3A7;&#x3C1;&#x3BF;&#x3BD;&#x3B9;&#x3BA;&#x3CC; &#x3B2;&#x3AE;&#x3BC;&#x3B1; &#x3B5;&#x3BB;&#x3B1;&#x3C7;&#x3B9;&#x3C3;&#x3C4;&#x3BF;&#x3C0;&#x3BF;&#x3AF;&#x3B7;&#x3C3;&#x3B7;&#x3C2;</long>
+        <long xml:lang="de">Minimierintervall</long>
+        <long xml:lang="da">Minimer tidstrin</long>
+        <long xml:lang="cs">&#x10C;asov&#xFD; krok minimalizace</long>
+        <long xml:lang="ca">Minimitzaci&#xF3; gradual</long>
+        <default>0.5</default>
+        <min>0.1</min>
+        <max>50.0</max>
+        <precision>0.1</precision>
+      </option>
+      <option name="window_match" type="match">
+        <short>Minimize Windows</short>
+        <short xml:lang="zh-Hant-TW">&#x6700;&#x5C0F;&#x5316;&#x8996;&#x7A97;</short>
+        <short xml:lang="zh-Hans-CN">&#x6700;&#x5C0F;&#x5316;&#x7A97;&#x53E3;</short>
+        <short xml:lang="uk">&#x417;&#x433;&#x43E;&#x440;&#x43D;&#x443;&#x442;&#x438; &#x432;&#x456;&#x43A;&#x43D;&#x430;</short>
+        <short xml:lang="tr">Pencereleri K&#xFC;&#xE7;&#xFC;lt</short>
+        <short xml:lang="sv">Minimera f&#xF6;nster</short>
+        <short xml:lang="sk">Minimalizova&#x165; okn&#xE1;</short>
+        <short xml:lang="ru">&#x421;&#x432;&#x435;&#x440;&#x43D;&#x443;&#x442;&#x44C; &#x43E;&#x43A;&#x43D;&#x430;</short>
+        <short xml:lang="ro">Minimizeaz&#x103; ferestrele</short>
+        <short xml:lang="pt-BR">Minimizar Janelas</short>
+        <short xml:lang="pt">Minimizar Janelas</short>
+        <short xml:lang="pl">Minimalizuj okna</short>
+        <short xml:lang="or">&#xB09;&#xB07;&#xB23;&#xB4D;&#xB21;&#xB4B;&#xB15;&#xB41; &#xB28;&#xB4D;&#xB2F;&#xB41;&#xB28;&#xB24;&#xB2E; &#xB15;&#xB30;</short>
+        <short xml:lang="nl">Venster minimaliseren</short>
+        <short xml:lang="nb">Minimer vinduer</short>
+        <short xml:lang="ko">&#xCC3D; &#xCD5C;&#xC18C;&#xD654;</short>
+        <short xml:lang="ka">&#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10E9;&#x10D0;&#x10D9;&#x10D4;&#x10EA;&#x10D5;&#x10D0;</short>
+        <short xml:lang="ja">&#x6700;&#x5C0F;&#x5316;&#x6642;&#x52B9;&#x679C;&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;</short>
+        <short xml:lang="it">Finestre da minimizzare</short>
+        <short xml:lang="hu">Ablak minimaliz&#xE1;l&#xE1;sa</short>
+        <short xml:lang="hr">Smanjivanje prozora</short>
+        <short xml:lang="he">&#x5DE;&#x5D6;&#x5E2;&#x5D5;&#x5E8; &#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA;</short>
+        <short xml:lang="gu">&#xAB5;&#xABF;&#xAA8;&#xACD;&#xAA1;&#xACB; &#xAA8;&#xACD;&#xAAF;&#xAC2;&#xAA8;&#xAA4;&#xAAE; &#xA95;&#xAB0;&#xACB;</short>
+        <short xml:lang="gl">Minimizar as Fiestras</short>
+        <short xml:lang="fr">Minimiser la fen&#xEA;tre</short>
+        <short xml:lang="fi">Pienenn&#xE4; ikkunat</short>
+        <short xml:lang="eu">Ikonotu leihoak</short>
+        <short xml:lang="es">Minimizar ventanas</short>
+        <short xml:lang="en-GB">Minimise Windows</short>
+        <short xml:lang="el">&#x395;&#x3BB;&#x3B1;&#x3C7;&#x3B9;&#x3C3;&#x3C4;&#x3BF;&#x3C0;&#x3BF;&#x3AF;&#x3B7;&#x3C3;&#x3B7; &#x3A0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3C9;&#x3BD;</short>
+        <short xml:lang="de">Minimierungseffekt f&#xFC;r Fenster</short>
+        <short xml:lang="cs">Minimalizovateln&#xE1; okna</short>
+        <short xml:lang="ca">Minimitza les finestres</short>
+        <short xml:lang="bn">&#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB;&#x997;&#x9C1;&#x9B2;&#x9BF; &#x99B;&#x9CB;&#x99F; &#x995;&#x9B0;&#x9BE;</short>
+        <short xml:lang="bn-IN">&#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB;&#x997;&#x9C1;&#x9B2;&#x9BF; &#x99B;&#x9CB;&#x99F; &#x995;&#x9B0;&#x9BE;</short>
+        <long>Windows that should be transformed when minimized</long>
+        <long xml:lang="zh-Hant-TW">&#x6700;&#x5C0F;&#x5316;&#x6642;&#x61C9;&#x8A72;&#x8B8A;&#x5316;&#x7684;&#x8996;&#x7A97;&#x985E;&#x578B;</long>
+        <long xml:lang="zh-Hans-CN">&#x6700;&#x5C0F;&#x5316;&#x65F6;&#x5E94;&#x53D8;&#x5F62;&#x7684;&#x7A97;&#x53E3;</long>
+        <long xml:lang="uk">&#x412;&#x456;&#x43A;&#x43D;&#x430;, &#x44F;&#x43A;&#x456; &#x43F;&#x43E;&#x432;&#x438;&#x43D;&#x43D;&#x456; &#x431;&#x443;&#x442;&#x438; &#x43F;&#x435;&#x440;&#x435;&#x442;&#x432;&#x43E;&#x440;&#x435;&#x43D;&#x456; &#x43F;&#x440;&#x438; &#x437;&#x433;&#x43E;&#x440;&#x442;&#x430;&#x43D;&#x43D;&#x456;</long>
+        <long xml:lang="tr">K&#xFC;&#xE7;&#xFC;lt&#xFC;ld&#xFC;klerinde ve geri y&#xFC;klendiklerinde d&#xF6;n&#xFC;&#x15F;t&#xFC;r&#xFC;lecek pencereler</long>
+        <long xml:lang="sv">F&#xF6;nster som ska bli transformerade n&#xE4;r de blir minimerade</long>
+        <long xml:lang="sk">Okn&#xE1;, ktor&#xE9; by mali by&#x165; transformovan&#xE9; pri minimalizovan&#xED;</long>
+        <long xml:lang="ru">&#x41E;&#x43A;&#x43D;&#x430;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x435; &#x434;&#x43E;&#x43B;&#x436;&#x43D;&#x44B; &#x431;&#x44B;&#x442;&#x44C; &#x43F;&#x440;&#x435;&#x43E;&#x431;&#x440;&#x430;&#x437;&#x43E;&#x432;&#x430;&#x43D;&#x44B; &#x43F;&#x440;&#x438; &#x441;&#x432;&#x435;&#x440;&#x442;&#x44B;&#x432;&#x430;&#x43D;&#x438;&#x438;</long>
+        <long xml:lang="ro">Ferestrele care trebuiesc transformate la minimizare</long>
+        <long xml:lang="pt-BR">Janelas que devem ser transformadas quando minimizadas</long>
+        <long xml:lang="pt">Janelas que devem ser transformadas quando minimizadas</long>
+        <long xml:lang="pl">Typy okien, kt&#xF3;re maj&#x105; by&#x107; transformowane podczas minimalizacji</long>
+        <long xml:lang="pa">&#xA35;&#xA3F;&#xA70;&#xA21;&#xA4B;, &#xA1C;&#xA4B; &#xA15;&#xA3F; &#xA18;&#xA71;&#xA1F;&#xA4B;-&#xA18;&#xA71;&#xA1F; &#xA15;&#xA30;&#xA28; &#xA26;&#xA4C;&#xA30;&#xA3E;&#xA28; &#xA1F;&#xA30;&#xA3E;&#xA02;&#xA38;&#xA2B;&#xA30;&#xA2E; &#xA15;&#xA40;&#xA24;&#xA40; &#xA1C;&#xA3E;&#xA35;&#xA47;</long>
+        <long xml:lang="or">&#xB09;&#xB07;&#xB23;&#xB4D;&#xB21;&#xB4B; &#xB5F;&#xB3E;&#xB39;&#xB3E;&#xB15;&#xB3F; &#xB30;&#xB42;&#xB2A;&#xB3E;&#xB28;&#xB4D;&#xB24;&#xB30;&#xB3F;&#xB24; &#xB39;&#xB47;&#xB2C;&#xB3E; &#xB09;&#xB1A;&#xB3F;&#xB24; &#xB5F;&#xB47;&#xB2C;&#xB47; &#xB28;&#xB4D;&#xB2F;&#xB41;&#xB28;&#xB24;&#xB2E; &#xB39;&#xB4B;&#xB07;&#xB25;&#xB3E;&#xB0F;</long>
+        <long xml:lang="nl">Te transformeren vesters tijdens minimaliseren</long>
+        <long xml:lang="nb">Vinduer som skal omdannes n&#xE5;r de minimeres</long>
+        <long xml:lang="ko">&#xCD5C;&#xC18C;&#xD654;&#xC2DC; &#xBCC0;&#xD615;&#xB418;&#xB294; &#xCC3D;</long>
+        <long xml:lang="ka">&#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D4;&#x10D1;&#x10D8;, &#x10E0;&#x10DD;&#x10DB;&#x10DA;&#x10D4;&#x10D1;&#x10D8;&#x10EA; &#x10D2;&#x10D0;&#x10E0;&#x10D3;&#x10D0;&#x10D8;&#x10E5;&#x10DB;&#x10DC;&#x10D4;&#x10D1;&#x10D0;, &#x10E0;&#x10DD;&#x10EA;&#x10D0; &#x10E9;&#x10D0;&#x10D9;&#x10D4;&#x10EA;&#x10D0;&#x10D5;&#x10D7;</long>
+        <long xml:lang="ja">&#x6700;&#x5C0F;&#x5316;&#x306E;&#x969B;&#x306B;&#x7E2E;&#x5C3A;&#x3055;&#x305B;&#x308B;&#x5BFE;&#x8C61;&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;</long>
+        <long xml:lang="it">Tipi di finestre da trasformare quando minimizzate</long>
+        <long xml:lang="hu">Minimaliz&#xE1;lt &#xE1;llapotban &#xE1;talak&#xED;tand&#xF3; ablakt&#xED;pusok</long>
+        <long xml:lang="hr">Prozori  koji trebaju biti preoblikovani pri smanjivanju</long>
+        <long xml:lang="hi">&#x935;&#x93F;&#x902;&#x921;&#x94B;&#x91C;&#x93C; &#x91C;&#x94B; &#x928;&#x94D;&#x92F;&#x942;&#x928;&#x924;&#x92E; &#x915;&#x930;&#x928;&#x947; &#x92A;&#x930; &#x930;&#x942;&#x92A;&#x93E;&#x902;&#x924;&#x930;&#x93F;&#x924; &#x915;&#x93F;&#x90F; &#x91C;&#x93E;&#x928;&#x947; &#x91A;&#x93E;&#x939;&#x93F;&#x90F;</long>
+        <long xml:lang="he">&#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA; &#x5E9;&#x5D9;&#x5E9; &#x5DC;&#x5E9;&#x5E0;&#x5D5;&#x5EA; &#x5D0;&#x5EA; &#x5E6;&#x5D5;&#x5E8;&#x5EA;&#x5DD; &#x5D1;&#x5E2;&#x5EA; &#x5DE;&#x5D6;&#x5E2;&#x5D5;&#x5E8;</long>
+        <long xml:lang="gu">&#xA9C;&#xACD;&#xAAF;&#xABE;&#xAB0;&#xAC7; &#xAA8;&#xACD;&#xAAF;&#xAC2;&#xAA8;&#xAA4;&#xAAE; &#xA95;&#xAB0;&#xAB5;&#xABE;&#xAA8;&#xAC0; &#xAB9;&#xACB;&#xAAF; &#xA95;&#xAC7; &#xA9C;&#xAC7;&#xAA8;&#xAC1;&#xA82; &#xAAA;&#xAB0;&#xABF;&#xAB5;&#xAB9;&#xAA8; &#xAA5;&#xAB5;&#xAC1;&#xA82; &#xA9C;&#xACB;&#xA88;&#xA8F; &#xAA4;&#xAC7; &#xAB5;&#xABF;&#xAA8;&#xACD;&#xAA1;&#xACB;</long>
+        <long xml:lang="gl">Fiestras se deben transformar cando sexan minimizadas</long>
+        <long xml:lang="fr">Types de fen&#xEA;tres &#xE0; transformer lorsqu'elles sont r&#xE9;duites</long>
+        <long xml:lang="fi">Ikkunatyypit, jotka tulisi muuntaa pienennett&#xE4;ess&#xE4;</long>
+        <long xml:lang="eu">Leihoak ikonotzean eraldatuko dira</long>
+        <long xml:lang="es">Tipos de ventana que deben transformarse al minimizarlas</long>
+        <long xml:lang="en-GB">Windows that should be transformed when minimised</long>
+        <long xml:lang="el">&#x3A0;&#x3B1;&#x3C1;&#x3AC;&#x3B8;&#x3C5;&#x3C1;&#x3B1; &#x3C0;&#x3BF;&#x3C5; &#x3B8;&#x3B1; &#x3BC;&#x3B5;&#x3C4;&#x3B1;&#x3C4;&#x3C1;&#x3B1;&#x3C0;&#x3BF;&#x3CD;&#x3BD; &#x3BF;&#x3C4;&#x3B1;&#x3BD; &#x3B5;&#x3BB;&#x3B1;&#x3C7;&#x3B9;&#x3C3;&#x3C4;&#x3BF;&#x3C0;&#x3BF;&#x3B9;&#x3B7;&#x3B8;&#x3BF;&#x3CD;&#x3BD;</long>
+        <long xml:lang="de">Fenster, die beim Minimieren verformt werden sollen</long>
+        <long xml:lang="cs">Typy oken, kter&#xE1; se maj&#xED; p&#x159;i minimalizaci transformovat</long>
+        <long xml:lang="ca">Finestres que s'han de transformar quan es minimitzin</long>
+        <long xml:lang="bn">&#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB; &#x99B;&#x9CB;&#x99F; &#x995;&#x9B0;&#x9BE;&#x9B0; &#x9B8;&#x9AE;&#x9DF; &#x9AF;&#x9C7; &#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB;&#x997;&#x9C1;&#x9B2;&#x9BF; &#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9A8;&#x9BE;&#x9A8;&#x9CD;&#x9A4;&#x9B0;&#x9BF;&#x9A4; &#x995;&#x9B0;&#x9BE; &#x9B9;&#x9AC;&#x9C7;</long>
+        <long xml:lang="bn-IN">&#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB; &#x99B;&#x9CB;&#x99F; &#x995;&#x9B0;&#x9BE;&#x9B0; &#x9B8;&#x9AE;&#x9DF; &#x9AF;&#x9C7; &#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB;&#x997;&#x9C1;&#x9B2;&#x9BF; &#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9A8;&#x9BE;&#x9A8;&#x9CD;&#x9A4;&#x9B0;&#x9BF;&#x9A4; &#x995;&#x9B0;&#x9BE; &#x9B9;&#x9AC;&#x9C7;</long>
+        <default>any</default>
+      </option>
+      <option name="shade_resistance" type="int">
+        <short>Shade Resistance</short>
+        <short xml:lang="zh-Hant-TW">&#x906E;&#x853D;&#x963B;&#x529B;</short>
+        <short xml:lang="zh-Hans-CN">&#x6297;&#x906E;&#x853D;&#x6027;</short>
+        <short xml:lang="uk">&#x421;&#x442;&#x456;&#x439;&#x43A;&#x456;&#x441;&#x442;&#x44C; &#x442;&#x456;&#x43D;&#x456;</short>
+        <short xml:lang="tr">G&#xF6;lgeleme Direnci</short>
+        <short xml:lang="sv">Skuggmotst&#xE5;nd</short>
+        <short xml:lang="sk">St&#xE1;los&#x165; tie&#x148;a</short>
+        <short xml:lang="ru">&#x423;&#x441;&#x442;&#x43E;&#x439;&#x447;&#x438;&#x432;&#x43E;&#x441;&#x442;&#x44C; &#x442;&#x435;&#x43D;&#x438;</short>
+        <short xml:lang="ro">Rezisten&#x21B;&#x103; la umbrire</short>
+        <short xml:lang="pt-BR">Resist&#xEA;ncia de Sombra</short>
+        <short xml:lang="pt">Resist&#xEA;ncia de Sombra</short>
+        <short xml:lang="pl">Op&#xF3;r przyciemniania</short>
+        <short xml:lang="pa">&#xA38;&#xA3C;&#xA47;&#xA21; &#xA35;&#xA3F;&#xA30;&#xA4B;&#xA27;</short>
+        <short xml:lang="or">&#xB1B;&#xB3E;&#xB2F;&#xB3E; &#xB2A;&#xB4D;&#xB30;&#xB24;&#xB3F;&#xB30;&#xB4B;&#xB27;&#xB15;</short>
+        <short xml:lang="nl">Oprol weerstand</short>
+        <short xml:lang="nb">Skyggemotstand</short>
+        <short xml:lang="ko">&#xB9D0;&#xC544;&#xC62C;&#xB9AC;&#xAE30; &#xC800;&#xD56D;</short>
+        <short xml:lang="ka">&#x10E9;&#x10E0;&#x10D3;&#x10DA;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10DB;&#x10EB;&#x10DA;&#x10D4;&#x10DD;&#x10D1;&#x10D0;</short>
+        <short xml:lang="ja">&#x30B7;&#x30A7;&#x30FC;&#x30C9;&#x62B5;&#x6297;</short>
+        <short xml:lang="it">Resistenza sfumatura</short>
+        <short xml:lang="hu">Felg&#xF6;rd&#xED;t&#xE9;s ellen&#xE1;ll&#xE1;sa</short>
+        <short xml:lang="hr">Otpor sjenke</short>
+        <short xml:lang="hi">&#x91B;&#x93E;&#x92F;&#x93E; &#x92A;&#x94D;&#x930;&#x924;&#x93F;&#x930;&#x94B;&#x927;</short>
+        <short xml:lang="he">&#x5D4;&#x5EA;&#x5E0;&#x5D2;&#x5D3;&#x5D5;&#x5EA; &#x5D4;&#x5E6;&#x5DC;&#x5DC;&#x5D4;</short>
+        <short xml:lang="gu">&#xAAA;&#xAA1;&#xA9B;&#xABE;&#xAAF;&#xABE; &#xAB5;&#xABF;&#xAB0;&#xACB;&#xAA7;&#xAC0;</short>
+        <short xml:lang="gl">Resistencia da Sombra</short>
+        <short xml:lang="fr">R&#xE9;sistance de l'Ombre</short>
+        <short xml:lang="fi">Varjon vastussauma</short>
+        <short xml:lang="eu">Itzaltze Erresistentzia</short>
+        <short xml:lang="es">Resistencia de decoloraci&#xF3;n</short>
+        <short xml:lang="en-GB">Shade Resistance</short>
+        <short xml:lang="el">&#x391;&#x3BD;&#x3C4;&#x3AF;&#x3C3;&#x3C4;&#x3B1;&#x3C3;&#x3B7; &#x3C3;&#x3C4;&#x3B7; &#x3A3;&#x3BA;&#x3AF;&#x3B1;&#x3C3;&#x3B7;</short>
+        <short xml:lang="de">Schattenwiderstand</short>
+        <short xml:lang="da">Skyggemodstand</short>
+        <short xml:lang="cs">St&#xE1;lost st&#xED;nu</short>
+        <short xml:lang="ca">Resist&#xE8;ncia a l'ombra</short>
+        <short xml:lang="bn">&#x9B6;&#x9C7;&#x9A1; &#x9AA;&#x9CD;&#x9B0;&#x9A4;&#x9BF;&#x9B0;&#x9CB;&#x9A7;</short>
+        <short xml:lang="bn-IN">&#x9B6;&#x9C7;&#x9A1; &#x9AA;&#x9CD;&#x9B0;&#x9A4;&#x9BF;&#x9B0;&#x9CB;&#x9A7;</short>
+        <long>Shade resistance</long>
+        <long xml:lang="zh-Hant-TW">&#x906E;&#x853D;&#x963B;&#x529B;</long>
+        <long xml:lang="zh-Hans-CN">&#x6297;&#x906E;&#x853D;&#x6027;</long>
+        <long xml:lang="uk">&#x421;&#x442;&#x456;&#x439;&#x43A;&#x456;&#x441;&#x442;&#x44C; &#x442;&#x456;&#x43D;&#x456;</long>
+        <long xml:lang="tr">G&#xF6;lgeleme direnci</long>
+        <long xml:lang="sv">Skuggmotst&#xE5;nd</long>
+        <long xml:lang="sk">St&#xE1;los&#x165; tie&#x148;a</long>
+        <long xml:lang="ru">&#x423;&#x441;&#x442;&#x43E;&#x439;&#x447;&#x438;&#x432;&#x43E;&#x441;&#x442;&#x44C; &#x442;&#x435;&#x43D;&#x438;</long>
+        <long xml:lang="ro">Rezisten&#x21B;&#x103; la umbrire</long>
+        <long xml:lang="pt-BR">Resist&#xEA;ncia ao Sombrear</long>
+        <long xml:lang="pt">Resist&#xEA;ncia ao sombrear</long>
+        <long xml:lang="pl">Op&#xF3;r cieniowania</long>
+        <long xml:lang="pa">&#xA38;&#xA3C;&#xA47;&#xA21; &#xA35;&#xA3F;&#xA30;&#xA4B;&#xA27;</long>
+        <long xml:lang="or">&#xB1B;&#xB3E;&#xB2F;&#xB3E; &#xB2A;&#xB4D;&#xB30;&#xB24;&#xB3F;&#xB30;&#xB4B;&#xB27;&#xB15;</long>
+        <long xml:lang="nl">Oprol weerstand</long>
+        <long xml:lang="nb">Skyggemotstand</long>
+        <long xml:lang="ko">&#xB9D0;&#xC544;&#xC62C;&#xB9AC;&#xAE30; &#xC800;&#xD56D;</long>
+        <long xml:lang="ka">&#x10E9;&#x10E0;&#x10D3;&#x10DA;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10DB;&#x10EB;&#x10DA;&#x10D4;&#x10DD;&#x10D1;&#x10D0;</long>
+        <long xml:lang="ja">&#x30B7;&#x30A7;&#x30FC;&#x30C9;&#x62B5;&#x6297;</long>
+        <long xml:lang="it">Resistenza sfumatura</long>
+        <long xml:lang="hu">Felg&#xF6;rd&#xED;t&#xE9;s ellen&#xE1;ll&#xE1;sa</long>
+        <long xml:lang="hr">Otpor sjenke</long>
+        <long xml:lang="hi">&#x91B;&#x93E;&#x92F;&#x93E; &#x92A;&#x94D;&#x930;&#x924;&#x93F;&#x930;&#x94B;&#x927;</long>
+        <long xml:lang="he">&#x5D4;&#x5EA;&#x5E0;&#x5D2;&#x5D3;&#x5D5;&#x5EA; &#x5D4;&#x5E6;&#x5DC;&#x5DC;&#x5D4;</long>
+        <long xml:lang="gu">&#xAAA;&#xAA1;&#xA9B;&#xABE;&#xAAF;&#xABE; &#xAB5;&#xABF;&#xAB0;&#xACB;&#xAA7;&#xAC0;</long>
+        <long xml:lang="gl">Resistencia que op&#xF3;n a sombra ao minimizar a s&#xFA;a xanela</long>
+        <long xml:lang="fr">R&#xE9;sistance de l'ombre</long>
+        <long xml:lang="fi">Varjon vastussauma</long>
+        <long xml:lang="eu">Itzaltze erresistentzia</long>
+        <long xml:lang="es">Resistencia a la decoloraci&#xF3;n</long>
+        <long xml:lang="en-GB">Shade resistance</long>
+        <long xml:lang="el">&#x391;&#x3BD;&#x3C4;&#x3AF;&#x3C3;&#x3C4;&#x3B1;&#x3C3;&#x3B7; &#x3C3;&#x3C4;&#x3B7; &#x3C3;&#x3BA;&#x3AF;&#x3B1;&#x3C3;&#x3B7;</long>
+        <long xml:lang="de">Schattenwiderstand</long>
+        <long xml:lang="da">Skyggemodstand</long>
+        <long xml:lang="cs">St&#xE1;lost st&#xED;nu</long>
+        <long xml:lang="ca">Resist&#xE8;ncia a l'ombra</long>
+        <long xml:lang="bn">&#x9B6;&#x9C7;&#x9A1; &#x9AA;&#x9CD;&#x9B0;&#x9A4;&#x9BF;&#x9B0;&#x9CB;&#x9A7;</long>
+        <long xml:lang="bn-IN">&#x9B6;&#x9C7;&#x9A1; &#x9AA;&#x9CD;&#x9B0;&#x9A4;&#x9BF;&#x9B0;&#x9CB;&#x9A7;</long>
+        <default>75</default>
+        <min>0</min>
+        <max>100</max>
+      </option>
+    </screen>
+  </plugin>
+</compiz>

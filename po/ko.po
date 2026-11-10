@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: compiz\n"
 "Report-Msgid-Bugs-To: https://gitlab.com/compiz/compiz-core/issues\n"
-"POT-Creation-Date: 2020-11-04 22:19-0500\n"
+"POT-Creation-Date: 2026-11-09 16:35+0300\n"
 "PO-Revision-Date: 2009-09-30 15:52+0200\n"
 "Last-Translator: Lee June Hee <bugbear5@gmail.com>\n"
 "Language-Team: Korean <ko@li.org>\n"
@@ -1286,6 +1286,26 @@ msgstr "이전 슬라이드"
 
 msgid "Go back to previous slide"
 msgstr "이전 슬라이드로 가기"
+
+msgid "Zoom In"
+msgstr "확대"
+
+msgid "Zoom in while the cube is active"
+msgstr ""
+
+msgid "Zoom Out"
+msgstr "축소"
+
+msgid "Zoom out while the cube is active"
+msgstr ""
+
+#, fuzzy
+#| msgid "Rotation Zoom"
+msgid "Reset Zoom"
+msgstr "회전시 확대"
+
+msgid "Reset the cube zoom while it is active"
+msgstr ""
 
 msgid "Generate mipmaps when possible for higher quality scaling"
 msgstr "높은 품질을 얻기 위해 가능한 경우 mipmap을 생성"
@@ -3046,12 +3066,6 @@ msgstr "데스크탑 확대"
 
 msgid "Zoom and pan desktop cube"
 msgstr "데스크탑 큐브 확대 이동"
-
-msgid "Zoom In"
-msgstr "확대"
-
-msgid "Zoom Out"
-msgstr "축소"
 
 msgid "Zoom Pan"
 msgstr "확대 이동"

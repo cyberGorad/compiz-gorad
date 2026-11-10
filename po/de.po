@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: compiz\n"
 "Report-Msgid-Bugs-To: https://gitlab.com/compiz/compiz-core/issues\n"
-"POT-Creation-Date: 2020-11-04 22:19-0500\n"
+"POT-Creation-Date: 2026-11-09 16:35+0300\n"
 "PO-Revision-Date: 2009-06-25 17:56+0200\n"
 "Last-Translator: sven knoblach <s.knoblach@web.de>\n"
 "Language-Team: German <opensuse-translation-de@opensuse.org>\n"
@@ -1529,6 +1529,25 @@ msgstr "Vorheriges Dia"
 
 msgid "Go back to previous slide"
 msgstr "Zurück zum vorherigen Dia"
+
+msgid "Zoom In"
+msgstr "Ansicht vergrößern"
+
+msgid "Zoom in while the cube is active"
+msgstr ""
+
+msgid "Zoom Out"
+msgstr "Ansicht verkleinern"
+
+msgid "Zoom out while the cube is active"
+msgstr ""
+
+#, fuzzy
+msgid "Reset Zoom"
+msgstr "Zoom während des Drehens"
+
+msgid "Reset the cube zoom while it is active"
+msgstr ""
 
 msgid "Generate mipmaps when possible for higher quality scaling"
 msgstr "Wenn möglich für präzise Skalierung Mipmaps erstellen"
@@ -3370,12 +3389,6 @@ msgstr "Desktop zoomen"
 
 msgid "Zoom and pan desktop cube"
 msgstr "Desktop-Würfel zoomen und schwenken"
-
-msgid "Zoom In"
-msgstr "Ansicht vergrößern"
-
-msgid "Zoom Out"
-msgstr "Ansicht verkleinern"
 
 msgid "Zoom Pan"
 msgstr "Ansicht verschieben"

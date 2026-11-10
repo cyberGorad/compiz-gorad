@@ -1,0 +1,956 @@
+<?xml version="1.0"?>
+<compiz>
+  <plugin name="wall" useBcop="true">
+    <short>Desktop Wall</short>
+    <short xml:lang="ka">&#x10E1;&#x10D0;&#x10DB;&#x10E3;&#x10E8;&#x10D0;&#x10DD; &#x10DB;&#x10D0;&#x10D2;&#x10D8;&#x10D3;&#x10D8;&#x10E1; &#x10E4;&#x10DD;&#x10DC;&#x10D8;</short>
+    <short xml:lang="hr">Zid radne povr&#x161;ine</short>
+    <short xml:lang="fr">Mur de bureau</short>
+    <short xml:lang="en-GB">Desktop Wall</short>
+    <short xml:lang="ca">Mur de l'escriptori</short>
+    <long>Desktop Wall Plugin</long>
+    <long xml:lang="ka">&#x10E1;&#x10D0;&#x10DB;&#x10E3;&#x10E8;&#x10D0;&#x10DD; &#x10DB;&#x10D0;&#x10D2;&#x10D8;&#x10D3;&#x10D8;&#x10E1; &#x10E4;&#x10DD;&#x10DC;&#x10D8;&#x10E1; &#x10D3;&#x10D0;&#x10DB;&#x10D0;&#x10E2;&#x10D4;&#x10D1;&#x10D0;</long>
+    <long xml:lang="hr">Priklju&#x10D;ak zida radne povr&#x161;ine</long>
+    <long xml:lang="fr">Greffon du mur de bureau</long>
+    <long xml:lang="en-GB">Desktop Wall Plugin</long>
+    <long xml:lang="ca">Connector del mur de l'escriptori</long>
+    <category>Desktop</category>
+    <feature>largedesktop</feature>
+    <deps>
+      <relation type="after">
+        <plugin>decoration</plugin>
+      </relation>
+      <relation type="before">
+        <plugin>wobbly</plugin>
+        <plugin>fade</plugin>
+      </relation>
+    </deps>
+    <display>
+      <group>
+        <short>Viewport Switch Preview</short>
+        <short xml:lang="hr">Pregled mijenjanja podru&#x10D;ja prikaza</short>
+        <short xml:lang="fr">Aper&#xE7;u du commutateur de la fen&#xEA;tre d'affichage</short>
+        <short xml:lang="en-GB">Viewport Switch Preview</short>
+        <short xml:lang="ca">Vista pr&#xE8;via del canvi d'&#xE0;rea de visualitzaci&#xF3;</short>
+        <option name="show_switcher" type="bool">
+          <short>Show Viewport Switcher Preview</short>
+          <short xml:lang="hr">Prika&#x17E;i pregled mjenja&#x10D;a podru&#x10D;ja prikaza</short>
+          <short xml:lang="fr">Aper&#xE7;u du s&#xE9;lecteur de fen&#xEA;tre d'affichage</short>
+          <short xml:lang="en-GB">Show Viewport Switcher Preview</short>
+          <short xml:lang="ca">Mostra la vista pr&#xE8;via del commutador d'&#xE0;rea de visualitzaci&#xF3;</short>
+          <long>Show switcher window while switching viewports</long>
+          <long xml:lang="hr">Prikazuje prozor mjenja&#x10D;a tijekom mijenjanja podru&#x10D;ja prikaza</long>
+          <long xml:lang="fr">Tourner vers la fen&#xEA;tre s&#xE9;lectionn&#xE9;e pendant la commutation</long>
+          <long xml:lang="en-GB">Show switcher window while switching viewports</long>
+          <long xml:lang="ca">Mostra la finestra del commutador mentre es canvien les &#xE0;rees de visualitzaci&#xF3;</long>
+          <default>true</default>
+        </option>
+        <option name="miniscreen" type="bool">
+          <short>Show Live Viewport Previews</short>
+          <short xml:lang="hr">Prika&#x17E;i pregled emitiranih podru&#x10D;ja prikaza</short>
+          <short xml:lang="fr">Afficher les aper&#xE7;us en direct de la fen&#xEA;tre d'affichage</short>
+          <short xml:lang="en-GB">Show Live Viewport Previews</short>
+          <short xml:lang="ca">Mostra en directe les vistes pr&#xE8;vies de les &#xE0;rees de visualitzaci&#xF3;</short>
+          <long>Show live viewport previews in switcher window</long>
+          <long xml:lang="hr">Prikazuje pregled emitiranih podru&#x10D;ja prikaza u prozoru mjenja&#x10D;a</long>
+          <long xml:lang="fr">Afficher les aper&#xE7;us en direct dans la fen&#xEA;tre du commutateur</long>
+          <long xml:lang="en-GB">Show live viewport previews in switcher window</long>
+          <long xml:lang="ca">Mostra en directe les vistes pr&#xE8;vies de les &#xE0;rees de visualitzaci&#xF3; a la finestra del commutador</long>
+          <default>false</default>
+        </option>
+        <option name="preview_timeout" type="float">
+          <short>Switch Target Preview Visibility Time</short>
+          <short xml:lang="ka">&#x10E1;&#x10D0;&#x10DB;&#x10D8;&#x10D6;&#x10DC;&#x10D8;&#x10E1; &#x10DB;&#x10D8;&#x10DC;&#x10D8;&#x10D0;&#x10E2;&#x10E3;&#x10E0;&#x10D8;&#x10E1; &#x10EE;&#x10D8;&#x10DA;&#x10D5;&#x10D0;&#x10D3;&#x10DD;&#x10D1;&#x10D8;&#x10E1; &#x10D3;&#x10E0;&#x10DD;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10E0;&#x10D7;&#x10D5;&#x10D0;</short>
+          <short xml:lang="hr">Vrijeme vidljivosti pregleda objekta mijenjanja</short>
+          <short xml:lang="fr">Changer le temps de visibilit&#xE9; de l'aper&#xE7;u de la cible</short>
+          <short xml:lang="en-GB">Switch Target Preview Visibility Time</short>
+          <short xml:lang="ca">Temps de visibilitat de la vista pr&#xE8;via de l'objectiu del canvi</short>
+          <long>Duration (in s) the switch target preview should remain visible after switching ends.</long>
+          <long xml:lang="hr">Trajanje (u sek) pregleda objekta mijenjanja, koliko treba ostati vidljiv nakon &#x161;to mijenjanje zavr&#x161;i.</long>
+          <long xml:lang="fr">Dur&#xE9;e (en s) pendant laquelle l'aper&#xE7;u de la cible de commutation doit rester visible apr&#xE8;s la fin de la commutation.</long>
+          <long xml:lang="en-GB">Duration (in s) the switch target preview should remain visible after switching ends.</long>
+          <long xml:lang="ca">La durada (en s) de la vista pr&#xE8;via de l'objectiu del canvi que ha de romandre visible despr&#xE9;s que acabi el canvi.</long>
+          <default>0.4</default>
+          <min>0.0</min>
+          <max>2.0</max>
+          <precision>0.05</precision>
+        </option>
+        <option name="preview_scale" type="int">
+          <short>Preview Scale</short>
+          <short xml:lang="ka">&#x10DB;&#x10D8;&#x10DC;&#x10D8;&#x10D0;&#x10E2;&#x10E3;&#x10E0;&#x10D8;&#x10E1; &#x10DB;&#x10D0;&#x10E1;&#x10E8;&#x10E2;&#x10D0;&#x10D1;&#x10D8;</short>
+          <short xml:lang="hr">Prilagodba veli&#x10D;ine pregleda</short>
+          <short xml:lang="fr">&#xC9;chelle de l'aper&#xE7;u</short>
+          <short xml:lang="en-GB">Preview Scale</short>
+          <short xml:lang="ca">Escalament de la vista pr&#xE8;via</short>
+          <long>Size of the preview in %</long>
+          <long xml:lang="ka">&#x10DB;&#x10D8;&#x10DC;&#x10D8;&#x10D0;&#x10E2;&#x10E3;&#x10E0;&#x10D8;&#x10E1; &#x10D6;&#x10DD;&#x10DB;&#x10D0;, %</long>
+          <long xml:lang="hr">Veli&#x10D;ina pregleda u %</long>
+          <long xml:lang="fr">Taille de l'aper&#xE7;u en %</long>
+          <long xml:lang="en-GB">Size of the preview in %</long>
+          <long xml:lang="ca">Mida de la vista pr&#xE8;via en %</long>
+          <default>100</default>
+          <min>0</min>
+          <max>400</max>
+        </option>
+        <option name="edge_radius" type="int">
+          <short>Edge Radius</short>
+          <short xml:lang="ka">&#x10EC;&#x10D8;&#x10D1;&#x10DD;&#x10E1; &#x10E0;&#x10D0;&#x10D3;&#x10D8;&#x10E3;&#x10E1;&#x10D8;</short>
+          <short xml:lang="hr">Polumjer ruba</short>
+          <short xml:lang="fr">Rayon du bord</short>
+          <short xml:lang="en-GB">Edge Radius</short>
+          <short xml:lang="ca">Radi de la vora</short>
+          <long>Radius of the rounded edge</long>
+          <long xml:lang="ka">&#x10DB;&#x10DD;&#x10DB;&#x10E0;&#x10D2;&#x10D5;&#x10D0;&#x10DA;&#x10D4;&#x10D1;&#x10E3;&#x10DA;&#x10D8; &#x10EC;&#x10D8;&#x10D1;&#x10DD;&#x10E1; &#x10E0;&#x10D0;&#x10D3;&#x10D8;&#x10E3;&#x10E1;&#x10D8;</long>
+          <long xml:lang="hr">Polumjer zaobljenog ruba</long>
+          <long xml:lang="fr">Rayon du bord arrondi</long>
+          <long xml:lang="en-GB">Radius of the rounded edge</long>
+          <long xml:lang="ca">Radi de la vora arrodonida</long>
+          <default>5</default>
+          <min>0</min>
+          <max>20</max>
+        </option>
+        <option name="border_width" type="int">
+          <short>Border Width</short>
+          <short xml:lang="ka">&#x10E1;&#x10D0;&#x10D6;&#x10E6;&#x10D5;&#x10E0;&#x10D8;&#x10E1; &#x10E1;&#x10D8;&#x10D2;&#x10D0;&#x10DC;&#x10D4;</short>
+          <short xml:lang="hr">&#x160;irina ruba</short>
+          <short xml:lang="fr">Largeur de la bordure</short>
+          <short xml:lang="en-GB">Border Width</short>
+          <short xml:lang="ca">Amplada del contorn</short>
+          <long>Width of the border between the previews</long>
+          <long xml:lang="ka">&#x10E1;&#x10D0;&#x10D6;&#x10E6;&#x10D5;&#x10E0;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10E1;&#x10D8;&#x10D2;&#x10D0;&#x10DC;&#x10D4; &#x10DB;&#x10D8;&#x10DC;&#x10D8;&#x10D0;&#x10E2;&#x10E3;&#x10E0;&#x10D4;&#x10D1;&#x10E1; &#x10E8;&#x10DD;&#x10E0;&#x10D8;&#x10E1;</long>
+          <long xml:lang="hr">&#x160;irina ruba izme&#x111;u pregleda</long>
+          <long xml:lang="fr">Largeur de la bordure entre les aper&#xE7;us</long>
+          <long xml:lang="en-GB">Width of the border between the previews</long>
+          <long xml:lang="ca">Amplada del contorn entre les vistes pr&#xE8;vies</long>
+          <default>10</default>
+          <min>0</min>
+          <max>30</max>
+        </option>
+        <option name="outline_color" type="color">
+          <short>Outline Color</short>
+          <short xml:lang="ka">&#x10D9;&#x10D8;&#x10D3;&#x10D8;&#x10E1; &#x10E4;&#x10D4;&#x10E0;&#x10D8;</short>
+          <short xml:lang="hr">Boja obruba</short>
+          <short xml:lang="fr">Couleur du contour</short>
+          <short xml:lang="en-GB">Outline Colour</short>
+          <short xml:lang="ca">Color del contorn</short>
+          <long>Outline color of the switcher window.</long>
+          <long xml:lang="ka">&#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10DB;&#x10E0;&#x10D7;&#x10D5;&#x10D4;&#x10DA;&#x10D8; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10E0;&#x10D4; &#x10E1;&#x10D0;&#x10D6;&#x10E6;&#x10D5;&#x10E0;&#x10D8;&#x10E1; &#x10E4;&#x10D4;&#x10E0;&#x10D8;.</long>
+          <long xml:lang="hr">Boja obruba prozora mijenjanja</long>
+          <long xml:lang="en-GB">Outline colour of the switcher window.</long>
+          <long xml:lang="ca">El color del contorn de la finestra del commutador.</long>
+          <default>
+            <red>0x3333</red>
+            <green>0x3333</green>
+            <blue>0x3333</blue>
+            <alpha>0xd998</alpha>
+          </default>
+        </option>
+        <subgroup>
+          <short>Background Gradient</short>
+          <short xml:lang="ka">&#x10E4;&#x10DD;&#x10DC;&#x10D8;&#x10E1; &#x10D2;&#x10E0;&#x10D0;&#x10D3;&#x10D8;&#x10D4;&#x10DC;&#x10E2;&#x10D8;</short>
+          <short xml:lang="hr">Prijelaz pozadine</short>
+          <short xml:lang="en-GB">Background Gradient</short>
+          <short xml:lang="ca">Degradat del fons</short>
+          <option name="background_gradient_base_color" type="color">
+            <short>Base Color</short>
+            <short xml:lang="ka">&#x10EB;&#x10D8;&#x10E0;&#x10D8;&#x10D7;&#x10D0;&#x10D3;&#x10D8; &#x10E4;&#x10D4;&#x10E0;&#x10D8;</short>
+            <short xml:lang="hr">Osnovna boja</short>
+            <short xml:lang="en-GB">Base Colour</short>
+            <short xml:lang="ca">Color base</short>
+            <long>First color for the background gradient of the switcher window.</long>
+            <long xml:lang="hr">Prva boja prijelaza pozadine mjenja&#x10D;a prozora.</long>
+            <long xml:lang="en-GB">First colour for the background gradient of the switcher window.</long>
+            <long xml:lang="ca">El primer color per al degradat del fons de la finestra del commutador.</long>
+            <default>
+              <red>0xcccc</red>
+              <green>0xcccc</green>
+              <blue>0xe665</blue>
+              <alpha>0xd998</alpha>
+            </default>
+          </option>
+          <option name="background_gradient_highlight_color" type="color">
+            <short>Highlight Color</short>
+            <short xml:lang="ka">&#x10D2;&#x10D0;&#x10DB;&#x10DD;&#x10D9;&#x10D5;&#x10D4;&#x10D7;&#x10D8;&#x10E1; &#x10E4;&#x10D4;&#x10E0;&#x10D8;</short>
+            <short xml:lang="hr">Boja nagla&#x161;avanja</short>
+            <short xml:lang="en-GB">Highlight Colour</short>
+            <short xml:lang="ca">Color de ressaltament</short>
+            <long>Second color for the background gradient of the switcher window.</long>
+            <long xml:lang="hr">Druga boja prijelaza pozadine mjenja&#x10D;a prozora.</long>
+            <long xml:lang="en-GB">Second colour for the background gradient of the switcher window.</long>
+            <long xml:lang="ca">El segon color per al degradat del fons de la finestra del commutador.</long>
+            <default>
+              <red>0xf332</red>
+              <green>0xf332</green>
+              <blue>0xffff</blue>
+              <alpha>0xd998</alpha>
+            </default>
+          </option>
+          <option name="background_gradient_shadow_color" type="color">
+            <short>Shadow Color</short>
+            <short xml:lang="zh-Hant-TW">&#x9670;&#x5F71;&#x984F;&#x8272;</short>
+            <short xml:lang="zh-Hans-CN">&#x9634;&#x5F71;&#x989C;&#x8272;</short>
+            <short xml:lang="uk">&#x41A;&#x43E;&#x43B;&#x456;&#x440; &#x442;&#x456;&#x43D;&#x456;</short>
+            <short xml:lang="tr">G&#xF6;lge Rengi</short>
+            <short xml:lang="sv">Skuggf&#xE4;rg</short>
+            <short xml:lang="sk">Farba tie&#x148;a</short>
+            <short xml:lang="ru">&#x426;&#x432;&#x435;&#x442; &#x442;&#x435;&#x43D;&#x438;</short>
+            <short xml:lang="ro">Culoare umbr&#x103;</short>
+            <short xml:lang="pt-BR">Cor da sombra</short>
+            <short xml:lang="pt">Cor da sombra</short>
+            <short xml:lang="pl">Kolor cienia</short>
+            <short xml:lang="or">&#xB1B;&#xB3E;&#xB2F;&#xB3E;&#xB30;&#xB19;&#xB4D;&#xB17;</short>
+            <short xml:lang="nl">Schaduw kleur</short>
+            <short xml:lang="nb">Skyggefarge</short>
+            <short xml:lang="ko">&#xADF8;&#xB9BC;&#xC790; &#xC0C9;</short>
+            <short xml:lang="ka">&#x10E9;&#x10E0;&#x10D3;&#x10D8;&#x10DA;&#x10D8;&#x10E1; &#x10E4;&#x10D4;&#x10E0;&#x10D8;</short>
+            <short xml:lang="ja">&#x5F71;&#x306E;&#x8272;</short>
+            <short xml:lang="it">Colore ombreggiatura</short>
+            <short xml:lang="hu">&#xC1;rny&#xE9;k sz&#xED;ne</short>
+            <short xml:lang="hr">Boja sjenke</short>
+            <short xml:lang="he">&#x5E6;&#x5D1;&#x5E2; &#x5D4;&#x5E6;&#x5DC;</short>
+            <short xml:lang="gu">&#xAAA;&#xAA1;&#xA9B;&#xABE;&#xAAF;&#xABE; &#xAB0;&#xA82;&#xA97;</short>
+            <short xml:lang="gl">Cor da sombra</short>
+            <short xml:lang="fr">Couleur de l'ombre</short>
+            <short xml:lang="fi">Varjon v&#xE4;ri</short>
+            <short xml:lang="eu">Itzal Kolorea</short>
+            <short xml:lang="es">Color de la sombra</short>
+            <short xml:lang="en-GB">Shadow Colour</short>
+            <short xml:lang="el">&#x3A7;&#x3C1;&#x3CE;&#x3BC;&#x3B1; &#x3A3;&#x3BA;&#x3B9;&#x3AC;&#x3C2;</short>
+            <short xml:lang="de">Schattenfarbe</short>
+            <short xml:lang="cs">Barva st&#xED;nu</short>
+            <short xml:lang="ca">Color de l'ombra</short>
+            <short xml:lang="bg">&#x426;&#x432;&#x44F;&#x442; &#x43D;&#x430; &#x441;&#x44F;&#x43D;&#x43A;&#x430;&#x442;&#x430;</short>
+            <long>Third color for the background gradient of the switcher window.</long>
+            <long xml:lang="hr">Tre&#x107;a boja prijelaza pozadine mjenja&#x10D;a prozora.</long>
+            <long xml:lang="en-GB">Third colour for the background gradient of the switcher window.</long>
+            <long xml:lang="ca">El tercer color per al degradat del fons de la finestra del commutador.</long>
+            <default>
+              <red>0xf332</red>
+              <green>0xf332</green>
+              <blue>0xffff</blue>
+              <alpha>0xd998</alpha>
+            </default>
+          </option>
+        </subgroup>
+        <subgroup>
+          <short>Thumb Gradient</short>
+          <short xml:lang="ka">&#x10DB;&#x10D8;&#x10DC;&#x10D8;&#x10D0;&#x10E2;&#x10E3;&#x10E0;&#x10D8;&#x10E1; &#x10D2;&#x10E0;&#x10D0;&#x10D3;&#x10D8;&#x10D4;&#x10DC;&#x10E2;&#x10D8;</short>
+          <short xml:lang="hr">Prijelaz minijature</short>
+          <short xml:lang="en-GB">Thumb Gradient</short>
+          <short xml:lang="ca">Degradat de la miniatura</short>
+          <option name="thumb_gradient_base_color" type="color">
+            <short>Base Color</short>
+            <short xml:lang="ka">&#x10EB;&#x10D8;&#x10E0;&#x10D8;&#x10D7;&#x10D0;&#x10D3;&#x10D8; &#x10E4;&#x10D4;&#x10E0;&#x10D8;</short>
+            <short xml:lang="hr">Osnovna boja</short>
+            <short xml:lang="en-GB">Base Colour</short>
+            <short xml:lang="ca">Color base</short>
+            <long>First color for the thumb gradient of the switcher window.</long>
+            <long xml:lang="hr">Prva boja prijelaza minijature mjenja&#x10D;a prozora.</long>
+            <long xml:lang="en-GB">First colour for the thumb gradient of the switcher window.</long>
+            <long xml:lang="ca">El primer color per al degradat de la miniatura de la finestra del commutador.</long>
+            <default>
+              <red>0x3333</red>
+              <green>0x3333</green>
+              <blue>0x3333</blue>
+              <alpha>0x5999</alpha>
+            </default>
+          </option>
+          <option name="thumb_gradient_highlight_color" type="color">
+            <short>Highlight Color</short>
+            <short xml:lang="ka">&#x10D2;&#x10D0;&#x10DB;&#x10DD;&#x10D9;&#x10D5;&#x10D4;&#x10D7;&#x10D8;&#x10E1; &#x10E4;&#x10D4;&#x10E0;&#x10D8;</short>
+            <short xml:lang="hr">Boja nagla&#x161;avanja</short>
+            <short xml:lang="en-GB">Highlight Colour</short>
+            <short xml:lang="ca">Color de ressaltament</short>
+            <long>Second color for the thumb gradient of the switcher window.</long>
+            <long xml:lang="hr">Druga boja prijelaza minijature mjenja&#x10D;a prozora.</long>
+            <long xml:lang="en-GB">Second colour for the thumb gradient of the switcher window.</long>
+            <long xml:lang="ca">El segon color per al degradat de la miniatura de la finestra del commutador.</long>
+            <default>
+              <red>0x3fff</red>
+              <green>0x3fff</green>
+              <blue>0x3fff</blue>
+              <alpha>0x3fff</alpha>
+            </default>
+          </option>
+        </subgroup>
+        <subgroup>
+          <short>Highlight Gradient</short>
+          <short xml:lang="ka">&#x10D2;&#x10E0;&#x10D0;&#x10D3;&#x10D8;&#x10D4;&#x10DC;&#x10E2;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10DB;&#x10DD;&#x10D9;&#x10D5;&#x10D4;&#x10D7;&#x10D0;</short>
+          <short xml:lang="hr">Prijelaz nagla&#x161;avanja</short>
+          <short xml:lang="en-GB">Highlight Gradient</short>
+          <short xml:lang="ca">Degradat del ressaltament</short>
+          <option name="thumb_highlight_gradient_base_color" type="color">
+            <short>Base Color</short>
+            <short xml:lang="ka">&#x10EB;&#x10D8;&#x10E0;&#x10D8;&#x10D7;&#x10D0;&#x10D3;&#x10D8; &#x10E4;&#x10D4;&#x10E0;&#x10D8;</short>
+            <short xml:lang="hr">Osnovna boja</short>
+            <short xml:lang="en-GB">Base Colour</short>
+            <short xml:lang="ca">Color base</short>
+            <long>First color for the thumb highlight gradient of the switcher window.</long>
+            <long xml:lang="hr">Prva boja prijelaza nagla&#x161;avanja minijature mjenja&#x10D;a prozora.</long>
+            <long xml:lang="en-GB">First colour for the thumb highlight gradient of the switcher window.</long>
+            <long xml:lang="ca">El primer color per al degradat del ressaltament de la miniatura de la finestra del commutador.</long>
+            <default>
+              <red>0xffff</red>
+              <green>0xffff</green>
+              <blue>0xffff</blue>
+              <alpha>0xf332</alpha>
+            </default>
+          </option>
+          <option name="thumb_highlight_gradient_shadow_color" type="color">
+            <short>Shadow Color</short>
+            <short xml:lang="zh-Hant-TW">&#x9670;&#x5F71;&#x984F;&#x8272;</short>
+            <short xml:lang="zh-Hans-CN">&#x9634;&#x5F71;&#x989C;&#x8272;</short>
+            <short xml:lang="uk">&#x41A;&#x43E;&#x43B;&#x456;&#x440; &#x442;&#x456;&#x43D;&#x456;</short>
+            <short xml:lang="tr">G&#xF6;lge Rengi</short>
+            <short xml:lang="sv">Skuggf&#xE4;rg</short>
+            <short xml:lang="sk">Farba tie&#x148;a</short>
+            <short xml:lang="ru">&#x426;&#x432;&#x435;&#x442; &#x442;&#x435;&#x43D;&#x438;</short>
+            <short xml:lang="ro">Culoare umbr&#x103;</short>
+            <short xml:lang="pt-BR">Cor da sombra</short>
+            <short xml:lang="pt">Cor da sombra</short>
+            <short xml:lang="pl">Kolor cienia</short>
+            <short xml:lang="or">&#xB1B;&#xB3E;&#xB2F;&#xB3E;&#xB30;&#xB19;&#xB4D;&#xB17;</short>
+            <short xml:lang="nl">Schaduw kleur</short>
+            <short xml:lang="nb">Skyggefarge</short>
+            <short xml:lang="ko">&#xADF8;&#xB9BC;&#xC790; &#xC0C9;</short>
+            <short xml:lang="ka">&#x10E9;&#x10E0;&#x10D3;&#x10D8;&#x10DA;&#x10D8;&#x10E1; &#x10E4;&#x10D4;&#x10E0;&#x10D8;</short>
+            <short xml:lang="ja">&#x5F71;&#x306E;&#x8272;</short>
+            <short xml:lang="it">Colore ombreggiatura</short>
+            <short xml:lang="hu">&#xC1;rny&#xE9;k sz&#xED;ne</short>
+            <short xml:lang="hr">Boja sjenke</short>
+            <short xml:lang="he">&#x5E6;&#x5D1;&#x5E2; &#x5D4;&#x5E6;&#x5DC;</short>
+            <short xml:lang="gu">&#xAAA;&#xAA1;&#xA9B;&#xABE;&#xAAF;&#xABE; &#xAB0;&#xA82;&#xA97;</short>
+            <short xml:lang="gl">Cor da sombra</short>
+            <short xml:lang="fr">Couleur de l'ombre</short>
+            <short xml:lang="fi">Varjon v&#xE4;ri</short>
+            <short xml:lang="eu">Itzal Kolorea</short>
+            <short xml:lang="es">Color de la sombra</short>
+            <short xml:lang="en-GB">Shadow Colour</short>
+            <short xml:lang="el">&#x3A7;&#x3C1;&#x3CE;&#x3BC;&#x3B1; &#x3A3;&#x3BA;&#x3B9;&#x3AC;&#x3C2;</short>
+            <short xml:lang="de">Schattenfarbe</short>
+            <short xml:lang="cs">Barva st&#xED;nu</short>
+            <short xml:lang="ca">Color de l'ombra</short>
+            <short xml:lang="bg">&#x426;&#x432;&#x44F;&#x442; &#x43D;&#x430; &#x441;&#x44F;&#x43D;&#x43A;&#x430;&#x442;&#x430;</short>
+            <long>Second color for the thumb highlight gradient of the switcher window.</long>
+            <long xml:lang="hr">Druga boja prijelaza nagla&#x161;avanja minijature mjenja&#x10D;a prozora.</long>
+            <long xml:lang="en-GB">Second colour for the thumb highlight gradient of the switcher window.</long>
+            <long xml:lang="ca">El segon color per al degradat del ressaltament de la miniatura de la finestra del commutador.</long>
+            <default>
+              <red>0xdfff</red>
+              <green>0xdfff</green>
+              <blue>0xdfff</blue>
+              <alpha>0xa665</alpha>
+            </default>
+          </option>
+        </subgroup>
+        <subgroup>
+          <short>Arrow Colors</short>
+          <short xml:lang="ka">&#x10D8;&#x10E1;&#x10E0;&#x10D8;&#x10E1; &#x10E4;&#x10D4;&#x10E0;&#x10D4;&#x10D1;&#x10D8;</short>
+          <short xml:lang="hr">Boje strelice</short>
+          <short xml:lang="en-GB">Arrow Colours</short>
+          <short xml:lang="ca">Colors de la fletxa</short>
+          <option name="arrow_base_color" type="color">
+            <short>Base Color</short>
+            <short xml:lang="ka">&#x10EB;&#x10D8;&#x10E0;&#x10D8;&#x10D7;&#x10D0;&#x10D3;&#x10D8; &#x10E4;&#x10D4;&#x10E0;&#x10D8;</short>
+            <short xml:lang="hr">Osnovna boja</short>
+            <short xml:lang="en-GB">Base Colour</short>
+            <short xml:lang="ca">Color base</short>
+            <long>First color of the arrow of the switcher window.</long>
+            <long xml:lang="hr">Prva boja strelice mjenja&#x10D;a prozora.</long>
+            <long xml:lang="en-GB">First colour of the arrow of the switcher window.</long>
+            <long xml:lang="ca">El primer color de la fletxa de la finestra del commutador.</long>
+            <default>
+              <red>0xe665</red>
+              <green>0xe665</green>
+              <blue>0xe665</blue>
+              <alpha>0xd998</alpha>
+            </default>
+          </option>
+          <option name="arrow_shadow_color" type="color">
+            <short>Shadow Color</short>
+            <short xml:lang="zh-Hant-TW">&#x9670;&#x5F71;&#x984F;&#x8272;</short>
+            <short xml:lang="zh-Hans-CN">&#x9634;&#x5F71;&#x989C;&#x8272;</short>
+            <short xml:lang="uk">&#x41A;&#x43E;&#x43B;&#x456;&#x440; &#x442;&#x456;&#x43D;&#x456;</short>
+            <short xml:lang="tr">G&#xF6;lge Rengi</short>
+            <short xml:lang="sv">Skuggf&#xE4;rg</short>
+            <short xml:lang="sk">Farba tie&#x148;a</short>
+            <short xml:lang="ru">&#x426;&#x432;&#x435;&#x442; &#x442;&#x435;&#x43D;&#x438;</short>
+            <short xml:lang="ro">Culoare umbr&#x103;</short>
+            <short xml:lang="pt-BR">Cor da sombra</short>
+            <short xml:lang="pt">Cor da sombra</short>
+            <short xml:lang="pl">Kolor cienia</short>
+            <short xml:lang="or">&#xB1B;&#xB3E;&#xB2F;&#xB3E;&#xB30;&#xB19;&#xB4D;&#xB17;</short>
+            <short xml:lang="nl">Schaduw kleur</short>
+            <short xml:lang="nb">Skyggefarge</short>
+            <short xml:lang="ko">&#xADF8;&#xB9BC;&#xC790; &#xC0C9;</short>
+            <short xml:lang="ka">&#x10E9;&#x10E0;&#x10D3;&#x10D8;&#x10DA;&#x10D8;&#x10E1; &#x10E4;&#x10D4;&#x10E0;&#x10D8;</short>
+            <short xml:lang="ja">&#x5F71;&#x306E;&#x8272;</short>
+            <short xml:lang="it">Colore ombreggiatura</short>
+            <short xml:lang="hu">&#xC1;rny&#xE9;k sz&#xED;ne</short>
+            <short xml:lang="hr">Boja sjenke</short>
+            <short xml:lang="he">&#x5E6;&#x5D1;&#x5E2; &#x5D4;&#x5E6;&#x5DC;</short>
+            <short xml:lang="gu">&#xAAA;&#xAA1;&#xA9B;&#xABE;&#xAAF;&#xABE; &#xAB0;&#xA82;&#xA97;</short>
+            <short xml:lang="gl">Cor da sombra</short>
+            <short xml:lang="fr">Couleur de l'ombre</short>
+            <short xml:lang="fi">Varjon v&#xE4;ri</short>
+            <short xml:lang="eu">Itzal Kolorea</short>
+            <short xml:lang="es">Color de la sombra</short>
+            <short xml:lang="en-GB">Shadow Colour</short>
+            <short xml:lang="el">&#x3A7;&#x3C1;&#x3CE;&#x3BC;&#x3B1; &#x3A3;&#x3BA;&#x3B9;&#x3AC;&#x3C2;</short>
+            <short xml:lang="de">Schattenfarbe</short>
+            <short xml:lang="cs">Barva st&#xED;nu</short>
+            <short xml:lang="ca">Color de l'ombra</short>
+            <short xml:lang="bg">&#x426;&#x432;&#x44F;&#x442; &#x43D;&#x430; &#x441;&#x44F;&#x43D;&#x43A;&#x430;&#x442;&#x430;</short>
+            <long>Second color of the arrow of the switcher window.</long>
+            <long xml:lang="hr">Druga boja strelice mjenja&#x10D;a prozora.</long>
+            <long xml:lang="en-GB">Second colour of the arrow of the switcher window.</long>
+            <long xml:lang="ca">El segon color de la fletxa de la finestra del commutador.</long>
+            <default>
+              <red>0xdc28</red>
+              <green>0xdc28</green>
+              <blue>0xdc28</blue>
+              <alpha>0xd998</alpha>
+            </default>
+          </option>
+        </subgroup>
+      </group>
+      <group>
+        <short>Viewport Switching</short>
+        <short xml:lang="ka">&#x10DB;&#x10EE;&#x10D4;&#x10D3;&#x10D5;&#x10D4;&#x10DA;&#x10DD;&#x10D1;&#x10D8;&#x10E1; &#x10EC;&#x10D4;&#x10E0;&#x10E2;&#x10D8;&#x10DA;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10E0;&#x10D7;&#x10D5;&#x10D0;</short>
+        <short xml:lang="hr">Prebacivanje podru&#x10D;ja prikaza</short>
+        <short xml:lang="en-GB">Viewport Switching</short>
+        <short xml:lang="ca">Commutaci&#xF3; de l'&#xE0;rea de visualitzaci&#xF3;</short>
+        <option name="allow_wraparound" type="bool">
+          <short>Allow Wrap-Around</short>
+          <short xml:lang="ka">&#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10E2;&#x10D0;&#x10DC;&#x10D8;&#x10E1; &#x10E9;&#x10D0;&#x10E0;&#x10D7;&#x10D5;&#x10D0;</short>
+          <short xml:lang="hr">Dopusti omotavanje</short>
+          <short xml:lang="en-GB">Allow Wrap-Around</short>
+          <short xml:lang="ca">Permet envoltar</short>
+          <long>Allow wrap-around when moving the wall up/down/left/right</long>
+          <long xml:lang="hr">Dopusti omotavanje tijekom pomicanja zida gore/dolje/lijevo/desno</long>
+          <long xml:lang="en-GB">Allow wrap-around when moving the wall up/down/left/right</long>
+          <long xml:lang="ca">Permet envoltar quan es mou el mur cap amunt / avall / a l'esquerra / la dreta</long>
+          <default>false</default>
+        </option>
+        <option name="slide_duration" type="float">
+          <short>Wall Sliding Duration</short>
+          <short xml:lang="hr">Trajanje klizanja zida</short>
+          <short xml:lang="en-GB">Wall Sliding Duration</short>
+          <short xml:lang="ca">Duraci&#xF3; del lliscament del mur</short>
+          <long>Duration (in s) for wall sliding viewport switching animation</long>
+          <long xml:lang="hr">Trajanje (u sek) animacije mijenjanja klizanja podru&#x10D;ja prikaza zida</long>
+          <long xml:lang="en-GB">Duration (in s) for wall sliding viewport switching animation</long>
+          <long xml:lang="ca">Duraci&#xF3; (en s) per a l'animaci&#xF3; de la commutaci&#xF3; d'&#xE0;rea de visualitzaci&#xF3; lliscant del mur</long>
+          <default>0.3</default>
+          <min>0.0</min>
+          <max>5.0</max>
+          <precision>0.05</precision>
+        </option>
+        <option name="no_slide_match" type="match">
+          <short>Non Sliding Windows</short>
+          <short xml:lang="hr">Neklizaju&#x107;i prozori</short>
+          <short xml:lang="en-GB">Non Sliding Windows</short>
+          <short xml:lang="ca">Finestres sense lliscament</short>
+          <long>Windows that should not slide during the slide animation</long>
+          <long xml:lang="hr">Prozori koji ne bi trebali klizati tijekom animacije klizanja</long>
+          <long xml:lang="en-GB">Windows that should not slide during the slide animation</long>
+          <long xml:lang="ca">Les finestres que no han de lliscar durant l'animaci&#xF3; de lliscament</long>
+          <default>type=Dock | type=Desktop | state=Sticky</default>
+        </option>
+      </group>
+      <group>
+        <short>Bindings</short>
+        <short xml:lang="zh-Hant-TW">&#x9023;&#x7D50;</short>
+        <short xml:lang="zh-Hans-CN">&#x7ED1;&#x5B9A;</short>
+        <short xml:lang="uk">&#x417;&#x430;&#x43A;&#x440;&#x456;&#x43F;&#x43B;&#x435;&#x43D;&#x43D;&#x44F;</short>
+        <short xml:lang="ru">&#x417;&#x430;&#x43A;&#x440;&#x435;&#x43F;&#x43B;&#x435;&#x43D;&#x438;&#x435;</short>
+        <short xml:lang="pt">Atalhos</short>
+        <short xml:lang="pl">Przyporz&#x105;dkowanie klawiszy</short>
+        <short xml:lang="ko">&#xBC14;&#xB85C;&#xAC00;&#xAE30;</short>
+        <short xml:lang="ka">&#x10D1;&#x10DB;&#x10D4;&#x10D1;&#x10D8;</short>
+        <short xml:lang="ja">&#x5272;&#x308A;&#x5F53;&#x3066;</short>
+        <short xml:lang="it">Associazioni</short>
+        <short xml:lang="hu">Gyorsbillenty&#x171;k</short>
+        <short xml:lang="hr">Pre&#x10D;aci tipkovnice</short>
+        <short xml:lang="he">&#x5E6;&#x5D9;&#x5E8;&#x5D5;&#x5E4;&#x5D9;&#x5DD;</short>
+        <short xml:lang="gl">Atallos de teclado</short>
+        <short xml:lang="fr">Assignations</short>
+        <short xml:lang="fi">Pikan&#xE4;pp&#xE4;imet</short>
+        <short xml:lang="eu">Laster-bideak</short>
+        <short xml:lang="es">V&#xED;nculos</short>
+        <short xml:lang="en-GB">Bindings</short>
+        <short xml:lang="el">&#x3A3;&#x3C5;&#x3BD;&#x3B4;&#x3C5;&#x3B1;&#x3C3;&#x3BC;&#x3BF;&#x3AF;</short>
+        <short xml:lang="ca">Vinculacions</short>
+        <subgroup>
+          <short>Move within wall</short>
+          <short xml:lang="ka">&#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10E2;&#x10D0;&#x10DC;&#x10D0; &#x10D9;&#x10D4;&#x10D3;&#x10DA;&#x10D8;&#x10E1; &#x10E8;&#x10D8;&#x10D2;&#x10DC;&#x10D8;&#x10D7;</short>
+          <short xml:lang="hr">Pomicanje sa zidom</short>
+          <short xml:lang="en-GB">Move within wall</short>
+          <short xml:lang="ca">Moviment dins del mur</short>
+          <option name="left_key" type="key">
+            <short>Move Left</short>
+            <short xml:lang="ka">&#x10DB;&#x10D0;&#x10E0;&#x10EA;&#x10EE;&#x10DC;&#x10D8;&#x10D5; &#x10D2;&#x10D0;&#x10EC;&#x10D4;&#x10D5;&#x10D0;</short>
+            <short xml:lang="hr">Pomakni lijevo</short>
+            <short xml:lang="en-GB">Move Left</short>
+            <short xml:lang="ca">Mou cap a l'esquerra</short>
+            <long>Move along the wall to the left</long>
+            <long xml:lang="ka">&#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10E2;&#x10D0;&#x10DC;&#x10D0; &#x10D9;&#x10D4;&#x10D3;&#x10DA;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10E1;&#x10EC;&#x10D5;&#x10E0;&#x10D8;&#x10D5;, &#x10DB;&#x10D0;&#x10E0;&#x10EA;&#x10EE;&#x10DC;&#x10D8;&#x10D5;</long>
+            <long xml:lang="hr">Pomakni lijevom stranom zida</long>
+            <long xml:lang="en-GB">Move along the wall to the left</long>
+            <long xml:lang="ca">Mou pel mur cap a l'esquerra</long>
+            <default>&lt;Primary&gt;&lt;Alt&gt;Left</default>
+          </option>
+          <option name="left_button" type="button">
+            <short>Move Left</short>
+            <short xml:lang="ka">&#x10DB;&#x10D0;&#x10E0;&#x10EA;&#x10EE;&#x10DC;&#x10D8;&#x10D5; &#x10D2;&#x10D0;&#x10EC;&#x10D4;&#x10D5;&#x10D0;</short>
+            <short xml:lang="hr">Pomakni lijevo</short>
+            <short xml:lang="en-GB">Move Left</short>
+            <short xml:lang="ca">Mou cap a l'esquerra</short>
+            <long>Move along the wall to the left</long>
+            <long xml:lang="ka">&#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10E2;&#x10D0;&#x10DC;&#x10D0; &#x10D9;&#x10D4;&#x10D3;&#x10DA;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10E1;&#x10EC;&#x10D5;&#x10E0;&#x10D8;&#x10D5;, &#x10DB;&#x10D0;&#x10E0;&#x10EA;&#x10EE;&#x10DC;&#x10D8;&#x10D5;</long>
+            <long xml:lang="hr">Pomakni lijevom stranom zida</long>
+            <long xml:lang="en-GB">Move along the wall to the left</long>
+            <long xml:lang="ca">Mou pel mur cap a l'esquerra</long>
+          </option>
+          <option name="right_key" type="key">
+            <short>Move Right</short>
+            <short xml:lang="ka">&#x10DB;&#x10D0;&#x10E0;&#x10EF;&#x10D5;&#x10DC;&#x10D8;&#x10D5; &#x10D2;&#x10D0;&#x10EC;&#x10D4;&#x10D5;&#x10D0;</short>
+            <short xml:lang="hr">Pomakni desno</short>
+            <short xml:lang="en-GB">Move Right</short>
+            <short xml:lang="ca">Mou cap a la dreta</short>
+            <long>Move along the wall to the right</long>
+            <long xml:lang="ka">&#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10E2;&#x10D0;&#x10DC;&#x10D0; &#x10D9;&#x10D4;&#x10D3;&#x10DA;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10E1;&#x10EC;&#x10D5;&#x10E0;&#x10D8;&#x10D5;, &#x10DB;&#x10D0;&#x10E0;&#x10EF;&#x10D5;&#x10DC;&#x10D8;&#x10D5;</long>
+            <long xml:lang="hr">Pomakni desnom stranom zida</long>
+            <long xml:lang="en-GB">Move along the wall to the right</long>
+            <long xml:lang="ca">Mou pel mur cap a la dreta</long>
+            <default>&lt;Primary&gt;&lt;Alt&gt;Right</default>
+          </option>
+          <option name="right_button" type="button">
+            <short>Move Right</short>
+            <short xml:lang="ka">&#x10DB;&#x10D0;&#x10E0;&#x10EF;&#x10D5;&#x10DC;&#x10D8;&#x10D5; &#x10D2;&#x10D0;&#x10EC;&#x10D4;&#x10D5;&#x10D0;</short>
+            <short xml:lang="hr">Pomakni desno</short>
+            <short xml:lang="en-GB">Move Right</short>
+            <short xml:lang="ca">Mou cap a la dreta</short>
+            <long>Move along the wall to the right</long>
+            <long xml:lang="ka">&#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10E2;&#x10D0;&#x10DC;&#x10D0; &#x10D9;&#x10D4;&#x10D3;&#x10DA;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10E1;&#x10EC;&#x10D5;&#x10E0;&#x10D8;&#x10D5;, &#x10DB;&#x10D0;&#x10E0;&#x10EF;&#x10D5;&#x10DC;&#x10D8;&#x10D5;</long>
+            <long xml:lang="hr">Pomakni desnom stranom zida</long>
+            <long xml:lang="en-GB">Move along the wall to the right</long>
+            <long xml:lang="ca">Mou pel mur cap a la dreta</long>
+          </option>
+          <option name="up_key" type="key">
+            <short>Move Up</short>
+            <short xml:lang="ka">&#x10D0;&#x10EC;&#x10D4;&#x10D5;&#x10D0;</short>
+            <short xml:lang="hr">Pomakni gore</short>
+            <short xml:lang="en-GB">Move Up</short>
+            <short xml:lang="ca">Mou cap a dalt</short>
+            <long>Move along the wall up</long>
+            <long xml:lang="ka">&#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10E2;&#x10D0;&#x10DC;&#x10D0; &#x10D9;&#x10D4;&#x10D3;&#x10DA;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10E1;&#x10EC;&#x10D5;&#x10E0;&#x10D8;&#x10D5;, &#x10DB;&#x10D0;&#x10E6;&#x10DA;&#x10D0;</long>
+            <long xml:lang="hr">Pomakni gornjom stranom zida</long>
+            <long xml:lang="en-GB">Move along the wall up</long>
+            <long xml:lang="ca">Mou pel mur cap a dalt</long>
+            <default>&lt;Primary&gt;&lt;Alt&gt;Up</default>
+          </option>
+          <option name="up_button" type="button">
+            <short>Move Up</short>
+            <short xml:lang="ka">&#x10D0;&#x10EC;&#x10D4;&#x10D5;&#x10D0;</short>
+            <short xml:lang="hr">Pomakni gore</short>
+            <short xml:lang="en-GB">Move Up</short>
+            <short xml:lang="ca">Mou cap a dalt</short>
+            <long>Move along the wall up</long>
+            <long xml:lang="ka">&#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10E2;&#x10D0;&#x10DC;&#x10D0; &#x10D9;&#x10D4;&#x10D3;&#x10DA;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10E1;&#x10EC;&#x10D5;&#x10E0;&#x10D8;&#x10D5;, &#x10DB;&#x10D0;&#x10E6;&#x10DA;&#x10D0;</long>
+            <long xml:lang="hr">Pomakni gornjom stranom zida</long>
+            <long xml:lang="en-GB">Move along the wall up</long>
+            <long xml:lang="ca">Mou pel mur cap a dalt</long>
+          </option>
+          <option name="down_key" type="key">
+            <short>Move Down</short>
+            <short xml:lang="ka">&#x10E9;&#x10D0;&#x10DB;&#x10DD;&#x10EC;&#x10D4;&#x10D5;&#x10D0;</short>
+            <short xml:lang="hr">Pomakni dolje</short>
+            <short xml:lang="en-GB">Move Down</short>
+            <short xml:lang="ca">Mou cap a baix</short>
+            <long>Move along the wall down</long>
+            <long xml:lang="ka">&#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10E2;&#x10D0;&#x10DC;&#x10D0; &#x10D9;&#x10D4;&#x10D3;&#x10DA;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10E1;&#x10EC;&#x10D5;&#x10E0;&#x10D8;&#x10D5;, &#x10D3;&#x10D0;&#x10D1;&#x10DA;&#x10D0;</long>
+            <long xml:lang="hr">Pomakni donjom stranom zida</long>
+            <long xml:lang="en-GB">Move along the wall down</long>
+            <long xml:lang="ca">Mou pel mur cap a baix</long>
+            <default>&lt;Primary&gt;&lt;Alt&gt;Down</default>
+          </option>
+          <option name="down_button" type="button">
+            <short>Move Down</short>
+            <short xml:lang="ka">&#x10E9;&#x10D0;&#x10DB;&#x10DD;&#x10EC;&#x10D4;&#x10D5;&#x10D0;</short>
+            <short xml:lang="hr">Pomakni dolje</short>
+            <short xml:lang="en-GB">Move Down</short>
+            <short xml:lang="ca">Mou cap a baix</short>
+            <long>Move along the wall down</long>
+            <long xml:lang="ka">&#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10E2;&#x10D0;&#x10DC;&#x10D0; &#x10D9;&#x10D4;&#x10D3;&#x10DA;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10E1;&#x10EC;&#x10D5;&#x10E0;&#x10D8;&#x10D5;, &#x10D3;&#x10D0;&#x10D1;&#x10DA;&#x10D0;</long>
+            <long xml:lang="hr">Pomakni donjom stranom zida</long>
+            <long xml:lang="en-GB">Move along the wall down</long>
+            <long xml:lang="ca">Mou pel mur cap a baix</long>
+          </option>
+          <option name="next_key" type="key">
+            <short>Move Next</short>
+            <short xml:lang="ka">&#x10E8;&#x10D4;&#x10DB;&#x10D3;&#x10D4;&#x10D2;&#x10D6;&#x10D4; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10E1;&#x10D5;&#x10DA;&#x10D0;</short>
+            <short xml:lang="hr">Pomakni sljede&#x107;e</short>
+            <short xml:lang="en-GB">Move Next</short>
+            <short xml:lang="ca">Mou a la seg&#xFC;ent</short>
+            <long>Move along the wall to the next viewport</long>
+            <long xml:lang="ka">&#x10D9;&#x10D4;&#x10D3;&#x10DA;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10E1;&#x10EC;&#x10D5;&#x10E0;&#x10D8;&#x10D5;, &#x10E8;&#x10D4;&#x10DB;&#x10D3;&#x10D4;&#x10D2; &#x10EE;&#x10D4;&#x10D3;&#x10D8;&#x10E1; &#x10EC;&#x10D4;&#x10E0;&#x10E2;&#x10D8;&#x10DA;&#x10D6;&#x10D4; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10E1;&#x10D5;&#x10DA;&#x10D0;</long>
+            <long xml:lang="hr">Pomakni zid do sljede&#x107;eg podru&#x10D;ja prikaza</long>
+            <long xml:lang="en-GB">Move along the wall to the next viewport</long>
+            <long xml:lang="ca">Mou pel mur a la seg&#xFC;ent &#xE0;rea de visualitzaci&#xF3;</long>
+          </option>
+          <option name="next_button" type="button">
+            <short>Move Next</short>
+            <short xml:lang="ka">&#x10E8;&#x10D4;&#x10DB;&#x10D3;&#x10D4;&#x10D2;&#x10D6;&#x10D4; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10E1;&#x10D5;&#x10DA;&#x10D0;</short>
+            <short xml:lang="hr">Pomakni sljede&#x107;e</short>
+            <short xml:lang="en-GB">Move Next</short>
+            <short xml:lang="ca">Mou a la seg&#xFC;ent</short>
+            <long>Move along the wall to the next viewport</long>
+            <long xml:lang="ka">&#x10D9;&#x10D4;&#x10D3;&#x10DA;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10E1;&#x10EC;&#x10D5;&#x10E0;&#x10D8;&#x10D5;, &#x10E8;&#x10D4;&#x10DB;&#x10D3;&#x10D4;&#x10D2; &#x10EE;&#x10D4;&#x10D3;&#x10D8;&#x10E1; &#x10EC;&#x10D4;&#x10E0;&#x10E2;&#x10D8;&#x10DA;&#x10D6;&#x10D4; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10E1;&#x10D5;&#x10DA;&#x10D0;</long>
+            <long xml:lang="hr">Pomakni zid do sljede&#x107;eg podru&#x10D;ja prikaza</long>
+            <long xml:lang="en-GB">Move along the wall to the next viewport</long>
+            <long xml:lang="ca">Mou pel mur a la seg&#xFC;ent &#xE0;rea de visualitzaci&#xF3;</long>
+          </option>
+          <option name="prev_key" type="key">
+            <short>Move Prev</short>
+            <short xml:lang="ka">&#x10EC;&#x10D8;&#x10DC;&#x10D0;&#x10D6;&#x10D4; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10E1;&#x10D5;&#x10DA;&#x10D0;</short>
+            <short xml:lang="hr">Pomakni prija&#x161;nje</short>
+            <short xml:lang="en-GB">Move Prev</short>
+            <short xml:lang="ca">Mou a l'anterior</short>
+            <long>Move along the wall to the previous viewport</long>
+            <long xml:lang="ka">&#x10D9;&#x10D4;&#x10D3;&#x10DA;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10E1;&#x10EC;&#x10D5;&#x10E0;&#x10D8;&#x10D5;, &#x10EC;&#x10D8;&#x10DC;&#x10D0; &#x10EE;&#x10D4;&#x10D3;&#x10D8;&#x10E1; &#x10EC;&#x10D4;&#x10E0;&#x10E2;&#x10D8;&#x10DA;&#x10D6;&#x10D4; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10E1;&#x10D5;&#x10DA;&#x10D0;</long>
+            <long xml:lang="hr">Pomakni zid do prija&#x161;njeg podru&#x10D;ja prikaza</long>
+            <long xml:lang="en-GB">Move along the wall to the previous viewport</long>
+            <long xml:lang="ca">Mou pel mur a l'anterior &#xE0;rea de visualitzaci&#xF3;</long>
+          </option>
+          <option name="prev_button" type="button">
+            <short>Move Prev</short>
+            <short xml:lang="ka">&#x10EC;&#x10D8;&#x10DC;&#x10D0;&#x10D6;&#x10D4; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10E1;&#x10D5;&#x10DA;&#x10D0;</short>
+            <short xml:lang="hr">Pomakni prija&#x161;nje</short>
+            <short xml:lang="en-GB">Move Prev</short>
+            <short xml:lang="ca">Mou a l'anterior</short>
+            <long>Move along the wall to the previous viewport</long>
+            <long xml:lang="ka">&#x10D9;&#x10D4;&#x10D3;&#x10DA;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10E1;&#x10EC;&#x10D5;&#x10E0;&#x10D8;&#x10D5;, &#x10EC;&#x10D8;&#x10DC;&#x10D0; &#x10EE;&#x10D4;&#x10D3;&#x10D8;&#x10E1; &#x10EC;&#x10D4;&#x10E0;&#x10E2;&#x10D8;&#x10DA;&#x10D6;&#x10D4; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10E1;&#x10D5;&#x10DA;&#x10D0;</long>
+            <long xml:lang="hr">Pomakni zid do prija&#x161;njeg podru&#x10D;ja prikaza</long>
+            <long xml:lang="en-GB">Move along the wall to the previous viewport</long>
+            <long xml:lang="ca">Mou pel mur a l'anterior &#xE0;rea de visualitzaci&#xF3;</long>
+          </option>
+        </subgroup>
+        <subgroup>
+          <short>Move with window within wall</short>
+          <short xml:lang="ka">&#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10D0;&#x10E0;&#x10D0;&#x10E1;&#x10D7;&#x10D0;&#x10DC; &#x10D4;&#x10E0;&#x10D7;&#x10D0;&#x10D3;, &#x10D9;&#x10D4;&#x10D3;&#x10DA;&#x10D8;&#x10E1; &#x10E8;&#x10D8;&#x10D2;&#x10DC;&#x10D8;&#x10D7; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10E2;&#x10D0;&#x10DC;&#x10D0;</short>
+          <short xml:lang="hr">Pomicanje s prozorom unutar zida</short>
+          <short xml:lang="en-GB">Move with window within wall</short>
+          <short xml:lang="ca">Moviment amb la finestra dins del mur</short>
+          <option name="left_window_key" type="key">
+            <short>Move Left With Window</short>
+            <short xml:lang="ka">&#x10DB;&#x10D0;&#x10E0;&#x10EA;&#x10EE;&#x10DC;&#x10D8;&#x10D5; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10E2;&#x10D0;&#x10DC;&#x10D0; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10D0;&#x10E0;&#x10D0;&#x10E1;&#x10D7;&#x10D0;&#x10DC; &#x10D4;&#x10E0;&#x10D7;&#x10D0;&#x10D3;</short>
+            <short xml:lang="hr">Pomakni lijevo s prozorom</short>
+            <short xml:lang="en-GB">Move Left With Window</short>
+            <short xml:lang="ca">Mou cap a l'esquerra amb la finestra</short>
+            <long>Move with window along the wall to the left</long>
+            <long xml:lang="ka">&#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10E2;&#x10D0;&#x10DC;&#x10D0; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10D0;&#x10E0;&#x10D0;&#x10E1;&#x10D7;&#x10D0;&#x10DC; &#x10D4;&#x10E0;&#x10D7;&#x10D0;&#x10D3;, &#x10D9;&#x10D4;&#x10D3;&#x10DA;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10E1;&#x10EC;&#x10D5;&#x10E0;&#x10D8;&#x10D5;, &#x10DB;&#x10D0;&#x10E0;&#x10EA;&#x10EE;&#x10DC;&#x10D8;&#x10D5;</long>
+            <long xml:lang="hr">Pomakni s prozorom lijevom stranom zida</long>
+            <long xml:lang="en-GB">Move with window along the wall to the left</long>
+            <long xml:lang="ca">Mou pel mur cap a l'esquerra amb la finestra</long>
+            <default>&lt;Primary&gt;&lt;Alt&gt;&lt;Shift&gt;Left</default>
+          </option>
+          <option name="right_window_key" type="key">
+            <short>Move Right With Window</short>
+            <short xml:lang="ka">&#x10DB;&#x10D0;&#x10E0;&#x10EF;&#x10D5;&#x10DC;&#x10D8;&#x10D5; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10E2;&#x10D0;&#x10DC;&#x10D0; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10D0;&#x10E0;&#x10D0;&#x10E1;&#x10D7;&#x10D0;&#x10DC; &#x10D4;&#x10E0;&#x10D7;&#x10D0;&#x10D3;</short>
+            <short xml:lang="hr">Pomakni desno s prozorom</short>
+            <short xml:lang="en-GB">Move Right With Window</short>
+            <short xml:lang="ca">Mou cap a la dreta amb la finestra</short>
+            <long>Move with window along the wall to the right</long>
+            <long xml:lang="ka">&#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10E2;&#x10D0;&#x10DC;&#x10D0; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10D0;&#x10E0;&#x10D0;&#x10E1;&#x10D7;&#x10D0;&#x10DC; &#x10D4;&#x10E0;&#x10D7;&#x10D0;&#x10D3;, &#x10D9;&#x10D4;&#x10D3;&#x10DA;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10E1;&#x10EC;&#x10D5;&#x10E0;&#x10D8;&#x10D5;, &#x10DB;&#x10D0;&#x10E0;&#x10EF;&#x10D5;&#x10DC;&#x10D8;&#x10D5;</long>
+            <long xml:lang="hr">Pomakni s prozorom desnom stranom zida</long>
+            <long xml:lang="en-GB">Move with window along the wall to the right</long>
+            <long xml:lang="ca">Mou pel mur cap a la dreta amb la finestra</long>
+            <default>&lt;Primary&gt;&lt;Alt&gt;&lt;Shift&gt;Right</default>
+          </option>
+          <option name="up_window_key" type="key">
+            <short>Move Up With Window</short>
+            <short xml:lang="ka">&#x10DB;&#x10D0;&#x10E6;&#x10DA;&#x10D0; &#x10D0;&#x10E2;&#x10D0;&#x10DC;&#x10D0;, &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10D0;&#x10E0;&#x10D0;&#x10E1;&#x10D7;&#x10D0;&#x10DC; &#x10D4;&#x10E0;&#x10D7;&#x10D0;&#x10D3;</short>
+            <short xml:lang="hr">Pomakni gore s prozorom</short>
+            <short xml:lang="en-GB">Move Up With Window</short>
+            <short xml:lang="ca">Mou cap a dalt amb la finestra</short>
+            <long>Move with window along the wall up</long>
+            <long xml:lang="ka">&#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10E2;&#x10D0;&#x10DC;&#x10D0; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10D0;&#x10E0;&#x10D0;&#x10E1;&#x10D7;&#x10D0;&#x10DC; &#x10D4;&#x10E0;&#x10D7;&#x10D0;&#x10D3;, &#x10D9;&#x10D4;&#x10D3;&#x10DA;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10E1;&#x10EC;&#x10D5;&#x10E0;&#x10D8;&#x10D5;, &#x10DB;&#x10D0;&#x10E6;&#x10DA;&#x10D0;</long>
+            <long xml:lang="hr">Pomakni s prozorom gornjom stranom zida</long>
+            <long xml:lang="en-GB">Move with window along the wall up</long>
+            <long xml:lang="ca">Mou pel mur cap a dalt amb la finestra</long>
+            <default>&lt;Primary&gt;&lt;Alt&gt;&lt;Shift&gt;Up</default>
+          </option>
+          <option name="down_window_key" type="key">
+            <short>Move Down With Window</short>
+            <short xml:lang="ka">&#x10D3;&#x10D0;&#x10D1;&#x10DA;&#x10D0; &#x10E9;&#x10D0;&#x10E2;&#x10D0;&#x10DC;&#x10D0;, &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10D0;&#x10E0;&#x10D0;&#x10E1;&#x10D7;&#x10D0;&#x10DC; &#x10D4;&#x10E0;&#x10D7;&#x10D0;&#x10D3;</short>
+            <short xml:lang="hr">Pomakni dolje s prozorom</short>
+            <short xml:lang="en-GB">Move Down With Window</short>
+            <short xml:lang="ca">Mou cap a baix amb la finestra</short>
+            <long>Move with window along the wall down</long>
+            <long xml:lang="ka">&#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10E2;&#x10D0;&#x10DC;&#x10D0; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10D0;&#x10E0;&#x10D0;&#x10E1;&#x10D7;&#x10D0;&#x10DC; &#x10D4;&#x10E0;&#x10D7;&#x10D0;&#x10D3;, &#x10D9;&#x10D4;&#x10D3;&#x10DA;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10E1;&#x10EC;&#x10D5;&#x10E0;&#x10D8;&#x10D5;, &#x10D3;&#x10D0;&#x10D1;&#x10DA;&#x10D0;</long>
+            <long xml:lang="hr">Pomakni s prozorom donjom stranom zida</long>
+            <long xml:lang="en-GB">Move with window along the wall down</long>
+            <long xml:lang="ca">Mou pel mur cap a baix amb la finestra</long>
+            <default>&lt;Primary&gt;&lt;Alt&gt;&lt;Shift&gt;Down</default>
+          </option>
+        </subgroup>
+        <subgroup>
+          <short>Edge flipping</short>
+          <short xml:lang="ka">&#x10EC;&#x10D8;&#x10D1;&#x10DD;&#x10E1; &#x10D0;&#x10E0;&#x10D4;&#x10D9;&#x10D5;&#x10DA;&#x10D0;</short>
+          <short xml:lang="hr">Rubno prebacivanje</short>
+          <short xml:lang="en-GB">Edge flipping</short>
+          <short xml:lang="ca">Transici&#xF3; de les vores</short>
+          <option name="flip_left_edge" type="edge">
+            <short>Flip Left</short>
+            <short xml:lang="ka">&#x10DB;&#x10D0;&#x10E0;&#x10EA;&#x10EE;&#x10DC;&#x10D8;&#x10D5; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10EE;&#x10E0;&#x10D0;</short>
+            <short xml:lang="hr">Prebaci lijevo</short>
+            <short xml:lang="en-GB">Flip Left</short>
+            <short xml:lang="ca">Transici&#xF3; cap a l'esquerra</short>
+            <long>Flip left</long>
+            <long xml:lang="ka">&#x10DB;&#x10D0;&#x10E0;&#x10EA;&#x10EE;&#x10DC;&#x10D8;&#x10D5; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10EE;&#x10E0;&#x10D0;</long>
+            <long xml:lang="hr">Prebaci lijevo</long>
+            <long xml:lang="en-GB">Flip left</long>
+            <long xml:lang="ca">Transici&#xF3; cap a l'esquerra</long>
+            <passive_grab>false</passive_grab>
+            <default>
+              <edge name="None"/>
+            </default>
+            <allowed edgednd="true"/>
+          </option>
+          <option name="flip_right_edge" type="edge">
+            <short>Flip Right</short>
+            <short xml:lang="ka">&#x10DB;&#x10D0;&#x10E0;&#x10EF;&#x10D5;&#x10DC;&#x10D8;&#x10D5; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10EE;&#x10E0;&#x10D0;</short>
+            <short xml:lang="hr">Prebaci desno</short>
+            <short xml:lang="en-GB">Flip Right</short>
+            <short xml:lang="ca">Transici&#xF3; cap a la dreta</short>
+            <long>Flip right</long>
+            <long xml:lang="ka">&#x10DB;&#x10D0;&#x10E0;&#x10EF;&#x10D5;&#x10DC;&#x10D8;&#x10D5; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10EE;&#x10E0;&#x10D0;</long>
+            <long xml:lang="hr">Prebaci desno</long>
+            <long xml:lang="en-GB">Flip right</long>
+            <long xml:lang="ca">Transici&#xF3; cap a la dreta</long>
+            <passive_grab>false</passive_grab>
+            <default>
+              <edge name="None"/>
+            </default>
+            <allowed edgednd="true"/>
+          </option>
+          <option name="flip_up_edge" type="edge">
+            <short>Flip Up</short>
+            <short xml:lang="ka">&#x10DB;&#x10D0;&#x10E6;&#x10DA;&#x10D0; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10EE;&#x10E0;&#x10D0;</short>
+            <short xml:lang="hr">Prebaci gore</short>
+            <short xml:lang="en-GB">Flip Up</short>
+            <short xml:lang="ca">Transici&#xF3; cap a dalt</short>
+            <long>Flip up</long>
+            <long xml:lang="ka">&#x10DB;&#x10D0;&#x10E6;&#x10DA;&#x10D0; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10EE;&#x10E0;&#x10D0;</long>
+            <long xml:lang="hr">Prebaci gore</long>
+            <long xml:lang="en-GB">Flip up</long>
+            <long xml:lang="ca">Transici&#xF3; cap a dalt</long>
+            <passive_grab>false</passive_grab>
+            <default>
+              <edge name="None"/>
+            </default>
+            <allowed edgednd="true"/>
+          </option>
+          <option name="flip_down_edge" type="edge">
+            <short>Flip Down</short>
+            <short xml:lang="ka">&#x10D3;&#x10D0;&#x10D1;&#x10DA;&#x10D0; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10EE;&#x10E0;&#x10D0;</short>
+            <short xml:lang="hr">Prebaci dolje</short>
+            <short xml:lang="en-GB">Flip Down</short>
+            <short xml:lang="ca">Transici&#xF3; cap a baix</short>
+            <long>Flip down</long>
+            <long xml:lang="ka">&#x10D3;&#x10D0;&#x10D1;&#x10DA;&#x10D0; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10EE;&#x10E0;&#x10D0;</long>
+            <long xml:lang="hr">Prebaci dolje</long>
+            <long xml:lang="en-GB">Flip down</long>
+            <long xml:lang="ca">Transici&#xF3; cap a baix</long>
+            <passive_grab>false</passive_grab>
+            <default>
+              <edge name="None"/>
+            </default>
+            <allowed edgednd="true"/>
+          </option>
+        </subgroup>
+      </group>
+    </display>
+    <screen>
+      <group>
+        <short>Viewport Switching</short>
+        <short xml:lang="ka">&#x10DB;&#x10EE;&#x10D4;&#x10D3;&#x10D5;&#x10D4;&#x10DA;&#x10DD;&#x10D1;&#x10D8;&#x10E1; &#x10EC;&#x10D4;&#x10E0;&#x10E2;&#x10D8;&#x10DA;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10E0;&#x10D7;&#x10D5;&#x10D0;</short>
+        <short xml:lang="hr">Prebacivanje podru&#x10D;ja prikaza</short>
+        <short xml:lang="en-GB">Viewport Switching</short>
+        <short xml:lang="ca">Commutaci&#xF3; de l'&#xE0;rea de visualitzaci&#xF3;</short>
+        <option name="mmmode" type="int">
+          <short>Multimonitor behavior</short>
+          <short xml:lang="ka">&#x10DB;&#x10E0;&#x10D0;&#x10D5;&#x10D0;&#x10DA;&#x10DB;&#x10DD;&#x10DC;&#x10D8;&#x10E2;&#x10DD;&#x10E0;&#x10D8;&#x10D0;&#x10DC;&#x10D8;&#x10E1; &#x10E5;&#x10EA;&#x10D4;&#x10D5;&#x10D0;</short>
+          <short xml:lang="hr">Vi&#x161;ezaslonsko pona&#x161;anje</short>
+          <short xml:lang="en-GB">Multi monitor behaviour</short>
+          <short xml:lang="ca">Comportament dels monitors m&#xFA;ltiples</short>
+          <long>How should a multimonitor configuration be handled</long>
+          <long xml:lang="ka">&#x10E0;&#x10DD;&#x10D2;&#x10DD;&#x10E0; &#x10E3;&#x10DC;&#x10D3;&#x10D0; &#x10DB;&#x10DD;&#x10D5;&#x10D4;&#x10E5;&#x10EA;&#x10D4;&#x10D7; &#x10DB;&#x10E0;&#x10D0;&#x10D5;&#x10D0;&#x10DA;&#x10DB;&#x10DD;&#x10DC;&#x10D8;&#x10E2;&#x10DD;&#x10E0;&#x10D8;&#x10D0;&#x10DC; &#x10D9;&#x10DD;&#x10DC;&#x10E4;&#x10D8;&#x10D2;&#x10E3;&#x10E0;&#x10D0;&#x10EA;&#x10D8;&#x10D0;&#x10E1;</long>
+          <long xml:lang="hr">Kako se treba rukovati vi&#x161;ezaslonskim pode&#x161;avanjem</long>
+          <long xml:lang="ca">Com s'ha de gestionar una configuraci&#xF3; de diversos monitors</long>
+          <default>0</default>
+          <min>0</min>
+          <max>1</max>
+          <desc>
+            <value>0</value>
+            <name>Switch all</name>
+            <name xml:lang="ka">&#x10E7;&#x10D5;&#x10D4;&#x10DA;&#x10D0;&#x10E1; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10E0;&#x10D7;&#x10D5;&#x10D0;</name>
+            <name xml:lang="hr">Mijenjaj sve</name>
+            <name xml:lang="en-GB">Switch all</name>
+            <name xml:lang="ca">Commuta-ho tot</name>
+          </desc>
+          <desc>
+            <value>1</value>
+            <name>Switch separately</name>
+            <name xml:lang="ka">&#x10EA;&#x10D0;&#x10DA;-&#x10EA;&#x10D0;&#x10DA;&#x10D9;&#x10D4; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10E0;&#x10D7;&#x10D5;&#x10D0;</name>
+            <name xml:lang="hr">Mijenjaj zasebno</name>
+            <name xml:lang="en-GB">Switch separately</name>
+            <name xml:lang="ca">Commuta separadament</name>
+          </desc>
+        </option>
+      </group>
+      <group>
+        <short>Edge Flipping</short>
+        <short xml:lang="ka">&#x10EC;&#x10D8;&#x10D1;&#x10DD;&#x10E1; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10EE;&#x10E0;&#x10D0;</short>
+        <short xml:lang="hr">Rubno prebacivanje</short>
+        <short xml:lang="en-GB">Edge Flipping</short>
+        <short xml:lang="ca">Transici&#xF3; de les vores</short>
+        <option name="edgeflip_pointer" type="bool">
+          <short>Edge Flip Pointer</short>
+          <short xml:lang="zh-Hant-TW">&#x908A;&#x7DE3;&#x7FFB;&#x8F49;&#x9EDE;</short>
+          <short xml:lang="zh-Hans-CN">&#x6307;&#x9488;&#x8FB9;&#x7F18;&#x7FFB;&#x8F6C;</short>
+          <short xml:lang="uk">&#x412;&#x456;&#x434;&#x43E;&#x431;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x43D;&#x44F; &#x43F;&#x440;&#x438; &#x43A;&#x443;&#x440;&#x441;&#x43E;&#x440;&#x456; &#x43D;&#x430; &#x43A;&#x440;&#x430;&#x44E;</short>
+          <short xml:lang="sv">Kantv&#xE4;nd pekare</short>
+          <short xml:lang="sk">Ukazovate&#x13E; pri prep&#xED;nan&#xED; na hrane</short>
+          <short xml:lang="ru">&#x41E;&#x442;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x440;&#x438; &#x43A;&#x443;&#x440;&#x441;&#x43E;&#x440;&#x435; &#x43D;&#x430; &#x43A;&#x440;&#x430;&#x44E;</short>
+          <short xml:lang="ro">&#xCE;ntoarcere muchie &#x2013; indicator</short>
+          <short xml:lang="pt-BR">Ponteiro de Invers&#xE3;o de Bordas</short>
+          <short xml:lang="pt">Ponteiro de Invers&#xE3;o de Bordas</short>
+          <short xml:lang="pl">Prze&#x142;&#x105;czanie widok&#xF3;w za pomoc&#x105; wska&#x17A;nika</short>
+          <short xml:lang="pa">&#xA15;&#xA4B;&#xA28;&#xA3E; &#xA2B;&#xA32;&#xA3F;&#xA2A; &#xA2A;&#xA41;&#xA06;&#xA07;&#xA70;&#xA1F;&#xA30;</short>
+          <short xml:lang="or">&#xB27;&#xB3E;&#xB30; &#xB2C;&#xB26;&#xB33; &#xB2A;&#xB0F;&#xB23;&#xB4D;&#xB1F;&#xB30;</short>
+          <short xml:lang="nl">Rand kantel aanw&#x133;zer</short>
+          <short xml:lang="nb">Kantbytt peker</short>
+          <short xml:lang="ko">&#xB9C8;&#xC6B0;&#xC2A4; &#xD3EC;&#xC778;&#xD130;&#xB85C; &#xAC00;&#xC7A5;&#xC790;&#xB9AC;&#xC5D0;&#xC11C; &#xC791;&#xC5C5; &#xACF5;&#xAC04; &#xC804;&#xD658;</short>
+          <short xml:lang="ka">&#x10D9;&#x10E3;&#x10E0;&#x10E1;&#x10DD;&#x10E0;&#x10D8;&#x10E1; &#x10D0;&#x10E0;&#x10D4;&#x10D9;&#x10D5;&#x10DA;&#x10D0; &#x10EC;&#x10D8;&#x10D1;&#x10DD;&#x10D3;&#x10D0;&#x10DC;</short>
+          <short xml:lang="ja">&#x30A8;&#x30C3;&#x30B8;&#x3078;&#x306E;&#x30DD;&#x30A4;&#x30F3;&#x30BF;&#x79FB;&#x52D5;&#x3067;&#x30D5;&#x30EA;&#x30C3;&#x30D7;</short>
+          <short xml:lang="it">Scorrere il bordo con il puntatore</short>
+          <short xml:lang="hu">&#xC9;lforgat&#xE1;s mutat&#xF3;</short>
+          <short xml:lang="hr">Rubno prebacivanje pri pomicanju pokaziva&#x10D;a</short>
+          <short xml:lang="hi">&#x915;&#x93F;&#x928;&#x93E;&#x930;&#x93E; &#x91D;&#x91F;&#x915;&#x93E; &#x938;&#x942;&#x91A;&#x915;</short>
+          <short xml:lang="he">&#x5E2;&#x5DC;&#x5E2;&#x5D5;&#x5DC; &#x5D1;&#x5D4;&#x5D1;&#x5D0;&#x5EA; &#x5E1;&#x5DE;&#x5DF; &#x5DC;&#x5E7;&#x5E6;&#x5D4; &#x5DE;&#x5E1;&#x5DA;</short>
+          <short xml:lang="gu">&#xAAC;&#xABE;&#xA9C;&#xAC1; &#xAAA;&#xAB2;&#xA9F;&#xABE;&#xAB5; &#xAA8;&#xABF;&#xAB0;&#xACD;&#xAA6;&#xAC7;&#xAB6;&#xA95;</short>
+          <short xml:lang="gl">Xirar cando estea o Punteiro no Borde</short>
+          <short xml:lang="fr">Rotation de c&#xF4;t&#xE9; - Pointeur</short>
+          <short xml:lang="fi">K&#xE4;&#xE4;nn&#xE4; seuraavaan ty&#xF6;p&#xF6;yt&#xE4;&#xE4;n siirt&#xE4;ess&#xE4; osoitinta reunaan</short>
+          <short xml:lang="eu">Ertz Iraultze Erakuslea</short>
+          <short xml:lang="es">Puntero Inversi&#xF3;n de Borde</short>
+          <short xml:lang="en-GB">Edge Flip Pointer</short>
+          <short xml:lang="el">&#x393;&#x3CD;&#x3C1;&#x3B9;&#x3C3;&#x3BC;&#x3B1; &#x386;&#x3BA;&#x3C1;&#x3B7;&#x3C2; &#x3BC;&#x3B5; &#x394;&#x3B5;&#x3AF;&#x3BA;&#x3C4;&#x3B7;</short>
+          <short xml:lang="de">An Rand wechseln (Zeiger)</short>
+          <short xml:lang="da">Mark&#xF8;r til kant, vend</short>
+          <short xml:lang="cs">P&#x159;ekl&#xE1;p&#x11B;n&#xED; hran ukazatelem</short>
+          <short xml:lang="ca">Transici&#xF3; amb el punter a la vora</short>
+          <short xml:lang="bn">&#x9AA;&#x9CD;&#x9B0;&#x9BE;&#x9A8;&#x9CD;&#x9A4;&#x9C7;&#x9B0; &#x9AB;&#x9CD;&#x9B2;&#x9BF;&#x9AA; &#x9A8;&#x9BF;&#x9B0;&#x9CD;&#x9A6;&#x9C7;&#x9B6;&#x995;</short>
+          <short xml:lang="bn-IN">&#x9AA;&#x9CD;&#x9B0;&#x9BE;&#x9A8;&#x9CD;&#x9A4;&#x9C7;&#x9B0; &#x9AB;&#x9CD;&#x9B2;&#x9BF;&#x9AA; &#x9A8;&#x9BF;&#x9B0;&#x9CD;&#x9A6;&#x9C7;&#x9B6;&#x995;</short>
+          <long>Flip viewport when moving the pointer to a screen edge</long>
+          <long xml:lang="ka">&#x10EE;&#x10D4;&#x10D3;&#x10D8;&#x10E1; &#x10EC;&#x10D4;&#x10E0;&#x10E2;&#x10D8;&#x10DA;&#x10D8;&#x10E1; &#x10D0;&#x10E0;&#x10D4;&#x10D9;&#x10D5;&#x10DA;&#x10D0; &#x10D9;&#x10E3;&#x10E0;&#x10E1;&#x10DD;&#x10E0;&#x10D8;&#x10E1; &#x10D4;&#x10D9;&#x10E0;&#x10D0;&#x10DC;&#x10D8;&#x10E1; &#x10EC;&#x10D8;&#x10D1;&#x10DD;&#x10E1;&#x10D9;&#x10D4;&#x10DC; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10D0;&#x10D3;&#x10D2;&#x10D8;&#x10DA;&#x10D4;&#x10D1;&#x10D8;&#x10E1;&#x10D0;&#x10E1;</long>
+          <long xml:lang="hr">Prebaci na sljede&#x107;e podru&#x10D;je prikaza pri pomicanju pokaziva&#x10D;a po rubu zaslona</long>
+          <long xml:lang="en-GB">Flip viewport when moving the pointer to a screen edge</long>
+          <long xml:lang="ca">Passa a l'&#xE0;rea de visualitzaci&#xF3; quan es mou el punter a la vora de la pantalla</long>
+          <default>false</default>
+        </option>
+        <option name="edgeflip_move" type="bool">
+          <short>Edge Flip Move</short>
+          <short xml:lang="zh-Hant-TW">&#x908A;&#x7DE3;&#x7FFB;&#x8F49;&#x79FB;&#x52D5;</short>
+          <short xml:lang="zh-Hans-CN">&#x79FB;&#x52A8;&#x8FB9;&#x7F18;&#x7FFB;&#x8F6C;</short>
+          <short xml:lang="uk">&#x412;&#x456;&#x434;&#x43E;&#x431;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x43D;&#x44F; &#x43F;&#x440;&#x438; &#x43F;&#x435;&#x440;&#x435;&#x43C;&#x456;&#x449;&#x435;&#x43D;&#x43D;&#x456; &#x434;&#x43E; &#x43A;&#x440;&#x430;&#x44E;</short>
+          <short xml:lang="sv">Kantv&#xE4;nd flyttning</short>
+          <short xml:lang="sk">Pohyb pri prep&#xED;nan&#xED; na hrane</short>
+          <short xml:lang="ru">&#x41E;&#x442;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x440;&#x438; &#x43F;&#x435;&#x440;&#x435;&#x43C;&#x435;&#x449;&#x435;&#x43D;&#x438;&#x438; &#x43A; &#x43A;&#x440;&#x430;&#x44E;</short>
+          <short xml:lang="ro">&#xCE;ntoarcere muchie &#x2013; deplasare</short>
+          <short xml:lang="pt-BR">Movimento de Invers&#xE3;o de Bordas</short>
+          <short xml:lang="pt">Movimento de Invers&#xE3;o de Bordas</short>
+          <short xml:lang="pl">Prze&#x142;&#x105;czanie kraw&#x119;dziami - przenoszenie</short>
+          <short xml:lang="pa">&#xA15;&#xA4B;&#xA28;&#xA3E; &#xA2B;&#xA32;&#xA3F; &#xA1A;&#xA3E;&#xA32;</short>
+          <short xml:lang="or">&#xB27;&#xB3E;&#xB30; &#xB2C;&#xB26;&#xB33; &#xB18;&#xB41;&#xB1E;&#xB4D;&#xB1A;&#xB3F;&#xB2C;&#xB3E;</short>
+          <short xml:lang="nl">Rand kantel verplaatsen</short>
+          <short xml:lang="nb">Kantbytt flytt</short>
+          <short xml:lang="ko">&#xAC00;&#xC7A5;&#xC790;&#xB9AC;&#xC5D0;&#xC11C; &#xC791;&#xC5C5; &#xACF5;&#xAC04; &#xC804;&#xD658;</short>
+          <short xml:lang="ka">&#x10D0;&#x10E0;&#x10D4;&#x10D9;&#x10D5;&#x10DA;&#x10D0; &#x10D9;&#x10E3;&#x10E0;&#x10E1;&#x10DD;&#x10E0;&#x10D8;&#x10E1; &#x10EC;&#x10D8;&#x10D1;&#x10DD;&#x10E1;&#x10D9;&#x10D4;&#x10DC; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10D0;&#x10D3;&#x10D2;&#x10D8;&#x10DA;&#x10D4;&#x10D1;&#x10E1;&#x10D0;&#x10E1;</short>
+          <short xml:lang="ja">&#x30A8;&#x30C3;&#x30B8;&#x3078;&#x306E;&#x79FB;&#x52D5;&#x3067;&#x30D5;&#x30EA;&#x30C3;&#x30D7;</short>
+          <short xml:lang="it">Scorrere il bordo allo spostamento</short>
+          <short xml:lang="hu">&#xC9;lforgat&#xE1;s &#xE1;thelyez&#xE9;s</short>
+          <short xml:lang="hr">Rubno prebacivanje pri pomicanju prozora</short>
+          <short xml:lang="hi">&#x915;&#x93F;&#x928;&#x93E;&#x930;&#x93E; &#x91D;&#x91F;&#x915;&#x93E; &#x939;&#x91F;&#x93E;&#x90F;&#x902;</short>
+          <short xml:lang="he">&#x5E2;&#x5DC;&#x5E2;&#x5D5;&#x5DC; &#x5D1;&#x5D4;&#x5D6;&#x5D6;&#x5D4; &#x5DC;&#x5E7;&#x5E6;&#x5D4; &#x5DE;&#x5E1;&#x5DA;</short>
+          <short xml:lang="gu">&#xAAC;&#xABE;&#xA9C;&#xAC1; &#xAAA;&#xAB2;&#xA9F;&#xABE;&#xAB5; &#xA96;&#xAB8;&#xAC7;&#xAA1;&#xACB;</short>
+          <short xml:lang="gl">Xirar con Movemento cara o Borde</short>
+          <short xml:lang="fr">Rotation de c&#xF4;t&#xE9; - D&#xE9;placement</short>
+          <short xml:lang="fi">K&#xE4;&#xE4;nn&#xE4; seuraavaan ty&#xF6;p&#xF6;yt&#xE4;&#xE4;n siirt&#xE4;ess&#xE4; ikkunan reunaan</short>
+          <short xml:lang="eu">Mugitu Ertz Iraultzea</short>
+          <short xml:lang="es">Mover Inversi&#xF3;n de Borde</short>
+          <short xml:lang="en-GB">Edge Flip Move</short>
+          <short xml:lang="el">&#x393;&#x3CD;&#x3C1;&#x3B9;&#x3C3;&#x3BC;&#x3B1; &#x386;&#x3BA;&#x3C1;&#x3B7;&#x3C2; &#x3BC;&#x3B5; &#x39C;&#x3B5;&#x3C4;&#x3B1;&#x3BA;&#x3AF;&#x3BD;&#x3B7;&#x3C3;&#x3B7;</short>
+          <short xml:lang="de">An Rand wechseln (Verschieben)</short>
+          <short xml:lang="da">Flyt til kant, vend</short>
+          <short xml:lang="cs">P&#x159;ekl&#xE1;p&#x11B;n&#xED; hran p&#x159;i p&#x159;esunu</short>
+          <short xml:lang="ca">Transici&#xF3; amb el moviment a la vora</short>
+          <short xml:lang="bn">&#x9AA;&#x9CD;&#x9B0;&#x9BE;&#x9A8;&#x9CD;&#x9A4;&#x9C7;&#x9B0; &#x9AB;&#x9CD;&#x9B2;&#x9BF;&#x9AA; &#x9B8;&#x9B0;&#x9BE;&#x9A8;&#x9CB;</short>
+          <short xml:lang="bn-IN">&#x9AA;&#x9CD;&#x9B0;&#x9BE;&#x9A8;&#x9CD;&#x9A4;&#x9C7;&#x9B0; &#x9AB;&#x9CD;&#x9B2;&#x9BF;&#x9AA; &#x9B8;&#x9B0;&#x9BE;&#x9A8;&#x9CB;</short>
+          <long>Flip viewport when moving a window to a screen edge</long>
+          <long xml:lang="ka">&#x10EE;&#x10D4;&#x10D3;&#x10D8;&#x10E1; &#x10EC;&#x10D4;&#x10E0;&#x10E2;&#x10D8;&#x10DA;&#x10D8;&#x10E1; &#x10D0;&#x10E0;&#x10D4;&#x10D9;&#x10D5;&#x10DA;&#x10D0; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D8;&#x10E1; &#x10D4;&#x10D9;&#x10E0;&#x10D0;&#x10DC;&#x10D8;&#x10E1; &#x10EC;&#x10D8;&#x10D1;&#x10DD;&#x10E1;&#x10D9;&#x10D4;&#x10DC; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10D0;&#x10D3;&#x10D2;&#x10D8;&#x10DA;&#x10D4;&#x10D1;&#x10D8;&#x10E1;&#x10D0;&#x10E1;</long>
+          <long xml:lang="hr">Prebaci na sljede&#x107;e podru&#x10D;je prikaza pri pomicanju prozora po rubu zaslona</long>
+          <long xml:lang="en-GB">Flip viewport when moving a window to a screen edge</long>
+          <long xml:lang="ca">Passa a l'&#xE0;rea de visualitzaci&#xF3; quan es mou la finestra a la vora de la pantalla</long>
+          <default>true</default>
+        </option>
+        <option name="edgeflip_dnd" type="bool">
+          <short>Edge Flip DnD</short>
+          <short xml:lang="zh-Hant-TW">&#x908A;&#x7DE3;&#x7FFB;&#x8F49;&#x62D6;&#x653E;</short>
+          <short xml:lang="zh-Hans-CN">DnD&#x8FB9;&#x7F18;&#x7FFB;&#x8F6C;</short>
+          <short xml:lang="uk">&#x412;&#x456;&#x434;&#x43E;&#x431;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x43D;&#x44F; &#x43F;&#x456;&#x434; &#x447;&#x430;&#x441; &#x43F;&#x435;&#x440;&#x435;&#x442;&#x44F;&#x433;&#x443;&#x432;&#x430;&#x43D;&#x43D;&#x44F; &#x434;&#x43E; &#x43A;&#x440;&#x430;&#x44E;</short>
+          <short xml:lang="sv">Kantv&#xE4;nd DnD</short>
+          <short xml:lang="sk">DnD pri prep&#xED;nan&#xED; na hrane</short>
+          <short xml:lang="ru">&#x41E;&#x442;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x440;&#x438; &#x43F;&#x435;&#x440;&#x435;&#x442;&#x430;&#x441;&#x43A;&#x438;&#x432;&#x430;&#x43D;&#x438;&#x438; &#x43A; &#x43A;&#x440;&#x430;&#x44E;</short>
+          <short xml:lang="ro">&#xCE;ntoarcere muchie &#x2013; glisare</short>
+          <short xml:lang="pt-BR">DnD de Invers&#xE3;o de Bordas</short>
+          <short xml:lang="pt">DnD de Invers&#xE3;o de Bordas</short>
+          <short xml:lang="pl">Prze&#x142;&#x105;czanie kraw&#x119;dziami - przeci&#x105;gnij i upu&#x15B;&#x107;</short>
+          <short xml:lang="pa">&#xA15;&#xA4B;&#xA28;&#xA3E; &#xA2B;&#xA32;&#xA3F;&#xA2A; DnD</short>
+          <short xml:lang="or">&#xB27;&#xB3E;&#xB30; &#xB2C;&#xB26;&#xB33; DnD</short>
+          <short xml:lang="nl">Rand kantel verslepen</short>
+          <short xml:lang="nb">Kantbytt dra-og-slipp</short>
+          <short xml:lang="ko">&#xB4DC;&#xB798;&#xADF8;&#xD558;&#xC5EC; &#xAC00;&#xC7A5;&#xC790;&#xB9AC;&#xC5D0;&#xC11C; &#xC791;&#xC5C5; &#xACF5;&#xAC04; &#xC804;&#xD658;</short>
+          <short xml:lang="ka">&#x10D0;&#x10E0;&#x10D4;&#x10D9;&#x10D5;&#x10DA;&#x10D0; &#x10EC;&#x10D8;&#x10D1;&#x10DD;&#x10E1;&#x10D9;&#x10D4;&#x10DC; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10D7;&#x10E0;&#x10D4;&#x10D5;&#x10D8;&#x10E1;&#x10D0;&#x10E1;</short>
+          <short xml:lang="ja">&#x30A8;&#x30C3;&#x30B8;&#x3078;&#x306E;&#x30C9;&#x30E9;&#x30C3;&#x30B0;&#xFF06;&#x30C9;&#x30ED;&#x30C3;&#x30D7;&#x3067;&#x30D5;&#x30EA;&#x30C3;&#x30D7;</short>
+          <short xml:lang="it">Scorrere il bordo al trascinamento</short>
+          <short xml:lang="hu">&#xC9;lforgat&#xE1;s eg&#xE9;rm&#x171;velet</short>
+          <short xml:lang="hr">Rubno prebacivanje pri povla&#x10D;enju i otpu&#x161;tanju</short>
+          <short xml:lang="hi">&#x915;&#x93F;&#x928;&#x93E;&#x930;&#x93E; &#x91D;&#x91F;&#x915;&#x93E; DnD</short>
+          <short xml:lang="he">&#x5E2;&#x5DC;&#x5E2;&#x5D5;&#x5DC; &#x5D1;&#x5D2;&#x5E8;&#x5D9;&#x5E8;&#x5D4; &#x5DC;&#x5E7;&#x5E6;&#x5D4; &#x5DE;&#x5E1;&#x5DA;</short>
+          <short xml:lang="gu">&#xAAC;&#xABE;&#xA9C;&#xAC1; &#xAAA;&#xAB2;&#xA9F;&#xABE;&#xAB5; DnD</short>
+          <short xml:lang="gl">Cambiar cando se Arrastra cara o Borde</short>
+          <short xml:lang="fr">Rotation de c&#xF4;t&#xE9; - Glissement-d&#xE9;placement</short>
+          <short xml:lang="fi">K&#xE4;&#xE4;nn&#xE4; seuraavaan ty&#xF6;p&#xF6;yt&#xE4;&#xE4;n siirt&#xE4;ess&#xE4; objektia reunaan</short>
+          <short xml:lang="eu">DnD ertza irauli</short>
+          <short xml:lang="es">DnD Inversi&#xF3;n de Borde</short>
+          <short xml:lang="en-GB">Edge Flip DnD</short>
+          <short xml:lang="el">&#x393;&#x3CD;&#x3C1;&#x3B9;&#x3C3;&#x3BC;&#x3B1; &#x386;&#x3BA;&#x3C1;&#x3B7;&#x3C2; DnD</short>
+          <short xml:lang="de">An Rand wechseln (Ziehen und Ablegen)</short>
+          <short xml:lang="da">Tr&#xE6;k-og-slip til kant, vend</short>
+          <short xml:lang="cs">P&#x159;ekl&#xE1;p&#x11B;n&#xED; hran DnD</short>
+          <short xml:lang="ca">Transici&#xF3; amb l'arrossegament a la vora</short>
+          <short xml:lang="bn"> DnD &#x9AA;&#x9CD;&#x9B0;&#x9BE;&#x9A8;&#x9CD;&#x9A4; &#x9AB;&#x9CD;&#x9B2;&#x9BF;&#x9AA; &#x995;&#x9B0;&#x9BE;</short>
+          <short xml:lang="bn-IN"> DnD &#x9AA;&#x9CD;&#x9B0;&#x9BE;&#x9A8;&#x9CD;&#x9A4; &#x9AB;&#x9CD;&#x9B2;&#x9BF;&#x9AA; &#x995;&#x9B0;&#x9BE;</short>
+          <long>Flip viewport when dragging an object to a screen edge</long>
+          <long xml:lang="ka">&#x10EE;&#x10D4;&#x10D3;&#x10D8;&#x10E1; &#x10EC;&#x10D4;&#x10E0;&#x10E2;&#x10D8;&#x10DA;&#x10D8;&#x10E1; &#x10D0;&#x10E0;&#x10D4;&#x10D9;&#x10D5;&#x10DA;&#x10D0; &#x10DD;&#x10D1;&#x10D8;&#x10D4;&#x10E5;&#x10E2;&#x10D8;&#x10E1; &#x10D4;&#x10D9;&#x10E0;&#x10D0;&#x10DC;&#x10D8;&#x10E1; &#x10EC;&#x10D8;&#x10D1;&#x10DD;&#x10E1;&#x10D9;&#x10D4;&#x10DC; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10D7;&#x10E0;&#x10D4;&#x10D5;&#x10D8;&#x10E1;&#x10D0;&#x10E1;</long>
+          <long xml:lang="hr">Prebaci na sljede&#x107;e podru&#x10D;je prikaza pri povla&#x10D;enju objekta na rub zaslona</long>
+          <long xml:lang="en-GB">Flip viewport when dragging an object to a screen edge</long>
+          <long xml:lang="ca">Passa a l'&#xE0;rea de visualitzaci&#xF3; quan s'arrossega un objecte a la vora de la pantalla</long>
+          <default>false</default>
+        </option>
+      </group>
+    </screen>
+  </plugin>
+</compiz>

@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<compiz>
+  <plugin name="svg">
+    <short>Svg</short>
+    <short xml:lang="zh-Hant-TW">Svg</short>
+    <short xml:lang="zh-Hans-CN">Svg</short>
+    <short xml:lang="uk">Svg</short>
+    <short xml:lang="tr">Svg</short>
+    <short xml:lang="sv">Svg</short>
+    <short xml:lang="sk">SVG</short>
+    <short xml:lang="ru">Svg</short>
+    <short xml:lang="ro">Svg</short>
+    <short xml:lang="pt-BR">Svg</short>
+    <short xml:lang="pt">Svg</short>
+    <short xml:lang="pl">Svg</short>
+    <short xml:lang="pa">Svg</short>
+    <short xml:lang="or">Svg</short>
+    <short xml:lang="nl">SVG</short>
+    <short xml:lang="nb">Svg</short>
+    <short xml:lang="ko">Svg</short>
+    <short xml:lang="ka">Svg</short>
+    <short xml:lang="ja">Svg</short>
+    <short xml:lang="it">SVG</short>
+    <short xml:lang="hu">SVG</short>
+    <short xml:lang="hr">Svg</short>
+    <short xml:lang="hi">Svg</short>
+    <short xml:lang="he">Svg </short>
+    <short xml:lang="gu">Svg</short>
+    <short xml:lang="gl">Svg</short>
+    <short xml:lang="fr">Svg</short>
+    <short xml:lang="fi">SVG</short>
+    <short xml:lang="eu">Svg</short>
+    <short xml:lang="es">Svg</short>
+    <short xml:lang="en-GB">Svg</short>
+    <short xml:lang="el">Svg</short>
+    <short xml:lang="de">SVG</short>
+    <short xml:lang="cs">SVG</short>
+    <short xml:lang="ca">Svg</short>
+    <short xml:lang="bn">Svg </short>
+    <short xml:lang="bn-IN">Svg </short>
+    <short xml:lang="bg">Svg</short>
+    <long>Svg image loader</long>
+    <long xml:lang="zh-Hant-TW">Svg &#x5716;&#x6A94;&#x8F09;&#x5165;&#x5668;</long>
+    <long xml:lang="zh-Hans-CN">Svg&#x56FE;&#x50CF;&#x52A0;&#x8F7D;&#x5DE5;&#x5177;</long>
+    <long xml:lang="uk">&#x417;&#x430;&#x432;&#x430;&#x43D;&#x442;&#x430;&#x436;&#x443;&#x432;&#x430;&#x447; &#x437;&#x43E;&#x431;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x44C; Svg</long>
+    <long xml:lang="tr">Svg resim y&#xFC;kleyici</long>
+    <long xml:lang="sv">Svg-bildl&#xE4;sare</long>
+    <long xml:lang="sk">Na&#x10D;&#xED;tanie SVG obr&#xE1;zkov</long>
+    <long xml:lang="ru">&#x417;&#x430;&#x433;&#x440;&#x443;&#x437;&#x447;&#x438;&#x43A; &#x438;&#x437;&#x43E;&#x431;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x438;&#x439; Svg</long>
+    <long xml:lang="ro">&#xCE;nc&#x103;rc&#x103;tor de imagini Svg</long>
+    <long xml:lang="pt-BR">Carregar imagens svg</long>
+    <long xml:lang="pt">Carregar imagens svg</long>
+    <long xml:lang="pl">Wtyczka &#x142;aduj&#x105;ca obrazki .svg</long>
+    <long xml:lang="pa">Svg &#xA1A;&#xA3F;&#xA71;&#xA24;&#xA30; &#xA32;&#xA4B;&#xA21;&#xA30;</long>
+    <long xml:lang="or">Svg &#xB1A;&#xB3F;&#xB24;&#xB4D;&#xB30; &#xB32;&#xB4B;&#xB21;&#xB15;&#xB3E;&#xB30;&#xB40;</long>
+    <long xml:lang="nl">SVG afbeelding lader</long>
+    <long xml:lang="nb">Innlaster for svg-bilde</long>
+    <long xml:lang="ko">Svg &#xC774;&#xBBF8;&#xC9C0; &#xBD88;&#xB7EC;&#xC624;&#xAE30;</long>
+    <long xml:lang="ka">Svg &#x10D2;&#x10D0;&#x10DB;&#x10DD;&#x10E1;&#x10D0;&#x10EE;&#x10E3;&#x10DA;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10E9;&#x10D0;&#x10DB;&#x10E2;&#x10D5;&#x10D8;&#x10E0;&#x10D7;&#x10D0;&#x10D5;&#x10D8;</long>
+    <long xml:lang="ja">Svg &#x753B;&#x50CF;&#x8AAD;&#x307F;&#x8FBC;&#x307F;</long>
+    <long xml:lang="it">Caricatore immagini SVG</long>
+    <long xml:lang="hu">SVG k&#xE9;pbet&#xF6;lt&#x151;</long>
+    <long xml:lang="hr">U&#x10D;ita&#x10D; svg slika</long>
+    <long xml:lang="hi">Svg &#x91A;&#x93F;&#x924;&#x94D;&#x930; &#x932;&#x94B;&#x921;&#x930;</long>
+    <long xml:lang="he">&#x5D8;&#x5D5;&#x5E2;&#x5DF; &#x5EA;&#x5DE;&#x5D5;&#x5E0;&#x5D5;&#x5EA; Svg</long>
+    <long xml:lang="gu">Svg &#xA9A;&#xABF;&#xAA4;&#xACD;&#xAB0; &#xAB2;&#xABE;&#xAB5;&#xAA8;&#xABE;&#xAB0;</long>
+    <long xml:lang="gl">Complemento que activa o soporte para o cargado de imaxes SVG</long>
+    <long xml:lang="fr">Chargeur d'images Svg</long>
+    <long xml:lang="fi">SVG-kuvien lataaja</long>
+    <long xml:lang="eu">Svg irudi kargatzailea</long>
+    <long xml:lang="es">Cargador de im&#xE1;genes Svg</long>
+    <long xml:lang="en-GB">Svg image loader</long>
+    <long xml:lang="el">&#x3A6;&#x3BF;&#x3C1;&#x3C4;&#x3C9;&#x3C4;&#x3AE;&#x3C2; &#x3B5;&#x3B9;&#x3BA;&#x3CC;&#x3BD;&#x3B1;&#x3C2; svg</long>
+    <long xml:lang="de">Plugin f&#xFC;r das Laden von Bildern im SVG-Format</long>
+    <long xml:lang="cs">Podpora obr&#xE1;zkov&#xE9;ho form&#xE1;tu SVG</long>
+    <long xml:lang="ca">Carregador d'imatges svg</long>
+    <long xml:lang="bn">Svg &#x99A;&#x9BF;&#x9A4;&#x9CD;&#x9B0; &#x9B2;&#x9CB;&#x9A1;&#x9BE;&#x9B0;</long>
+    <long xml:lang="bn-IN">Svg &#x99A;&#x9BF;&#x9A4;&#x9CD;&#x9B0; &#x9B2;&#x9CB;&#x9A1;&#x9BE;&#x9B0;</long>
+    <long xml:lang="bg">Svg image loader</long>
+    <category>Image Loading</category>
+    <feature>imageext:svg</feature>
+    <feature>imagemime:image/svg+xml</feature>
+  </plugin>
+</compiz>

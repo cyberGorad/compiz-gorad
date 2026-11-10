@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: compiz\n"
 "Report-Msgid-Bugs-To: https://gitlab.com/compiz/compiz-core/issues\n"
-"POT-Creation-Date: 2020-11-04 22:19-0500\n"
+"POT-Creation-Date: 2026-11-09 16:35+0300\n"
 "PO-Revision-Date: 2008-02-11 17:23+0100\n"
 "Last-Translator: Tomas Hejatko <hejda.cz@gmail.com>\n"
 "Language-Team: Czech <opensuse-cz@opensuse.org>\n"
@@ -1343,6 +1343,25 @@ msgstr "Předchozí snímek"
 
 msgid "Go back to previous slide"
 msgstr "Jít zpět na předchozí snímek"
+
+msgid "Zoom In"
+msgstr "Přiblížit"
+
+msgid "Zoom in while the cube is active"
+msgstr ""
+
+msgid "Zoom Out"
+msgstr "Oddálit"
+
+msgid "Zoom out while the cube is active"
+msgstr ""
+
+#, fuzzy
+msgid "Reset Zoom"
+msgstr "Rychlost otáčení"
+
+msgid "Reset the cube zoom while it is active"
+msgstr ""
 
 msgid "Generate mipmaps when possible for higher quality scaling"
 msgstr "Jeli to možné, vytvářet pro kvalitní škálování mipmapy"
@@ -3154,12 +3173,6 @@ msgstr "Přiblížit plochu"
 
 msgid "Zoom and pan desktop cube"
 msgstr "Přiblížit a posunout kostku ploch"
-
-msgid "Zoom In"
-msgstr "Přiblížit"
-
-msgid "Zoom Out"
-msgstr "Oddálit"
 
 #, fuzzy
 msgid "Zoom Pan"

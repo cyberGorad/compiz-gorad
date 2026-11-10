@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<compiz>
+  <plugin name="inotify">
+    <short>Inotify</short>
+    <short xml:lang="zh-Hant-TW">Inotify&#x6A94;&#x6848;&#x76E3;&#x63A7;&#x6A5F;&#x5236;</short>
+    <short xml:lang="zh-Hans-CN">Inotify</short>
+    <short xml:lang="uk">Inotify</short>
+    <short xml:lang="tr">Inotify</short>
+    <short xml:lang="sv">Inotify</short>
+    <short xml:lang="sk">Inotify</short>
+    <short xml:lang="ru">Inotify</short>
+    <short xml:lang="ro">Inotify</short>
+    <short xml:lang="pt-BR">Inotify</short>
+    <short xml:lang="pt">Inotify</short>
+    <short xml:lang="pl">Inotify</short>
+    <short xml:lang="or">I&#xB2C;&#xB3F;&#xB1C;&#xB4D;&#xB1E;&#xB3E;&#xB2A;&#xB4D;&#xB24;&#xB3F;</short>
+    <short xml:lang="nl">Inotify</short>
+    <short xml:lang="nb">Inotify</short>
+    <short xml:lang="ko">Inotify</short>
+    <short xml:lang="ka">Inotify</short>
+    <short xml:lang="ja">Inotify</short>
+    <short xml:lang="it">Inotify</short>
+    <short xml:lang="hu">Inotify</short>
+    <short xml:lang="hr">Inotify</short>
+    <short xml:lang="he">&#x5D4;&#x5D5;&#x5D3;&#x5E2;&#x5D5;&#x5EA;</short>
+    <short xml:lang="gu">Inotify</short>
+    <short xml:lang="gl">Inotify</short>
+    <short xml:lang="fr">Inotify</short>
+    <short xml:lang="fi">Inotify</short>
+    <short xml:lang="eu">Inotify</short>
+    <short xml:lang="es">Inotify</short>
+    <short xml:lang="en-GB">Inotify</short>
+    <short xml:lang="el">Inotify</short>
+    <short xml:lang="de">Inotify</short>
+    <short xml:lang="cs">Inotify</short>
+    <short xml:lang="ca">Inotify</short>
+    <short xml:lang="bn">&#x986;&#x987;&#x9A8;&#x9CB;&#x99F;&#x9BF;&#x9AB;&#x9BE;&#x987;</short>
+    <short xml:lang="bn-IN">&#x986;&#x987;&#x9A8;&#x9CB;&#x99F;&#x9BF;&#x9AB;&#x9BE;&#x987;</short>
+    <long>File change notification plugin</long>
+    <long xml:lang="zh-Hant-TW">&#x6A94;&#x6848;&#x88AB;&#x6539;&#x8B8A;&#x6642;&#x8B66;&#x544A;&#x5916;&#x639B;</long>
+    <long xml:lang="zh-Hans-CN">&#x6587;&#x4EF6;&#x4FEE;&#x6539;&#x901A;&#x77E5;&#x63D2;&#x4EF6;</long>
+    <long xml:lang="uk">&#x41C;&#x43E;&#x434;&#x443;&#x43B;&#x44C; &#x441;&#x43F;&#x43E;&#x432;&#x456;&#x449;&#x435;&#x43D;&#x43D;&#x44F; &#x43F;&#x440;&#x43E; &#x437;&#x43C;&#x456;&#x43D;&#x443; &#x444;&#x430;&#x439;&#x43B;&#x443;</long>
+    <long xml:lang="tr">Dosya de&#x11F;i&#x15F;imi uyar&#x131; eklentisi</long>
+    <long xml:lang="sk">Modul upozornenia zmeny s&#xFA;boru</long>
+    <long xml:lang="ru">&#x41C;&#x43E;&#x434;&#x443;&#x43B;&#x44C; &#x438;&#x437;&#x432;&#x435;&#x449;&#x435;&#x43D;&#x438;&#x44F; &#x43E;&#x431; &#x438;&#x437;&#x43C;&#x435;&#x43D;&#x435;&#x43D;&#x438;&#x438; &#x444;&#x430;&#x439;&#x43B;&#x430;</long>
+    <long xml:lang="ro">Mod&#xFA;l de notificare a modific&#x103;rii fi&#x219;ierului</long>
+    <long xml:lang="pt-BR">Plugin de notifica&#xE7;&#xE3;o de modifica&#xE7;&#xE3;o de arquivos</long>
+    <long xml:lang="pt">Plugin de notifica&#xE7;&#xE3;o de ficheiros</long>
+    <long xml:lang="pl">Wtyczka powiadamiania o zmianie pliku</long>
+    <long xml:lang="pa">&#xA2B;&#xA3E;&#xA07;&#xA32; &#xA2C;&#xA26;&#xA32;&#xA23; &#xA28;&#xA4B;&#xA1F;&#xA40;&#xA2B;&#xA3F;&#xA15;&#xA47;&#xA38;&#xA3C;&#xA28; &#xA2A;&#xA32;&#xA71;&#xA17;&#xA07;&#xA28;</long>
+    <long xml:lang="or">&#xB2B;&#xB3E;&#xB07;&#xB32; &#xB2A;&#xB30;&#xB3F;&#xB2C;&#xB30;&#xB4D;&#xB24;&#xB4D;&#xB24;&#xB28; &#xB2C;&#xB3F;&#xB1C;&#xB4D;&#xB1E;&#xB3E;&#xB2A;&#xB28; &#xB2A;&#xB4D;&#xB32;&#xB17;&#xB07;&#xB28;</long>
+    <long xml:lang="nl">Bestands wijziging meldings plug-in</long>
+    <long xml:lang="nb">Varslingstilleg for filendringer</long>
+    <long xml:lang="ko">&#xD30C;&#xC77C; &#xBCC0;&#xD654; &#xC54C;&#xB9BC; &#xD50C;&#xB7EC;&#xADF8;&#xC778;</long>
+    <long xml:lang="ka">&#x10E4;&#x10D0;&#x10DA;&#x10D8;&#x10E1; &#x10EA;&#x10D5;&#x10DA;&#x10D8;&#x10DA;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10E4;&#x10E0;&#x10D7;&#x10EE;&#x10D8;&#x10DA;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10D3;&#x10D0;&#x10DB;&#x10D0;&#x10E2;&#x10D4;&#x10D1;&#x10D0;</long>
+    <long xml:lang="ja">&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x5909;&#x66F4;&#x901A;&#x77E5;&#x30D7;&#x30E9;&#x30B0;&#x30A4;&#x30F3;</long>
+    <long xml:lang="it">Plugin notifica cambiamento file</long>
+    <long xml:lang="hu">F&#xE1;jlv&#xE1;ltoz&#xE1;sr&#xF3;l &#xE9;rtes&#xED;t&#x151; b&#x151;v&#xED;tm&#xE9;ny</long>
+    <long xml:lang="hr">Priklju&#x10D;ak za obavje&#x161;tavanje o promjeni datoteke</long>
+    <long xml:lang="hi">&#x92B;&#x93E;&#x907;&#x932; &#x92C;&#x926;&#x932;&#x93E;&#x935; &#x905;&#x927;&#x93F;&#x938;&#x942;&#x91A;&#x928;&#x93E; &#x92A;&#x94D;&#x932;&#x917;&#x93F;&#x928;</long>
+    <long xml:lang="he">&#x5D4;&#x5EA;&#x5E7;&#x5DF; &#x5D4;&#x5D5;&#x5D3;&#x5E2;&#x5D5;&#x5EA; &#x5E2;&#x5DC; &#x5E9;&#x5D9;&#x5E0;&#x5D5;&#x5D9; &#x5D1;&#x5E7;&#x5D5;&#x5D1;&#x5E5;</long>
+    <long xml:lang="gu">&#xAAB;&#xABE;&#xA88;&#xAB2; &#xAAC;&#xAA6;&#xAB2;&#xAC0; &#xAB8;&#xAC2;&#xA9A;&#xAA8; &#xAAA;&#xACD;&#xAB2;&#xA97;&#xA88;&#xAA8;</long>
+    <long xml:lang="gl">Engadido de notificaci&#xF3;n de cambios en ficheiros</long>
+    <long xml:lang="fr">Extension pour la notification de modification de fichier</long>
+    <long xml:lang="fi">K&#xE4;ytt&#xE4;j&#xE4;tilan tiedostoj&#xE4;rjestelm&#xE4;</long>
+    <long xml:lang="eu">Fitxategi aldaketaren jakinarazpen plugina</long>
+    <long xml:lang="es">Complemento de notificacion de cambio de archivo</long>
+    <long xml:lang="en-GB">File change notification plugin</long>
+    <long xml:lang="el">&#x3A0;&#x3C1;&#x3CC;&#x3C3;&#x3B8;&#x3B5;&#x3C4;&#x3BF; &#x3B5;&#x3B9;&#x3B4;&#x3BF;&#x3C0;&#x3BF;&#x3AF;&#x3B7;&#x3C3;&#x3B7;&#x3C2; &#x3B1;&#x3BB;&#x3BB;&#x3B1;&#x3B3;&#x3AE;&#x3C2; &#x3B1;&#x3C1;&#x3C7;&#x3B5;&#x3AF;&#x3BF;&#x3C5;</long>
+    <long xml:lang="de">&#xDC;berwachung von &#xC4;nderungen an Dateien</long>
+    <long xml:lang="cs">Modul upozorn&#x11B;n&#xED; zm&#x11B;ny soubou</long>
+    <long xml:lang="ca">Connector de notificaci&#xF3; de canvi al fitxer</long>
+    <long xml:lang="bn">&#x9AB;&#x9BE;&#x987;&#x9B2; &#x9AA;&#x9B0;&#x9BF;&#x9AC;&#x9B0;&#x9CD;&#x9A4;&#x9A8; &#x998;&#x9CB;&#x9B7;&#x9A3;&#x9BE;&#x995;&#x9BE;&#x9B0;&#x9C0; &#x9AA;&#x9CD;&#x9B2;&#x9BE;&#x997;&#x987;&#x9A8;</long>
+    <long xml:lang="bn-IN">&#x9AB;&#x9BE;&#x987;&#x9B2; &#x9AA;&#x9B0;&#x9BF;&#x9AC;&#x9B0;&#x9CD;&#x9A4;&#x9A8; &#x998;&#x9CB;&#x9B7;&#x9A3;&#x9BE;&#x995;&#x9BE;&#x9B0;&#x9C0; &#x9AA;&#x9CD;&#x9B2;&#x9BE;&#x997;&#x987;&#x9A8;</long>
+    <category>Utility</category>
+  </plugin>
+</compiz>

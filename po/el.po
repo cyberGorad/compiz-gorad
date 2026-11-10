@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: compiz\n"
 "Report-Msgid-Bugs-To: https://gitlab.com/compiz/compiz-core/issues\n"
-"POT-Creation-Date: 2020-11-04 22:19-0500\n"
+"POT-Creation-Date: 2026-11-09 16:35+0300\n"
 "PO-Revision-Date: 2009-03-30 10:16+0200\n"
 "Last-Translator: Jim Dusis <jimdusis@yahoo.gr>\n"
 "Language-Team: Greek <el@li.org>\n"
@@ -1476,6 +1476,26 @@ msgstr "Προηγούμενο Σλάιντ"
 
 msgid "Go back to previous slide"
 msgstr "Πήγαινε πίσω στο προηγούμενο σλάιντ"
+
+msgid "Zoom In"
+msgstr "Ζουμ Μέσα"
+
+msgid "Zoom in while the cube is active"
+msgstr ""
+
+msgid "Zoom Out"
+msgstr "Ζουμ Έξω"
+
+msgid "Zoom out while the cube is active"
+msgstr ""
+
+#, fuzzy
+#| msgid "Rotation Zoom"
+msgid "Reset Zoom"
+msgstr "Ζουμ Περιστροφής"
+
+msgid "Reset the cube zoom while it is active"
+msgstr ""
 
 msgid "Generate mipmaps when possible for higher quality scaling"
 msgstr "Δημιουργία mipmaps όταν γίνεται για ανώτερη ποιότητα κλιμάκωσης"
@@ -3287,12 +3307,6 @@ msgstr "Ζουμάρισμα Επιφάνειας Εργασίας"
 
 msgid "Zoom and pan desktop cube"
 msgstr "Pan και ζούμ του κύβου"
-
-msgid "Zoom In"
-msgstr "Ζουμ Μέσα"
-
-msgid "Zoom Out"
-msgstr "Ζουμ Έξω"
 
 msgid "Zoom Pan"
 msgstr "Pan του Ζούμ"

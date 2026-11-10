@@ -30,6 +30,8 @@
 
 #include <X11/Xatom.h>
 #include <X11/Xproto.h>
+#include <X11/Xutil.h>
+#include <X11/keysym.h>
 
 #include <compiz-cube.h>
 
@@ -715,6 +717,26 @@ adjustVelocity (CubeScreen *cs)
     return (fabs (unfold) < 0.002f && fabs (cs->unfoldVelocity) < 0.01f);
 }
 
+/* The usual mouse activation is owned by the rotate plugin.  In that
+ * case cube->grabIndex is zero, but rotate holds the active screen grab. */
+static Bool
+cubeIsActive (CompScreen *s)
+{
+    int i;
+
+    CUBE_SCREEN (s);
+
+    if (cs->grabIndex)
+	return TRUE;
+
+    for (i = 0; i < s->maxGrab; i++)
+	if (s->grabs[i].active &&
+	    strcmp (s->grabs[i].name, "rotate") == 0)
+	    return TRUE;
+
+    return FALSE;
+}
+
 static void
 cubePreparePaintScreen (CompScreen *s,
 			int	   msSinceLastPaint)
@@ -757,6 +779,14 @@ cubePreparePaintScreen (CompScreen *s,
 	    }
 	}
     }
+
+    if (!cubeIsActive (s))
+	cs->zoomTarget = 0.0f;
+
+    if (fabs (cs->zoom - cs->zoomTarget) > 0.001f)
+	cs->zoom += (cs->zoomTarget - cs->zoom) * 0.18f;
+    else
+	cs->zoom = cs->zoomTarget;
 
     memset (cs->cleared, 0, sizeof (Bool) * s->nOutputDev);
     memset (cs->capsPainted, 0, sizeof (Bool) * s->nOutputDev);
@@ -832,7 +862,10 @@ cubePaintOutput (CompScreen		 *s,
 
     CUBE_SCREEN (s);
 
-    if (cs->grabIndex || cs->desktopOpacity != OPAQUE)
+
+    if (cs->grabIndex || cubeIsActive (s) ||
+	fabs (cs->zoom - cs->zoomTarget) > 0.001f ||
+	cs->desktopOpacity != OPAQUE)
     {
 	mask &= ~PAINT_SCREEN_REGION_MASK;
 	mask |= PAINT_SCREEN_TRANSFORMED_MASK;
@@ -1465,6 +1498,11 @@ cubePaintTransformedOutput (CompScreen		    *s,
 	sa.zTranslate = -cs->invert * cs->distance;
     }
 
+    /* A positive zoom moves the camera closer to the cube.  This must be
+       applied for both cube's own grab and rotate's mouse grab. */
+    if (cubeIsActive (s))
+	sa.zCamera += cs->zoom;
+
     if (sa.xRotate > 0.0f)
 	cs->xRotations = (int) (hsize * sa.xRotate + 180.0f) / 360.0f;
     else
@@ -1686,7 +1724,7 @@ cubeUnfold (CompDisplay     *d,
 	if (!cs->grabIndex)
 	    cs->grabIndex = pushScreenGrab (s, s->invisibleCursor, "cube");
 
-	if (cs->grabIndex)
+	if (cubeIsActive (s))
 	{
 	    cs->unfolded = TRUE;
 	    damageScreen (s);
@@ -1721,14 +1759,55 @@ cubeFold (CompDisplay     *d,
 	if (xid && s->root != xid)
 	    continue;
 
-	if (cs->grabIndex)
+	if (cubeIsActive (s))
 	{
 	    cs->unfolded = FALSE;
+	    cs->zoomTarget = 0.0f;
 	    damageScreen (s);
 	}
     }
 
     action->state &= ~(CompActionStateTermButton | CompActionStateTermKey);
+
+    return FALSE;
+}
+
+static Bool
+cubeToggle (CompDisplay     *d,
+	    CompAction      *action,
+	    CompActionState state,
+	    CompOption      *option,
+	    int              nOption)
+{
+    CompScreen *s;
+    Window xid;
+
+    xid = getIntOptionNamed (option, nOption, "root", 0);
+    s = findScreenAtDisplay (d, xid);
+    if (!s)
+	return FALSE;
+
+    CUBE_SCREEN (s);
+
+    if (cs->grabIndex)
+    {
+	cs->unfolded = FALSE;
+	cs->zoomTarget = 0.0f;
+	damageScreen (s);
+	return FALSE;
+    }
+
+    if (s->hsize * cs->nOutput < 4 ||
+	otherScreenGrabExist (s, "rotate", "switcher", "cube", NULL))
+	return FALSE;
+
+    cs->grabIndex = pushScreenGrab (s, s->invisibleCursor, "cube");
+    if (cs->grabIndex)
+    {
+	cs->unfolded = TRUE;
+	cs->zoomTarget = 0.0f;
+	damageScreen (s);
+    }
 
     return FALSE;
 }
@@ -1793,6 +1872,66 @@ cubePrevImage (CompDisplay     *d,
     return FALSE;
 }
 
+static Bool
+cubeZoomIn (CompDisplay *d, CompAction *action, CompActionState state,
+	    CompOption *option, int nOption)
+{
+    CompScreen *s;
+    Window xid = getIntOptionNamed (option, nOption, "root", 0);
+
+    s = findScreenAtDisplay (d, xid);
+    if (s)
+    {
+	CUBE_SCREEN (s);
+	if (cubeIsActive (s))
+	{
+	    cs->zoomTarget += 0.25f;
+	    damageScreen (s);
+	}
+    }
+    return FALSE;
+}
+
+static Bool
+cubeZoomOut (CompDisplay *d, CompAction *action, CompActionState state,
+	     CompOption *option, int nOption)
+{
+    CompScreen *s;
+    Window xid = getIntOptionNamed (option, nOption, "root", 0);
+
+    s = findScreenAtDisplay (d, xid);
+    if (s)
+    {
+	CUBE_SCREEN (s);
+	if (cubeIsActive (s))
+	{
+	    cs->zoomTarget -= 0.25f;
+	    damageScreen (s);
+	}
+    }
+    return FALSE;
+}
+
+static Bool
+cubeZoomReset (CompDisplay *d, CompAction *action, CompActionState state,
+	       CompOption *option, int nOption)
+{
+    CompScreen *s;
+    Window xid = getIntOptionNamed (option, nOption, "root", 0);
+
+    s = findScreenAtDisplay (d, xid);
+    if (s)
+    {
+	CUBE_SCREEN (s);
+	if (cubeIsActive (s))
+	{
+	    cs->zoomTarget = 0.0f;
+	    damageScreen (s);
+	}
+    }
+    return FALSE;
+}
+
 static void
 cubeOutputChangeNotify (CompScreen *s)
 {
@@ -1807,6 +1946,52 @@ cubeOutputChangeNotify (CompScreen *s)
     UNWRAP (cs, s, outputChangeNotify);
     (*s->outputChangeNotify) (s);
     WRAP (cs, s, outputChangeNotify, cubeOutputChangeNotify);
+}
+
+static void
+cubeHandleEvent (CompDisplay *d, XEvent *event)
+{
+    if (event->type == ButtonPress &&
+	(event->xbutton.button == Button4 || event->xbutton.button == Button5))
+    {
+	CompScreen *s = findScreenAtDisplay (d, event->xbutton.root);
+
+	if (s && cubeIsActive (s))
+	{
+	    CUBE_SCREEN (s);
+
+	    if (event->xbutton.button == Button4)
+		cs->zoomTarget += 0.25f;
+	    else
+		cs->zoomTarget -= 0.25f;
+
+	    damageScreen (s);
+	}
+    }
+
+    if (event->type == KeyRelease)
+    {
+	KeySym keysym = XLookupKeysym (&event->xkey, 0);
+
+	if (keysym == XK_Control_L || keysym == XK_Control_R ||
+	    keysym == XK_Alt_L || keysym == XK_Alt_R ||
+	    keysym == XK_Meta_L || keysym == XK_Meta_R)
+	{
+	    CompScreen *s = findScreenAtDisplay (d, event->xkey.root);
+
+	    if (s && cubeIsActive (s))
+	    {
+		CUBE_SCREEN (s);
+		cs->zoomTarget = 0.0f;
+		damageScreen (s);
+	    }
+	}
+    }
+
+    CUBE_DISPLAY (d);
+    UNWRAP (cd, d, handleEvent);
+    (*d->handleEvent) (d, event);
+    WRAP (cd, d, handleEvent, cubeHandleEvent);
 }
 
 static Bool
@@ -1922,7 +2107,11 @@ static const CompMetadataOptionInfo cubeDisplayOptionInfo[] = {
     { "next_slide_key", "key", "<passive_grab>false</passive_grab>",
       cubeNextImage, 0 },
     { "prev_slide_key", "key", "<passive_grab>false</passive_grab>",
-      cubePrevImage, 0 }
+      cubePrevImage, 0 },
+    { "zoom_reset_key", "key", "<passive_grab>false</passive_grab>",
+      cubeZoomReset, 0 },
+    { "toggle_button", "button", "<passive_grab>false</passive_grab>",
+      cubeToggle, 0 }
 };
 
 static Bool
@@ -1958,6 +2147,8 @@ cubeInitDisplay (CompPlugin  *p,
 
     d->base.privates[cubeDisplayPrivateIndex].ptr = cd;
 
+    WRAP (cd, d, handleEvent, cubeHandleEvent);
+
     return TRUE;
 }
 
@@ -1966,6 +2157,8 @@ cubeFiniDisplay (CompPlugin  *p,
 		 CompDisplay *d)
 {
     CUBE_DISPLAY (d);
+
+    UNWRAP (cd, d, handleEvent);
 
     freeScreenPrivateIndex (d, cd->screenPrivateIndex);
 
@@ -2057,6 +2250,9 @@ cubeInitScreen (CompPlugin *p,
     cs->unfold   = 0.0f;
 
     cs->unfoldVelocity = 0.0f;
+
+    cs->zoom       = 0.0f;
+    cs->zoomTarget = 0.0f;
 
     cs->paintAllViewports = FALSE;
     cs->fullscreenOutput  = TRUE;

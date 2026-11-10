@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: compiz\n"
 "Report-Msgid-Bugs-To: https://gitlab.com/compiz/compiz-core/issues\n"
-"POT-Creation-Date: 2020-11-04 22:19-0500\n"
+"POT-Creation-Date: 2026-11-09 16:35+0300\n"
 "PO-Revision-Date: 2007-12-17 12:25+0530\n"
 "Last-Translator: Krunaliben Patel <krunaliben.patel@gmail.com>\n"
 "Language-Team: gist Gujarati team <info.gist@cdac.in>\n"
@@ -1351,6 +1351,25 @@ msgstr "પહેલાંની સ્લાઈડ"
 
 msgid "Go back to previous slide"
 msgstr "પહેલાંની સ્લાઈડ પર પાછા જાવ"
+
+msgid "Zoom In"
+msgstr "મોટુ કરો"
+
+msgid "Zoom in while the cube is active"
+msgstr ""
+
+msgid "Zoom Out"
+msgstr "નાનુ કરો"
+
+msgid "Zoom out while the cube is active"
+msgstr ""
+
+#, fuzzy
+msgid "Reset Zoom"
+msgstr "સ્થાપન પૂરું થયું"
+
+msgid "Reset the cube zoom while it is active"
+msgstr ""
 
 msgid "Generate mipmaps when possible for higher quality scaling"
 msgstr "મીપમેપ બનાવો જ્યારે ઊંચી ગુણવત્તા ખેંચવા માટે શક્ય હોય"
@@ -3177,12 +3196,6 @@ msgstr "ડેસ્કટોપ નાનીમોટી કરો"
 
 msgid "Zoom and pan desktop cube"
 msgstr "ડેસ્કટોપ ઘન નાનુંમોટું કરો અને વિસ્તારો"
-
-msgid "Zoom In"
-msgstr "મોટુ કરો"
-
-msgid "Zoom Out"
-msgstr "નાનુ કરો"
 
 msgid "Zoom Pan"
 msgstr "પેન નાનુંમોટું કરો"

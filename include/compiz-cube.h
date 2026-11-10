@@ -46,10 +46,13 @@ typedef struct _CubeCore {
 #define CUBE_DISPLAY_OPTION_UNFOLD_KEY 2
 #define CUBE_DISPLAY_OPTION_NEXT_KEY   3
 #define CUBE_DISPLAY_OPTION_PREV_KEY   4
-#define CUBE_DISPLAY_OPTION_NUM        5
+#define CUBE_DISPLAY_OPTION_ZOOM_RESET_KEY 5
+#define CUBE_DISPLAY_OPTION_TOGGLE_BUTTON   6
+#define CUBE_DISPLAY_OPTION_NUM             7
 
 typedef struct _CubeDisplay {
     int	screenPrivateIndex;
+    HandleEventProc handleEvent;
 
     CompOption opt[CUBE_DISPLAY_OPTION_NUM];
 } CubeDisplay;
@@ -172,6 +175,8 @@ typedef struct _CubeScreen {
 
     Bool    unfolded;
     GLfloat unfold, unfoldVelocity;
+
+    GLfloat zoom, zoomTarget;
 
     GLfloat  *vertices;
     int      nVertices;

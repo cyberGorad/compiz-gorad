@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<compiz>
+  <plugin name="screenshot">
+    <short>Screenshot</short>
+    <short xml:lang="zh-Hant-TW">&#x87A2;&#x5E55;&#x64F7;&#x53D6;</short>
+    <short xml:lang="zh-Hans-CN">&#x622A;&#x5C4F;</short>
+    <short xml:lang="uk">&#x417;&#x43D;&#x456;&#x43C;&#x43E;&#x43A; &#x435;&#x43A;&#x440;&#x430;&#x43D;&#x443;</short>
+    <short xml:lang="tr">Ekran G&#xF6;r&#xFC;nt&#xFC;s&#xFC;</short>
+    <short xml:lang="sv">Sk&#xE4;rmbild</short>
+    <short xml:lang="sk">Sn&#xED;mka obrazovky</short>
+    <short xml:lang="ru">&#x421;&#x43D;&#x438;&#x43C;&#x43E;&#x43A; &#x44D;&#x43A;&#x440;&#x430;&#x43D;&#x430;</short>
+    <short xml:lang="ro">Captur&#x103; de ecran</short>
+    <short xml:lang="pt-BR">Capturar tela</short>
+    <short xml:lang="pt">Captura de ecr&#xE3;</short>
+    <short xml:lang="pl">Zrzut ekranu</short>
+    <short xml:lang="or">&#xB38;&#xB4D;&#xB15;&#xB4D;&#xB30;&#xB3F;&#xB28; &#xB38;&#xB1F;</short>
+    <short xml:lang="nl">Schermafdruk</short>
+    <short xml:lang="nb">Skjermbilde</short>
+    <short xml:lang="ko">&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;</short>
+    <short xml:lang="ka">&#x10D4;&#x10D9;&#x10E0;&#x10D0;&#x10DC;&#x10D8;&#x10E1; &#x10D0;&#x10DC;&#x10D0;&#x10D1;&#x10D4;&#x10ED;&#x10D3;&#x10D8;</short>
+    <short xml:lang="ja">&#x30B9;&#x30AF;&#x30EA;&#x30FC;&#x30F3;&#x30B7;&#x30E7;&#x30C3;&#x30C8;</short>
+    <short xml:lang="it">Cattura schermate</short>
+    <short xml:lang="hu">K&#xE9;perny&#x151;k&#xE9;p</short>
+    <short xml:lang="hr">Snimka zaslona</short>
+    <short xml:lang="he">&#x5E6;&#x5D9;&#x5DC;&#x5D5;&#x5DD; &#x5DE;&#x5E1;&#x5DA;</short>
+    <short xml:lang="gu">&#xAB8;&#xACD;&#xA95;&#xACD;&#xAB0;&#xAC0;&#xAA8;&#xAB6;&#xACB;&#xA9F;</short>
+    <short xml:lang="gl">Captura de pantalla</short>
+    <short xml:lang="fr">Capture d'&#xE9;cran</short>
+    <short xml:lang="fi">Kuvakaappaus</short>
+    <short xml:lang="eu">Pantaila argazkia</short>
+    <short xml:lang="es">Captura de Pantalla</short>
+    <short xml:lang="en-GB">Screenshot</short>
+    <short xml:lang="el">&#x391;&#x3C1;&#x3C0;&#x3B1;&#x3B3;&#x3AE; &#x39F;&#x3B8;&#x3CC;&#x3BD;&#x3B7;&#x3C2;</short>
+    <short xml:lang="de">Bildschirmfoto</short>
+    <short xml:lang="cs">Sn&#xED;mek obrazovky</short>
+    <short xml:lang="ca">Captura de pantalla</short>
+    <short xml:lang="bg">&#x421;&#x43D;&#x438;&#x43C;&#x43A;&#x430; &#x43D;&#x430; &#x435;&#x43A;&#x440;&#x430;&#x43D;&#x430;</short>
+    <long>Screenshot plugin</long>
+    <long xml:lang="zh-Hant-TW">&#x87A2;&#x5E55;&#x64F7;&#x53D6;&#x5916;&#x639B;</long>
+    <long xml:lang="zh-Hans-CN">&#x622A;&#x5C4F;&#x63D2;&#x4EF6;</long>
+    <long xml:lang="uk">&#x41C;&#x43E;&#x434;&#x443;&#x43B;&#x44C; &#x437;&#x43D;&#x456;&#x43C;&#x43A;&#x430; &#x435;&#x43A;&#x440;&#x430;&#x43D;&#x430;</long>
+    <long xml:lang="tr">Ekran g&#xF6;r&#xFC;nt&#xFC;s&#xFC; yakalama eklentisi</long>
+    <long xml:lang="sv">Insticksmodul f&#xF6;r sk&#xE4;rmbild</long>
+    <long xml:lang="sk">Modul sn&#xED;mky obrazovky</long>
+    <long xml:lang="ru">&#x41C;&#x43E;&#x434;&#x443;&#x43B;&#x44C; &#x441;&#x43D;&#x438;&#x43C;&#x43A;&#x430; &#x44D;&#x43A;&#x440;&#x430;&#x43D;&#x430;</long>
+    <long xml:lang="pt-BR">Plugin de captura de tela</long>
+    <long xml:lang="pt">Plugin de captura de ecr&#xE3;</long>
+    <long xml:lang="pl">Wtyczka zrzut&#xF3;w ekranu</long>
+    <long xml:lang="or">&#xB38;&#xB4D;&#xB15;&#xB4D;&#xB30;&#xB3F;&#xB28;&#xB38;&#xB1F; &#xB2A;&#xB4D;&#xB32;&#xB17;&#xB07;&#xB28;</long>
+    <long xml:lang="nl">Schermafdruk plugin</long>
+    <long xml:lang="nb">Tillegg for skjermbilde</long>
+    <long xml:lang="ko">&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7; &#xD50C;&#xB7EC;&#xADF8;&#xC778;</long>
+    <long xml:lang="ka">&#x10D0;&#x10D9;&#x10E0;&#x10D0;&#x10DC;&#x10D8;&#x10E1; &#x10D0;&#x10DC;&#x10D0;&#x10D1;&#x10D4;&#x10ED;&#x10D3;&#x10D8;&#x10E1; &#x10D3;&#x10D0;&#x10DB;&#x10D0;&#x10E2;&#x10D4;&#x10D1;&#x10D0;</long>
+    <long xml:lang="ja">&#x30B9;&#x30AF;&#x30EA;&#x30FC;&#x30F3;&#x30B7;&#x30E7;&#x30C3;&#x30C8;&#x30FB;&#x30D7;&#x30E9;&#x30B0;&#x30A4;&#x30F3;</long>
+    <long xml:lang="it">Plugin per catturare schermate</long>
+    <long xml:lang="hu">K&#xE9;perny&#x151;k&#xE9;p b&#x151;v&#xED;tm&#xE9;ny</long>
+    <long xml:lang="hr">Priklju&#x10D;ak slike zaslona</long>
+    <long xml:lang="he">&#x5D4;&#x5EA;&#x5E7;&#x5DF; &#x5E6;&#x5D9;&#x5DC;&#x5D5;&#x5DD; &#x5DE;&#x5E1;&#x5DA;</long>
+    <long xml:lang="gu">&#xAB8;&#xACD;&#xA95;&#xACD;&#xAB0;&#xAC0;&#xAA8;&#xAB6;&#xACB;&#xA9F; &#xAAA;&#xACD;&#xAB2;&#xA97;&#xA88;&#xAA8;</long>
+    <long xml:lang="gl">Complemento para a Captura de Pantalla</long>
+    <long xml:lang="fr">Extension de capture d'&#xE9;cran</long>
+    <long xml:lang="fi">Kuvakaappaus-liit&#xE4;nn&#xE4;inen</long>
+    <long xml:lang="eu">Pantaila argazkia plugin</long>
+    <long xml:lang="es">Plugin de captura de pantalla</long>
+    <long xml:lang="en-GB">Screenshot plugin</long>
+    <long xml:lang="el">&#x3A0;&#x3C1;&#x3CC;&#x3C3;&#x3B8;&#x3B5;&#x3C4;&#x3BF; &#x3B1;&#x3C1;&#x3C0;&#x3B1;&#x3B3;&#x3AE;&#x3C2; &#x3BF;&#x3B8;&#x3CC;&#x3BD;&#x3B7;&#x3C2;</long>
+    <long xml:lang="de">Plugin, mit dessen Hilfe Bildschirmfotos aufgenommen werden k&#xF6;nnen</long>
+    <long xml:lang="cs">Modul sn&#xED;mku obrazovky</long>
+    <long xml:lang="ca">Connector de captura de pantalla</long>
+    <long xml:lang="bg">&#x41C;&#x43E;&#x434;&#x443;&#x43B; &#x437;&#x430; &#x441;&#x43D;&#x438;&#x43C;&#x43A;&#x438; &#x43D;&#x430; &#x435;&#x43A;&#x440;&#x430;&#x43D;&#x430;</long>
+    <category>Extras</category>
+    <deps>
+      <requirement>
+        <feature>imageext:png</feature>
+      </requirement>
+    </deps>
+    <display>
+      <option name="initiate_button" type="button">
+        <short>Initiate</short>
+        <short xml:lang="zh-Hant-TW">&#x958B;&#x59CB;&#x756B;&#x6309;&#x9375;</short>
+        <short xml:lang="zh-Hans-CN">&#x542F;&#x52A8;</short>
+        <short xml:lang="uk">&#x406;&#x43D;&#x456;&#x446;&#x456;&#x44E;&#x432;&#x430;&#x442;&#x438;</short>
+        <short xml:lang="tr">Ba&#x15F;la</short>
+        <short xml:lang="sv">Initiera</short>
+        <short xml:lang="sl">Inicializiraj</short>
+        <short xml:lang="sk">Za&#x10D;a&#x165;</short>
+        <short xml:lang="ru">&#x418;&#x43D;&#x438;&#x446;&#x438;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C;</short>
+        <short xml:lang="ro">Ini&#x21B;iere</short>
+        <short xml:lang="pt-BR">Iniciar</short>
+        <short xml:lang="pt">Iniciar</short>
+        <short xml:lang="pl">Inicjuj</short>
+        <short xml:lang="or">&#xB2A;&#xB4D;&#xB30;&#xB3E;&#xB30;&#xB2E;&#xB4D;&#xB2D; &#xB15;&#xB30;</short>
+        <short xml:lang="nl">Initialiseren</short>
+        <short xml:lang="nb">Begynn</short>
+        <short xml:lang="ko">&#xC2DC;&#xC791;</short>
+        <short xml:lang="ka">&#x10EC;&#x10D0;&#x10DB;&#x10DD;&#x10EC;&#x10E7;&#x10D4;&#x10D1;&#x10D0;</short>
+        <short xml:lang="ja">&#x958B;&#x59CB;</short>
+        <short xml:lang="it">Avvia</short>
+        <short xml:lang="hu">Ind&#xED;t&#xE1;s</short>
+        <short xml:lang="hr">Pokreni</short>
+        <short xml:lang="he">&#x5D4;&#x5EA;&#x5D7;&#x5DC;</short>
+        <short xml:lang="gl">Iniciar</short>
+        <short xml:lang="fr">Lancer</short>
+        <short xml:lang="fi">Aktivoi</short>
+        <short xml:lang="eu">Hasi</short>
+        <short xml:lang="es">Iniciar</short>
+        <short xml:lang="en-GB">Initiate</short>
+        <short xml:lang="el">&#x395;&#x3BA;&#x3BA;&#x3AF;&#x3BD;&#x3B7;&#x3C3;&#x3B7;</short>
+        <short xml:lang="de">Initiieren</short>
+        <short xml:lang="da">Start</short>
+        <short xml:lang="cs">Iniciovat</short>
+        <short xml:lang="ca">Inicia</short>
+        <short xml:lang="bn">&#x9B6;&#x9C1;&#x9B0;&#x9C1; </short>
+        <short xml:lang="bn-IN">&#x9B6;&#x9C1;&#x9B0;&#x9C1; </short>
+        <short xml:lang="bg">&#x417;&#x430;&#x43F;&#x43E;&#x447;&#x43D;&#x438;</short>
+        <long>Initiate rectangle screenshot</long>
+        <long xml:lang="zh-Hant-TW">&#x555F;&#x7528;&#x77E9;&#x578B;&#x9078;&#x64C7;&#x64F7;&#x53D6;&#x87A2;&#x5E55;</long>
+        <long xml:lang="zh-Hans-CN">&#x542F;&#x52A8;&#x77E9;&#x5F62;&#x622A;&#x5C4F;</long>
+        <long xml:lang="uk">&#x417;&#x440;&#x43E;&#x431;&#x438;&#x442;&#x438; &#x437;&#x43D;&#x456;&#x43C;&#x43E;&#x43A; &#x43E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x456;</long>
+        <long xml:lang="tr">Dikd&#xF6;rtgen ekran g&#xF6;r&#xFC;nt&#xFC;s&#xFC;n&#xFC; ba&#x15F;lat</long>
+        <long xml:lang="sk">Zosn&#xED;ma&#x165; obrazovku</long>
+        <long xml:lang="ru">&#x421;&#x434;&#x435;&#x43B;&#x430;&#x442;&#x44C; &#x441;&#x43D;&#x438;&#x43C;&#x43E;&#x43A; &#x43E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x438;</long>
+        <long xml:lang="pt-BR">Captura de uma parte retangular da tela</long>
+        <long xml:lang="pt">Captura de sec&#xE7;&#xE3;o rectangular do ecr&#xE3;</long>
+        <long xml:lang="pl">Rozpocznik prostok&#x105;tny zrzut ekranu</long>
+        <long xml:lang="or">&#xB06;&#xB2F;&#xB24;&#xB3E;&#xB15;&#xB3E;&#xB30; &#xB38;&#xB4D;&#xB15;&#xB4D;&#xB30;&#xB3F;&#xB38;&#xB1F;&#xB15;&#xB41; &#xB06;&#xB30;&#xB2E;&#xB4D;&#xB2D;&#xB15;&#xB30;</long>
+        <long xml:lang="nl">Initi&#xEB;er rechthoek schermafdruk</long>
+        <long xml:lang="nb">Begynn rektangul&#xE6;rt skjermbilde</long>
+        <long xml:lang="ko">&#xC0AC;&#xAC01;&#xD615; &#xD615;&#xD0DC;&#xC758; &#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;&#xC744; &#xCC0D;&#xC74C;</long>
+        <long xml:lang="ka">&#x10DB;&#x10D0;&#x10E0;&#x10D7;&#x10D9;&#x10E3;&#x10D7;&#x10EE;&#x10D4;&#x10D3;&#x10D8; &#x10D4;&#x10D9;&#x10E0;&#x10D0;&#x10DC;&#x10D8;&#x10E1; &#x10D0;&#x10DC;&#x10D0;&#x10D1;&#x10D4;&#x10ED;&#x10D3;&#x10D8;&#x10E1; &#x10D0;&#x10E6;&#x10D4;&#x10D1;&#x10D0;</long>
+        <long xml:lang="ja">&#x77E9;&#x5F62;&#x9078;&#x629E;&#x30B9;&#x30AF;&#x30EA;&#x30FC;&#x30F3;&#x30B7;&#x30E7;&#x30C3;&#x30C8;&#x3092;&#x958B;&#x59CB;</long>
+        <long xml:lang="it">Cattura schermata rettangolare</long>
+        <long xml:lang="hu">T&#xE9;glalap k&#xE9;perny&#x151;k&#xE9;p k&#xE9;sz&#xED;t&#xE9;se</long>
+        <long xml:lang="hr">Pokreni pravokutno slikanje zaslona</long>
+        <long xml:lang="he">&#x5D4;&#x5E4;&#x5E2;&#x5DC; &#x5E6;&#x5D9;&#x5DC;&#x5D5;&#x5DD; &#x5DE;&#x5E1;&#x5DA; &#x5E9;&#x5DC; &#x5DE;&#x5E8;&#x5D5;&#x5D1;&#x5E2;</long>
+        <long xml:lang="gl">Iniciar Rect&#xE1;ngulo de Captura de Pantalla </long>
+        <long xml:lang="fr">Lancer une capture d'&#xE9;cran</long>
+        <long xml:lang="fi">K&#xE4;ynnist&#xE4; suorakulmion muotoinen kuvankaappaaja</long>
+        <long xml:lang="eu">Hasi laukizuzen pantaila argazkia</long>
+        <long xml:lang="es">Inicia captura de pantalla rectangular</long>
+        <long xml:lang="en-GB">Initiate rectangle screenshot</long>
+        <long xml:lang="el">&#x395;&#x3BA;&#x3BA;&#x3AF;&#x3BD;&#x3B7;&#x3C3;&#x3B7; &#x3C4;&#x3B5;&#x3C4;&#x3C1;&#x3AC;&#x3B3;&#x3C9;&#x3BD;&#x3B7;&#x3C2; &#x3B1;&#x3C1;&#x3C0;&#x3B1;&#x3B3;&#x3AE;&#x3C2; &#x3BF;&#x3B8;&#x3CC;&#x3BD;&#x3B7;&#x3C2;</long>
+        <long xml:lang="de">Start der Auswahl des aufzunehmenden Rechtecks</long>
+        <long xml:lang="cs">Po&#x159;&#xED;dit sn&#xED;mek obrazovky</long>
+        <long xml:lang="ca">Inicia la captura de pantalla del rectangle</long>
+        <default>&lt;Super&gt;Button1</default>
+      </option>
+      <option name="directory" type="string">
+        <short>Directory</short>
+        <short xml:lang="zh-Hant-TW">&#x76EE;&#x9304;</short>
+        <short xml:lang="zh-Hans-CN">&#x76EE;&#x5F55;</short>
+        <short xml:lang="uk">&#x41A;&#x430;&#x442;&#x430;&#x43B;&#x43E;&#x433;</short>
+        <short xml:lang="tr">Dizin</short>
+        <short xml:lang="sv">Katalog</short>
+        <short xml:lang="sk">Prie&#x10D;inok</short>
+        <short xml:lang="ru">&#x41A;&#x430;&#x442;&#x430;&#x43B;&#x43E;&#x433;</short>
+        <short xml:lang="pt-BR">Diret&#xF3;rio</short>
+        <short xml:lang="pt">Direct&#xF3;rio</short>
+        <short xml:lang="pl">Katalog</short>
+        <short xml:lang="or">&#xB2C;&#xB3F;&#xB2C;&#xB30;&#xB23;&#xB40;&#xB2A;&#xB1E;&#xB4D;&#xB1C;&#xB3F;&#xB15;&#xB3E;</short>
+        <short xml:lang="nl">Directory</short>
+        <short xml:lang="nb">Katalog</short>
+        <short xml:lang="ko">&#xB514;&#xB809;&#xD1A0;&#xB9AC;</short>
+        <short xml:lang="ka">&#x10E1;&#x10D0;&#x10E5;&#x10D0;&#x10E6;&#x10D0;&#x10DA;&#x10D3;&#x10D4;</short>
+        <short xml:lang="ja">&#x30C7;&#x30A3;&#x30EC;&#x30AF;&#x30C8;&#x30EA;</short>
+        <short xml:lang="it">Directory</short>
+        <short xml:lang="hu">K&#xF6;nyvt&#xE1;r</short>
+        <short xml:lang="hr">Mapa</short>
+        <short xml:lang="hi">&#x928;&#x93F;&#x930;&#x94D;&#x926;&#x947;&#x936;&#x93F;&#x915;&#x93E;</short>
+        <short xml:lang="he">&#x5E1;&#x5E4;&#x5E8;&#x5D9;&#x5D4;</short>
+        <short xml:lang="gl">Cartafol</short>
+        <short xml:lang="fr">R&#xE9;pertoire</short>
+        <short xml:lang="fi">Hakemisto</short>
+        <short xml:lang="eu">Direktorioa</short>
+        <short xml:lang="es">Carpeta</short>
+        <short xml:lang="en-GB">Directory</short>
+        <short xml:lang="el">&#x394;&#x3B9;&#x3B1;&#x3B4;&#x3C1;&#x3BF;&#x3BC;&#x3AE;</short>
+        <short xml:lang="de">Verzeichnis</short>
+        <short xml:lang="cs">Adres&#xE1;&#x159;</short>
+        <short xml:lang="ca">Directori</short>
+        <short xml:lang="bn">&#x9A1;&#x9BF;&#x9B0;&#x9C7;&#x995;&#x9CD;&#x99F;&#x9B0;&#x9C0;</short>
+        <short xml:lang="bn-IN">&#x9A1;&#x9BF;&#x9B0;&#x9C7;&#x995;&#x9CD;&#x99F;&#x9B0;&#x9C0;</short>
+        <short xml:lang="bg">&#x414;&#x438;&#x440;&#x435;&#x43A;&#x442;&#x43E;&#x440;&#x438;&#x44F;</short>
+        <long>Put screenshot images in this directory. If empty, the desktop directory will be used.</long>
+        <long xml:lang="ka">&#x10D4;&#x10D9;&#x10E0;&#x10D0;&#x10DC;&#x10D8;&#x10E1; &#x10D0;&#x10DC;&#x10D0;&#x10D1;&#x10D4;&#x10ED;&#x10D3;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10D3;&#x10D0;&#x10DB;&#x10D0;&#x10EE;&#x10E1;&#x10DD;&#x10D5;&#x10E0;&#x10D4;&#x10D1;&#x10D0; &#x10D0;&#x10DB; &#x10E1;&#x10D0;&#x10E5;&#x10D0;&#x10E6;&#x10D0;&#x10DA;&#x10D3;&#x10D4;&#x10E8;&#x10D8;. &#x10D7;&#x10E3; &#x10EA;&#x10D0;&#x10E0;&#x10D8;&#x10D4;&#x10DA;&#x10D8;&#x10D0; &#x10D2;&#x10D0;&#x10DB;&#x10DD;&#x10E7;&#x10D4;&#x10DC;&#x10D4;&#x10D1;&#x10E3;&#x10DA;&#x10D8; &#x10D8;&#x10E5;&#x10DC;&#x10D4;&#x10D1;&#x10D0; &#x10E1;&#x10D0;&#x10DB;&#x10E3;&#x10E8;&#x10D0;&#x10DD; &#x10DB;&#x10D0;&#x10D2;&#x10D8;&#x10D3;&#x10D8;&#x10E1; &#x10E1;&#x10D0;&#x10E5;&#x10D0;&#x10E6;&#x10D0;&#x10DA;&#x10D3;&#x10D4;.</long>
+        <long xml:lang="hr">Spremi snimak zaslona u ovu mapu. Ako je polje prazno, koristiti &#x107;e se mapa radne povr&#x161;ine.</long>
+        <long xml:lang="en-GB">Put screenshot images in this directory. If empty, the desktop directory will be used.</long>
+        <long xml:lang="ca">Fica les imatges de les captures de pantalla en aquest directori. Si est&#xE0; en blanc, s'utilitzar&#xE0; el directori de l'escriptori.</long>
+        <default/>
+      </option>
+      <option name="launch_app" type="string">
+        <short>Launch Application</short>
+        <short xml:lang="zh-Hant-TW">&#x555F;&#x52D5;&#x7684;&#x61C9;&#x7528;&#x7A0B;&#x5F0F;</short>
+        <short xml:lang="zh-Hans-CN">&#x542F;&#x52A8;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;</short>
+        <short xml:lang="uk">&#x417;&#x430;&#x43F;&#x443;&#x441;&#x442;&#x438;&#x442;&#x438; &#x43F;&#x440;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x443;</short>
+        <short xml:lang="tr">Uygulamay&#x131; Ba&#x15F;lat</short>
+        <short xml:lang="sv">K&#xF6;r program</short>
+        <short xml:lang="sk">Spusti&#x165; aplik&#xE1;ciu</short>
+        <short xml:lang="ru">&#x417;&#x430;&#x43F;&#x443;&#x441;&#x442;&#x438;&#x442;&#x44C; &#x43F;&#x440;&#x438;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x435;</short>
+        <short xml:lang="ro">Lansare aplica&#x21B;ie</short>
+        <short xml:lang="pt-BR">Iniciar Aplica&#xE7;&#xE3;o</short>
+        <short xml:lang="pt">Iniciar Aplica&#xE7;&#xE3;o</short>
+        <short xml:lang="pl">Uruchom program</short>
+        <short xml:lang="or">&#xB2A;&#xB4D;&#xB30;&#xB3E;&#xB30;&#xB2E;&#xB4D;&#xB2D;&#xB15;&#xB30;&#xB3F;&#xB2C;&#xB3E; &#xB2A;&#xB4D;&#xB30;&#xB2F;&#xB4B;&#xB17;</short>
+        <short xml:lang="nl">Start toepassing</short>
+        <short xml:lang="nb">Kj&#xF8;r program</short>
+        <short xml:lang="ko">&#xD504;&#xB85C;&#xADF8;&#xB7A8; &#xC2E4;&#xD589;</short>
+        <short xml:lang="ka">&#x10D0;&#x10DE;&#x10DA;&#x10D8;&#x10D9;&#x10D0;&#x10EA;&#x10D8;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10E8;&#x10D5;&#x10D4;&#x10D1;&#x10D0;</short>
+        <short xml:lang="ja">&#x8D77;&#x52D5;&#x30A2;&#x30D7;&#x30EA;&#x30B1;&#x30FC;&#x30B7;&#x30E7;&#x30F3;</short>
+        <short xml:lang="it">Applicazione da eseguire</short>
+        <short xml:lang="hu">Alkalmaz&#xE1;s ind&#xED;t&#xE1;sa</short>
+        <short xml:lang="hr">Pokreni aplikaciju</short>
+        <short xml:lang="hi">&#x905;&#x928;&#x941;&#x92A;&#x94D;&#x930;&#x92F;&#x94B;&#x917; &#x932;&#x93E;&#x902;&#x91A; &#x915;&#x930;&#x947;&#x902;</short>
+        <short xml:lang="he">&#x5E9;&#x5D2;&#x5E8; &#x5D9;&#x5D9;&#x5E9;&#x5D5;&#x5DD;</short>
+        <short xml:lang="gu">&#xA95;&#xABE;&#xAB0;&#xACD;&#xAAF;&#xA95;&#xACD;&#xAB0;&#xAAE; &#xAB2;&#xABE;&#xAB5;&#xACB;</short>
+        <short xml:lang="gl">Lanzar Aplicaci&#xF3;n</short>
+        <short xml:lang="fr">Lancer une Application</short>
+        <short xml:lang="fi">Suorita sovellus</short>
+        <short xml:lang="eu">Abiarazi aplikazioa</short>
+        <short xml:lang="es">Iniciar Aplicaci&#xF3;n</short>
+        <short xml:lang="en-GB">Launch Application</short>
+        <short xml:lang="el">&#x395;&#x3BA;&#x3BA;&#x3AF;&#x3BD;&#x3B7;&#x3C3;&#x3B7; &#x395;&#x3C6;&#x3B1;&#x3C1;&#x3BC;&#x3BF;&#x3B3;&#x3AE;&#x3C2;</short>
+        <short xml:lang="de">Anwendung starten</short>
+        <short xml:lang="cs">Spustit aplikaci : </short>
+        <short xml:lang="ca">Llan&#xE7;a l'aplicaci&#xF3;</short>
+        <short xml:lang="bn">&#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9AA;&#x9A8;&#x995;&#x9BE;&#x9B0;&#x9CD;&#x9AF;&#x9C7;&#x9B0; &#x985;&#x9A8;&#x9C1;&#x9AA;&#x9CD;&#x9B0;&#x9DF;&#x9CB;&#x997;</short>
+        <short xml:lang="bn-IN">&#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9AA;&#x9A8;&#x995;&#x9BE;&#x9B0;&#x9CD;&#x9AF;&#x9C7;&#x9B0; &#x985;&#x9A8;&#x9C1;&#x9AA;&#x9CD;&#x9B0;&#x9DF;&#x9CB;&#x997;</short>
+        <short xml:lang="bg">&#x421;&#x442;&#x430;&#x440;&#x442;&#x438;&#x440;&#x430;&#x439; &#x43F;&#x440;&#x438;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x435;</short>
+        <long>Automatically open screenshot in this application</long>
+        <long xml:lang="zh-Hant-TW">&#x5728;&#x9019;&#x500B;&#x61C9;&#x7528;&#x7A0B;&#x5F0F;&#x4E2D;&#x81EA;&#x52D5;&#x958B;&#x555F;&#x87A2;&#x5E55;&#x64F7;&#x53D6;</long>
+        <long xml:lang="zh-Hans-CN">&#x5728;&#x8BE5;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x4E2D;&#x81EA;&#x52A8;&#x5F00;&#x542F;&#x622A;&#x5C4F;</long>
+        <long xml:lang="uk">&#x410;&#x432;&#x442;&#x43E;&#x43C;&#x430;&#x442;&#x438;&#x447;&#x43D;&#x43E; &#x437;&#x43D;&#x456;&#x43C;&#x43E;&#x43A; &#x435;&#x43A;&#x440;&#x430;&#x43D;&#x443; &#x432; &#x446;&#x456;&#x439; &#x43F;&#x440;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x456;</long>
+        <long xml:lang="tr">Ekran g&#xF6;r&#xFC;nt&#xFC;s&#xFC;n&#xFC; otomatik olarak bu uygulama ile a&#xE7;</long>
+        <long xml:lang="sv">&#xD6;ppna automatiskt sk&#xE4;rmbilder i detta program</long>
+        <long xml:lang="sk">Automaticky otvori&#x165; sn&#xED;mku v tejto aplik&#xE1;cii</long>
+        <long xml:lang="ru">&#x410;&#x432;&#x442;&#x43E;&#x43C;&#x430;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438; &#x441;&#x43D;&#x438;&#x43C;&#x43E;&#x43A; &#x44D;&#x43A;&#x440;&#x430;&#x43D;&#x430; &#x432; &#x44D;&#x442;&#x43E;&#x439; &#x43F;&#x440;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x43C;&#x435;</long>
+        <long xml:lang="ro">Deschide captura de ecran automat &#xEE;n aceast&#x103; aplica&#x21B;ie</long>
+        <long xml:lang="pt-BR">Abrir automaticamente captura de tela nesta aplica&#xE7;&#xE3;o</long>
+        <long xml:lang="pt">Abrir automaticamente captura de ecr&#xE3; nesta aplica&#xE7;&#xE3;o</long>
+        <long xml:lang="pl">Automatycznie otwiera zrzut ekrany w tym programie</long>
+        <long xml:lang="pa">&#xA07;&#xA39; &#xA10;&#xA2A;&#xA32;&#xA40;&#xA15;&#xA47;&#xA38;&#xA3C;&#xA28; &#xA35;&#xA3F;&#xA71;&#xA1A; &#xA06;&#xA1F;&#xA4B;&#xA2E;&#xA48;&#xA1F;&#xA3F;&#xA15; &#xA39;&#xA40; &#xA38;&#xA15;&#xA30;&#xA40;&#xA28;&#xA38;&#xA3C;&#xA3E;&#xA1F; &#xA16;&#xA4B;&#xA32;&#xA4D;&#xA39;&#xA4B;</long>
+        <long xml:lang="or">&#xB0F;&#xB39;&#xB3F; &#xB2A;&#xB4D;&#xB30;&#xB2F;&#xB4B;&#xB17;&#xB30;&#xB47; &#xB38;&#xB4D;&#xB2C;&#xB2F;&#xB02;&#xB1A;&#xB3E;&#xB33;&#xB3F;&#xB24;&#xB2D;&#xB3E;&#xB2C;&#xB30;&#xB47; &#xB38;&#xB4D;&#xB15;&#xB4D;&#xB30;&#xB3F;&#xB28;&#xB38;&#xB1F; &#xB16;&#xB4B;&#xB32;</long>
+        <long xml:lang="nl">Automatisch schermafdruk openen in deze applicatie</long>
+        <long xml:lang="nb">&#xC5;pne skjermbilde automatisk med dette programmet</long>
+        <long xml:lang="ko">&#xC774; &#xD504;&#xB85C;&#xADF8;&#xB7A8;&#xC744; &#xC0AC;&#xC6A9;&#xD558;&#xC5EC; &#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;&#xC744; &#xC790;&#xB3D9;&#xC73C;&#xB85C; &#xC5F4;&#xAE30;</long>
+        <long xml:lang="ja">&#x30B9;&#x30AF;&#x30EA;&#x30FC;&#x30F3;&#x30B7;&#x30E7;&#x30C3;&#x30C8;&#x753B;&#x50CF;&#x3092;&#x3053;&#x306E;&#x30A2;&#x30D7;&#x30EA;&#x30B1;&#x30FC;&#x30B7;&#x30E7;&#x30F3;&#x3067;&#x81EA;&#x52D5;&#x7684;&#x306B;&#x958B;&#x304F;</long>
+        <long xml:lang="it">Apre le schermate con questa applicazione</long>
+        <long xml:lang="hu">A automatikus ind&#xED;t&#xE1;sa bejelentkez&#xE9;skor</long>
+        <long xml:lang="hr">Automatski otvara snimak zaslona u ovoj aplikaciji</long>
+        <long xml:lang="hi">&#x907;&#x938; &#x905;&#x928;&#x941;&#x92A;&#x94D;&#x930;&#x92F;&#x94B;&#x917; &#x92E;&#x947;&#x902; &#x938;&#x94D;&#x935;&#x924;&#x903; &#x938;&#x94D;&#x915;&#x94D;&#x930;&#x940;&#x928;&#x936;&#x949;&#x91F; &#x916;&#x94B;&#x932;&#x947;&#x902;</long>
+        <long xml:lang="he">&#x5E4;&#x5EA;&#x5D7; &#x5D0;&#x5D5;&#x5D8;&#x5D5;&#x5DE;&#x5D8;&#x5D9;&#x5EA; &#x5E6;&#x5D9;&#x5DC;&#x5D5;&#x5DE;&#x5D9; &#x5DE;&#x5E1;&#x5DA; &#x5D1;&#x5D9;&#x5D9;&#x5E9;&#x5D5;&#x5DD; &#x5D6;&#x5D4;</long>
+        <long xml:lang="gu">&#xAB8;&#xACD;&#xA95;&#xACD;&#xAB0;&#xAC0;&#xAA8;&#xAB6;&#xACB;&#xA9F; &#xA86;&#xAAA;&#xACB;&#xA86;&#xAAA; &#xA86; &#xA95;&#xABE;&#xAB0;&#xACD;&#xAAF;&#xA95;&#xACD;&#xAB0;&#xAAE;&#xAAE;&#xABE;&#xA82; &#xA96;&#xACB;&#xAB2;&#xACB;</long>
+        <long xml:lang="gl">Abrir automaticamente a captura de pantalla con esta aplicaci&#xF3;n</long>
+        <long xml:lang="fr">Ouvrir automatiquement la capture d'&#xE9;cran dans cette application</long>
+        <long xml:lang="fi">Ohjelma joka automaattisesti avaa kuvakaappauksen</long>
+        <long xml:lang="eu">Auomatikoki ireki pantaila argazkia aplikazio honetan</long>
+        <long xml:lang="es">Automaticamente toma una captura de pantalla en esta aplicaci&#xF3;n</long>
+        <long xml:lang="en-GB">Automatically open screenshot in this application</long>
+        <long xml:lang="el">&#x391;&#x3C5;&#x3C4;&#x3CC;&#x3BC;&#x3B1;&#x3C4;&#x3BF; &#x3AC;&#x3BD;&#x3BF;&#x3B9;&#x3B3;&#x3BC;&#x3B1; &#x3B1;&#x3C1;&#x3C0;&#x3B1;&#x3B3;&#x3AE;&#x3C2; &#x3BF;&#x3B8;&#x3CC;&#x3BD;&#x3B7;&#x3C2; &#x3C3;&#x3B5; &#x3B1;&#x3C5;&#x3C4;&#x3AE; &#x3C4;&#x3B7;&#x3BD; &#x3B5;&#x3C6;&#x3B1;&#x3C1;&#x3BC;&#x3BF;&#x3B3;&#x3AE;</long>
+        <long xml:lang="de">Bildschirmfoto automatisch mit dieser Anwendung &#xF6;ffnen</long>
+        <long xml:lang="cs">Automaticky otev&#x159;&#xED;t sn&#xED;mek v t&#xE9;to aplikaci</long>
+        <long xml:lang="ca">Obre autom&#xE0;ticament la captura de pantalla en aquesta aplicaci&#xF3;</long>
+        <long xml:lang="bn">&#x98F;&#x987; &#x985;&#x9A8;&#x9C1;&#x9AA;&#x9CD;&#x9B0;&#x9DF;&#x9CB;&#x997;&#x9C7; &#x9B8;&#x9CD;&#x995;&#x9CD;&#x9B0;&#x9BF;&#x9A8;&#x9B6;&#x99F;&#x997;&#x9C1;&#x9B2;&#x9BF; &#x9B8;&#x9CD;&#x9AC;&#x9DF;&#x982;&#x995;&#x9CD;&#x9B0;&#x9BF;&#x9DF;&#x9AD;&#x9BE;&#x9AC;&#x9C7; &#x996;&#x9C1;&#x9B2;&#x9C7; &#x9AF;&#x9BE;&#x9DF;</long>
+        <long xml:lang="bn-IN">&#x98F;&#x987; &#x985;&#x9A8;&#x9C1;&#x9AA;&#x9CD;&#x9B0;&#x9DF;&#x9CB;&#x997;&#x9C7; &#x9B8;&#x9CD;&#x995;&#x9CD;&#x9B0;&#x9BF;&#x9A8;&#x9B6;&#x99F;&#x997;&#x9C1;&#x9B2;&#x9BF; &#x9B8;&#x9CD;&#x9AC;&#x9DF;&#x982;&#x995;&#x9CD;&#x9B0;&#x9BF;&#x9DF;&#x9AD;&#x9BE;&#x9AC;&#x9C7; &#x996;&#x9C1;&#x9B2;&#x9C7; &#x9AF;&#x9BE;&#x9DF;</long>
+        <default/>
+      </option>
+    </display>
+  </plugin>
+</compiz>

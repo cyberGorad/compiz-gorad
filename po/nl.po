@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: compiz\n"
 "Report-Msgid-Bugs-To: https://gitlab.com/compiz/compiz-core/issues\n"
-"POT-Creation-Date: 2020-11-04 22:19-0500\n"
+"POT-Creation-Date: 2026-11-09 16:35+0300\n"
 "PO-Revision-Date: 2008-04-18 17:08+0200\n"
 "Last-Translator: Harald van Bree <harald@vanbree.nl.eu.org>\n"
 "Language-Team: Dutch <nl@li.org>\n"
@@ -1507,6 +1507,27 @@ msgstr "Vorige dia"
 
 msgid "Go back to previous slide"
 msgstr "Ga terug naar vorige dia"
+
+msgid "Zoom In"
+msgstr "Zoom in"
+
+msgid "Zoom in while the cube is active"
+msgstr ""
+
+msgid "Zoom Out"
+msgstr "Zoom uit"
+
+msgid "Zoom out while the cube is active"
+msgstr ""
+
+# /usr/lib/YaST2/clients/inst_config_x11.ycp:821
+#, fuzzy
+#| msgid "Rotation Zoom"
+msgid "Reset Zoom"
+msgstr "Rotatie zoom"
+
+msgid "Reset the cube zoom while it is active"
+msgstr ""
 
 msgid "Generate mipmaps when possible for higher quality scaling"
 msgstr "Genereer mipmap waarmogelijk voor een hogere schalings kwaliteit"
@@ -3386,12 +3407,6 @@ msgstr "Zoom bureaublad"
 
 msgid "Zoom and pan desktop cube"
 msgstr "Zoomen en verschuiven van bureaublad kubus"
-
-msgid "Zoom In"
-msgstr "Zoom in"
-
-msgid "Zoom Out"
-msgstr "Zoom uit"
 
 msgid "Zoom Pan"
 msgstr "Zoom verschuiven"

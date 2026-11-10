@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: compiz\n"
 "Report-Msgid-Bugs-To: https://gitlab.com/compiz/compiz-core/issues\n"
-"POT-Creation-Date: 2020-11-04 22:19-0500\n"
+"POT-Creation-Date: 2026-11-09 16:35+0300\n"
 "PO-Revision-Date: 2017-01-12 18:20+0300\n"
 "Last-Translator: Alexei Sorokin <sor.alexei@meowr.ru>\n"
 "Language-Team: English (United Kingdom) <en_GB@li.org>\n"
@@ -1360,6 +1360,26 @@ msgstr "Prev Slide"
 
 msgid "Go back to previous slide"
 msgstr "Go back to previous slide"
+
+msgid "Zoom In"
+msgstr "Zoom In"
+
+msgid "Zoom in while the cube is active"
+msgstr ""
+
+msgid "Zoom Out"
+msgstr "Zoom Out"
+
+msgid "Zoom out while the cube is active"
+msgstr ""
+
+#, fuzzy
+#| msgid "Rotation Zoom"
+msgid "Reset Zoom"
+msgstr "Rotation Zoom"
+
+msgid "Reset the cube zoom while it is active"
+msgstr ""
 
 msgid "Generate mipmaps when possible for higher quality scaling"
 msgstr "Generate mipmaps when possible for higher quality scaling"
@@ -3083,12 +3103,6 @@ msgstr "Zoom Desktop"
 
 msgid "Zoom and pan desktop cube"
 msgstr "Zoom and pan desktop cube"
-
-msgid "Zoom In"
-msgstr "Zoom In"
-
-msgid "Zoom Out"
-msgstr "Zoom Out"
 
 msgid "Zoom Pan"
 msgstr "Zoom Pan"

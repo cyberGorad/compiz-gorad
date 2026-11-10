@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<compiz>
+  <plugin name="regex">
+    <short>Regex Matching</short>
+    <short xml:lang="zh-Hant-TW">&#x898F;&#x5247;&#x5339;&#x914D;</short>
+    <short xml:lang="zh-Hans-CN">&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x5339;&#x914D;</short>
+    <short xml:lang="uk">&#x412;&#x456;&#x434;&#x43F;&#x43E;&#x432;&#x456;&#x434;&#x43D;&#x456;&#x441;&#x442;&#x44C; &#x440;&#x435;&#x433;&#x443;&#x43B;&#x44F;&#x440;&#x43D;&#x438;&#x43C;&#x438; &#x432;&#x438;&#x440;&#x430;&#x437;&#x430;&#x43C;&#x438;</short>
+    <short xml:lang="tr">D&#xFC;zenli &#x130;fade E&#x15F;lemesi</short>
+    <short xml:lang="sv">Regulj&#xE4;r uttrycksmatchning</short>
+    <short xml:lang="sk">Vyhodnocovanie regul&#xE1;rnych v&#xFD;razov</short>
+    <short xml:lang="ru">&#x421;&#x43E;&#x43E;&#x442;&#x432;&#x435;&#x442;&#x441;&#x442;&#x432;&#x438;&#x435; &#x440;&#x435;&#x433;&#x443;&#x43B;&#x44F;&#x440;&#x43D;&#x44B;&#x43C;&#x438; &#x432;&#x44B;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x438;&#x44F;&#x43C;&#x438;</short>
+    <short xml:lang="ro">Potrivire ExpReg</short>
+    <short xml:lang="pt-BR">Filtragem atrav&#xE9;s de express&#xF5;es regulares</short>
+    <short xml:lang="pt">Filtragem Regex</short>
+    <short xml:lang="pa">Regex &#xA2E;&#xA47;&#xA32; &#xA15;&#xA30;&#xA4B;</short>
+    <short xml:lang="or">&#xB30;&#xB3F;&#xB1C;&#xB47;&#xB15;&#xB4D;&#xB38; &#xB2E;&#xB47;&#xB33;&#xB16;&#xB3E;&#xB07;&#xB2C;&#xB3E;</short>
+    <short xml:lang="nb">Regex-samsvar</short>
+    <short xml:lang="ko">&#xC815;&#xADDC;&#xD45C;&#xD604;&#xC2DD; &#xC0AC;&#xC6A9;</short>
+    <short xml:lang="ka">&#x10E0;&#x10D4;&#x10D2;&#x10D2;&#x10D0;&#x10DB;&#x10DD;&#x10E1;&#x10D8;&#x10E1; &#x10D3;&#x10D0;&#x10DB;&#x10D7;&#x10EE;&#x10D5;&#x10D4;&#x10D5;&#x10D0;</short>
+    <short xml:lang="ja">&#x6B63;&#x898F;&#x8868;&#x73FE;&#x30DE;&#x30C3;&#x30C1;&#x30F3;&#x30B0;</short>
+    <short xml:lang="it">Corrispondenza espressione regolare</short>
+    <short xml:lang="hu">Regul&#xE1;ris kifejez&#xE9;s egyeztet&#xE9;s</short>
+    <short xml:lang="hr">Regex podudaranje</short>
+    <short xml:lang="hi">&#x930;&#x93F;&#x91C;&#x947;&#x915;&#x94D;&#x938; &#x92E;&#x93F;&#x932;&#x93E;&#x928;</short>
+    <short xml:lang="he">&#x5D4;&#x5EA;&#x5D0;&#x5DE;&#x5D4; &#x5DC;&#x5D1;&#x5D9;&#x5D8;&#x5D5;&#x5D9; &#x5E8;&#x5D2;&#x5D5;&#x5DC;&#x5E8;&#x5D9;</short>
+    <short xml:lang="gu">Regex &#xA9C;&#xACB;&#xAA1;&#xAA3;&#xAC0;</short>
+    <short xml:lang="gl">Coincidencia Regex</short>
+    <short xml:lang="fr">Correspondance Regex</short>
+    <short xml:lang="fi">Lauseket&#xE4;sm&#xE4;ys</short>
+    <short xml:lang="eu">Regex parekatzea</short>
+    <short xml:lang="es">Regex Coincidir</short>
+    <short xml:lang="en-GB">Regex Matching</short>
+    <short xml:lang="el">&#x3A4;&#x3B1;&#x3AF;&#x3C1;&#x3B9;&#x3B1;&#x3B3;&#x3BC;&#x3B1; Regex</short>
+    <short xml:lang="de">Regul&#xE4;re Ausdr&#xFC;cke</short>
+    <short xml:lang="cs">Regexpy</short>
+    <short xml:lang="ca">Coincid&#xE8;ncia de l'expressi&#xF3; regular</short>
+    <short xml:lang="bn">&#x9B0;&#x9BF;&#x997;&#x9C7;&#x995;&#x9CD;&#x9B8; &#x9AE;&#x9C7;&#x9B2;&#x9BE;&#x9A8;&#x9CB;</short>
+    <short xml:lang="bn-IN">&#x9B0;&#x9BF;&#x997;&#x9C7;&#x995;&#x9CD;&#x9B8; &#x9AE;&#x9C7;&#x9B2;&#x9BE;&#x9A8;&#x9CB;</short>
+    <long>Regex window matching</long>
+    <long xml:lang="zh-Hant-TW">&#x898F;&#x5247;&#x8996;&#x7A97;&#x5339;&#x914D;</long>
+    <long xml:lang="zh-Hans-CN">&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x7A97;&#x53E3;&#x5339;&#x914D;</long>
+    <long xml:lang="uk">&#x412;&#x456;&#x434;&#x43F;&#x43E;&#x432;&#x456;&#x434;&#x43D;&#x456;&#x441;&#x442;&#x44C; &#x432;&#x456;&#x43A;&#x43E;&#x43D; &#x437;&#x430; &#x434;&#x43E;&#x43F;&#x43E;&#x43C;&#x43E;&#x433;&#x43E;&#x44E; &#x440;&#x435;&#x433;&#x443;&#x43B;&#x44F;&#x440;&#x43D;&#x438;&#x445; &#x432;&#x438;&#x440;&#x430;&#x437;&#x456;&#x432;</long>
+    <long xml:lang="tr">D&#xFC;zenli ifade pencere e&#x15F;lemesi</long>
+    <long xml:lang="sk">Zodpovedaj&#xFA;ce regul&#xE1;rne v&#xFD;razy okna</long>
+    <long xml:lang="ru">&#x421;&#x43E;&#x43E;&#x442;&#x432;&#x435;&#x442;&#x441;&#x442;&#x432;&#x438;&#x435; &#x43E;&#x43A;&#x43E;&#x43D; &#x441; &#x43F;&#x43E;&#x43C;&#x43E;&#x449;&#x44C;&#x44E; &#x440;&#x435;&#x433;&#x443;&#x43B;&#x44F;&#x440;&#x43D;&#x44B;&#x445; &#x432;&#x44B;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x438;&#x439;</long>
+    <long xml:lang="ro">Potrivire ferestre cu o expresie regulat&#x103;</long>
+    <long xml:lang="pt-BR">Filtragem de janelas atrav&#xE9;s de express&#xF5;es regulares</long>
+    <long xml:lang="pt">Filtro regex de janelas</long>
+    <long xml:lang="pa">Regex &#xA35;&#xA3F;&#xA70;&#xA21;&#xA4B; &#xA2E;&#xA47;&#xA32; &#xA15;&#xA30;&#xA4B;</long>
+    <long xml:lang="or">&#xB30;&#xB3F;&#xB1C;&#xB47;&#xB15;&#xB4D;&#xB38; &#xB09;&#xB07;&#xB23;&#xB4D;&#xB21;&#xB4B; &#xB2E;&#xB47;&#xB33;&#xB16;&#xB3E;&#xB07;&#xB2C;&#xB3E;</long>
+    <long xml:lang="nl">Regex matching voor vensters</long>
+    <long xml:lang="nb">Regex-samsvar mellom vinduer</long>
+    <long xml:lang="ko">&#xC815;&#xADDC;&#xD45C;&#xD604;&#xC2DD; &#xCC3D; &#xB9E4;&#xCE6D;</long>
+    <long xml:lang="ka">&#x10E0;&#x10D4;&#x10D2;&#x10D2;&#x10D0;&#x10DB;&#x10DD;&#x10E1;&#x10D8;&#x10E1; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D8;&#x10E1; &#x10D3;&#x10D0;&#x10DB;&#x10D7;&#x10EE;&#x10D5;&#x10D4;&#x10D5;&#x10D0;</long>
+    <long xml:lang="ja">&#x6B63;&#x898F;&#x8868;&#x73FE;&#x306B;&#x3088;&#x308B;&#x5BFE;&#x8C61;&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x306E;&#x30DE;&#x30C3;&#x30C1;&#x30F3;&#x30B0;</long>
+    <long xml:lang="it">Riconosce le finestre usando le espressioni regolari</long>
+    <long xml:lang="hu">Regul&#xE1;ris kifejez&#xE9;ssel ablakegyeztet&#xE9;s</long>
+    <long xml:lang="hr">Regex podudaranje prozora</long>
+    <long xml:lang="hi">&#x930;&#x93F;&#x91C;&#x947;&#x915;&#x94D;&#x938; &#x935;&#x93F;&#x902;&#x921;&#x94B; &#x92E;&#x93F;&#x932;&#x93E;&#x928;</long>
+    <long xml:lang="he">&#x5D4;&#x5EA;&#x5D0;&#x5DE;&#x5EA; &#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA; &#x5DC;&#x5D1;&#x5D9;&#x5D8;&#x5D5;&#x5D9; &#x5E8;&#x5D2;&#x5D5;&#x5DC;&#x5E8;&#x5D9;</long>
+    <long xml:lang="gu">Regex &#xAB5;&#xABF;&#xAA8;&#xACD;&#xAA1;&#xACB; &#xA9C;&#xACB;&#xAA1;&#xAA3;&#xAC0;</long>
+    <long xml:lang="gl">Coincidencia Regex das xanelas</long>
+    <long xml:lang="fr">Correspondance Regex</long>
+    <long xml:lang="fi">Lausekkeen m&#xE4;&#xE4;rittelemien ikkunoiden t&#xE4;sm&#xE4;ys</long>
+    <long xml:lang="eu">Regex leiho parekatzea</long>
+    <long xml:lang="es">Regex coincidir ventanas</long>
+    <long xml:lang="en-GB">Regex window matching</long>
+    <long xml:lang="el">&#x3A4;&#x3B1;&#x3AF;&#x3C1;&#x3B9;&#x3B1;&#x3B3;&#x3BC;&#x3B1; &#x3C0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3BF;&#x3C5; regex</long>
+    <long xml:lang="de">Erm&#xF6;glicht die Verwendung von regul&#xE4;ren Ausdr&#xFC;cken beim Festlegen von Fensterregeln.</long>
+    <long xml:lang="cs">Podpora regul&#xE1;rn&#xED;ch v&#xFD;raz&#x16F; pro ur&#x10D;en&#xED; typu oken</long>
+    <long xml:lang="ca">Coincid&#xE8;ncia de l'expressi&#xF3; regular de la finestra</long>
+    <long xml:lang="bn">&#x9B0;&#x9BF;&#x997;&#x9C7;&#x995;&#x9CD;&#x9B8; &#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB; &#x9AE;&#x9C7;&#x9B2;&#x9BE;&#x9A8;&#x9CB;</long>
+    <long xml:lang="bn-IN">&#x9B0;&#x9BF;&#x997;&#x9C7;&#x995;&#x9CD;&#x9B8; &#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB; &#x9AE;&#x9C7;&#x9B2;&#x9BE;&#x9A8;&#x9CB;</long>
+    <category>Utility</category>
+  </plugin>
+</compiz>

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: compiz\n"
 "Report-Msgid-Bugs-To: https://gitlab.com/compiz/compiz-core/issues\n"
-"POT-Creation-Date: 2020-11-04 22:19-0500\n"
+"POT-Creation-Date: 2026-11-09 16:35+0300\n"
 "PO-Revision-Date: 2017-12-08 16:24+0100\n"
 "Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>\n"
 "Language-Team: Catalan <opensusecatala@gmail.com>\n"
@@ -1374,6 +1374,26 @@ msgstr "Anterior lliscament"
 
 msgid "Go back to previous slide"
 msgstr "Retrocedeix a l'anterior lliscament"
+
+msgid "Zoom In"
+msgstr "Amplia el zoom"
+
+msgid "Zoom in while the cube is active"
+msgstr ""
+
+msgid "Zoom Out"
+msgstr "Redueix el zoom"
+
+msgid "Zoom out while the cube is active"
+msgstr ""
+
+#, fuzzy
+#| msgid "Rotation Zoom"
+msgid "Reset Zoom"
+msgstr "Zoom del gir"
+
+msgid "Reset the cube zoom while it is active"
+msgstr ""
 
 msgid "Generate mipmaps when possible for higher quality scaling"
 msgstr ""
@@ -3175,12 +3195,6 @@ msgstr "Zoom de l'escriptori"
 
 msgid "Zoom and pan desktop cube"
 msgstr "Zoom i enquadra el cub d'escriptori"
-
-msgid "Zoom In"
-msgstr "Amplia el zoom"
-
-msgid "Zoom Out"
-msgstr "Redueix el zoom"
 
 msgid "Zoom Pan"
 msgstr "Enquadra el zoom"

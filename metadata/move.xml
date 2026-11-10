@@ -1,0 +1,612 @@
+<?xml version="1.0"?>
+<compiz>
+  <plugin name="move">
+    <short>Move Window</short>
+    <short xml:lang="zh-Hant-TW">&#x79FB;&#x52D5;&#x8996;&#x7A97;</short>
+    <short xml:lang="zh-Hans-CN">&#x79FB;&#x52A8;&#x7A97;&#x53E3;</short>
+    <short xml:lang="uk">&#x41F;&#x435;&#x440;&#x435;&#x43C;&#x456;&#x441;&#x442;&#x438;&#x442;&#x438; &#x432;&#x456;&#x43A;&#x43D;&#x43E;</short>
+    <short xml:lang="tr">Pencereyi Ta&#x15F;&#x131;</short>
+    <short xml:lang="sv">Flytta f&#xF6;nster</short>
+    <short xml:lang="sk">Presun&#xFA;&#x165; okno</short>
+    <short xml:lang="ru">&#x41F;&#x435;&#x440;&#x435;&#x43C;&#x435;&#x441;&#x442;&#x438;&#x442;&#x44C; &#x43E;&#x43A;&#x43D;&#x43E;</short>
+    <short xml:lang="ro">Mutare fereastr&#x103;</short>
+    <short xml:lang="pt-BR">Mover Janela</short>
+    <short xml:lang="pt">Mover Janela</short>
+    <short xml:lang="pl">Przenie&#x15B; okno</short>
+    <short xml:lang="or">&#xB09;&#xB07;&#xB23;&#xB4D;&#xB21;&#xB4B;&#xB15;&#xB41; &#xB18;&#xB41;&#xB1E;&#xB4D;&#xB1A;&#xB3E;&#xB05;</short>
+    <short xml:lang="nl">Verplaats venster</short>
+    <short xml:lang="nb">Flytt vindu</short>
+    <short xml:lang="ko">&#xCC3D; &#xC774;&#xB3D9;</short>
+    <short xml:lang="ka">&#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10D0;&#x10D3;&#x10D2;&#x10D8;&#x10DA;&#x10D4;&#x10D1;&#x10D0;</short>
+    <short xml:lang="ja">&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x306E;&#x79FB;&#x52D5;</short>
+    <short xml:lang="it">Muovi finestra</short>
+    <short xml:lang="hu">Ablak &#xE1;thelyez&#xE9;se</short>
+    <short xml:lang="hr">Pomicanje prozora</short>
+    <short xml:lang="he">&#x5D4;&#x5D6;&#x5D6;&#x5EA; &#x5D7;&#x5DC;&#x5D5;&#x5DF;</short>
+    <short xml:lang="gu">&#xAB5;&#xABF;&#xAA8;&#xACD;&#xAA1;&#xACB; &#xA96;&#xAB8;&#xAC7;&#xAA1;&#xACB;</short>
+    <short xml:lang="gl">Mover Fiestra</short>
+    <short xml:lang="fr">D&#xE9;placer la fen&#xEA;tre</short>
+    <short xml:lang="fi">Siirr&#xE4; Ikkuna</short>
+    <short xml:lang="eu">Leiho Mugimendua</short>
+    <short xml:lang="es">Mover ventana</short>
+    <short xml:lang="en-GB">Move Window</short>
+    <short xml:lang="el">&#x39C;&#x3B5;&#x3C4;&#x3B1;&#x3BA;&#x3AF;&#x3BD;&#x3B7;&#x3C3;&#x3B7; &#x3A0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3BF;&#x3C5;</short>
+    <short xml:lang="de">Fenster verschieben</short>
+    <short xml:lang="da">Flyt vindue</short>
+    <short xml:lang="cs">P&#x159;esunout okno</short>
+    <short xml:lang="ca">Moviment de la finestra</short>
+    <short xml:lang="bn">&#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB; &#x9B8;&#x9B0;&#x9BE;&#x9A8;&#x9CB;</short>
+    <short xml:lang="bn-IN">&#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB; &#x9B8;&#x9B0;&#x9BE;&#x9A8;&#x9CB;</short>
+    <long>Move window</long>
+    <long xml:lang="zh-Hant-TW">&#x79FB;&#x52D5;&#x8996;&#x7A97;</long>
+    <long xml:lang="zh-Hans-CN">&#x79FB;&#x52A8;&#x7A97;&#x53E3;</long>
+    <long xml:lang="uk">&#x41F;&#x435;&#x440;&#x435;&#x43C;&#x456;&#x441;&#x442;&#x438;&#x442;&#x438; &#x432;&#x456;&#x43A;&#x43D;&#x43E;</long>
+    <long xml:lang="tr">Pencereyi ta&#x15F;&#x131;</long>
+    <long xml:lang="sv">Flytta f&#xF6;nster</long>
+    <long xml:lang="sk">Presun&#xFA;&#x165; okno</long>
+    <long xml:lang="ru">&#x41F;&#x435;&#x440;&#x435;&#x43C;&#x435;&#x441;&#x442;&#x438;&#x442;&#x44C; &#x43E;&#x43A;&#x43D;&#x43E;</long>
+    <long xml:lang="ro">Mut&#x103; fereastra</long>
+    <long xml:lang="pt-BR">Mover janela</long>
+    <long xml:lang="pt">Mover janela</long>
+    <long xml:lang="pl">Przenie&#x15B; okno</long>
+    <long xml:lang="or">&#xB09;&#xB07;&#xB23;&#xB4D;&#xB21;&#xB4B;&#xB15;&#xB41; &#xB18;&#xB41;&#xB1E;&#xB4D;&#xB1A;&#xB3E;&#xB05;</long>
+    <long xml:lang="nl">Verplaats venster</long>
+    <long xml:lang="nb">Flytt vindu</long>
+    <long xml:lang="ko">&#xCC3D; &#xC774;&#xB3D9;</long>
+    <long xml:lang="ka">&#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10D0;&#x10D3;&#x10D2;&#x10D8;&#x10DA;&#x10D4;&#x10D1;&#x10D0;</long>
+    <long xml:lang="ja">&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x306E;&#x79FB;&#x52D5;</long>
+    <long xml:lang="it">Muove la finestra</long>
+    <long xml:lang="hu">Ablak &#xE1;thelyez&#xE9;se</long>
+    <long xml:lang="hr">Pomakni prozor</long>
+    <long xml:lang="he">&#x5D4;&#x5D6;&#x5D6;&#x5EA; &#x5D7;&#x5DC;&#x5D5;&#x5DF;</long>
+    <long xml:lang="gu">&#xAB5;&#xABF;&#xAA8;&#xACD;&#xAA1;&#xACB;&#xAA8;&#xAC7; &#xA96;&#xAB8;&#xABE;&#xAA1;&#xACB;</long>
+    <long xml:lang="gl">Atallos de teclado e rato para o movemento m&#xE1;is sinxelo das xanelas</long>
+    <long xml:lang="fr">D&#xE9;placer la fen&#xEA;tre</long>
+    <long xml:lang="fi">Ikkunan siirt&#xE4;minen</long>
+    <long xml:lang="eu">Leiho mugimendua</long>
+    <long xml:lang="es">Mueve la ventana</long>
+    <long xml:lang="en-GB">Move window</long>
+    <long xml:lang="el">&#x39C;&#x3B5;&#x3C4;&#x3B1;&#x3BA;&#x3AF;&#x3BD;&#x3B7;&#x3C3;&#x3B7; &#x3C0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3BF;&#x3C5;</long>
+    <long xml:lang="de">Fenster verschieben</long>
+    <long xml:lang="da">Flyt vindue</long>
+    <long xml:lang="cs">P&#x159;esunout okno</long>
+    <long xml:lang="ca">Mou la finestra</long>
+    <category>Window Management</category>
+    <display>
+      <group>
+        <short>General</short>
+        <short xml:lang="ka">&#x10E1;&#x10D0;&#x10D4;&#x10E0;&#x10D7;&#x10DD;</short>
+        <short xml:lang="fr">G&#xE9;n&#xE9;ral</short>
+        <option name="initiate_button" type="button">
+          <short>Initiate Window Move</short>
+          <short xml:lang="zh-Hant-TW">&#x958B;&#x59CB;&#x8996;&#x7A97;&#x79FB;&#x52D5;</short>
+          <short xml:lang="zh-Hans-CN">&#x542F;&#x52A8;&#x7A97;&#x53E3;&#x79FB;&#x52A8;</short>
+          <short xml:lang="uk">&#x406;&#x43D;&#x456;&#x446;&#x456;&#x44E;&#x432;&#x430;&#x442;&#x438; &#x440;&#x443;&#x445; &#x432;&#x456;&#x43A;&#x43D;&#x430;</short>
+          <short xml:lang="tr">Pencereleri Ta&#x15F;&#x131;maya Ba&#x15F;la</short>
+          <short xml:lang="sv">Initiera f&#xF6;nsterflyttning</short>
+          <short xml:lang="sk">Zah&#xE1;ji&#x165; presun okna</short>
+          <short xml:lang="ru">&#x418;&#x43D;&#x438;&#x446;&#x438;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x434;&#x432;&#x438;&#x436;&#x435;&#x43D;&#x438;&#x435; &#x43E;&#x43A;&#x43D;&#x430;</short>
+          <short xml:lang="ro">Ini&#x21B;ierea mut&#x103;rii ferestrei</short>
+          <short xml:lang="pt-BR">Iniciar Movimento de Janelas</short>
+          <short xml:lang="pt">Iniciar Movimento de Janelas</short>
+          <short xml:lang="pl">Rozpocznij przenoszenie okna</short>
+          <short xml:lang="or">&#xB09;&#xB07;&#xB23;&#xB4D;&#xB21;&#xB4B; &#xB18;&#xB41;&#xB1E;&#xB4D;&#xB1A;&#xB3E;&#xB07;&#xB2C;&#xB3E; &#xB06;&#xB30;&#xB2E;&#xB4D;&#xB2D; &#xB15;&#xB30;</short>
+          <short xml:lang="nl">Start venster verplaatsing</short>
+          <short xml:lang="nb">Begynn vindusflytting</short>
+          <short xml:lang="ko">&#xCC3D; &#xC774;&#xB3D9; &#xC2DC;&#xC791;</short>
+          <short xml:lang="ka">&#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10D0;&#x10D3;&#x10D2;&#x10D8;&#x10DA;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10D3;&#x10D0;&#x10EC;&#x10E7;&#x10D4;&#x10D1;&#x10D0;</short>
+          <short xml:lang="ja">&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x306E;&#x79FB;&#x52D5;&#x958B;&#x59CB;</short>
+          <short xml:lang="it">Inizializza muovi finestre</short>
+          <short xml:lang="hu">Ablak&#xE1;thelyez&#xE9;s ind&#xED;t&#xE1;sa</short>
+          <short xml:lang="hr">Pokreni pomicanje prozora</short>
+          <short xml:lang="he">&#x5D4;&#x5EA;&#x5D7;&#x5DC; &#x5DC;&#x5D4;&#x5D6;&#x5D9;&#x5D6; &#x5D7;&#x5DC;&#x5D5;&#x5DF;</short>
+          <short xml:lang="gu">&#xAB5;&#xABF;&#xAA8;&#xACD;&#xAA1;&#xACB; &#xA96;&#xAB8;&#xAC7;&#xAA1;&#xAB5;&#xABE;&#xAA8;&#xAC1;&#xA82; &#xA86;&#xAB0;&#xA82;&#xAAD; &#xA95;&#xAB0;&#xACB;</short>
+          <short xml:lang="gl">Iniciar Movemento de Fiestras</short>
+          <short xml:lang="fr">Lancer le d&#xE9;placement de fen&#xEA;tre</short>
+          <short xml:lang="fi">Siirr&#xE4; ikkunaa</short>
+          <short xml:lang="eu">Hasi leiho mugimendua</short>
+          <short xml:lang="es">Iniciar movimiento de ventana</short>
+          <short xml:lang="en-GB">Initiate Window Move</short>
+          <short xml:lang="el">&#x388;&#x3BD;&#x3B1;&#x3C1;&#x3BE;&#x3B7; &#x39C;&#x3B5;&#x3C4;&#x3B1;&#x3BA;&#x3AF;&#x3BD;&#x3B7;&#x3C3;&#x3B7;&#x3C2; &#x3A0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3BF;&#x3C5;</short>
+          <short xml:lang="de">Fensterverschiebung initiieren</short>
+          <short xml:lang="da">Start vinduesflytning</short>
+          <short xml:lang="cs">Iniciovat p&#x159;esun okna</short>
+          <short xml:lang="ca">Inicia el moviment de la finestra</short>
+          <short xml:lang="bn">&#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB; &#x9B8;&#x9B0;&#x9BE;&#x9A8;&#x9CB; &#x986;&#x9B0;&#x9AE;&#x9CD;&#x9AD; &#x995;&#x9B0;&#x9BE;</short>
+          <short xml:lang="bn-IN">&#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB; &#x9B8;&#x9B0;&#x9BE;&#x9A8;&#x9CB; &#x986;&#x9B0;&#x9AE;&#x9CD;&#x9AD; &#x995;&#x9B0;&#x9BE;</short>
+          <long>Start moving window</long>
+          <long xml:lang="zh-Hant-TW">&#x958B;&#x59CB;&#x79FB;&#x52D5;&#x8996;&#x7A97;</long>
+          <long xml:lang="zh-Hans-CN">&#x5F00;&#x59CB;&#x79FB;&#x52A8;&#x7A97;&#x53E3;</long>
+          <long xml:lang="uk">&#x417;&#x430;&#x43F;&#x443;&#x441;&#x43A; &#x43F;&#x435;&#x440;&#x435;&#x43C;&#x456;&#x449;&#x435;&#x43D;&#x43D;&#x44F; &#x432;&#x456;&#x43A;&#x43D;&#x430;</long>
+          <long xml:lang="tr">Pencereleri ta&#x15F;&#x131;maya ba&#x15F;la</long>
+          <long xml:lang="sv">B&#xF6;rja flytta f&#xF6;nster</long>
+          <long xml:lang="sk">Za&#x10D;a&#x165; pohyb okna</long>
+          <long xml:lang="ru">&#x417;&#x430;&#x43F;&#x443;&#x441;&#x43A; &#x43F;&#x435;&#x440;&#x435;&#x43C;&#x435;&#x449;&#x435;&#x43D;&#x438;&#x44F; &#x43E;&#x43A;&#x43D;&#x430;</long>
+          <long xml:lang="ro">Ini&#x21B;ializarea deplas&#x103;rii</long>
+          <long xml:lang="pt-BR">Iniciar movimento da janela</long>
+          <long xml:lang="pt">Iniciar movimento da janela</long>
+          <long xml:lang="pl">Rozpocznij przenoszenie okna</long>
+          <long xml:lang="or">&#xB09;&#xB07;&#xB23;&#xB4D;&#xB21;&#xB4B;&#xB15;&#xB41; &#xB18;&#xB41;&#xB1E;&#xB4D;&#xB1A;&#xB3E;&#xB07;&#xB2C;&#xB3E; &#xB06;&#xB30;&#xB2E;&#xB4D;&#xB2D;&#xB15;&#xB30;</long>
+          <long xml:lang="nl">Start vensters verplaatsen</long>
+          <long xml:lang="nb">Begynn &#xE5; bevege vindu</long>
+          <long xml:lang="ko">&#xCC3D; &#xC774;&#xB3D9; &#xC2DC;&#xC791;</long>
+          <long xml:lang="ka">&#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10D0;&#x10D3;&#x10D2;&#x10D8;&#x10DA;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10E8;&#x10D5;&#x10D4;&#x10D1;&#x10D0;</long>
+          <long xml:lang="ja">&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x306E;&#x79FB;&#x52D5;&#x3092;&#x958B;&#x59CB;</long>
+          <long xml:lang="it">Avvia finestra in movimento</long>
+          <long xml:lang="hu">Ablak&#xE1;thelyez&#xE9;s megkezd&#xE9;se</long>
+          <long xml:lang="hr">Zapo&#x10D;ni pomicanje prozora</long>
+          <long xml:lang="he">&#x5D4;&#x5EA;&#x5D7;&#x5DC; &#x5DC;&#x5D4;&#x5D6;&#x5D9;&#x5D6; &#x5D7;&#x5DC;&#x5D5;&#x5DF;</long>
+          <long xml:lang="gu">&#xAB5;&#xABF;&#xAA8;&#xACD;&#xAA1;&#xACB;&#xAA8;&#xAC7; &#xA96;&#xAB8;&#xAC7;&#xAA1;&#xAB5;&#xABE;&#xAA8;&#xAC1;&#xA82; &#xAB6;&#xAB0;&#xAC2; &#xA95;&#xAB0;&#xACB;</long>
+          <long xml:lang="gl">Iniciar movemento da xanela</long>
+          <long xml:lang="fr">D&#xE9;marrer le d&#xE9;placement de la fen&#xEA;tre</long>
+          <long xml:lang="fi">Aloita ikkunan siirt&#xE4;minen</long>
+          <long xml:lang="eu">Hasi leihoa mugitzen</long>
+          <long xml:lang="es">Empieza a mover la ventana</long>
+          <long xml:lang="en-GB">Start moving window</long>
+          <long xml:lang="el">&#x388;&#x3BD;&#x3B1;&#x3C1;&#x3BE;&#x3B7; &#x3BC;&#x3B5;&#x3C4;&#x3B1;&#x3BA;&#x3AF;&#x3BD;&#x3B7;&#x3C3;&#x3B7;&#x3C2; &#x3C0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3BF;&#x3C5;</long>
+          <long xml:lang="de">Fensterverschiebung starten</long>
+          <long xml:lang="da">Start flytning af vindue</long>
+          <long xml:lang="cs">Zah&#xE1;jit pohyb okna</long>
+          <long xml:lang="ca">Comen&#xE7;a el moviment de la finestra</long>
+          <default>&lt;Alt&gt;Button1</default>
+        </option>
+        <option name="initiate_key" type="key">
+          <short>Initiate Window Move</short>
+          <short xml:lang="zh-Hant-TW">&#x958B;&#x59CB;&#x8996;&#x7A97;&#x79FB;&#x52D5;</short>
+          <short xml:lang="zh-Hans-CN">&#x542F;&#x52A8;&#x7A97;&#x53E3;&#x79FB;&#x52A8;</short>
+          <short xml:lang="uk">&#x406;&#x43D;&#x456;&#x446;&#x456;&#x44E;&#x432;&#x430;&#x442;&#x438; &#x440;&#x443;&#x445; &#x432;&#x456;&#x43A;&#x43D;&#x430;</short>
+          <short xml:lang="tr">Pencereleri Ta&#x15F;&#x131;maya Ba&#x15F;la</short>
+          <short xml:lang="sv">Initiera f&#xF6;nsterflyttning</short>
+          <short xml:lang="sk">Zah&#xE1;ji&#x165; presun okna</short>
+          <short xml:lang="ru">&#x418;&#x43D;&#x438;&#x446;&#x438;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x434;&#x432;&#x438;&#x436;&#x435;&#x43D;&#x438;&#x435; &#x43E;&#x43A;&#x43D;&#x430;</short>
+          <short xml:lang="ro">Ini&#x21B;ierea mut&#x103;rii ferestrei</short>
+          <short xml:lang="pt-BR">Iniciar Movimento de Janelas</short>
+          <short xml:lang="pt">Iniciar Movimento de Janelas</short>
+          <short xml:lang="pl">Rozpocznij przenoszenie okna</short>
+          <short xml:lang="or">&#xB09;&#xB07;&#xB23;&#xB4D;&#xB21;&#xB4B; &#xB18;&#xB41;&#xB1E;&#xB4D;&#xB1A;&#xB3E;&#xB07;&#xB2C;&#xB3E; &#xB06;&#xB30;&#xB2E;&#xB4D;&#xB2D; &#xB15;&#xB30;</short>
+          <short xml:lang="nl">Start venster verplaatsing</short>
+          <short xml:lang="nb">Begynn vindusflytting</short>
+          <short xml:lang="ko">&#xCC3D; &#xC774;&#xB3D9; &#xC2DC;&#xC791;</short>
+          <short xml:lang="ka">&#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10D0;&#x10D3;&#x10D2;&#x10D8;&#x10DA;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10D3;&#x10D0;&#x10EC;&#x10E7;&#x10D4;&#x10D1;&#x10D0;</short>
+          <short xml:lang="ja">&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x306E;&#x79FB;&#x52D5;&#x958B;&#x59CB;</short>
+          <short xml:lang="it">Inizializza muovi finestre</short>
+          <short xml:lang="hu">Ablak&#xE1;thelyez&#xE9;s ind&#xED;t&#xE1;sa</short>
+          <short xml:lang="hr">Pokreni pomicanje prozora</short>
+          <short xml:lang="he">&#x5D4;&#x5EA;&#x5D7;&#x5DC; &#x5DC;&#x5D4;&#x5D6;&#x5D9;&#x5D6; &#x5D7;&#x5DC;&#x5D5;&#x5DF;</short>
+          <short xml:lang="gu">&#xAB5;&#xABF;&#xAA8;&#xACD;&#xAA1;&#xACB; &#xA96;&#xAB8;&#xAC7;&#xAA1;&#xAB5;&#xABE;&#xAA8;&#xAC1;&#xA82; &#xA86;&#xAB0;&#xA82;&#xAAD; &#xA95;&#xAB0;&#xACB;</short>
+          <short xml:lang="gl">Iniciar Movemento de Fiestras</short>
+          <short xml:lang="fr">Lancer le d&#xE9;placement de fen&#xEA;tre</short>
+          <short xml:lang="fi">Siirr&#xE4; ikkunaa</short>
+          <short xml:lang="eu">Hasi leiho mugimendua</short>
+          <short xml:lang="es">Iniciar movimiento de ventana</short>
+          <short xml:lang="en-GB">Initiate Window Move</short>
+          <short xml:lang="el">&#x388;&#x3BD;&#x3B1;&#x3C1;&#x3BE;&#x3B7; &#x39C;&#x3B5;&#x3C4;&#x3B1;&#x3BA;&#x3AF;&#x3BD;&#x3B7;&#x3C3;&#x3B7;&#x3C2; &#x3A0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3BF;&#x3C5;</short>
+          <short xml:lang="de">Fensterverschiebung initiieren</short>
+          <short xml:lang="da">Start vinduesflytning</short>
+          <short xml:lang="cs">Iniciovat p&#x159;esun okna</short>
+          <short xml:lang="ca">Inicia el moviment de la finestra</short>
+          <short xml:lang="bn">&#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB; &#x9B8;&#x9B0;&#x9BE;&#x9A8;&#x9CB; &#x986;&#x9B0;&#x9AE;&#x9CD;&#x9AD; &#x995;&#x9B0;&#x9BE;</short>
+          <short xml:lang="bn-IN">&#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB; &#x9B8;&#x9B0;&#x9BE;&#x9A8;&#x9CB; &#x986;&#x9B0;&#x9AE;&#x9CD;&#x9AD; &#x995;&#x9B0;&#x9BE;</short>
+          <long>Start moving window</long>
+          <long xml:lang="zh-Hant-TW">&#x958B;&#x59CB;&#x79FB;&#x52D5;&#x8996;&#x7A97;</long>
+          <long xml:lang="zh-Hans-CN">&#x5F00;&#x59CB;&#x79FB;&#x52A8;&#x7A97;&#x53E3;</long>
+          <long xml:lang="uk">&#x417;&#x430;&#x43F;&#x443;&#x441;&#x43A; &#x43F;&#x435;&#x440;&#x435;&#x43C;&#x456;&#x449;&#x435;&#x43D;&#x43D;&#x44F; &#x432;&#x456;&#x43A;&#x43D;&#x430;</long>
+          <long xml:lang="tr">Pencereleri ta&#x15F;&#x131;maya ba&#x15F;la</long>
+          <long xml:lang="sv">B&#xF6;rja flytta f&#xF6;nster</long>
+          <long xml:lang="sk">Za&#x10D;a&#x165; pohyb okna</long>
+          <long xml:lang="ru">&#x417;&#x430;&#x43F;&#x443;&#x441;&#x43A; &#x43F;&#x435;&#x440;&#x435;&#x43C;&#x435;&#x449;&#x435;&#x43D;&#x438;&#x44F; &#x43E;&#x43A;&#x43D;&#x430;</long>
+          <long xml:lang="ro">Ini&#x21B;ializarea deplas&#x103;rii</long>
+          <long xml:lang="pt-BR">Iniciar movimento da janela</long>
+          <long xml:lang="pt">Iniciar movimento da janela</long>
+          <long xml:lang="pl">Rozpocznij przenoszenie okna</long>
+          <long xml:lang="or">&#xB09;&#xB07;&#xB23;&#xB4D;&#xB21;&#xB4B;&#xB15;&#xB41; &#xB18;&#xB41;&#xB1E;&#xB4D;&#xB1A;&#xB3E;&#xB07;&#xB2C;&#xB3E; &#xB06;&#xB30;&#xB2E;&#xB4D;&#xB2D;&#xB15;&#xB30;</long>
+          <long xml:lang="nl">Start vensters verplaatsen</long>
+          <long xml:lang="nb">Begynn &#xE5; bevege vindu</long>
+          <long xml:lang="ko">&#xCC3D; &#xC774;&#xB3D9; &#xC2DC;&#xC791;</long>
+          <long xml:lang="ka">&#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10D0;&#x10D3;&#x10D2;&#x10D8;&#x10DA;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10E8;&#x10D5;&#x10D4;&#x10D1;&#x10D0;</long>
+          <long xml:lang="ja">&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x306E;&#x79FB;&#x52D5;&#x3092;&#x958B;&#x59CB;</long>
+          <long xml:lang="it">Avvia finestra in movimento</long>
+          <long xml:lang="hu">Ablak&#xE1;thelyez&#xE9;s megkezd&#xE9;se</long>
+          <long xml:lang="hr">Zapo&#x10D;ni pomicanje prozora</long>
+          <long xml:lang="he">&#x5D4;&#x5EA;&#x5D7;&#x5DC; &#x5DC;&#x5D4;&#x5D6;&#x5D9;&#x5D6; &#x5D7;&#x5DC;&#x5D5;&#x5DF;</long>
+          <long xml:lang="gu">&#xAB5;&#xABF;&#xAA8;&#xACD;&#xAA1;&#xACB;&#xAA8;&#xAC7; &#xA96;&#xAB8;&#xAC7;&#xAA1;&#xAB5;&#xABE;&#xAA8;&#xAC1;&#xA82; &#xAB6;&#xAB0;&#xAC2; &#xA95;&#xAB0;&#xACB;</long>
+          <long xml:lang="gl">Iniciar movemento da xanela</long>
+          <long xml:lang="fr">D&#xE9;marrer le d&#xE9;placement de la fen&#xEA;tre</long>
+          <long xml:lang="fi">Aloita ikkunan siirt&#xE4;minen</long>
+          <long xml:lang="eu">Hasi leihoa mugitzen</long>
+          <long xml:lang="es">Empieza a mover la ventana</long>
+          <long xml:lang="en-GB">Start moving window</long>
+          <long xml:lang="el">&#x388;&#x3BD;&#x3B1;&#x3C1;&#x3BE;&#x3B7; &#x3BC;&#x3B5;&#x3C4;&#x3B1;&#x3BA;&#x3AF;&#x3BD;&#x3B7;&#x3C3;&#x3B7;&#x3C2; &#x3C0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3BF;&#x3C5;</long>
+          <long xml:lang="de">Fensterverschiebung starten</long>
+          <long xml:lang="da">Start flytning af vindue</long>
+          <long xml:lang="cs">Zah&#xE1;jit pohyb okna</long>
+          <long xml:lang="ca">Comen&#xE7;a el moviment de la finestra</long>
+          <default>&lt;Alt&gt;F7</default>
+        </option>
+        <option name="opacity" type="int">
+          <short>Opacity</short>
+          <short xml:lang="zh-Hant-TW">&#x4E0D;&#x900F;&#x660E;&#x5EA6;</short>
+          <short xml:lang="zh-Hans-CN">&#x4E0D;&#x900F;&#x660E;&#x5EA6;</short>
+          <short xml:lang="uk">&#x41F;&#x440;&#x43E;&#x437;&#x43E;&#x440;&#x456;&#x441;&#x442;&#x44C;</short>
+          <short xml:lang="tr">Matl&#x131;k</short>
+          <short xml:lang="sv">Opacitet</short>
+          <short xml:lang="sk">Neprieh&#x13E;adnos&#x165;</short>
+          <short xml:lang="ru">&#x41F;&#x440;&#x43E;&#x437;&#x440;&#x430;&#x447;&#x43D;&#x43E;&#x441;&#x442;&#x44C;</short>
+          <short xml:lang="ro">Opacitate</short>
+          <short xml:lang="pt-BR">Opacidade</short>
+          <short xml:lang="pt">Opacidade</short>
+          <short xml:lang="pl">Nieprzezroczysto&#x15B;&#x107;</short>
+          <short xml:lang="or">&#xB05;&#xB38;&#xB4D;&#xB2C;&#xB1A;&#xB4D;&#xB1B;&#xB24;&#xB3E;</short>
+          <short xml:lang="nl">Ondoorzichtigheid</short>
+          <short xml:lang="nb">Dekkevne</short>
+          <short xml:lang="ko">&#xD22C;&#xBA85;</short>
+          <short xml:lang="ka">&#x10D2;&#x10D0;&#x10E3;&#x10DB;&#x10ED;&#x10D8;&#x10E0;&#x10D5;&#x10D0;&#x10DA;&#x10DD;&#x10D1;&#x10D0;</short>
+          <short xml:lang="ja">&#x4E0D;&#x900F;&#x660E;&#x5EA6;</short>
+          <short xml:lang="it">Opacit&#xE0;</short>
+          <short xml:lang="hu">&#xC1;tl&#xE1;tszatlans&#xE1;g</short>
+          <short xml:lang="hr">Prozirnost</short>
+          <short xml:lang="he">&#x5D0;&#x5D8;&#x5D9;&#x5DE;&#x5D5;&#x5EA;</short>
+          <short xml:lang="gu">&#xA85;&#xAAA;&#xABE;&#xAB0;&#xAA6;&#xAB0;&#xACD;&#xAB6;&#xA95;&#xAA4;&#xABE;</short>
+          <short xml:lang="gl">Opacidade</short>
+          <short xml:lang="fr">Opacit&#xE9;</short>
+          <short xml:lang="fi">L&#xE4;pin&#xE4;kyvyys</short>
+          <short xml:lang="eu">Opakutasuna</short>
+          <short xml:lang="es">Opacidad</short>
+          <short xml:lang="en-GB">Opacity</short>
+          <short xml:lang="el">&#x391;&#x3B4;&#x3B9;&#x3B1;&#x3C6;&#x3AC;&#x3BD;&#x3B5;&#x3B9;&#x3B1;</short>
+          <short xml:lang="de">Opazit&#xE4;t</short>
+          <short xml:lang="da">Uigennemsigtighed</short>
+          <short xml:lang="cs">Kryt&#xED;</short>
+          <short xml:lang="ca">Opacitat</short>
+          <short xml:lang="bn">&#x985;&#x9B8;&#x9CD;&#x9AC;&#x99A;&#x9CD;&#x99B;&#x9A4;&#x9BE;</short>
+          <short xml:lang="bn-IN">&#x985;&#x9B8;&#x9CD;&#x9AC;&#x99A;&#x9CD;&#x99B;&#x9A4;&#x9BE;</short>
+          <long>Opacity level of moving windows</long>
+          <long xml:lang="zh-Hant-TW">&#x79FB;&#x52D5;&#x8996;&#x7A97;&#x7684;&#x4E0D;&#x900F;&#x660E;&#x5EA6;</long>
+          <long xml:lang="zh-Hans-CN">&#x79FB;&#x52A8;&#x7A97;&#x53E3;&#x7684;&#x4E0D;&#x900F;&#x660E;&#x5EA6;</long>
+          <long xml:lang="uk">&#x421;&#x442;&#x443;&#x43F;&#x456;&#x43D;&#x44C; &#x43F;&#x440;&#x43E;&#x437;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x456; &#x440;&#x443;&#x445;&#x43E;&#x43C;&#x438;&#x445; &#x432;&#x456;&#x43A;&#x43E;&#x43D;</long>
+          <long xml:lang="tr">Ta&#x15F;&#x131;nan pencerelerin matl&#x131;k d&#xFC;zeyi</long>
+          <long xml:lang="sv">Opacitetniv&#xE5; f&#xF6;r flyttande f&#xF6;nster</long>
+          <long xml:lang="sk">&#xDA;rove&#x148; neprieh&#x13E;adnosti pres&#xFA;van&#xFD;ch okien</long>
+          <long xml:lang="ru">&#x421;&#x442;&#x435;&#x43F;&#x435;&#x43D;&#x44C; &#x43F;&#x440;&#x43E;&#x437;&#x440;&#x430;&#x447;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x434;&#x432;&#x438;&#x436;&#x443;&#x449;&#x438;&#x445;&#x441;&#x44F; &#x43E;&#x43A;&#x43E;&#x43D;</long>
+          <long xml:lang="ro">Nivel de opacitate al ferestrelor &#xEE;n mi&#x219;care</long>
+          <long xml:lang="pt-BR">N&#xED;vel de opacidade das janelas em movimento</long>
+          <long xml:lang="pt">N&#xED;vel de opacidade das janelas em movimento</long>
+          <long xml:lang="pl">Poziom nieprzezroczysto&#x15B;ci przesuwanych okien</long>
+          <long xml:lang="or">&#xB18;&#xB41;&#xB1E;&#xB4D;&#xB1A;&#xB3E;&#xB5F;&#xB3E;&#xB09;&#xB25;&#xB3F;&#xB2C;&#xB3E; &#xB09;&#xB07;&#xB23;&#xB4D;&#xB21;&#xB4B;&#xB30; &#xB05;&#xB38;&#xB4D;&#xB2C;&#xB1A;&#xB4D;&#xB1B;&#xB24;&#xB3E; &#xB38;&#xB4D;&#xB24;&#xB30;</long>
+          <long xml:lang="nl">Ondoorzichtigheid van vensters als zij worden verplaatst</long>
+          <long xml:lang="nb">Dekkevneniv&#xE5; for bevegende vinduer</long>
+          <long xml:lang="ko">&#xC6C0;&#xC9C1;&#xC774;&#xB294; &#xCC3D;&#xC758; &#xD22C;&#xBA85; &#xC815;&#xB3C4;</long>
+          <long xml:lang="ka">&#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10D0;&#x10D3;&#x10D2;&#x10D8;&#x10DA;&#x10D4;&#x10D1;&#x10D0;&#x10D3;&#x10D8; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10E3;&#x10DB;&#x10ED;&#x10D5;&#x10D8;&#x10E0;&#x10D5;&#x10D0;&#x10DA;&#x10DD;&#x10D1;&#x10D8;&#x10E1; &#x10D3;&#x10DD;&#x10DC;&#x10D4;</long>
+          <long xml:lang="ja">&#x79FB;&#x52D5;&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x306E;&#x4E0D;&#x900F;&#x660E;&#x5EA6;</long>
+          <long xml:lang="it">Livello di opacit&#xE0; delle finestre in movimento</long>
+          <long xml:lang="hu">Ablak&#xE1;thelyez&#xE9;s &#xE1;tl&#xE1;tszatlans&#xE1;g&#xE1;nak szintje</long>
+          <long xml:lang="hr">Razina prozirnosti pomicanja prozora</long>
+          <long xml:lang="he">&#x5E8;&#x5DE;&#x5EA; &#x5D0;&#x5D8;&#x5D9;&#x5DE;&#x5D5;&#x5EA; &#x5E9;&#x5DC; &#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA; &#x5D1;&#x5EA;&#x5D6;&#x5D5;&#x5D6;&#x5D4;</long>
+          <long xml:lang="gu">&#xA96;&#xAB8;&#xAC0; &#xAB0;&#xAB9;&#xAC7;&#xAB2; &#xAB5;&#xABF;&#xAA8;&#xACD;&#xAA1;&#xACB;&#xAA8;&#xAC0; &#xA85;&#xAAA;&#xABE;&#xAB0;&#xAA6;&#xAB0;&#xACD;&#xAB6;&#xA95;&#xAA4;&#xABE;&#xAA8;&#xAC1;&#xA82; &#xAB8;&#xACD;&#xAA4;&#xAB0;</long>
+          <long xml:lang="gl">Nivel de opacidade das xanelas en movemento</long>
+          <long xml:lang="fr">Niveau d'opacit&#xE9; pour d&#xE9;placer des fen&#xEA;tres</long>
+          <long xml:lang="fi">Liikkuvien ikkunoiden l&#xE4;pin&#xE4;kyvyys</long>
+          <long xml:lang="eu">Mugitzen ari diren leihoaen opakutasuna</long>
+          <long xml:lang="es">Nivel de opacidad de las ventanas en movimiento</long>
+          <long xml:lang="en-GB">Opacity level of moving windows</long>
+          <long xml:lang="el">&#x395;&#x3C0;&#x3AF;&#x3C0;&#x3B5;&#x3B4;&#x3BF; &#x3B1;&#x3B4;&#x3B9;&#x3B1;&#x3C6;&#x3AC;&#x3BD;&#x3B5;&#x3B9;&#x3B1;&#x3C2; &#x3C4;&#x3C9;&#x3BD; &#x3C0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3C9;&#x3BD; &#x3C0;&#x3BF;&#x3C5; &#x3BC;&#x3B5;&#x3C4;&#x3B1;&#x3BA;&#x3B9;&#x3BD;&#x3BF;&#x3CD;&#x3BD;&#x3C4;&#x3B1;&#x3B9;</long>
+          <long xml:lang="de">Durchsichtigkeit der Fenster beim Verschieben</long>
+          <long xml:lang="da">Uigennemsigtighedsniveau ved flytning af vinduer</long>
+          <long xml:lang="cs">&#xDA;rove&#x148; kryt&#xED; p&#x159;esouvan&#xFD;ch oken</long>
+          <long xml:lang="ca">Nivell d'opacitat de les finestres en moviment</long>
+          <long xml:lang="bn">&#x99A;&#x9B2;&#x9AE;&#x9BE;&#x9A8; &#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB;&#x9B0; &#x985;&#x9B8;&#x9CD;&#x9AC;&#x99A;&#x9CD;&#x99B;&#x9A4;&#x9BE;&#x9B0; &#x9B8;&#x9CD;&#x9A4;&#x9B0;</long>
+          <long xml:lang="bn-IN">&#x99A;&#x9B2;&#x9AE;&#x9BE;&#x9A8; &#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB;&#x9B0; &#x985;&#x9B8;&#x9CD;&#x9AC;&#x99A;&#x9CD;&#x99B;&#x9A4;&#x9BE;&#x9B0; &#x9B8;&#x9CD;&#x9A4;&#x9B0;</long>
+          <default>100</default>
+          <min>1</min>
+          <max>100</max>
+        </option>
+        <option name="constrain_y" type="bool">
+          <short>Constrain Y</short>
+          <short xml:lang="zh-Hant-TW">&#x7B49;&#x6BD4;&#x7E2E;&#x653E; Y &#x8EF8;</short>
+          <short xml:lang="zh-Hans-CN">&#x7EA6;&#x675F; Y</short>
+          <short xml:lang="uk">&#x41E;&#x431;&#x43C;&#x435;&#x436;&#x438;&#x442;&#x438; Y</short>
+          <short xml:lang="tr">Dikey (Y) S&#x131;n&#x131;rlama</short>
+          <short xml:lang="sv">Begr&#xE4;nsa Y</short>
+          <short xml:lang="sk">Obmedzenie Y</short>
+          <short xml:lang="ru">&#x41E;&#x433;&#x440;&#x430;&#x43D;&#x438;&#x447;&#x438;&#x442;&#x44C; Y</short>
+          <short xml:lang="ro">Constr&#xEE;nge Y</short>
+          <short xml:lang="pt-BR">Restringir Y</short>
+          <short xml:lang="pt">Restringir Y</short>
+          <short xml:lang="pl">Ogranicz Y</short>
+          <short xml:lang="or">&#xB05;&#xB2C;&#xB30;&#xB42;&#xB26;&#xB4D;&#xB27;Y</short>
+          <short xml:lang="nl">Begrens Y</short>
+          <short xml:lang="nb">Hold tilbake Y</short>
+          <short xml:lang="ko">&#xC138;&#xB85C;&#xCD95; &#xC6C0;&#xC9C1;&#xC784; &#xC81C;&#xD55C;</short>
+          <short xml:lang="ka">Y-&#x10D8;&#x10E1; &#x10E8;&#x10D4;&#x10D6;&#x10E6;&#x10E3;&#x10D3;&#x10D5;&#x10D0;</short>
+          <short xml:lang="ja">&#xFF39; &#x5EA7;&#x6A19;&#x5236;&#x7D04;</short>
+          <short xml:lang="it">Mantenere Y</short>
+          <short xml:lang="hu">Y megszor&#xED;t&#xE1;s</short>
+          <short xml:lang="hr">Ograni&#x10D;i Y</short>
+          <short xml:lang="he">&#x5DE;&#x5D2;&#x5D1;&#x5DC;&#x5EA; Y</short>
+          <short xml:lang="gu">&#xA9A;&#xAB2; Y</short>
+          <short xml:lang="gl">Restrinxir Y</short>
+          <short xml:lang="fr">Contraindre Y</short>
+          <short xml:lang="fi">Rajoita Y-koordinaatti</short>
+          <short xml:lang="eu">Mugatu Y</short>
+          <short xml:lang="es">Limitar Y</short>
+          <short xml:lang="en-GB">Constrain Y</short>
+          <short xml:lang="el">&#x3A0;&#x3B5;&#x3C1;&#x3B9;&#x3BF;&#x3C1;&#x3B9;&#x3C3;&#x3BC;&#x3CC;&#x3C2; Y</short>
+          <short xml:lang="de">Y einschr&#xE4;nken</short>
+          <short xml:lang="da">Begr&#xE6;ns Y</short>
+          <short xml:lang="cs">Omezen&#xED; Y</short>
+          <short xml:lang="ca">Restringeix Y</short>
+          <long>Constrain Y coordinate to workspace area</long>
+          <long xml:lang="zh-Hant-TW">&#x7B49;&#x6BD4;&#x7E2E;&#x653E; Y &#x8EF8;&#x5C0D;&#x61C9;&#x5230;&#x5DE5;&#x4F5C;&#x74B0;&#x5883;&#x5340;&#x57DF;</long>
+          <long xml:lang="zh-Hans-CN">&#x7EA6;&#x675F;&#x5DE5;&#x4F5C;&#x7A7A;&#x95F4;&#x533A;&#x57DF;&#x7684; Y &#x5750;&#x6807;</long>
+          <long xml:lang="uk">&#x41E;&#x431;&#x43C;&#x435;&#x436;&#x435;&#x43D;&#x43D;&#x44F; &#x43A;&#x43E;&#x43E;&#x440;&#x434;&#x438;&#x43D;&#x430;&#x442;&#x438; Y &#x43C;&#x435;&#x436;&#x430;&#x43C;&#x438; &#x440;&#x43E;&#x431;&#x43E;&#x447;&#x43E;&#x457; &#x43E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x456;</long>
+          <long xml:lang="tr">Y eksenini &#xE7;al&#x131;&#x15F;ma alan&#x131; ile s&#x131;n&#x131;rla</long>
+          <long xml:lang="sv">Begr&#xE4;nsa Y-koordinat till arbetsyta</long>
+          <long xml:lang="sk">Obmedzi&#x165; s&#xFA;radnicu Y na priestor pracovnej plochy</long>
+          <long xml:lang="ru">&#x41E;&#x433;&#x440;&#x430;&#x43D;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x43A;&#x43E;&#x43E;&#x440;&#x434;&#x438;&#x43D;&#x430;&#x442;&#x44B; Y &#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x430;&#x43C;&#x438; &#x440;&#x430;&#x431;&#x43E;&#x447;&#x435;&#x439; &#x43E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x438;</long>
+          <long xml:lang="ro">Constr&#xEE;nge coordonata Y la regiunea spa&#x21B;iului de lucru</long>
+          <long xml:lang="pt-BR">Restringir a coordenada Y conforme a &#xE1;rea de trabalho</long>
+          <long xml:lang="pt">Restringir a coordenada Y conforme a &#xE1;rea de trabalho</long>
+          <long xml:lang="pl">Ogranicz wsp&#xF3;&#x142;rz&#x119;dn&#x105; Y do obszaru roboczego</long>
+          <long xml:lang="pa">&#xA35;&#xA30;&#xA15;&#xA38;&#xA2A;&#xA47;&#xA38; &#xA0F;&#xA30;&#xA40;&#xA0F; &#xA32;&#xA08; &#xA15;&#xA28;&#xA38;&#xA1F;&#xA30;&#xA47;&#xA28; Y &#xA27;&#xA41;&#xA30;&#xA3E;</long>
+          <long xml:lang="or">Y &#xB38;&#xB39;&#xB5F;&#xB4B;&#xB17;&#xB40;&#xB15;&#xB41; &#xB15;&#xB3E;&#xB30;&#xB4D;&#xB5F;&#xB4D;&#xB2F;&#xB38;&#xB4D;&#xB25;&#xB3E;&#xB28; &#xB05;&#xB02;&#xB1A;&#xB33;&#xB15;&#xB41; &#xB05;&#xB2C;&#xB30;&#xB41;&#xB26;&#xB4D;&#xB27;&#xB15;&#xB30;</long>
+          <long xml:lang="nl">Begrens Y co&#xF6;rdinaat tot werkruimte gebied</long>
+          <long xml:lang="nb">Hold tilbake Y-koordinat til arbeidsomr&#xE5;de</long>
+          <long xml:lang="ko">&#xC791;&#xC5C5; &#xACF5;&#xAC04; &#xC601;&#xC5ED;&#xC73C;&#xB85C; &#xC138;&#xB85C;&#xCD95; &#xC6C0;&#xC9C1;&#xC784;&#xC744; &#xC81C;&#xD55C;</long>
+          <long xml:lang="ka">&#x10E1;&#x10D0;&#x10DB;&#x10E3;&#x10E8;&#x10D0;&#x10DD; &#x10D0;&#x10D3;&#x10D2;&#x10D8;&#x10DA;&#x10D8;&#x10E1; Y &#x10D9;&#x10DD;&#x10DD;&#x10E0;&#x10D3;&#x10D8;&#x10DC;&#x10D0;&#x10E2;&#x10D8;&#x10E1; &#x10E8;&#x10D4;&#x10D6;&#x10E6;&#x10E3;&#x10D3;&#x10D5;&#x10D0;</long>
+          <long xml:lang="ja">Y &#x5EA7;&#x6A19;&#x3092;&#x30EF;&#x30FC;&#x30AF;&#x30B9;&#x30DA;&#x30FC;&#x30B9;&#x30A8;&#x30EA;&#x30A2;&#x306B;&#x5236;&#x7D04;</long>
+          <long xml:lang="it">Non consente di spostare le finestre oltre il bordo superiore e inferiore dello schermo </long>
+          <long xml:lang="hu">Y koordin&#xE1;ta-megszor&#xED;t&#xE1;s a munkafel&#xFC;letre</long>
+          <long xml:lang="hr">Ograni&#x10D;i  koordinatu na podru&#x10D;je radne povr&#x161;ine</long>
+          <long xml:lang="hi">Y &#x915;&#x94B;&#x906;&#x930;&#x94D;&#x921;&#x93F;&#x928;&#x947;&#x91F; &#x915;&#x94B; &#x915;&#x93E;&#x930;&#x94D;&#x92F;&#x938;&#x94D;&#x925;&#x93E;&#x928; &#x915;&#x94D;&#x937;&#x947;&#x924;&#x94D;&#x930; &#x92E;&#x947;&#x902; &#x938;&#x940;&#x92E;&#x93F;&#x924; &#x915;&#x930;&#x947;&#x902;</long>
+          <long xml:lang="he">&#x5E7;&#x5D5;&#x5D0;&#x5D5;&#x5E8;&#x5D3;&#x5D9;&#x5E0;&#x5D8;&#x5EA; Y &#x5DC;&#x5D4;&#x5D2;&#x5D1;&#x5DC;&#x5EA; &#x5DE;&#x5E9;&#x5D8;&#x5D7; &#x5D4;&#x5E2;&#x5D1;&#x5D5;&#x5D3;&#x5D4;</long>
+          <long xml:lang="gu">&#xA95;&#xABE;&#xAB0;&#xACD;&#xAAF;&#xAB8;&#xACD;&#xAA5;&#xAB3; &#xAB5;&#xABF;&#xAB8;&#xACD;&#xAA4;&#xABE;&#xAB0;&#xAAE;&#xABE;&#xA82; &#xA9A;&#xAB2; Y &#xAAF;&#xABE;&#xAAE;&#xABE;&#xA95;&#xACD;&#xAB7;</long>
+          <long xml:lang="gl">Restrinxir a coordenada Y &#xE1; area de traballo</long>
+          <long xml:lang="fr">Contraindre la coordonn&#xE9;e Y &#xE0; &#xEA;tre dans la zone de l'espace de travail</long>
+          <long xml:lang="fi">Rajoita Y-koordinaatti ty&#xF6;skentelyalueelle</long>
+          <long xml:lang="eu">Mugatu Y koordenatua laneko areara</long>
+          <long xml:lang="es">Limita la coordenada Y al &#xE1;rea de trabajo</long>
+          <long xml:lang="en-GB">Constrain Y coordinate to workspace area</long>
+          <long xml:lang="el">&#x3A0;&#x3B5;&#x3C1;&#x3B9;&#x3BF;&#x3C1;&#x3B9;&#x3C3;&#x3BC;&#x3CC;&#x3C2; &#x3A5; &#x3C3;&#x3C5;&#x3BD;&#x3C4;&#x3B5;&#x3C4;&#x3B1;&#x3B3;&#x3BC;&#x3AD;&#x3BD;&#x3B7;&#x3C2; &#x3C3;&#x3C4;&#x3B7;&#x3BD; &#x3C0;&#x3B5;&#x3C1;&#x3B9;&#x3BF;&#x3C7;&#x3AE; &#x3C4;&#x3B7;&#x3C2; &#x3B5;&#x3C0;&#x3B9;&#x3C6;&#x3AC;&#x3BD;&#x3B5;&#x3B9;&#x3B1;&#x3C2; &#x3B5;&#x3C1;&#x3B3;&#x3B1;&#x3C3;&#x3AF;&#x3B1;&#x3C2;</long>
+          <long xml:lang="de">Y-Koordinate auf Arbeitsoberfl&#xE4;che einschr&#xE4;nken</long>
+          <long xml:lang="da">Begr&#xE6;ns Y-koordinaten til arbejdsomr&#xE5;det</long>
+          <long xml:lang="cs">Omezen&#xED; Y sou&#x159;adnice na pracovn&#xED; prostor</long>
+          <long xml:lang="ca">Restringeix la coordenada Y a l'&#xE0;rea de l'espai de treball</long>
+          <long xml:lang="bn">&#x993;&#x9DF;&#x9BE;&#x9B0;&#x9CD;&#x995;&#x9B8;&#x9CD;&#x9AA;&#x9C7;&#x9B8; &#x995;&#x9CD;&#x9B7;&#x9C7;&#x9A4;&#x9CD;&#x9B0;&#x9C7; Y &#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9A8;&#x9BE;&#x999;&#x9CD;&#x995;&#x995;&#x9C7; &#x9B8;&#x9C0;&#x9AE;&#x9BE;&#x9AC;&#x9A6;&#x9CD;&#x9A7; &#x995;&#x9B0;&#x9C1;&#x9A8;</long>
+          <long xml:lang="bn-IN">&#x993;&#x9DF;&#x9BE;&#x9B0;&#x9CD;&#x995;&#x9B8;&#x9CD;&#x9AA;&#x9C7;&#x9B8; &#x995;&#x9CD;&#x9B7;&#x9C7;&#x9A4;&#x9CD;&#x9B0;&#x9C7; Y &#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9A8;&#x9BE;&#x999;&#x9CD;&#x995;&#x995;&#x9C7; &#x9B8;&#x9C0;&#x9AE;&#x9BE;&#x9AC;&#x9A6;&#x9CD;&#x9A7; &#x995;&#x9B0;&#x9C1;&#x9A8;</long>
+          <default>true</default>
+        </option>
+        <option name="snapoff_maximized" type="bool">
+          <short>Snapoff maximized windows</short>
+          <short xml:lang="zh-Hant-TW">&#x89E3;&#x9664;&#x5D4C;&#x5165;&#x6700;&#x5927;&#x5316;&#x8996;&#x7A97;</short>
+          <short xml:lang="zh-Hans-CN">&#x5220;&#x9664;&#x6700;&#x5927;&#x5316;&#x7A97;&#x53E3;&#x5FEB;&#x7167;</short>
+          <short xml:lang="uk">&#x421;&#x43A;&#x430;&#x441;&#x443;&#x432;&#x430;&#x442;&#x438; &#x43F;&#x440;&#x438;&#x432;'&#x44F;&#x437;&#x43A;&#x443; &#x43F;&#x43E;&#x432;&#x43D;&#x456;&#x441;&#x442;&#x44E; &#x440;&#x43E;&#x437;&#x433;&#x43E;&#x440;&#x43D;&#x443;&#x442;&#x438;&#x445; &#x432;&#x456;&#x43A;&#x43E;&#x43D;</short>
+          <short xml:lang="tr">B&#xFC;y&#xFC;t&#xFC;lm&#xFC;&#x15F; pencerelerde koparma efekti kapal&#x131;</short>
+          <short xml:lang="sv">Koppla loss maximerade f&#xF6;nster</short>
+          <short xml:lang="sk">Odtrh&#xE1;va&#x165; maximalizovan&#xE9; okn&#xE1;</short>
+          <short xml:lang="ru">&#x41E;&#x442;&#x43C;&#x435;&#x43D;&#x438;&#x442;&#x44C; &#x43F;&#x440;&#x438;&#x432;&#x44F;&#x437;&#x43A;&#x443; &#x43F;&#x43E;&#x43B;&#x43D;&#x43E;&#x441;&#x442;&#x44C;&#x44E; &#x440;&#x430;&#x437;&#x432;&#x435;&#x440;&#x43D;&#x443;&#x442;&#x44B;&#x445; &#x43E;&#x43A;&#x43E;&#x43D;</short>
+          <short xml:lang="pt-BR">Janelas maximizadas quebradas</short>
+          <short xml:lang="pt">Janelas maximizadas quebradas</short>
+          <short xml:lang="pl">Odepnij zmaksymalizowane okna</short>
+          <short xml:lang="or">&#xB38;&#xB30;&#xB4D;&#xB2C;&#xB3E;&#xB27;&#xB3F;&#xB15; &#xB15;&#xB30;&#xB3E;&#xB5F;&#xB3E;&#xB07;&#xB25;&#xB3F;&#xB2C;&#xB3E; &#xB09;&#xB07;&#xB23;&#xB4D;&#xB21;&#xB4B;&#xB15;&#xB41; &#xB1B;&#xB3F;&#xB28;&#xB4D;&#xB28; &#xB15;&#xB30;</short>
+          <short xml:lang="nl">Los springen van gemaximaliseerde vensters</short>
+          <short xml:lang="nb">Smekk av maksimerte vinduer</short>
+          <short xml:lang="ko">&#xCC3D; &#xCD5C;&#xB300;&#xD654; &#xD574;&#xC81C;</short>
+          <short xml:lang="ka">&#x10DB;&#x10D7;&#x10D4;&#x10DA; &#x10D4;&#x10D9;&#x10E0;&#x10D0;&#x10DC;&#x10D6;&#x10D4; &#x10D2;&#x10D0;&#x10E8;&#x10DA;&#x10D8;&#x10DA;&#x10D8; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10DB;&#x10D8;&#x10DB;&#x10D0;&#x10D2;&#x10E0;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10DB;&#x10DD;&#x10EE;&#x10E1;&#x10DC;&#x10D0;</short>
+          <short xml:lang="ja">&#x6700;&#x5927;&#x5316;&#x3057;&#x305F;&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x306E;&#x30B9;&#x30CA;&#x30C3;&#x30D7;&#x89E3;&#x9664;</short>
+          <short xml:lang="it">Sganciare finestre massimizzate</short>
+          <short xml:lang="hu">Maximaliz&#xE1;lt ablakok azonnali vissza&#xE1;ll&#xED;t&#xE1;sa</short>
+          <short xml:lang="hr">Poravnaj uve&#x107;ane prozore</short>
+          <short xml:lang="he">&#x5E9;&#x5D7;&#x5D6;&#x5E8; &#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA; &#x5E9;&#x5D4;&#x5D5;&#x5D2;&#x5D3;&#x5DC;&#x5D5; &#x5DC;&#x5DE;&#x5E7;&#x5E1;&#x5D9;&#x5DE;&#x5D5;&#x5DD;</short>
+          <short xml:lang="gu">&#xAAE;&#xAB9;&#xAA4;&#xACD;&#xAA4;&#xAAE; &#xAA5;&#xAAF;&#xAC7;&#xAB2; &#xAB5;&#xABF;&#xAA8;&#xACD;&#xAA1;&#xACB; &#xAB8;&#xACD;&#xAA8;&#xAC7;&#xAAA;&#xA93;&#xAAB; &#xA95;&#xAB0;&#xACB;</short>
+          <short xml:lang="gl">Separar as xanelas maximizadas</short>
+          <short xml:lang="fr">D&#xE9;sactiver l'alignement des fen&#xEA;tres agrandies</short>
+          <short xml:lang="fi">Vapauta suurennetut ikkunat</short>
+          <short xml:lang="eu">Askatu maximizatutako leihoak</short>
+          <short xml:lang="es">Separar ventanas maximizadas</short>
+          <short xml:lang="en-GB">Snap off maximised windows</short>
+          <short xml:lang="el">&#x391;&#x3C1;&#x3C0;&#x3B1;&#x3B3;&#x3AE; &#x3BC;&#x3B5;&#x3B3;&#x3B9;&#x3C3;&#x3C4;&#x3BF;&#x3C0;&#x3BF;&#x3B9;&#x3B7;&#x3BC;&#x3AD;&#x3BD;&#x3C9;&#x3BD; &#x3C0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3C9;&#x3BD;</short>
+          <short xml:lang="de">Einrasten maximierter Fenster aufheben</short>
+          <short xml:lang="da">Frig&#xF8;r maksimerede vinduer</short>
+          <short xml:lang="cs">Odtrh&#xE1;vat maximalizovan&#xE1; okna</short>
+          <short xml:lang="ca">Separa les finestres maximitzades</short>
+          <short xml:lang="bn">&#x9B8;&#x9CD;&#x9A8;&#x9CD;&#x9AF;&#x9BE;&#x9AA;&#x985;&#x9AB; &#x9B8;&#x9B0;&#x9CD;&#x9AC;&#x9BE;&#x9A7;&#x9BF;&#x995; &#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB;</short>
+          <short xml:lang="bn-IN">&#x9B8;&#x9CD;&#x9A8;&#x9CD;&#x9AF;&#x9BE;&#x9AA;&#x985;&#x9AB; &#x9B8;&#x9B0;&#x9CD;&#x9AC;&#x9BE;&#x9A7;&#x9BF;&#x995; &#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB;</short>
+          <long>Snapoff and auto unmaximized maximized windows when dragging</long>
+          <long xml:lang="zh-Hant-TW">&#x5728;&#x62D6;&#x66F3;&#x5DF2;&#x6700;&#x5927;&#x5316;&#x8996;&#x7A97;&#x6642;&#x70BA;&#x5176;&#x89E3;&#x9664;&#x5D4C;&#x5165;&#x548C;&#x81EA;&#x52D5;&#x89E3;&#x9664;&#x6700;&#x5927;&#x5316;</long>
+          <long xml:lang="zh-Hans-CN">&#x62D6;&#x52A8;&#x65F6;&#x5220;&#x9664;&#x5FEB;&#x7167;&#x5E76;&#x81EA;&#x52A8;&#x53D6;&#x6D88;&#x7A97;&#x53E3;&#x7684;&#x6700;&#x5927;&#x5316;</long>
+          <long xml:lang="uk">&#x421;&#x43A;&#x430;&#x441;&#x443;&#x432;&#x430;&#x43D;&#x43D;&#x44F; &#x43F;&#x440;&#x438;&#x432;'&#x44F;&#x437;&#x43A;&#x438; &#x442;&#x430; &#x430;&#x432;&#x442;&#x43E;&#x43C;&#x430;&#x442;&#x438;&#x447;&#x43D;&#x435; &#x441;&#x43A;&#x430;&#x441;&#x443;&#x432;&#x430;&#x43D;&#x43D;&#x44F; &#x440;&#x43E;&#x437;&#x433;&#x43E;&#x440;&#x442;&#x430;&#x43D;&#x43D;&#x44F; &#x43F;&#x43E;&#x432;&#x43D;&#x456;&#x441;&#x442;&#x44E; &#x440;&#x43E;&#x437;&#x433;&#x43E;&#x440;&#x43D;&#x443;&#x442;&#x438;&#x445; &#x432;&#x456;&#x43A;&#x43E;&#x43D; &#x43F;&#x456;&#x434; &#x447;&#x430;&#x441; &#x43F;&#x435;&#x440;&#x435;&#x442;&#x44F;&#x433;&#x443;&#x432;&#x430;&#x43D;&#x43D;&#x44F;</long>
+          <long xml:lang="tr">B&#xFC;y&#xFC;t&#xFC;lm&#xFC;&#x15F; pencereleri s&#xFC;r&#xFC;klerken kopar ve otomatik olarak b&#xFC;y&#xFC;t&#xFC;lmemi&#x15F; hale getir</long>
+          <long xml:lang="sv">Koppla loss och automatiskt avmaximera maximerade f&#xF6;nster n&#xE4;r de dras</long>
+          <long xml:lang="sk">Odtrh&#xE1;va&#x165; a automaticky obnovi&#x165; maximalizovan&#xE9; okn&#xE1; po&#x10D;as &#x165;ahania</long>
+          <long xml:lang="ru">&#x41E;&#x442;&#x43C;&#x435;&#x43D;&#x430; &#x43F;&#x440;&#x438;&#x432;&#x44F;&#x437;&#x43A;&#x438; &#x438; &#x430;&#x432;&#x442;&#x43E;&#x43C;&#x430;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x430;&#x44F; &#x43E;&#x442;&#x43C;&#x435;&#x43D;&#x430; &#x440;&#x430;&#x437;&#x432;&#x435;&#x440;&#x442;&#x44B;&#x432;&#x430;&#x43D;&#x438;&#x44F; &#x43F;&#x43E;&#x43B;&#x43D;&#x43E;&#x441;&#x442;&#x44C;&#x44E; &#x440;&#x430;&#x437;&#x432;&#x435;&#x440;&#x43D;&#x443;&#x442;&#x44B;&#x445; &#x43E;&#x43A;&#x43E;&#x43D; &#x43F;&#x440;&#x438; &#x43F;&#x435;&#x440;&#x435;&#x442;&#x430;&#x441;&#x43A;&#x438;&#x432;&#x430;&#x43D;&#x438;&#x438;</long>
+          <long xml:lang="ro">Desprindere &#x219;i demaximizare automat&#x103; a ferestrelor maximizate la glisare</long>
+          <long xml:lang="pt-BR">Janelas maximizadas quebradas e automaticamente desmaximizadas ao arrastar</long>
+          <long xml:lang="pt">Janelas maximizadas quebradas e automaticamente desmaximizadas ao arrastar</long>
+          <long xml:lang="pl">Odepnij i automatycznie cofnij maksymalizacj&#x119; okien podczas przesuwania</long>
+          <long xml:lang="pa">&#xA1C;&#xA26;&#xA4B;&#xA02; &#xA21;&#xA30;&#xA48;&#xA17; &#xA15;&#xA40;&#xA24;&#xA3E; &#xA1C;&#xA3E;&#xA35;&#xA47; &#xA24;&#xA3E;&#xA02; &#xA35;&#xA71;&#xA27;&#xA4B;-&#xA35;&#xA71;&#xA27; &#xA35;&#xA3F;&#xA70;&#xA21;&#xA4B;&#xA1C;&#xA3C; &#xA28;&#xA42;&#xA70; &#xA38;&#xA28;&#xA48;&#xA2A;-&#xA06;&#xA2B;&#xA3C; &#xA05;&#xA24;&#xA47; &#xA06;&#xA1F;&#xA4B; &#xA05;&#xA23;-&#xA35;&#xA71;&#xA27;&#xA4B;-&#xA35;&#xA71;&#xA27; &#xA15;&#xA30;&#xA4B;</long>
+          <long xml:lang="or">&#xB1F;&#xB3E;&#xB23;&#xB3F;&#xB2C;&#xB3E; &#xB2C;&#xB47;&#xB33;&#xB47; &#xB38;&#xB30;&#xB4D;&#xB2C;&#xB3E;&#xB27;&#xB3F;&#xB15; &#xB09;&#xB07;&#xB23;&#xB4D;&#xB21;&#xB4B;&#xB15;&#xB41; &#xB1B;&#xB3F;&#xB28;&#xB4D;&#xB28;&#xB15;&#xB30;&#xB3F;&#xB2C;&#xB3E; &#xB2C;&#xB28;&#xB4D;&#xB26;&#xB15;&#xB30; &#xB0F;&#xB2C;&#xB02; &#xB38;&#xB4D;&#xB2C;&#xB24;&#xB03; &#xB05;&#xB23;-&#xB38;&#xB30;&#xB4D;&#xB2C;&#xB3E;&#xB27;&#xB3F;&#xB15; &#xB15;&#xB30; </long>
+          <long xml:lang="nl">Los springen en auto de-maximaliseren van vensters als zij versleept worden</long>
+          <long xml:lang="nb">Smekk av og automatisk avmaksimer maksimerte vinduer n&#xE5;r de trekkes</long>
+          <long xml:lang="ko">&#xB4DC;&#xB798;&#xADF8;&#xC2DC; &#xC790;&#xB3D9;&#xC73C;&#xB85C; &#xCC3D; &#xCD5C;&#xB300;&#xD654;&#xB97C; &#xD574;&#xC81C;&#xD568;</long>
+          <long xml:lang="ka">&#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10D7;&#x10E0;&#x10D4;&#x10D5;&#x10D8;&#x10E1;&#x10D0;&#x10E1; &#x10DB;&#x10D8;&#x10DB;&#x10D0;&#x10D2;&#x10E0;&#x10D4;&#x10D1;&#x10E3;&#x10DA;&#x10D8; &#x10D3;&#x10D0; &#x10DB;&#x10D7;&#x10D4;&#x10DA; &#x10D4;&#x10D9;&#x10E0;&#x10D0;&#x10DC;&#x10D6;&#x10D4; &#x10D2;&#x10D0;&#x10E8;&#x10DA;&#x10D8;&#x10DA;&#x10D8; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10D6;&#x10DD;&#x10DB;&#x10D8;&#x10E1; &#x10D0;&#x10E6;&#x10D3;&#x10D2;&#x10D4;&#x10DC;&#x10D0;</long>
+          <long xml:lang="ja">&#x6700;&#x5927;&#x5316;&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x306E;&#x30C9;&#x30E9;&#x30C3;&#x30B0;&#x6642;&#x3001;&#x30B9;&#x30CA;&#x30C3;&#x30D7;&#x3092;&#x89E3;&#x9664;&#x3057;&#x3066;&#x6700;&#x5927;&#x5316;&#x3092;&#x81EA;&#x52D5;&#x89E3;&#x9664;</long>
+          <long xml:lang="it">Sgancia e demassimizza le finestre massimizzate nel trascinamento</long>
+          <long xml:lang="hu">&#xC1;thelyez&#xE9;skor az ablakok azonnali, automatikus vissza&#xE1;ll&#xED;t&#xE1;sa</long>
+          <long xml:lang="hr">Poravnaj i automatski vrati uve&#x107;ane prozore kada ih povla&#x10D;ite</long>
+          <long xml:lang="hi">&#x916;&#x940;&#x91A;&#x928;&#x947; &#x92A;&#x930; &#x938;&#x94D;&#x928;&#x948;&#x92A;&#x911;&#x92B; &#x914;&#x930; &#x938;&#x94D;&#x935;&#x924;&#x903; &#x917;&#x948;&#x930; &#x905;&#x927;&#x93F;&#x915;&#x924;&#x92E; &#x905;&#x927;&#x93F;&#x915;&#x924;&#x92E; &#x935;&#x93F;&#x902;&#x921;&#x94B;</long>
+          <long xml:lang="he">&#x5E9;&#x5D7;&#x5D6;&#x5E8; &#x5D0;&#x5D5;&#x5D8;&#x5D5;&#x5DE;&#x5D8;&#x5D9;&#x5EA; &#x5D0;&#x5EA; &#x5D2;&#x5D5;&#x5D3;&#x5DC;&#x5DD; &#x5E9;&#x5DC; &#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA; &#x5E9;&#x5D4;&#x5D5;&#x5D2;&#x5D3;&#x5DC;&#x5D5; &#x5DC;&#x5DE;&#x5E7;&#x5E1;&#x5D9;&#x5DE;&#x5D5;&#x5DD; &#x5D1;&#x5E2;&#x5EA; &#x5D2;&#x5E8;&#x5D9;&#x5E8;&#x5D4;</long>
+          <long xml:lang="gu">&#xAAE;&#xAB9;&#xAA4;&#xACD;&#xAA4;&#xAAE; &#xAA5;&#xAAF;&#xAC7;&#xAB2; &#xAB5;&#xABF;&#xAA8;&#xACD;&#xAA1;&#xACB;&#xAA8;&#xAC7; &#xA96;&#xAC7;&#xA82;&#xA9A;&#xAA4;&#xAC0; &#xAB5;&#xA96;&#xAA4;&#xAC7; &#xAB8;&#xACD;&#xAA8;&#xAC7;&#xAAA;&#xA93;&#xAAB; &#xA95;&#xAB0;&#xACB; &#xA85;&#xAA8;&#xAC7; &#xA86;&#xAAA;&#xACB;&#xA86;&#xAAA; &#xAAE;&#xAB9;&#xAA4;&#xACD;&#xAA4;&#xAAE; &#xAB8;&#xACD;&#xAA5;&#xABF;&#xAA4;&#xABF;&#xAAE;&#xABE;&#xA82;&#xAA5;&#xAC0; &#xAAA;&#xABE;&#xA9B;&#xAC0; &#xAB2;&#xABE;&#xAB5;&#xACB;</long>
+          <long xml:lang="gl">Separar e restaurar as xanelas maximizaas cando se arrastren</long>
+          <long xml:lang="fr">D&#xE9;sactiver l'alignement et la d&#xE9;maximisation automatique des fen&#xEA;tres lorsque vous les faites glisser</long>
+          <long xml:lang="fi">Vapauta ja palauta suurennetut ikkunat automaattisesti siirrett&#xE4;ess&#xE4;</long>
+          <long xml:lang="eu">Maximizatutako leihoak arrastatzean automatikoki askatu eta desmaximizatu</long>
+          <long xml:lang="es">Separar y desmaximizar autom&#xE1;ticamente ventanas maximizadas al arrastrar</long>
+          <long xml:lang="en-GB">Snap off and auto unmaximised maximised windows when dragging</long>
+          <long xml:lang="el">&#x391;&#x3C1;&#x3C0;&#x3B1;&#x3B3;&#x3AE; &#x3BA;&#x3B1;&#x3B9; &#x3B1;&#x3C5;&#x3C4;&#x3BF;&#x3BC;&#x3AC;&#x3C4;&#x3C9;&#x3C2; &#x3B1;&#x3C0;&#x3BF;&#x3BC;&#x3B5;&#x3B3;&#x3B9;&#x3C3;&#x3C4;&#x3BF;&#x3C0;&#x3BF;&#x3AF;&#x3B7;&#x3C3;&#x3B7; &#x3BC;&#x3B5;&#x3B3;&#x3B9;&#x3C3;&#x3C4;&#x3BF;&#x3C0;&#x3BF;&#x3B9;&#x3B7;&#x3BC;&#x3AD;&#x3BD;&#x3C9;&#x3BD; &#x3C0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3C9;&#x3BD; &#x3C3;&#x3C4;&#x3BF; &#x3C4;&#x3C1;&#x3AC;&#x3B2;&#x3B7;&#x3B3;&#x3BC;&#x3B1;</long>
+          <long xml:lang="de">Beim Ziehen Einrasten und Maximierung maximierter Fenster aufheben</long>
+          <long xml:lang="da">Frig&#xF8;r og gendan automatisk maksimerede vinduer, n&#xE5;r de tr&#xE6;kkes</long>
+          <long xml:lang="cs">Snapoff and auto unmaximized maximized windows when dragging</long>
+          <long xml:lang="ca">Separa i desmaximitza les finestres maximitzades en arrossegar</long>
+          <long xml:lang="bn">&#x99F;&#x9BE;&#x9A8;&#x9BE;&#x9B0; &#x9B8;&#x9AE;&#x9DF; &#x9AC;&#x9A1;&#x9BC; &#x995;&#x9B0;&#x9BE; &#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB;&#x995;&#x9C7; &#x9B8;&#x9CD;&#x9A8;&#x9CD;&#x9AF;&#x9BE;&#x9AA;&#x985;&#x9AB; &#x995;&#x9B0;&#x9BE; &#x98F;&#x9AC;&#x982; &#x9B8;&#x9CD;&#x9AC;&#x9DF;&#x982;&#x995;&#x9CD;&#x9B0;&#x9BF;&#x9DF;&#x9AD;&#x9BE;&#x9AC;&#x9C7; &#x99B;&#x9CB;&#x99F; &#x995;&#x9B0;&#x9BE;</long>
+          <long xml:lang="bn-IN">&#x99F;&#x9BE;&#x9A8;&#x9BE;&#x9B0; &#x9B8;&#x9AE;&#x9DF; &#x9AC;&#x9A1;&#x9BC; &#x995;&#x9B0;&#x9BE; &#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB;&#x995;&#x9C7; &#x9B8;&#x9CD;&#x9A8;&#x9CD;&#x9AF;&#x9BE;&#x9AA;&#x985;&#x9AB; &#x995;&#x9B0;&#x9BE; &#x98F;&#x9AC;&#x982; &#x9B8;&#x9CD;&#x9AC;&#x9DF;&#x982;&#x995;&#x9CD;&#x9B0;&#x9BF;&#x9DF;&#x9AD;&#x9BE;&#x9AC;&#x9C7; &#x99B;&#x9CB;&#x99F; &#x995;&#x9B0;&#x9BE;</long>
+          <default>true</default>
+        </option>
+        <option name="lazy_positioning" type="bool">
+          <short>Lazy Positioning</short>
+          <short xml:lang="zh-Hant-TW">&#x61F6;&#x60F0;&#x5B9A;&#x4F4D;</short>
+          <short xml:lang="zh-Hans-CN">&#x61D2;&#x60F0;&#x5B9A;&#x4F4D;</short>
+          <short xml:lang="uk">"&#x41B;&#x456;&#x43D;&#x438;&#x432;&#x435;" &#x43F;&#x43E;&#x437;&#x438;&#x446;&#x456;&#x43E;&#x43D;&#x443;&#x432;&#x430;&#x43D;&#x43D;&#x44F;</short>
+          <short xml:lang="tr">Tembel Konumland&#x131;rma</short>
+          <short xml:lang="sk">Leniv&#xE9; pres&#xFA;vanie</short>
+          <short xml:lang="ru">"&#x41B;&#x435;&#x43D;&#x438;&#x432;&#x43E;&#x435;" &#x43F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x43E;&#x43D;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x435;</short>
+          <short xml:lang="ro">Pozi&#x21B;ionare lene&#x219;&#x103;</short>
+          <short xml:lang="pt-BR">Posicionamento pregui&#xE7;oso</short>
+          <short xml:lang="pt">Posicionamento pregui&#xE7;oso</short>
+          <short xml:lang="pl">Leniwe pozycjonowanie</short>
+          <short xml:lang="or">&#xB06;&#xB33;&#xB38;&#xB4D;&#xB2F; &#xB38;&#xB4D;&#xB25;&#xB3E;&#xB2A;&#xB28; &#xB15;&#xB30;&#xB3F;&#xB2C;&#xB3E;</short>
+          <short xml:lang="nl">Luie positionering</short>
+          <short xml:lang="nb">Lat posisjonering</short>
+          <short xml:lang="ko">&#xB2A6;&#xC740; &#xC704;&#xCE58; &#xBC18;&#xC601;</short>
+          <short xml:lang="ka">&#x10D6;&#x10D0;&#x10E0;&#x10DB;&#x10D0;&#x10EA;&#x10D8; &#x10D2;&#x10D0;&#x10DC;&#x10DA;&#x10D0;&#x10D2;&#x10D4;&#x10D1;&#x10D0;</short>
+          <short xml:lang="ja">&#x7DE9;&#x6162;&#x306A;&#x4F4D;&#x7F6E;&#x53D6;&#x308A;</short>
+          <short xml:lang="it">Posizionamento pigro</short>
+          <short xml:lang="hu">Lusta elhelyez&#xE9;s</short>
+          <short xml:lang="hr">Lijeno pozicioniranje</short>
+          <short xml:lang="he">&#x5DE;&#x5D9;&#x5E7;&#x5D5;&#x5DD; '&#x5E2;&#x5E6;&#x5DC;'</short>
+          <short xml:lang="gu">&#xA86;&#xAB3;&#xAB8;&#xAC1; &#xAB8;&#xACD;&#xAA5;&#xABE;&#xAA8;&#xAC0;&#xA95;&#xAB0;&#xAA3;</short>
+          <short xml:lang="gl">Posicionamento preguizoso</short>
+          <short xml:lang="fr">Positionnement souple</short>
+          <short xml:lang="fi">Laiska sijoittaminen</short>
+          <short xml:lang="eu">Kokapen alferra</short>
+          <short xml:lang="es">Posicionamiento Flojo</short>
+          <short xml:lang="en-GB">Lazy Positioning</short>
+          <short xml:lang="el">&#x39F;&#x3BA;&#x3BD;&#x3B7;&#x3C1;&#x3CC;&#x3C2; &#x3A0;&#x3C1;&#x3BF;&#x3C3;&#x3B4;&#x3B9;&#x3BF;&#x3C1;&#x3B9;&#x3C3;&#x3BC;&#x3CC;&#x3C2; &#x398;&#x3B5;&#x3C3;&#x3B7;&#x3C2;</short>
+          <short xml:lang="de">&#xD6;konomisch positionieren</short>
+          <short xml:lang="cs">"L&#xED;n&#xE9;" p&#x159;esouv&#xE1;n&#xED;</short>
+          <short xml:lang="ca">Posicionament mandr&#xF3;s</short>
+          <short xml:lang="bn">&#x985;&#x9B2;&#x9B8; &#x985;&#x9AC;&#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9A8; &#x9A8;&#x9BF;&#x9B0;&#x9CD;&#x9A3;&#x9DF;</short>
+          <short xml:lang="bn-IN">&#x985;&#x9B2;&#x9B8; &#x985;&#x9AC;&#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9A8; &#x9A8;&#x9BF;&#x9B0;&#x9CD;&#x9A3;&#x9DF;</short>
+          <long>Do not update the server-side position of windows until finished moving</long>
+          <long xml:lang="zh-Hant-TW">&#x8996;&#x7A97;&#x79FB;&#x52D5;&#x7D50;&#x675F;&#x4E4B;&#x524D;&#x4E0D;&#x66F4;&#x65B0;server&#x7AEF;&#x8996;&#x7A97;&#x7684;&#x4F4D;&#x7F6E;</long>
+          <long xml:lang="zh-Hans-CN">&#x7ED3;&#x675F;&#x79FB;&#x52A8;&#x524D;&#x4E0D;&#x66F4;&#x65B0;&#x670D;&#x52A1;&#x7AEF;&#x7684;&#x4F4D;&#x7F6E;&#x4FE1;&#x606F;</long>
+          <long xml:lang="uk">&#x41D;&#x435; &#x43E;&#x43D;&#x43E;&#x432;&#x43B;&#x44E;&#x432;&#x430;&#x442;&#x438; &#x437;&#x456; &#x441;&#x442;&#x43E;&#x440;&#x43E;&#x43D;&#x438; &#x441;&#x435;&#x440;&#x432;&#x435;&#x440;&#x430; &#x43F;&#x43E;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x43D;&#x44F; &#x432;&#x456;&#x43A;&#x43E;&#x43D; &#x434;&#x43E; &#x437;&#x430;&#x43A;&#x456;&#x43D;&#x447;&#x435;&#x43D;&#x43D;&#x44F; &#x43F;&#x435;&#x440;&#x435;&#x43C;&#x456;&#x449;&#x435;&#x43D;&#x43D;&#x44F;</long>
+          <long xml:lang="tr">Ta&#x15F;&#x131;ma i&#x15F;i bitirilene kadar pencerenin konumunu sunucu taraf&#x131;nda g&#xFC;ncelleme</long>
+          <long xml:lang="sk">Aktualizova&#x165; poz&#xED;ciu okna a&#x17E; po dokon&#x10D;en&#xED; presunu</long>
+          <long xml:lang="ru">&#x41D;&#x435; &#x43E;&#x431;&#x43D;&#x43E;&#x432;&#x43B;&#x44F;&#x442;&#x44C; &#x441;&#x43E; &#x441;&#x442;&#x43E;&#x440;&#x43E;&#x43D;&#x44B; &#x441;&#x435;&#x440;&#x432;&#x435;&#x440;&#x430; &#x43F;&#x43E;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x435; &#x43E;&#x43A;&#x43E;&#x43D; &#x434;&#x43E; &#x43E;&#x43A;&#x43E;&#x43D;&#x447;&#x430;&#x43D;&#x438;&#x44F; &#x43F;&#x435;&#x440;&#x435;&#x43C;&#x435;&#x449;&#x435;&#x43D;&#x438;&#x44F;</long>
+          <long xml:lang="ro">Nu actualiza &#xEE;n server pozi&#x21B;ia ferestrelor p&#xEE;n&#x103; c&#xEE;nd nu se &#xEE;ncheie mutarea</long>
+          <long xml:lang="pt-BR">N&#xE3;o atualizar a posi&#xE7;&#xE3;o das janelas no lado do servidor at&#xE9; acabar de mover</long>
+          <long xml:lang="pt">N&#xE3;o actualizar a posi&#xE7;&#xE3;o das janelas no lado do servidor at&#xE9; acabar de mover</long>
+          <long xml:lang="pl">Nie aktualizuj strony okien serwera dop&#xF3;ki nie przestanie si&#x119; ich porusza&#x107;</long>
+          <long xml:lang="pa">&#xA38;&#xA30;&#xA35;&#xA30; &#xA28;&#xA3E; &#xA05;&#xA71;&#xA2A;&#xA21;&#xA47;&#xA1F; &#xA28;&#xA3E; &#xA15;&#xA30;&#xA4B;-&#xA35;&#xA3F;&#xA70;&#xA21;&#xA4B; &#xA26;&#xA40; &#xA38;&#xA3E;&#xA07;&#xA21; &#xA38;&#xA25;&#xA3F;&#xA24;&#xA40;, &#xA1C;&#xA26;&#xA4B;&#xA02; &#xA15;&#xA3F; &#xA18;&#xA41;&#xA70;&#xA2E;&#xA3E;&#xA09;&#xA23;&#xA3E; &#xA2E;&#xA41;&#xA71;&#xA15;&#xA47;</long>
+          <long xml:lang="or">&#xB09;&#xB07;&#xB23;&#xB4D;&#xB21;&#xB4B;&#xB30; &#xB38;&#xB30;&#xB2D;&#xB30;-&#xB2A;&#xB1F; &#xB38;&#xB4D;&#xB25;&#xB3E;&#xB28;&#xB15;&#xB41; &#xB05;&#xB2A;&#xB21;&#xB47;&#xB1F; &#xB15;&#xB30; &#xB28;&#xB3E;&#xB39;&#xB3F;&#xB01; &#xB5F;&#xB47;&#xB09;&#xB01;&#xB2A;&#xB30;&#xB4D;&#xB5F;&#xB4D;&#xB2F;&#xB28;&#xB4D;&#xB24; &#xB18;&#xB41;&#xB1E;&#xB4D;&#xB1A;&#xB3E;&#xB07;&#xB2C;&#xB3E; &#xB36;&#xB47;&#xB37; &#xB39;&#xB4B;&#xB07; &#xB28;&#xB3E;&#xB39;&#xB3F;&#xB01; &#x964;</long>
+          <long xml:lang="nl">Werk de server-zijde positie niet bij van vensters totdat deze klaar is met verplaatsen</long>
+          <long xml:lang="nb">Ikke oppdater vindusposisjonen p&#xE5; tjenerside f&#xF8;r vinduene er ferdig med flytting</long>
+          <long xml:lang="ko">&#xCC3D;&#xC758; &#xC774;&#xB3D9;&#xC774; &#xB05D;&#xB098;&#xC9C0; &#xC54A;&#xC558;&#xC744; &#xB54C;, &#xCC3D;&#xC758; &#xC11C;&#xBC84; &#xCE21;&#xBA74; &#xC704;&#xCE58;&#xB97C; &#xBC18;&#xC601;&#xD558;&#xC9C0; &#xC54A;&#xC74C;</long>
+          <long xml:lang="ka">&#x10D0;&#x10E0; &#x10D2;&#x10D0;&#x10DC;&#x10D0;&#x10D0;&#x10EE;&#x10DA;&#x10DD; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D8;&#x10E1; &#x10E1;&#x10D4;&#x10E0;&#x10D5;&#x10D4;&#x10E0;&#x10D8;&#x10E1;-&#x10DB;&#x10EE;&#x10D0;&#x10E0;&#x10D4;&#x10E1; &#x10DB;&#x10D3;&#x10D4;&#x10D1;&#x10D0;&#x10E0;&#x10D4;&#x10DD;&#x10D1;&#x10D0;, &#x10E1;&#x10D0;&#x10DC;&#x10D0;&#x10DB; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10E2;&#x10D0;&#x10DC;&#x10D0; &#x10D0;&#x10E0; &#x10D3;&#x10D0;&#x10E1;&#x10E0;&#x10E3;&#x10DA;&#x10D3;&#x10D4;&#x10D1;&#x10D0;</long>
+          <long xml:lang="ja">&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x306E;&#x79FB;&#x52D5;&#x5B8C;&#x4E86;&#x307E;&#x3067;X&#x30B5;&#x30FC;&#x30D0;&#x5074;&#x3067;&#x306E;&#x914D;&#x7F6E;&#x4F4D;&#x7F6E;&#x3092;&#x66F4;&#x65B0;&#x3057;&#x306A;&#x3044;</long>
+          <long xml:lang="it">Non aggiorna la posizione lato server delle finestre fino al termine del movimento</long>
+          <long xml:lang="hu">Csak az ablak&#xE1;thelyez&#xE9;s befejezt&#xE9;vel friss&#xED;tse az ablakpoz&#xED;ci&#xF3;t a kiszolg&#xE1;l&#xF3;n</long>
+          <long xml:lang="hr">Ne a&#x17E;uriraj polo&#x17E;aj poslu&#x17E;ene strane prozora dok se pomicanje ne zavr&#x161;i</long>
+          <long xml:lang="hi">&#x935;&#x93F;&#x902;&#x921;&#x94B; &#x915;&#x947; &#x938;&#x930;&#x94D;&#x935;&#x930; &#x938;&#x93E;&#x907;&#x921; &#x938;&#x94D;&#x925;&#x93F;&#x924;&#x93F; &#x915;&#x94B; &#x905;&#x926;&#x94D;&#x92F;&#x924;&#x928; &#x92E;&#x924; &#x915;&#x930;&#x947;&#x902; &#x91C;&#x92C;&#x924;&#x915; &#x915;&#x93F; &#x916;&#x93F;&#x938;&#x915;&#x93E;&#x928;&#x93E; &#x938;&#x92E;&#x93E;&#x92A;&#x94D;&#x924; &#x928; &#x939;&#x94B;</long>
+          <long xml:lang="he">&#x5D0;&#x5DC; &#x5EA;&#x5E2;&#x5D3;&#x5DB;&#x5DF; &#x5D0;&#x5EA; &#x5DE;&#x5D9;&#x5E7;&#x5D5;&#x5DD; &#x5D4;&#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA; &#x5D1;&#x5E6;&#x5D3; &#x5D4;&#x5E9;&#x5E8;&#x5EA; &#x5E2;&#x5D3; &#x5E9;&#x5E1;&#x5D9;&#x5D9;&#x5DE;&#x5D5; &#x5DC;&#x5D6;&#x5D5;&#x5D6;</long>
+          <long xml:lang="gu">&#xAB5;&#xABF;&#xAA8;&#xACD;&#xAA1;&#xACB;&#xAA8;&#xAC1;&#xA82; &#xAB8;&#xAB0;&#xACD;&#xAB5;&#xAB0;-&#xAAC;&#xABE;&#xA9C;&#xAC1; &#xAB8;&#xACD;&#xAA5;&#xABE;&#xAA8; &#xAB8;&#xAC1;&#xAA7;&#xABE;&#xAB0;&#xAB6;&#xACB; &#xAA8;&#xAB9;&#xABF;&#xA82; &#xA9C;&#xACD;&#xAAF;&#xABE;&#xA82; &#xAB8;&#xAC1;&#xAA7;&#xAC0; &#xA96;&#xAB8;&#xAC7;&#xAA1;&#xAB5;&#xABE;&#xAA8;&#xAC1;&#xA82; &#xAB8;&#xAAE;&#xABE;&#xAAA;&#xACD;&#xAA4; &#xAA8;&#xAB9;&#xABF;&#xA82; &#xAA5;&#xABE;&#xAAF;</long>
+          <long xml:lang="gl">Non actualizar a posici&#xF3;n das xanelas no servidor ata acabar o movemento</long>
+          <long xml:lang="fr">Ne pas mettre &#xE0; jour la position de la fen&#xEA;tre cot&#xE9; serveur, tant que son mouvement n'est pas fini</long>
+          <long xml:lang="fi">&#xC4;l&#xE4; p&#xE4;ivit&#xE4; serveripuolen sijaintia ikkunoissa kunnes siirt&#xE4;minen on valmis</long>
+          <long xml:lang="eu">Ez eguneratu kokapena leiho zerbitzarian, mugitzen amaitu arte</long>
+          <long xml:lang="es">No actualizar la posici&#xF3;n en el servidor de ventanas hasta que terminan de moverse</long>
+          <long xml:lang="en-GB">Do not update the server-side position of windows until finished moving</long>
+          <long xml:lang="el">&#x39C;&#x3B7;&#x3BD; &#x3B5;&#x3BD;&#x3B7;&#x3BC;&#x3B5;&#x3C1;&#x3CE;&#x3BD;&#x3B5;&#x3B9;&#x3C2; &#x3C4;&#x3B7;&#x3BD; &#x3B8;&#x3AD;&#x3C3;&#x3B7; &#x3C4;&#x3C9;&#x3BD; &#x3C0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3C9;&#x3BD; &#x3C3;&#x3C4;o&#x3BD; server &#x3BC;&#x3AD;&#x3C7;&#x3C1;&#x3B9; &#x3C4;&#x3BF; &#x3C4;&#x3AD;&#x3BB;&#x3BF;&#x3C2; &#x3C4;&#x3B7;&#x3C2; &#x3BC;&#x3B5;&#x3C4;&#x3B1;&#x3BA;&#x3AF;&#x3BD;&#x3B7;&#x3C3;&#x3B7;&#x3C2;</long>
+          <long xml:lang="de">Serverseitige Fensterposition bis zum Ende des Verschiebevorgangs nicht aktualisieren</long>
+          <long xml:lang="cs">Aktualizovat pozici okna a&#x17E; p&#x159;i ukon&#x10D;en&#xED; p&#x159;esunu</long>
+          <long xml:lang="ca">No actualitzis la posici&#xF3; del costat del servidor de les finestres fins que acabi el moviment</long>
+          <long xml:lang="bn">&#x9B8;&#x9B0;&#x9BE;&#x9A8;&#x9CB;&#x9B0; &#x995;&#x9BE;&#x9B0;&#x9CD;&#x9AF;&#x99F;&#x9BF; &#x9B8;&#x9AE;&#x9BE;&#x9AA;&#x9CD;&#x9A4; &#x9A8;&#x9BE; &#x9B9;&#x993;&#x9DF;&#x9BE; &#x9AA;&#x9B0;&#x9CD;&#x9AF;&#x9A8;&#x9CD;&#x9A4; &#x9B8;&#x9BE;&#x9B0;&#x9CD;&#x9AD;&#x9BE;&#x9B0;&#x9C7;&#x9B0;-&#x9A6;&#x9BF;&#x995;&#x9C7; &#x985;&#x9AC;&#x9B8;&#x9CD;&#x9A5;&#x9BF;&#x9A4; &#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB;&#x997;&#x9C1;&#x9B2;&#x9BF; &#x986;&#x9AA;&#x9A1;&#x9C7;&#x99F; &#x995;&#x9B0;&#x9AC;&#x9C7;&#x9A8; &#x9A8;&#x9BE;</long>
+          <long xml:lang="bn-IN">&#x9B8;&#x9B0;&#x9BE;&#x9A8;&#x9CB;&#x9B0; &#x995;&#x9BE;&#x9B0;&#x9CD;&#x9AF;&#x99F;&#x9BF; &#x9B8;&#x9AE;&#x9BE;&#x9AA;&#x9CD;&#x9A4; &#x9A8;&#x9BE; &#x9B9;&#x993;&#x9DF;&#x9BE; &#x9AA;&#x9B0;&#x9CD;&#x9AF;&#x9A8;&#x9CD;&#x9A4; &#x9B8;&#x9BE;&#x9B0;&#x9CD;&#x9AD;&#x9BE;&#x9B0;&#x9C7;&#x9B0;-&#x9A6;&#x9BF;&#x995;&#x9C7; &#x985;&#x9AC;&#x9B8;&#x9CD;&#x9A5;&#x9BF;&#x9A4; &#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB;&#x997;&#x9C1;&#x9B2;&#x9BF; &#x986;&#x9AA;&#x9A1;&#x9C7;&#x99F; &#x995;&#x9B0;&#x9AC;&#x9C7;&#x9A8; &#x9A8;&#x9BE;</long>
+          <default>true</default>
+        </option>
+      </group>
+      <group>
+        <short>Off-screen windows</short>
+        <short xml:lang="ka">&#x10D4;&#x10D9;&#x10E0;&#x10D0;&#x10DC;&#x10D2;&#x10D0;&#x10E0;&#x10D4; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D4;&#x10D1;&#x10D8;</short>
+        <option name="offscreen_scroll" type="bool">
+          <short>Enable off-Screen window scrolling</short>
+          <short xml:lang="ka">&#x10D4;&#x10D9;&#x10E0;&#x10D0;&#x10DC;&#x10D2;&#x10D0;&#x10E0;&#x10D4; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10EE;&#x10D5;&#x10D4;&#x10D5;&#x10D8;&#x10E1; &#x10E9;&#x10D0;&#x10E0;&#x10D7;&#x10D5;&#x10D0;</short>
+          <long>Make mouse wheel scroll window if part of it is off-screen</long>
+          <long xml:lang="ka">&#x10D7;&#x10D0;&#x10D2;&#x10E3;&#x10DC;&#x10D0;&#x10E1; &#x10D1;&#x10DD;&#x10E0;&#x10D1;&#x10DA;&#x10D8;&#x10D7; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10EE;&#x10D5;&#x10D4;&#x10D5;&#x10D0;, &#x10D7;&#x10E3; &#x10DB;&#x10D8;&#x10E1;&#x10D8; &#x10DC;&#x10D0;&#x10EC;&#x10D8;&#x10DA;&#x10D8; &#x10D4;&#x10D9;&#x10E0;&#x10D0;&#x10DC;&#x10D2;&#x10D0;&#x10E0;&#x10D4;&#x10D0;</long>
+          <default>false</default>
+        </option>
+        <option name="offscreen_scroll_down" type="button">
+          <short>Scroll down</short>
+          <short xml:lang="ka">&#x10D3;&#x10D0;&#x10D1;&#x10DA;&#x10D0; &#x10E9;&#x10D0;&#x10DB;&#x10DD;&#x10E5;&#x10D0;&#x10E9;&#x10D5;&#x10D0;</short>
+          <short xml:lang="fr">D&#xE9;filer vers le bas</short>
+          <long>Scroll window down if part of it is off-screen</long>
+          <long xml:lang="ka">&#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10D0;&#x10E0;&#x10D0;, &#x10D7;&#x10E3; &#x10D8;&#x10E1; &#x10D4;&#x10D9;&#x10E0;&#x10D0;&#x10DC;&#x10D2;&#x10D0;&#x10E0;&#x10D4;&#x10D0;, &#x10E5;&#x10D5;&#x10D4;&#x10DB;&#x10DD;&#x10D7; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10D8;&#x10EE;&#x10D5;&#x10D4;&#x10D5;&#x10D0;</long>
+          <default>Button4</default>
+        </option>
+        <option name="offscreen_scroll_up" type="button">
+          <short>Scroll up</short>
+          <short xml:lang="ka">&#x10DB;&#x10D0;&#x10E6;&#x10DA;&#x10D0; &#x10D0;&#x10EC;&#x10D4;&#x10D5;&#x10D0;</short>
+          <short xml:lang="fr">D&#xE9;filer vers le haut</short>
+          <long>Scroll window up if part of it is off-screen</long>
+          <long xml:lang="ka">&#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10D0;&#x10E0;&#x10D0;, &#x10D7;&#x10E3; &#x10D8;&#x10E1; &#x10D4;&#x10D9;&#x10E0;&#x10D0;&#x10DC;&#x10D2;&#x10D0;&#x10E0;&#x10D4;&#x10D0;, &#x10D6;&#x10D4;&#x10DB;&#x10DD;&#x10D7; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10D8;&#x10EE;&#x10D5;&#x10D4;&#x10D5;&#x10D0;</long>
+          <default>Button5</default>
+        </option>
+        <option name="offscreen_scroll_right" type="button">
+          <short>Scroll right</short>
+          <short xml:lang="ka">&#x10DB;&#x10D0;&#x10E0;&#x10EF;&#x10D5;&#x10DC;&#x10D8;&#x10D5; &#x10D2;&#x10D0;&#x10EC;&#x10D4;&#x10D5;&#x10D0;</short>
+          <short xml:lang="fr">D&#xE9;filer vers la droite</short>
+          <long>Scroll window right if part of it is off-screen</long>
+          <long xml:lang="ka">&#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10D0;&#x10E0;&#x10D0;, &#x10D7;&#x10E3; &#x10D8;&#x10E1; &#x10D4;&#x10D9;&#x10E0;&#x10D0;&#x10DC;&#x10D2;&#x10D0;&#x10E0;&#x10D4;&#x10D0;, &#x10DB;&#x10D0;&#x10E0;&#x10EF;&#x10D5;&#x10DC;&#x10D8;&#x10D5; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10D8;&#x10EE;&#x10D5;&#x10D4;&#x10D5;&#x10D0;</long>
+          <default>&lt;Shift&gt;Button4</default>
+        </option>
+        <option name="offscreen_scroll_left" type="button">
+          <short>Scroll left</short>
+          <short xml:lang="ka">&#x10DB;&#x10D0;&#x10E0;&#x10EA;&#x10EE;&#x10DC;&#x10D8;&#x10D5; &#x10D2;&#x10D0;&#x10EC;&#x10D4;&#x10D5;&#x10D0;</short>
+          <short xml:lang="fr">D&#xE9;filer vers la gauge</short>
+          <long>Scroll window left if part of it is off-screen</long>
+          <long xml:lang="ka">&#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10D0;&#x10E0;&#x10D0;, &#x10D7;&#x10E3; &#x10D8;&#x10E1; &#x10D4;&#x10D9;&#x10E0;&#x10D0;&#x10DC;&#x10D2;&#x10D0;&#x10E0;&#x10D4;&#x10D0;, &#x10DB;&#x10D0;&#x10E0;&#x10EA;&#x10EE;&#x10DC;&#x10D8;&#x10D5; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10D8;&#x10EE;&#x10D5;&#x10D4;&#x10D5;&#x10D0;</long>
+          <default>&lt;Shift&gt;Button5</default>
+        </option>
+        <option name="offscreen_scroll_speed" type="int">
+          <short>Scrolling speed</short>
+          <short xml:lang="ka">&#x10D0;&#x10EC;&#x10D4;&#x10D5;-&#x10E9;&#x10D0;&#x10DB;&#x10DD;&#x10EC;&#x10D4;&#x10D5;&#x10D8;&#x10E1; &#x10E1;&#x10D8;&#x10E9;&#x10E5;&#x10D0;&#x10E0;&#x10D4;</short>
+          <short xml:lang="fr">Vitesse de d&#xE9;filement</short>
+          <long>Speed of off-screen window scrolling</long>
+          <long xml:lang="ka">&#x10D4;&#x10D9;&#x10E0;&#x10D0;&#x10DC;&#x10D2;&#x10D0;&#x10E0;&#x10D4; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10EE;&#x10D5;&#x10D4;&#x10D5;&#x10D8;&#x10E1; &#x10E1;&#x10D8;&#x10E9;&#x10E5;&#x10D0;&#x10E0;&#x10D4;</long>
+          <default>10</default>
+          <min>1</min>
+          <max>100</max>
+        </option>
+        <option name="offscreen_scroll_color" type="color">
+          <short>Shadow color</short>
+          <short xml:lang="ka">&#x10E9;&#x10E0;&#x10D3;&#x10D8;&#x10DA;&#x10D8;&#x10E1; &#x10E4;&#x10D4;&#x10E0;&#x10D8;</short>
+          <short xml:lang="fr">Couleur de l'ombre</short>
+          <long>Color of the rectangle showing when one can scroll a window</long>
+          <long xml:lang="ka">&#x10DD;&#x10D7;&#x10EE;&#x10D9;&#x10E3;&#x10D7;&#x10EE;&#x10D4;&#x10D3;&#x10D8;&#x10E1; &#x10E4;&#x10D4;&#x10E0;&#x10D8;, &#x10E0;&#x10DD;&#x10DB;&#x10D4;&#x10DA;&#x10D8;&#x10EA; &#x10D0;&#x10E6;&#x10DC;&#x10D8;&#x10E8;&#x10DC;&#x10D0;&#x10D5;&#x10E1;, &#x10E0;&#x10DD;&#x10DB; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10D0;&#x10E0;&#x10D0; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10EE;&#x10D5;&#x10D4;&#x10D5;&#x10D0;&#x10D3;&#x10D8;&#x10D0;</long>
+          <default>
+            <red>0x0000</red>
+            <green>0x0000</green>
+            <blue>0x0000</blue>
+            <alpha>0x8080</alpha>
+          </default>
+        </option>
+        <option name="offscreen_scroll_width" type="int">
+          <short>Shadow width</short>
+          <short xml:lang="ka">&#x10E9;&#x10E0;&#x10D3;&#x10D8;&#x10DA;&#x10D8;&#x10E1; &#x10E1;&#x10D8;&#x10D2;&#x10D0;&#x10DC;&#x10D4;</short>
+          <long>Width of the rectangle showing when one can scroll a window</long>
+          <long xml:lang="ka">&#x10DD;&#x10D7;&#x10EE;&#x10D9;&#x10E3;&#x10D7;&#x10EE;&#x10D4;&#x10D3;&#x10D8;&#x10E1; &#x10E1;&#x10D8;&#x10D2;&#x10D0;&#x10DC;&#x10D4;, &#x10E0;&#x10DD;&#x10DB;&#x10D4;&#x10DA;&#x10D8;&#x10EA; &#x10D0;&#x10E6;&#x10DC;&#x10D8;&#x10E8;&#x10DC;&#x10D0;&#x10D5;&#x10E1;, &#x10E0;&#x10DD;&#x10DB; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10D0;&#x10E0;&#x10D0; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10EE;&#x10D5;&#x10D4;&#x10D5;&#x10D0;&#x10D3;&#x10D8;&#x10D0;</long>
+          <default>20</default>
+          <min>0</min>
+          <max>100</max>
+        </option>
+        <option name="offscreen_scroll_gradient" type="bool">
+          <short>Enable shadow gradient</short>
+          <short xml:lang="ka">&#x10E9;&#x10E0;&#x10D3;&#x10D8;&#x10DA;&#x10D8;&#x10E1; &#x10D2;&#x10E0;&#x10D0;&#x10D3;&#x10D8;&#x10D4;&#x10DC;&#x10E2;&#x10D8;&#x10E1; &#x10E9;&#x10D0;&#x10E0;&#x10D7;&#x10D5;&#x10D0;</short>
+          <long>Enable gradient of rectangle showing when one can scroll a window</long>
+          <long xml:lang="ka">&#x10DD;&#x10D7;&#x10EE;&#x10D9;&#x10E3;&#x10D7;&#x10EE;&#x10D4;&#x10D3;&#x10D8;&#x10E1;, &#x10E0;&#x10DD;&#x10DB;&#x10D4;&#x10DA;&#x10D8;&#x10EA; &#x10D0;&#x10E6;&#x10DC;&#x10D8;&#x10E8;&#x10DC;&#x10D0;&#x10D5;&#x10E1;, &#x10E0;&#x10DD;&#x10DB; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10D0;&#x10E0;&#x10D0; &#x10D2;&#x10D0;&#x10D3;&#x10D0;&#x10EE;&#x10D5;&#x10D4;&#x10D5;&#x10D0;&#x10D3;&#x10D8;&#x10D0;, &#x10D2;&#x10E0;&#x10D0;&#x10D3;&#x10D8;&#x10D4;&#x10DC;&#x10E2;&#x10D8;&#x10E1; &#x10E9;&#x10D0;&#x10E0;&#x10D7;&#x10D5;&#x10D0;</long>
+          <default>true</default>
+        </option>
+      </group>
+    </display>
+  </plugin>
+</compiz>

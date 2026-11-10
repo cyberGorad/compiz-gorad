@@ -1,0 +1,1482 @@
+<?xml version="1.0"?>
+<compiz>
+  <plugin name="place">
+    <short>Place Windows</short>
+    <short xml:lang="zh-Hant-TW">&#x653E;&#x7F6E;&#x8996;&#x7A97;</short>
+    <short xml:lang="zh-Hans-CN">&#x653E;&#x7F6E;&#x7A97;&#x53E3;</short>
+    <short xml:lang="uk">&#x420;&#x43E;&#x437;&#x43C;&#x456;&#x449;&#x435;&#x43D;&#x43D;&#x44F; &#x432;&#x456;&#x43A;&#x43E;&#x43D;</short>
+    <short xml:lang="tr">Pencereleri Yerle&#x15F;tir</short>
+    <short xml:lang="sv">Placera f&#xF6;nster</short>
+    <short xml:lang="sk">Rozmiestni&#x165; okn&#xE1;</short>
+    <short xml:lang="ru">&#x420;&#x430;&#x437;&#x43C;&#x435;&#x449;&#x435;&#x43D;&#x438;&#x435; &#x43E;&#x43A;&#x43E;&#x43D;</short>
+    <short xml:lang="pt-BR">Colocar Janelas</short>
+    <short xml:lang="pt">Colocar Janelas</short>
+    <short xml:lang="pl">Rozmie&#x15B;&#x107; okna</short>
+    <short xml:lang="or">&#xB09;&#xB07;&#xB23;&#xB4D;&#xB21;&#xB4B; &#xB38;&#xB4D;&#xB25;&#xB3E;&#xB2A;&#xB3F;&#xB24;&#xB15;&#xB30;</short>
+    <short xml:lang="nl">Plaats venster</short>
+    <short xml:lang="nb">Plasser vinduer</short>
+    <short xml:lang="ko">&#xCC3D; &#xBC30;&#xCE58;</short>
+    <short xml:lang="ka">&#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10DB;&#x10DD;&#x10D7;&#x10D0;&#x10D5;&#x10E1;&#x10D4;&#x10D1;&#x10D0;</short>
+    <short xml:lang="ja">&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x306E;&#x914D;&#x7F6E;</short>
+    <short xml:lang="it">Posiziona finestre</short>
+    <short xml:lang="hu">Ablakok elhelyez&#xE9;se</short>
+    <short xml:lang="hr">Smje&#x161;taj prozora</short>
+    <short xml:lang="he">&#x5DE;&#x5E7;&#x5DD; &#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA;</short>
+    <short xml:lang="gu">&#xAB5;&#xABF;&#xAA8;&#xACD;&#xAA1;&#xACB; &#xAAE;&#xAC2;&#xA95;&#xACB;</short>
+    <short xml:lang="gl">Colocaci&#xF3;n de  Fiestras</short>
+    <short xml:lang="fr">Placer des fen&#xEA;tres</short>
+    <short xml:lang="fi">Sijoita ikkunat</short>
+    <short xml:lang="eu">Kokatu leihoak</short>
+    <short xml:lang="es">Colocar ventanas</short>
+    <short xml:lang="en-GB">Place Windows</short>
+    <short xml:lang="el">&#x3A4;&#x3BF;&#x3C0;&#x3BF;&#x3B8;&#x3AD;&#x3C4;&#x3B7;&#x3C3;&#x3B7; &#x3A0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3C9;&#x3BD;</short>
+    <short xml:lang="de">Fenster platzieren</short>
+    <short xml:lang="da">Placer vinduer</short>
+    <short xml:lang="cs">Rozm&#xED;stit okna</short>
+    <short xml:lang="ca">Posicionament de les finestres</short>
+    <short xml:lang="bn">&#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB;&#x997;&#x9C1;&#x9B2;&#x9BF; &#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9AA;&#x9A8; &#x995;&#x9B0;&#x9BE;</short>
+    <short xml:lang="bn-IN">&#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB;&#x997;&#x9C1;&#x9B2;&#x9BF; &#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9AA;&#x9A8; &#x995;&#x9B0;&#x9BE;</short>
+    <long>Place windows at appropriate positions when mapped</long>
+    <long xml:lang="zh-Hant-TW">&#x5728;&#x8996;&#x7A97;&#x63CF;&#x7E6A;&#x6642;&#x5C07;&#x8996;&#x7A97;&#x653E;&#x7F6E;&#x5230;&#x9069;&#x7576;&#x4F4D;&#x7F6E;</long>
+    <long xml:lang="zh-Hans-CN">&#x6620;&#x5C04;&#x65F6;&#x5C06;&#x7A97;&#x53E3;&#x653E;&#x7F6E;&#x5728;&#x9002;&#x5F53;&#x4F4D;&#x7F6E;</long>
+    <long xml:lang="uk">&#x41F;&#x440;&#x438; &#x432;&#x456;&#x434;&#x43E;&#x431;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x43D;&#x456; &#x432;&#x438; &#x43C;&#x43E;&#x436;&#x435;&#x442;&#x435; &#x440;&#x43E;&#x437;&#x43C;&#x456;&#x441;&#x442;&#x438;&#x442;&#x438; &#x432;&#x456;&#x43A;&#x43D;&#x430; &#x432; &#x43F;&#x43E;&#x442;&#x440;&#x456;&#x431;&#x43D;&#x438;&#x445; &#x43C;&#x456;&#x441;&#x446;&#x44F;&#x445;</long>
+    <long xml:lang="tr">Haritaland&#x131;klar&#x131;nda pencereleri belirli bir konuma yerle&#x15F;tir</long>
+    <long xml:lang="sv">Placera f&#xF6;nster p&#xE5; l&#xE4;mpliga positioner n&#xE4;r de kopplas</long>
+    <long xml:lang="sk">Umiestni&#x165; mapovan&#xE9; okn&#xE1; na zodpovedaj&#xFA;ce poz&#xED;cie</long>
+    <long xml:lang="ru">&#x41F;&#x440;&#x438; &#x43E;&#x442;&#x43E;&#x431;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x438;&#x438; &#x440;&#x430;&#x437;&#x43C;&#x435;&#x441;&#x442;&#x438;&#x442;&#x435; &#x43E;&#x43A;&#x43D;&#x430; &#x432; &#x43D;&#x443;&#x436;&#x43D;&#x44B;&#x445; &#x43C;&#x435;&#x441;&#x442;&#x430;&#x445;</long>
+    <long xml:lang="ro">Amplaseaz&#x103; ferestrele pe pozi&#x21B;ii corespunz&#x103;toare la amplasarea pe hart&#x103;</long>
+    <long xml:lang="pt-BR">Colocar janelas nas posi&#xE7;&#xF5;es apropriadas quando houver mapeamento</long>
+    <long xml:lang="pt">Colocar janelas nas posi&#xE7;&#xF5;es apropriadas quando houver mapeamento</long>
+    <long xml:lang="pl">Podczas wyboru umieszczaj okna we w&#x142;a&#x15B;ciwych miejscach</long>
+    <long xml:lang="pa">&#xA1C;&#xA26;&#xA4B;&#xA02; &#xA2E;&#xA48;&#xA2A; &#xA15;&#xA40;&#xA24;&#xA3E; &#xA1C;&#xA3E;&#xA35;&#xA47; &#xA24;&#xA3E;&#xA02; &#xA35;&#xA3F;&#xA70;&#xA21;&#xA4B; &#xA28;&#xA42;&#xA70; &#xA22;&#xA41;&#xA71;&#xA15;&#xA35;&#xA40;&#xA06;&#xA02; &#xA25;&#xA3E;&#xA35;&#xA3E;&#xA02; &#xA09;&#xA71;&#xA24;&#xA47; &#xA30;&#xA71;&#xA16;&#xA4B;</long>
+    <long xml:lang="or">&#xB05;&#xB02;&#xB15;&#xB28; &#xB15;&#xB30;&#xB3F;&#xB2C;&#xB3E; &#xB38;&#xB2E;&#xB2F;&#xB30;&#xB47; &#xB09;&#xB07;&#xB23;&#xB4D;&#xB21;&#xB4B;&#xB15;&#xB41; &#xB17;&#xB4B;&#xB1F;&#xB3F;&#xB0F; &#xB09;&#xB2A;&#xB5F;&#xB41;&#xB15;&#xB4D;&#xB24; &#xB38;&#xB4D;&#xB25;&#xB3E;&#xB28;&#xB30;&#xB47; &#xB38;&#xB4D;&#xB25;&#xB3E;&#xB2A;&#xB3F;&#xB24; &#xB15;&#xB30;</long>
+    <long xml:lang="nl">Plaats vensters op toepassel&#x133;ke positie's b&#x133; mapping</long>
+    <long xml:lang="nb">Plasser vinuder p&#xE5; passende posisjoner n&#xE5;r de kartlegges</long>
+    <long xml:lang="ko">&#xCC3D;&#xC744; &#xC0DD;&#xC131;&#xD560; &#xB54C; &#xC801;&#xC808;&#xD55C; &#xC704;&#xCE58;&#xC5D0; &#xBC30;&#xCE58;</long>
+    <long xml:lang="ka">&#x10DB;&#x10D8;&#x10DB;&#x10D0;&#x10D2;&#x10E0;&#x10D4;&#x10D1;&#x10D8;&#x10E1;&#x10D0;&#x10E1; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10E8;&#x10D4;&#x10E1;&#x10D0;&#x10D1;&#x10D0;&#x10DB;&#x10D8;&#x10E1; &#x10D0;&#x10D3;&#x10D2;&#x10D8;&#x10DA;&#x10D0;&#x10E1; &#x10DB;&#x10DD;&#x10D7;&#x10D0;&#x10D5;&#x10E1;&#x10D4;&#x10D1;&#x10D0;</long>
+    <long xml:lang="ja">&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x304C;&#x958B;&#x304B;&#x308C;&#x305F;&#x969B;&#x306E;&#x9069;&#x5207;&#x306A;&#x4F4D;&#x7F6E;&#x3078;&#x306E;&#x914D;&#x7F6E;</long>
+    <long xml:lang="it">Posiziona le finestre in maniera appropriata quando sono associate</long>
+    <long xml:lang="hu">T&#xE9;rk&#xE9;pez&#xE9;s eset&#xE9;n az ablakok elhelyez&#xE9;se a megfelel&#x151; poz&#xED;ci&#xF3;ba</long>
+    <long xml:lang="hr">Smjesti prozore na odgovaraju&#x107;e polo&#x17E;aje kada su mapirani</long>
+    <long xml:lang="hi">&#x92E;&#x948;&#x92A; &#x915;&#x93F;&#x90F; &#x91C;&#x93E;&#x928;&#x947; &#x92A;&#x930; &#x909;&#x91A;&#x93F;&#x924; &#x938;&#x94D;&#x925;&#x93F;&#x924;&#x93F; &#x92A;&#x930; &#x935;&#x93F;&#x902;&#x921;&#x94B; &#x930;&#x916;&#x947;&#x902;</long>
+    <long xml:lang="he">&#x5DE;&#x5E7;&#x5DD; &#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA; &#x5D1;&#x5DE;&#x5E7;&#x5D5;&#x5DD; &#x5D4;&#x5DE;&#x5EA;&#x5D0;&#x5D9;&#x5DD; &#x5D1;&#x5E2;&#x5EA; &#x5DE;&#x5D9;&#x5E4;&#x5D5;&#x5D9;</long>
+    <long xml:lang="gu">&#xAB5;&#xABF;&#xAA8;&#xACD;&#xAA1;&#xACB;&#xAA8;&#xAC7; &#xA9C;&#xACD;&#xAAF;&#xABE;&#xAB0;&#xAC7; &#xA9C;&#xACB;&#xAA1;&#xABE;&#xAAF; &#xAA4;&#xACD;&#xAAF;&#xABE;&#xAB0;&#xAC7; &#xAAF;&#xACB;&#xA97;&#xACD;&#xAAF; &#xAB8;&#xACD;&#xAA5;&#xABE;&#xAA8;&#xAC7; &#xAAE;&#xAC2;&#xA95;&#xACB;</long>
+    <long xml:lang="gl">Coloca xanelas nas posici&#xF3;ns axeitas cando sexan mapeadas</long>
+    <long xml:lang="fr">Placer des fen&#xEA;tres aux positions correctes lorsqu'elles sont mapp&#xE9;es</long>
+    <long xml:lang="fi">Sijoita ikkunat sopiville paikoille niiden ilmestyess&#xE4;</long>
+    <long xml:lang="eu">Kokatu leihoak toki egokian mapeatzerakoan</long>
+    <long xml:lang="es">Coloca las ventanas en sus lugares adecuados en la asignaci&#xF3;n</long>
+    <long xml:lang="en-GB">Place windows at appropriate positions when mapped</long>
+    <long xml:lang="el">&#x3A4;&#x3BF;&#x3C0;&#x3BF;&#x3B8;&#x3AD;&#x3C4;&#x3B7;&#x3C3;&#x3B7; &#x3C0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3C9;&#x3BD; &#x3C3;&#x3C4;&#x3B9;&#x3C2; &#x3BA;&#x3B1;&#x3C4;&#x3AC;&#x3BB;&#x3BB;&#x3B7;&#x3BB;&#x3B5;&#x3C2; &#x3B8;&#x3AD;&#x3C3;&#x3B5;&#x3B9;&#x3C2; &#x3CC;&#x3C4;&#x3B1;&#x3BD; &#x3C4;&#x3B1;&#x3BE;&#x3B9;&#x3BD;&#x3BF;&#x3BC;&#x3BF;&#x3CD;&#x3BD;&#x3C4;&#x3B1;&#x3B9;</long>
+    <long xml:lang="de">Fenster bei Zuordnung ungef&#xE4;hr platzieren</long>
+    <long xml:lang="da">Placer vinduerne p&#xE5; de korrekte positioner, n&#xE5;r de er tilknyttet</long>
+    <long xml:lang="cs">Um&#xED;stit mapovan&#xE1; okna na odpov&#xED;daj&#xED;c&#xED; pozice</long>
+    <long xml:lang="ca">Posiciona les finestres en les posicions adequades quan s'assignin</long>
+    <long xml:lang="bn">&#x9AE;&#x9CD;&#x9AF;&#x9BE;&#x9AA; &#x995;&#x9B0;&#x9BE;&#x9B0; &#x9AA;&#x9B0; &#x989;&#x9AA;&#x9AF;&#x9C1;&#x995;&#x9CD;&#x9A4; &#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9A8;&#x9C7; &#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB;&#x997;&#x9C1;&#x9B2;&#x9BF; &#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9AA;&#x9A8; &#x995;&#x9B0;&#x9C1;&#x9A8;</long>
+    <long xml:lang="bn-IN">&#x9AE;&#x9CD;&#x9AF;&#x9BE;&#x9AA; &#x995;&#x9B0;&#x9BE;&#x9B0; &#x9AA;&#x9B0; &#x989;&#x9AA;&#x9AF;&#x9C1;&#x995;&#x9CD;&#x9A4; &#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9A8;&#x9C7; &#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB;&#x997;&#x9C1;&#x9B2;&#x9BF; &#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9AA;&#x9A8; &#x995;&#x9B0;&#x9C1;&#x9A8;</long>
+    <category>Window Management</category>
+    <screen>
+      <option name="workarounds" type="bool">
+        <short>Workarounds</short>
+        <short xml:lang="zh-Hant-TW">&#x8996;&#x7A97;&#x4F4D;&#x7F6E;&#x89E3;&#x6C7A;&#x65B9;&#x5F0F;</short>
+        <short xml:lang="zh-Hans-CN">&#x5DE5;&#x4F5C;&#x533A;</short>
+        <short xml:lang="uk">&#x41E;&#x431;&#x445;&#x456;&#x434;&#x43D;&#x456; &#x448;&#x43B;&#x44F;&#x445;&#x438;</short>
+        <short xml:lang="tr">H&#x131;zl&#x131; &#xC7;&#xF6;z&#xFC;mler</short>
+        <short xml:lang="sv">Probleml&#xF6;sningar</short>
+        <short xml:lang="sk">N&#xFA;dzov&#xE9; rie&#x161;enia</short>
+        <short xml:lang="ru">&#x41E;&#x431;&#x445;&#x43E;&#x434;&#x43D;&#x44B;&#x435; &#x43F;&#x443;&#x442;&#x438;</short>
+        <short xml:lang="ro">Solu&#x21B;ii</short>
+        <short xml:lang="pt-BR">Solu&#xE7;&#xF5;es</short>
+        <short xml:lang="pt">Solu&#xE7;&#xF5;es</short>
+        <short xml:lang="pl">Obej&#x15B;cia problem&#xF3;w</short>
+        <short xml:lang="or">&#xB1A;&#xB3E;&#xB30;&#xB3F;&#xB2A;&#xB1F;&#xB47;&#xB15;&#xB3E;&#xB2E;&#xB15;&#xB30;&#xB47;</short>
+        <short xml:lang="nb">Omveier</short>
+        <short xml:lang="ko">&#xC608;&#xBE44; &#xC218;&#xB2E8;</short>
+        <short xml:lang="ka">&#x10E8;&#x10D4;&#x10DB;&#x10DD;&#x10D5;&#x10DA;&#x10D4;&#x10D1;&#x10D8;</short>
+        <short xml:lang="ja">&#x56DE;&#x907F;&#x7B56;</short>
+        <short xml:lang="it">Alternative</short>
+        <short xml:lang="hu">Ker&#xFC;l&#x151; megold&#xE1;sok</short>
+        <short xml:lang="hr">Rje&#x161;enja smje&#x161;taja</short>
+        <short xml:lang="he">&#x5DE;&#x5E2;&#x5E7;&#x5E4;&#x5D9;&#x5DD;</short>
+        <short xml:lang="gu">&#xA89;&#xA95;&#xAC7;&#xAB2;&#xACB;</short>
+        <short xml:lang="gl">Entornos</short>
+        <short xml:lang="fr">Solutions</short>
+        <short xml:lang="fi">Poikkeukset</short>
+        <short xml:lang="eu">Konponbideak</short>
+        <short xml:lang="es">Soluciones alternativas</short>
+        <short xml:lang="en-GB">Workarounds</short>
+        <short xml:lang="el">&#x39C;&#x3BF;&#x3BD;&#x3C4;&#x3AF;&#x3C6;&#x3B5;&#x3C2;</short>
+        <short xml:lang="de">Workarounds</short>
+        <short xml:lang="da">L&#xF8;sninger</short>
+        <short xml:lang="cs">&#x158;e&#x161;en&#xED; probl&#xE9;m&#x16F;</short>
+        <short xml:lang="ca">Reparacions</short>
+        <short xml:lang="bn">&#x993;&#x9DF;&#x9BE;&#x9B0;&#x9CD;&#x995;&#x98F;&#x9B0;&#x9BE;&#x989;&#x9A8;&#x9CD;&#x9A1;</short>
+        <short xml:lang="bn-IN">&#x993;&#x9DF;&#x9BE;&#x9B0;&#x9CD;&#x995;&#x98F;&#x9B0;&#x9BE;&#x989;&#x9A8;&#x9CD;&#x9A1;</short>
+        <long>Window placement workarounds</long>
+        <long xml:lang="zh-Hant-TW">&#x8996;&#x7A97;&#x4F4D;&#x7F6E;&#x7684;&#x89E3;&#x6C7A;&#x65B9;&#x5F0F;</long>
+        <long xml:lang="zh-Hans-CN">&#x7A97;&#x53E3;&#x653E;&#x7F6E;&#x5DE5;&#x4F5C;&#x533A;</long>
+        <long xml:lang="uk">&#x41E;&#x431;&#x445;&#x456;&#x434;&#x43D;&#x456; &#x448;&#x43B;&#x44F;&#x445;&#x438; &#x43F;&#x440;&#x438; &#x440;&#x43E;&#x437;&#x43C;&#x456;&#x449;&#x435;&#x43D;&#x43D;&#x456; &#x432;&#x456;&#x43A;&#x43D;&#x430;</long>
+        <long xml:lang="tr">Pencere konumland&#x131;rma h&#x131;zl&#x131; &#xE7;&#xF6;z&#xFC;mleri</long>
+        <long xml:lang="sv">Probleml&#xF6;sning f&#xF6;r f&#xF6;nsterplacering</long>
+        <long xml:lang="sk">N&#xFA;dzov&#xE9; rie&#x161;enia umiestnenia okna</long>
+        <long xml:lang="ru">&#x41E;&#x431;&#x445;&#x43E;&#x434;&#x43D;&#x44B;&#x435; &#x43F;&#x443;&#x442;&#x438; &#x43F;&#x440;&#x438; &#x440;&#x430;&#x437;&#x43C;&#x435;&#x449;&#x435;&#x43D;&#x438;&#x438; &#x43E;&#x43A;&#x43D;&#x430;</long>
+        <long xml:lang="ro">Solu&#x21B;ii de amplasare ferestre</long>
+        <long xml:lang="pt-BR">Solu&#xE7;&#xF5;es para disposi&#xE7;&#xE3;o das janelas</long>
+        <long xml:lang="pt">Solu&#xE7;&#xF5;es para coloca&#xE7;&#xE3;o de janelas</long>
+        <long xml:lang="pl">Obej&#x15B;cia problem&#xF3;w z rozmieszczeniem okien</long>
+        <long xml:lang="or">&#xB09;&#xB07;&#xB23;&#xB4D;&#xB21;&#xB4B; &#xB38;&#xB4D;&#xB25;&#xB3E;&#xB2A;&#xB28; &#xB1A;&#xB3E;&#xB30;&#xB3F;&#xB2A;&#xB1F;&#xB47;&#xB15;&#xB3E;&#xB2E;&#xB15;&#xB30;&#xB47;</long>
+        <long xml:lang="nl">Venster plaatsing workarounds</long>
+        <long xml:lang="nb">Omveier for vindusplassering</long>
+        <long xml:lang="ko">&#xCC3D; &#xBC30;&#xCE58; &#xBB38;&#xC81C;&#xC758; &#xD68C;&#xD53C; &#xBC29;&#xBC95;</long>
+        <long xml:lang="ka">&#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D8;&#x10E1; &#x10DB;&#x10D3;&#x10D4;&#x10D1;&#x10D0;&#x10E0;&#x10D4;&#x10DD;&#x10D1;&#x10D8;&#x10E1; &#x10E8;&#x10D4;&#x10DB;&#x10DD;&#x10D5;&#x10DA;&#x10D8;&#x10D7; &#x10D2;&#x10D6;&#x10D4;&#x10D1;</long>
+        <long xml:lang="ja">&#x30E2;&#x30FC;&#x30C0;&#x30EB;&#x30C0;&#x30A4;&#x30A2;&#x30ED;&#x30B0;&#x5411;&#x3051;&#x306E;&#x914D;&#x7F6E;&#x554F;&#x984C;&#x56DE;&#x907F;&#x7B56;</long>
+        <long xml:lang="it">Alternative posizionamento finestre</long>
+        <long xml:lang="hu">Ker&#xFC;l&#x151;megold&#xE1;sok az ablak elhelyez&#xE9;s&#xE9;re</long>
+        <long xml:lang="hr">Rje&#x161;enja za smje&#x161;taj prozora</long>
+        <long xml:lang="he">&#x5E4;&#x5EA;&#x5E8;&#x5D5;&#x5E0;&#x5D5;&#x5EA; &#x5DE;&#x5E2;&#x5E7;&#x5E3; &#x5DC;&#x5DE;&#x5D9;&#x5E7;&#x5D5;&#x5DD;</long>
+        <long xml:lang="gu">&#xAB5;&#xABF;&#xAA8;&#xACD;&#xAA1;&#xACB; &#xA9C;&#xA97;&#xACD;&#xAAF;&#xABE; &#xA89;&#xA95;&#xAC7;&#xAB2;&#xACB;</long>
+        <long xml:lang="gl">Entornos de colocaci&#xF3;n de xanela</long>
+        <long xml:lang="fr">Solutions de placement de fen&#xEA;tre</long>
+        <long xml:lang="fi">Poikkeukset ikkunoiden sijoittamisessa</long>
+        <long xml:lang="eu">Leihoak kokatzeko konponbideak</long>
+        <long xml:lang="es">Procedimientos para posicionamiento de ventanas</long>
+        <long xml:lang="en-GB">Window placement workarounds</long>
+        <long xml:lang="el">&#x39C;&#x3BF;&#x3BD;&#x3C4;&#x3AF;&#x3C6;&#x3B5;&#x3C2; &#x3B3;&#x3B9;&#x3B1; &#x3C4;&#x3BF;&#x3C0;&#x3BF;&#x3B8;&#x3AD;&#x3C4;&#x3B7;&#x3C3;&#x3B7; &#x3C0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3C9;&#x3BD;</long>
+        <long xml:lang="de">Fensterplatzierungs-Workarounds</long>
+        <long xml:lang="da">L&#xF8;sninger til vinduesplaceringer</long>
+        <long xml:lang="cs">Nouzov&#xE1; &#x159;e&#x161;en&#xED; um&#xED;st&#x11B;n&#xED; oken</long>
+        <long xml:lang="ca">Solucions alternatives per al posicionament de les finestres</long>
+        <long xml:lang="bn">&#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB; &#x9AA;&#x9CD;&#x9B0;&#x9A4;&#x9BF;&#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9AA;&#x9A8; &#x993;&#x9DF;&#x9BE;&#x9B0;&#x9CD;&#x995;&#x98F;&#x9B0;&#x9BE;&#x989;&#x9A8;&#x9CD;&#x9A1;</long>
+        <long xml:lang="bn-IN">&#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB; &#x9AA;&#x9CD;&#x9B0;&#x9A4;&#x9BF;&#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9AA;&#x9A8; &#x993;&#x9DF;&#x9BE;&#x9B0;&#x9CD;&#x995;&#x98F;&#x9B0;&#x9BE;&#x989;&#x9A8;&#x9CD;&#x9A1;</long>
+        <default>true</default>
+      </option>
+      <option name="mode" type="int">
+        <short>Placement Mode</short>
+        <short xml:lang="zh-Hant-TW">&#x653E;&#x7F6E;&#x65B9;&#x6CD5;</short>
+        <short xml:lang="zh-Hans-CN">&#x5B89;&#x7F6E;&#x6A21;&#x5F0F;</short>
+        <short xml:lang="uk">&#x420;&#x435;&#x436;&#x438;&#x43C; &#x440;&#x43E;&#x437;&#x43C;&#x456;&#x449;&#x435;&#x43D;&#x43D;&#x44F;</short>
+        <short xml:lang="tr">Yerle&#x15F;tirme Kipi</short>
+        <short xml:lang="sv">Placeringsl&#xE4;ge</short>
+        <short xml:lang="sk">Sp&#xF4;sob rozmiestnenia</short>
+        <short xml:lang="ru">&#x420;&#x435;&#x436;&#x438;&#x43C; &#x440;&#x430;&#x437;&#x43C;&#x435;&#x449;&#x435;&#x43D;&#x438;&#x44F;</short>
+        <short xml:lang="ro">Rgim de amplasare</short>
+        <short xml:lang="pt-BR">Modo de disposi&#xE7;&#xE3;o</short>
+        <short xml:lang="pt">Modo de disposi&#xE7;&#xE3;o</short>
+        <short xml:lang="pl">Tryb rozmieszczenia</short>
+        <short xml:lang="pa">&#xA38;&#xA25;&#xA3F;&#xA24;&#xA40; &#xA30;&#xA71;&#xA16;&#xA23; &#xA2E;&#xA4B;&#xA21;</short>
+        <short xml:lang="or">&#xB38;&#xB4D;&#xB25;&#xB3E;&#xB2A;&#xB28; &#xB2E;&#xB4B;&#xB21;</short>
+        <short xml:lang="nl">Plaatsing modus</short>
+        <short xml:lang="nb">Plasseringsmodus</short>
+        <short xml:lang="ko">&#xBC30;&#xCE58; &#xBAA8;&#xB4DC;</short>
+        <short xml:lang="ka">&#x10D2;&#x10D0;&#x10DC;&#x10DA;&#x10D0;&#x10D2;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10E0;&#x10D4;&#x10DF;&#x10D8;&#x10DB;&#x10D8;</short>
+        <short xml:lang="ja">&#x914D;&#x7F6E;&#x5F62;&#x5F0F;</short>
+        <short xml:lang="it">Modalit&#xE0; di posizionamento</short>
+        <short xml:lang="hu">Elhelyez&#xE9;s m&#xF3;dja</short>
+        <short xml:lang="hr">Na&#x10D;in smje&#x161;taja</short>
+        <short xml:lang="hi">&#x928;&#x93F;&#x92F;&#x94B;&#x91C;&#x928; &#x92A;&#x94D;&#x930;&#x915;&#x93E;&#x930;</short>
+        <short xml:lang="he">&#x5DE;&#x5E6;&#x5D1; &#x5E7;&#x5D1;&#x5D9;&#x5E2;&#x5EA; &#x5DE;&#x5D9;&#x5E7;&#x5D5;&#x5DD;</short>
+        <short xml:lang="gu">&#xA97;&#xACB;&#xAA0;&#xAB5;&#xAA3;&#xAC0; &#xAB8;&#xACD;&#xAA5;&#xABF;&#xAA4;&#xABF;</short>
+        <short xml:lang="gl">Modo de Colocaci&#xF3;n</short>
+        <short xml:lang="fr">Mode de placement</short>
+        <short xml:lang="fi">K&#xE4;yetett&#xE4;v&#xE4; metodi sijoittamisessa</short>
+        <short xml:lang="eu">Kokapen Modua</short>
+        <short xml:lang="es">Modo de Posicionamiento</short>
+        <short xml:lang="en-GB">Placement Mode</short>
+        <short xml:lang="el">&#x3A4;&#x3C1;&#x3CC;&#x3C0;&#x3BF;&#x3C2; &#x3C4;&#x3BF;&#x3C0;&#x3BF;&#x3B8;&#x3AD;&#x3C4;&#x3B7;&#x3C3;&#x3B7;&#x3C2;</short>
+        <short xml:lang="de">Platzierungsmodus</short>
+        <short xml:lang="cs">Rozm&#xED;st&#x11B;n&#xED; oken</short>
+        <short xml:lang="ca">Mode de posicionament</short>
+        <short xml:lang="bn">&#x9AA;&#x9CD;&#x9B0;&#x9A4;&#x9BF;&#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9AA;&#x9A8; &#x9AA;&#x9CD;&#x9B0;&#x9A3;&#x9BE;&#x9B2;&#x9C0;</short>
+        <short xml:lang="bn-IN">&#x9AA;&#x9CD;&#x9B0;&#x9A4;&#x9BF;&#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9AA;&#x9A8; &#x9AA;&#x9CD;&#x9B0;&#x9A3;&#x9BE;&#x9B2;&#x9C0;</short>
+        <long>Algorithm to use for window placement</long>
+        <long xml:lang="zh-Hant-TW">&#x8996;&#x7A97;&#x653E;&#x7F6E;&#x7684;&#x4F7F;&#x7528;&#x65B9;&#x5F0F;</long>
+        <long xml:lang="zh-Hans-CN">&#x653E;&#x7F6E;&#x7A97;&#x53E3;&#x6240;&#x7528;&#x7684;&#x7B97;&#x6CD5;</long>
+        <long xml:lang="uk">&#x410;&#x43B;&#x433;&#x43E;&#x440;&#x438;&#x442;&#x43C;, &#x449;&#x43E; &#x432;&#x438;&#x43A;&#x43E;&#x440;&#x438;&#x441;&#x442;&#x43E;&#x432;&#x443;&#x454;&#x442;&#x44C;&#x441;&#x44F; &#x434;&#x43B;&#x44F; &#x440;&#x43E;&#x437;&#x43C;&#x456;&#x449;&#x435;&#x43D;&#x43D;&#x44F; &#x432;&#x456;&#x43A;&#x43D;&#x430;</long>
+        <long xml:lang="tr">Pencere yerle&#x15F;imi i&#xE7;in kullan&#x131;lacak algoritma</long>
+        <long xml:lang="sv">Algoritm att anv&#xE4;nda f&#xF6;r f&#xF6;nsterplacering</long>
+        <long xml:lang="sk">Algoritmus pou&#x17E;it&#xFD; pre rozmiestnenie okna</long>
+        <long xml:lang="ru">&#x410;&#x43B;&#x433;&#x43E;&#x440;&#x438;&#x442;&#x43C;, &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x443;&#x435;&#x43C;&#x44B;&#x439; &#x434;&#x43B;&#x44F; &#x440;&#x430;&#x437;&#x43C;&#x435;&#x449;&#x435;&#x43D;&#x438;&#x44F; &#x43E;&#x43A;&#x43D;&#x430;</long>
+        <long xml:lang="ro">Algoritm de utilizat pentru amplasarea ferestrelor</long>
+        <long xml:lang="pt-BR">Algoritmo usado para a disposi&#xE7;&#xE3;o das janelas</long>
+        <long xml:lang="pt">Algoritmo usado para dispor janelas</long>
+        <long xml:lang="pl">Algorytm u&#x17C;ywany do rozmieszczenia okien</long>
+        <long xml:lang="pa">&#xA35;&#xA3F;&#xA70;&#xA21;&#xA4B; &#xA38;&#xA25;&#xA3F;&#xA24;&#xA40; &#xA2C;&#xA26;&#xA32;&#xA23; &#xA35;&#xA3E;&#xA38;&#xA24;&#xA47; &#xA10;&#xA32;&#xA4B;&#xA17;&#xA30;&#xA25;&#xA3F;&#xA2E;</long>
+        <long xml:lang="or">&#xB09;&#xB07;&#xB23;&#xB4D;&#xB21;&#xB4B; &#xB38;&#xB4D;&#xB25;&#xB3E;&#xB2A;&#xB28; &#xB2A;&#xB3E;&#xB07;&#xB01; &#xB09;&#xB2A;&#xB5F;&#xB4B;&#xB17; &#xB39;&#xB47;&#xB2C;&#xB3E;&#xB15;&#xB41; &#xB25;&#xB3F;&#xB2C;&#xB3E; &#xB06;&#xB32;&#xB17;&#xB4B;&#xB30;&#xB3F;&#xB25;&#xB2E;</long>
+        <long xml:lang="nl">Te gebruiken algoritme om vensters te plaatsen</long>
+        <long xml:lang="nb">Algoritme som brukes for plassering av vinduer</long>
+        <long xml:lang="ko">&#xCC3D; &#xBC30;&#xCE58;&#xC5D0; &#xC0AC;&#xC6A9;&#xD560; &#xC54C;&#xACE0;&#xB9AC;&#xC998;</long>
+        <long xml:lang="ka">&#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D8;&#x10E1; &#x10DB;&#x10DD;&#x10D7;&#x10D0;&#x10D5;&#x10E1;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10D0;&#x10DA;&#x10D2;&#x10DD;&#x10E0;&#x10D8;&#x10D7;&#x10DB;&#x10D8;</long>
+        <long xml:lang="ja">&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x914D;&#x7F6E;&#x306B;&#x4F7F;&#x7528;&#x3059;&#x308B;&#x30A2;&#x30EB;&#x30B4;&#x30EA;&#x30BA;&#x30E0;</long>
+        <long xml:lang="it">Algoritmo da usare per il posizionamento della finestra</long>
+        <long xml:lang="hu">Az ablakok elhelyez&#xE9;s&#xE9;re haszn&#xE1;lt algoritmus</long>
+        <long xml:lang="hr">Algoritam za kori&#x161;tenje smje&#x161;taja prozora</long>
+        <long xml:lang="hi">&#x935;&#x93F;&#x902;&#x921;&#x94B; &#x938;&#x94D;&#x925;&#x93E;&#x92A;&#x928; &#x915;&#x947; &#x932;&#x93F;&#x90F; &#x92A;&#x94D;&#x930;&#x92F;&#x94B;&#x917; &#x915;&#x947; &#x932;&#x93F;&#x90F; &#x905;&#x932;&#x917;&#x94B;&#x930;&#x93F;&#x925;&#x92E;</long>
+        <long xml:lang="he">&#x5D0;&#x5DC;&#x5D2;&#x5D5;&#x5E8;&#x5D9;&#x5EA;&#x5DD; &#x5DC;&#x5E7;&#x5D1;&#x5D9;&#x5E2;&#x5EA; &#x5DE;&#x5D9;&#x5E7;&#x5D5;&#x5DD; &#x5D4;&#x5D7;&#x5DC;&#x5D5;&#x5DF;</long>
+        <long xml:lang="gu">&#xAB5;&#xABF;&#xAA8;&#xACD;&#xAA1;&#xACB; &#xA97;&#xACB;&#xAA0;&#xAB5;&#xAA3;&#xAC0; &#xAAE;&#xABE;&#xA9F;&#xAC7; &#xAB5;&#xABE;&#xAAA;&#xAB0;&#xAB5;&#xABE;&#xAA8;&#xACB; &#xA85;&#xAB2;&#xA97;&#xACB;&#xAB0;&#xABF;&#xAA7;&#xAAE;</long>
+        <long xml:lang="gl">Algoritmo a empregar para posicionar as xanelas</long>
+        <long xml:lang="fr">Algorithme &#xE0; utiliser pour le d&#xE9;placement des fen&#xEA;tres</long>
+        <long xml:lang="fi">Ikkunan sijoittamiseen k&#xE4;yettett&#xE4;v&#xE4; algoritmi</long>
+        <long xml:lang="eu">Leiho kokapenerako algoritmoa</long>
+        <long xml:lang="es">Algoritmo a emplear para el posicionamiento de ventanas</long>
+        <long xml:lang="en-GB">Algorithm to use for window placement</long>
+        <long xml:lang="el">&#x391;&#x3BB;&#x3B3;&#x3CC;&#x3C1;&#x3B9;&#x3B8;&#x3BC;&#x3BF;&#x3C2; &#x3B3;&#x3B9;&#x3B1; &#x3C4;&#x3BF;&#x3C0;&#x3BF;&#x3B8;&#x3AD;&#x3C4;&#x3B7;&#x3C3;&#x3B7; &#x3C4;&#x3C9;&#x3BD; &#x3C0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3C9;&#x3BD;</long>
+        <long xml:lang="de">Algorithmus f&#xFC;r die Fensterpositionierung</long>
+        <long xml:lang="cs">Algoritmus pou&#x17E;it&#xFD; pro rozm&#xED;st&#x11B;n&#xED; oken</long>
+        <long xml:lang="ca">Algoritme a utilitzar per al posicionament de les finestres</long>
+        <long xml:lang="bn">&#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB; &#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9AA;&#x9A8;&#x9C7;&#x9B0; &#x99C;&#x9A8;&#x9CD;&#x9AF; &#x9AC;&#x9CD;&#x9AF;&#x9AC;&#x9B9;&#x9C3;&#x9A4; &#x985;&#x9CD;&#x9AF;&#x9BE;&#x9B2;&#x997;&#x9CB;&#x9B0;&#x9BF;&#x9A6;&#x9AE;</long>
+        <long xml:lang="bn-IN">&#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB; &#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9AA;&#x9A8;&#x9C7;&#x9B0; &#x99C;&#x9A8;&#x9CD;&#x9AF; &#x9AC;&#x9CD;&#x9AF;&#x9AC;&#x9B9;&#x9C3;&#x9A4; &#x985;&#x9CD;&#x9AF;&#x9BE;&#x9B2;&#x997;&#x9CB;&#x9B0;&#x9BF;&#x9A6;&#x9AE;</long>
+        <long xml:lang="bg">&#x410;&#x43B;&#x433;&#x43E;&#x440;&#x438;&#x442;&#x44A;&#x43C;, &#x43A;&#x43E;&#x439;&#x442;&#x43E; &#x434;&#x430; &#x441;&#x435; &#x438;&#x437;&#x43F;&#x43E;&#x43B;&#x437;&#x432;&#x430; &#x43F;&#x440;&#x438; &#x43F;&#x43E;&#x441;&#x442;&#x430;&#x432;&#x44F;&#x43D;&#x435;&#x442;&#x43E; &#x43D;&#x430; &#x43F;&#x440;&#x43E;&#x437;&#x43E;&#x440;&#x446;&#x438;&#x442;&#x435;</long>
+        <default>0</default>
+        <min>0</min>
+        <max>5</max>
+        <desc>
+          <value>0</value>
+          <name>Cascade</name>
+          <name xml:lang="zh-Hant-TW">&#x5C64;&#x758A;</name>
+          <name xml:lang="zh-Hans-CN">&#x5C42;&#x53E0;</name>
+          <name xml:lang="uk">&#x41A;&#x430;&#x441;&#x43A;&#x430;&#x434;&#x43E;&#x43C;</name>
+          <name xml:lang="tr">Basamakla</name>
+          <name xml:lang="sv">Kaskad</name>
+          <name xml:lang="sk">Kask&#xE1;da</name>
+          <name xml:lang="ru">&#x41A;&#x430;&#x441;&#x43A;&#x430;&#x434;&#x43E;&#x43C;</name>
+          <name xml:lang="ro">Cascad&#x103;</name>
+          <name xml:lang="pt-BR">Cascata</name>
+          <name xml:lang="pt">Cascata</name>
+          <name xml:lang="pl">Kaskada</name>
+          <name xml:lang="pa">&#xA15;&#xA48;&#xA38;&#xA15;&#xA47;&#xA21;</name>
+          <name xml:lang="or">&#xB15;&#xB4D;&#xB2F;&#xB3E;&#xB38;&#xB15;&#xB47;&#xB21;</name>
+          <name xml:lang="nl">Achter elkaar</name>
+          <name xml:lang="nb">Tett-i-tett</name>
+          <name xml:lang="ko">&#xACC4;&#xB2E8;</name>
+          <name xml:lang="ka">&#x10D9;&#x10D0;&#x10E1;&#x10D9;&#x10D0;&#x10D3;&#x10D8;</name>
+          <name xml:lang="ja">&#x30AB;&#x30B9;&#x30B1;&#x30FC;&#x30C9;</name>
+          <name xml:lang="it">Cascata</name>
+          <name xml:lang="hu">L&#xE9;pcs&#x151;zetes</name>
+          <name xml:lang="hr">Kaskadan</name>
+          <name xml:lang="hi">&#x92A;&#x94D;&#x930;&#x92A;&#x93E;&#x924;&#x940;</name>
+          <name xml:lang="he">&#x5D3;&#x5D9;&#x5E8;&#x5D5;&#x5D2;</name>
+          <name xml:lang="gu">&#xAA7;&#xACB;&#xAA7;&#xAB5;&#xABE;&#xAB3;&#xAC1;&#xA82;</name>
+          <name xml:lang="gl">En Cascada</name>
+          <name xml:lang="fr">Cascade</name>
+          <name xml:lang="fi">Porrasta</name>
+          <name xml:lang="eu">Kaskadan</name>
+          <name xml:lang="es">Cascada</name>
+          <name xml:lang="en-GB">Cascade</name>
+          <name xml:lang="el">&#x39A;&#x3B1;&#x3C4;&#x3C4;&#x3B1;&#x3C1;&#x3AC;&#x3BA;&#x3C4;&#x3B7;&#x3C2;</name>
+          <name xml:lang="de">Kaskadenf&#xF6;rmig</name>
+          <name xml:lang="cs">Kask&#xE1;da</name>
+          <name xml:lang="ca">Cascada</name>
+          <name xml:lang="bn">&#x995;&#x9BE;&#x9B8;&#x995;&#x9C7;&#x9A1;</name>
+          <name xml:lang="bn-IN">&#x995;&#x9BE;&#x9B8;&#x995;&#x9C7;&#x9A1;</name>
+          <name xml:lang="bg">&#x41A;&#x430;&#x441;&#x43A;&#x430;&#x434;&#x43D;&#x43E; &#x43F;&#x43E;&#x434;&#x440;&#x435;&#x436;&#x434;&#x430;&#x43D;&#x435;</name>
+        </desc>
+        <desc>
+          <value>1</value>
+          <name>Centered</name>
+          <name xml:lang="zh-Hant-TW">&#x5C45;&#x4E2D;</name>
+          <name xml:lang="zh-Hans-CN">&#x5C45;&#x4E2D;</name>
+          <name xml:lang="uk">&#x423; &#x446;&#x435;&#x43D;&#x442;&#x440;&#x456;</name>
+          <name xml:lang="tr">Ortalanm&#x131;&#x15F;</name>
+          <name xml:lang="sv">Centrerad</name>
+          <name xml:lang="sk">Vystrednen&#xE9;</name>
+          <name xml:lang="ru">&#x41F;&#x43E; &#x446;&#x435;&#x43D;&#x442;&#x440;&#x443;</name>
+          <name xml:lang="ro">Centrat</name>
+          <name xml:lang="pt-BR">Centralizado</name>
+          <name xml:lang="pt">Centrado</name>
+          <name xml:lang="pl">Wy&#x15B;rodkowany</name>
+          <name xml:lang="pa">&#xA38;&#xA48;&#xA02;&#xA1F;&#xA30;&#xA21;</name>
+          <name xml:lang="or">&#xB15;&#xB47;&#xB28;&#xB4D;&#xB26;&#xB4D;&#xB30;&#xB3F;&#xB24;</name>
+          <name xml:lang="nl">Gecentreerd</name>
+          <name xml:lang="nb">Sentrert</name>
+          <name xml:lang="ko">&#xC911;&#xC559;</name>
+          <name xml:lang="ka">&#x10E8;&#x10E3;&#x10D0;&#x10D6;&#x10D4; &#x10D2;&#x10D0;&#x10E1;&#x10EC;&#x10DD;&#x10E0;&#x10D4;&#x10D1;&#x10E3;&#x10DA;&#x10D8;</name>
+          <name xml:lang="ja">&#x4E2D;&#x592E;</name>
+          <name xml:lang="it">Centrato</name>
+          <name xml:lang="hu">K&#xF6;z&#xE9;pre</name>
+          <name xml:lang="hr">Centriran</name>
+          <name xml:lang="hi">&#x915;&#x947;&#x902;&#x926;&#x94D;&#x930;&#x93F;&#x924;</name>
+          <name xml:lang="he">&#x5DE;&#x5DE;&#x5D5;&#x5E8;&#x5DB;&#x5D6;</name>
+          <name xml:lang="gu">&#xA95;&#xAC7;&#xAA8;&#xACD;&#xAA6;&#xACD;&#xAB0;&#xABF;&#xAA4; &#xAA5;&#xAAF;&#xAC7;&#xAB2;</name>
+          <name xml:lang="gl">Centrado</name>
+          <name xml:lang="fr">Centr&#xE9;</name>
+          <name xml:lang="fi">Keskitetty</name>
+          <name xml:lang="eu">Zentratua</name>
+          <name xml:lang="es">Centrado</name>
+          <name xml:lang="en-GB">Centred</name>
+          <name xml:lang="el">&#x3A3;&#x3C4;&#x3BF; &#x39A;&#x3AD;&#x3BD;&#x3C4;&#x3C1;&#x3BF;</name>
+          <name xml:lang="de">Zentriert</name>
+          <name xml:lang="cs">Centrovan&#xFD;</name>
+          <name xml:lang="ca">Centrat</name>
+          <name xml:lang="bn">&#x995;&#x9C7;&#x9A8;&#x9CD;&#x9A6;&#x9CD;&#x9B0;&#x9C0;&#x9AD;&#x9C2;&#x9A4;</name>
+          <name xml:lang="bn-IN">&#x995;&#x9C7;&#x9A8;&#x9CD;&#x9A6;&#x9CD;&#x9B0;&#x9C0;&#x9AD;&#x9C2;&#x9A4;</name>
+          <name xml:lang="bg">&#x426;&#x435;&#x43D;&#x442;&#x440;&#x438;&#x440;&#x430;&#x43D;&#x43E; &#x43F;&#x43E;&#x434;&#x440;&#x435;&#x436;&#x434;&#x430;&#x43D;&#x435;</name>
+        </desc>
+        <desc>
+          <value>2</value>
+          <name>Smart</name>
+          <name xml:lang="zh-Hant-TW">&#x8070;&#x660E;&#x6A21;&#x5F0F;</name>
+          <name xml:lang="zh-Hans-CN">&#x7075;&#x5DE7;</name>
+          <name xml:lang="uk">&#x420;&#x43E;&#x437;&#x443;&#x43C;&#x43D;&#x438;&#x439;</name>
+          <name xml:lang="tr">Ak&#x131;ll&#x131;</name>
+          <name xml:lang="sv">Smart</name>
+          <name xml:lang="sk">Inteligentn&#xE9;</name>
+          <name xml:lang="ru">&#x423;&#x43C;&#x43D;&#x44B;&#x439;</name>
+          <name xml:lang="ro">Inteligent</name>
+          <name xml:lang="pt-BR">Inteligente</name>
+          <name xml:lang="pt">Inteligente</name>
+          <name xml:lang="pl">Inteligentny</name>
+          <name xml:lang="pa">&#xA38;&#xA2E;&#xA3E;&#xA30;&#xA1F;</name>
+          <name xml:lang="or">&#xB38;&#xB4D;&#xB2B;&#xB41;&#xB30;&#xB4D;&#xB24;&#xB4D;&#xB24;&#xB3F;</name>
+          <name xml:lang="nl">Slim</name>
+          <name xml:lang="nb">Smart</name>
+          <name xml:lang="ko">&#xB611;&#xB611;&#xD558;&#xAC8C;</name>
+          <name xml:lang="ka">&#x10ED;&#x10D9;&#x10D5;&#x10D8;&#x10D0;&#x10DC;&#x10D8;</name>
+          <name xml:lang="ja">&#x30B9;&#x30DE;&#x30FC;&#x30C8;</name>
+          <name xml:lang="it">Intelligente</name>
+          <name xml:lang="hu">Intelligens</name>
+          <name xml:lang="hr">Pametan</name>
+          <name xml:lang="hi">&#x938;&#x94D;&#x92E;&#x93E;&#x930;&#x94D;&#x91F;</name>
+          <name xml:lang="he">&#x5D7;&#x5DB;&#x5DD;</name>
+          <name xml:lang="gu">&#xA9A;&#xAAA;&#xAB3;</name>
+          <name xml:lang="gl">Intelixente</name>
+          <name xml:lang="fr">Intelligent</name>
+          <name xml:lang="fi">&#xC4;lyk&#xE4;s</name>
+          <name xml:lang="eu">Adimentsua</name>
+          <name xml:lang="es">Inteligente</name>
+          <name xml:lang="en-GB">Smart</name>
+          <name xml:lang="el">&#x388;&#x3BE;&#x3C5;&#x3C0;&#x3BD;&#x3BF;</name>
+          <name xml:lang="de">Intelligent</name>
+          <name xml:lang="cs">Chytr&#xFD;</name>
+          <name xml:lang="ca">Intel&#xB7;ligent</name>
+          <name xml:lang="bn">&#x9B8;&#x9CD;&#x9AE;&#x9BE;&#x9B0;&#x9CD;&#x99F;</name>
+          <name xml:lang="bn-IN">&#x9B8;&#x9CD;&#x9AE;&#x9BE;&#x9B0;&#x9CD;&#x99F;</name>
+        </desc>
+        <desc>
+          <value>3</value>
+          <name>Maximize</name>
+          <name xml:lang="zh-Hant-TW">&#x6700;&#x5927;&#x5316;</name>
+          <name xml:lang="zh-Hans-CN">&#x6700;&#x5927;&#x5316;</name>
+          <name xml:lang="uk">&#x420;&#x43E;&#x437;&#x433;&#x43E;&#x440;&#x43D;&#x443;&#x442;&#x438;</name>
+          <name xml:lang="tr">B&#xFC;y&#xFC;t</name>
+          <name xml:lang="ta">&#xBAA;&#xBC6;&#xBB0;&#xBBF;&#xBA4;&#xBBE;&#xB95;&#xBCD;&#xB95;&#xBC1;</name>
+          <name xml:lang="sv">Maximera</name>
+          <name xml:lang="sk">Maximalizova&#x165;</name>
+          <name xml:lang="ru">&#x420;&#x430;&#x437;&#x432;&#x435;&#x440;&#x43D;&#x443;&#x442;&#x44C;</name>
+          <name xml:lang="pt-BR">Maximizar</name>
+          <name xml:lang="pt">Maximizar</name>
+          <name xml:lang="pl">Maksymalizuj</name>
+          <name xml:lang="or">&#xB38;&#xB30;&#xB4D;&#xB2C;&#xB3E;&#xB27;&#xB3F;&#xB15; &#xB15;&#xB30;</name>
+          <name xml:lang="nl">Maximaliseer</name>
+          <name xml:lang="nb">Maksimer</name>
+          <name xml:lang="ko">&#xCD5C;&#xB300;&#xD654;</name>
+          <name xml:lang="ka">&#x10D2;&#x10D0;&#x10D3;&#x10D8;&#x10D3;&#x10D4;&#x10D1;&#x10D0;</name>
+          <name xml:lang="ja">&#x6700;&#x5927;&#x5316;</name>
+          <name xml:lang="it">Massimizzato</name>
+          <name xml:lang="hu">Maximaliz&#xE1;l&#xE1;s</name>
+          <name xml:lang="hr">Pove&#x107;aj</name>
+          <name xml:lang="he">&#x5D4;&#x5D2;&#x5D3;&#x5DC; &#x5DC;&#x5DE;&#x5E7;&#x5E1;&#x5D9;&#x5DE;&#x5D5;&#x5DD;</name>
+          <name xml:lang="gu">&#xAAE;&#xAB9;&#xAA4;&#xACD;&#xAA4;&#xAAE; &#xA95;&#xAB0;&#xACB;</name>
+          <name xml:lang="gl">Maximizar</name>
+          <name xml:lang="fr">Maximiser</name>
+          <name xml:lang="fi">Suurenna</name>
+          <name xml:lang="eu">Maximizatu</name>
+          <name xml:lang="es">Maximizada</name>
+          <name xml:lang="en-GB">Maximise</name>
+          <name xml:lang="el">&#x39C;&#x3B5;&#x3B3;&#x3B9;&#x3C3;&#x3C4;&#x3BF;&#x3C0;&#x3BF;&#x3AF;&#x3B7;&#x3C3;&#x3B5;</name>
+          <name xml:lang="de">Maximieren</name>
+          <name xml:lang="ca">Minimitza</name>
+          <name xml:lang="bn">&#x9AC;&#x9A1;&#x9BC; &#x995;&#x9B0;&#x9BE;</name>
+          <name xml:lang="bn-IN">&#x9AC;&#x9A1;&#x9BC; &#x995;&#x9B0;&#x9BE;</name>
+          <name xml:lang="ar">&#x62A;&#x643;&#x628;&#x64A;&#x631;</name>
+        </desc>
+        <desc>
+          <value>4</value>
+          <name>Random</name>
+          <name xml:lang="zh-Hant-TW">&#x96A8;&#x6A5F;&#x4E82;&#x6578;</name>
+          <name xml:lang="zh-Hans-CN">&#x968F;&#x673A;</name>
+          <name xml:lang="uk">&#x412;&#x438;&#x43F;&#x430;&#x434;&#x43A;&#x43E;&#x432;&#x438;&#x439;</name>
+          <name xml:lang="tr">Rastgele</name>
+          <name xml:lang="sv">Slumpm&#xE4;ssigt</name>
+          <name xml:lang="sk">N&#xE1;hodn&#xE9;</name>
+          <name xml:lang="ru">&#x421;&#x43B;&#x443;&#x447;&#x430;&#x439;&#x43D;&#x43E;</name>
+          <name xml:lang="ro">Aleator</name>
+          <name xml:lang="pt-BR">Aleat&#xF3;rio</name>
+          <name xml:lang="pt">Aleat&#xF3;rio</name>
+          <name xml:lang="pl">Losowy</name>
+          <name xml:lang="pa">&#xA30;&#xA48;&#xA02;&#xA21;&#xA2E;</name>
+          <name xml:lang="or">&#xB15;&#xB4D;&#xB30;&#xB2E;&#xB39;&#xB40;&#xB28;</name>
+          <name xml:lang="nl">Willekeurig</name>
+          <name xml:lang="nb">Tilfeldig</name>
+          <name xml:lang="ko">&#xBB34;&#xC791;&#xC704;&#xB85C;</name>
+          <name xml:lang="ka">&#x10E8;&#x10D4;&#x10DB;&#x10D7;&#x10EE;&#x10D5;&#x10D4;&#x10D5;&#x10D8;&#x10D7;&#x10D8;</name>
+          <name xml:lang="ja">&#x30E9;&#x30F3;&#x30C0;&#x30E0;</name>
+          <name xml:lang="it">Casuale</name>
+          <name xml:lang="hu">V&#xE9;letlen</name>
+          <name xml:lang="hr">Naizmjeni&#x10D;an</name>
+          <name xml:lang="hi">&#x915;&#x94D;&#x930;&#x92E;&#x939;&#x940;&#x928;</name>
+          <name xml:lang="he">&#x5D0;&#x5E7;&#x5E8;&#x5D0;&#x5D9;</name>
+          <name xml:lang="gu">&#xAB0;&#xAC7;&#xAA8;&#xACD;&#xAA1;&#xAAE;</name>
+          <name xml:lang="gl">Aleatorio</name>
+          <name xml:lang="fr">Al&#xE9;atoire</name>
+          <name xml:lang="fi">Satunnainen</name>
+          <name xml:lang="eu">Ausaz</name>
+          <name xml:lang="es">Aleatorio</name>
+          <name xml:lang="en-GB">Random</name>
+          <name xml:lang="el">&#x3A4;&#x3C5;&#x3C7;&#x3B1;&#x3AF;&#x3B1;</name>
+          <name xml:lang="de">Zuf&#xE4;llig</name>
+          <name xml:lang="cs">N&#xE1;hodn&#xFD;</name>
+          <name xml:lang="ca">Aleatori</name>
+          <name xml:lang="bn">&#x987;&#x99A;&#x9CD;&#x99B;&#x9BE;&#x9AE;&#x9A4;</name>
+          <name xml:lang="bn-IN">&#x987;&#x99A;&#x9CD;&#x99B;&#x9BE;&#x9AE;&#x9A4;</name>
+          <name xml:lang="bg">&#x41F;&#x440;&#x43E;&#x438;&#x437;&#x432;&#x43E;&#x43B;&#x43D;&#x43E;</name>
+        </desc>
+        <desc>
+          <value>5</value>
+          <name>Under pointer</name>
+          <name xml:lang="ka">&#x10DB;&#x10D0;&#x10E9;&#x10D5;&#x10D4;&#x10DC;&#x10D4;&#x10D1;&#x10DA;&#x10D8;&#x10E1; &#x10E5;&#x10D5;&#x10D4;&#x10E8;</name>
+          <name xml:lang="hr">Ispod pokaziva&#x10D;a</name>
+          <name xml:lang="en-GB">Under pointer</name>
+          <name xml:lang="ca">A sota del punter</name>
+        </desc>
+      </option>
+      <option name="multioutput_mode" type="int">
+        <short>Multi Output Mode</short>
+        <short xml:lang="zh-Hant-TW">&#x591A;&#x91CD;&#x8F38;&#x51FA;&#x6A21;&#x5F0F;</short>
+        <short xml:lang="zh-Hans-CN">&#x591A;&#x91CD;&#x8F93;&#x51FA;&#x6A21;&#x5F0F;</short>
+        <short xml:lang="uk">&#x420;&#x435;&#x436;&#x438;&#x43C; &#x43C;&#x43D;&#x43E;&#x436;&#x438;&#x43D;&#x43D;&#x43E;&#x433;&#x43E; &#x432;&#x438;&#x432;&#x43E;&#x434;&#x443;</short>
+        <short xml:lang="tr">&#xC7;oklu &#xC7;&#x131;kt&#x131; Kipi</short>
+        <short xml:lang="sv">L&#xE4;ge f&#xF6;r multipla utmatningar</short>
+        <short xml:lang="sk">Viacn&#xE1;sobn&#xFD; v&#xFD;stupn&#xFD; re&#x17E;im</short>
+        <short xml:lang="ru">&#x420;&#x435;&#x436;&#x438;&#x43C; &#x43C;&#x43D;&#x43E;&#x436;&#x435;&#x441;&#x442;&#x432;&#x435;&#x43D;&#x43D;&#x43E;&#x433;&#x43E; &#x432;&#x44B;&#x432;&#x43E;&#x434;&#x430;</short>
+        <short xml:lang="ro">Regim &#x201E;Ie&#x219;iri multiple&#x201D;</short>
+        <short xml:lang="pt-BR">Modo de Multi Sa&#xED;da</short>
+        <short xml:lang="pt">Modo de Multi Sa&#xED;da</short>
+        <short xml:lang="pl">Tryb wielu urz&#x105;dze&#x144; wyj&#x15B;ciowych</short>
+        <short xml:lang="pa">&#xA2E;&#xA32;&#xA1F;&#xA40; &#xA06;&#xA09;&#xA1F;&#xA2A;&#xA41;&#xA71;&#xA1F; &#xA2E;&#xA4B;&#xA21;</short>
+        <short xml:lang="or">&#xB2C;&#xB39;&#xB41;-&#xB06;&#xB09;&#xB1F;&#xB2A;&#xB41;&#xB1F; &#xB2E;&#xB4B;&#xB21;</short>
+        <short xml:lang="nl">Multi uitvoer modus</short>
+        <short xml:lang="nb">Flerskjermsmodus</short>
+        <short xml:lang="ko">&#xB2E4;&#xC911; &#xD654;&#xBA74; &#xBAA8;&#xB4DC;</short>
+        <short xml:lang="ka">&#x10DB;&#x10E0;&#x10D0;&#x10D5;&#x10D0;&#x10DA;&#x10D2;&#x10D0;&#x10DB;&#x10DD;&#x10E2;&#x10D0;&#x10DC;&#x10D8;&#x10D0;&#x10DC;&#x10D8; &#x10E0;&#x10D4;&#x10DF;&#x10D8;&#x10DB;&#x10D8;</short>
+        <short xml:lang="ja">&#x30DE;&#x30EB;&#x30C1;&#x51FA;&#x529B;&#x306E;&#x5F62;&#x5F0F;</short>
+        <short xml:lang="it">Modalit&#xE0; multi-output</short>
+        <short xml:lang="hu">T&#xF6;bbkimenetes &#xFC;zemm&#xF3;d</short>
+        <short xml:lang="hr">Vi&#x161;e izlazni na&#x10D;in</short>
+        <short xml:lang="hi">&#x92E;&#x932;&#x94D;&#x91F;&#x940; &#x906;&#x909;&#x91F;&#x92A;&#x941;&#x91F; &#x92A;&#x94D;&#x930;&#x915;&#x93E;&#x930;</short>
+        <short xml:lang="he">&#x5DE;&#x5E6;&#x5D1; &#x5E4;&#x5DC;&#x5D8; &#x5DE;&#x5E8;&#x5D5;&#x5D1;&#x5D4;</short>
+        <short xml:lang="gu">&#xAB5;&#xABF;&#xAB5;&#xABF;&#xAA7; &#xA86;&#xA89;&#xA9F;&#xAAA;&#xAC1;&#xA9F; &#xAB8;&#xACD;&#xAA5;&#xABF;&#xAA4;&#xABF;</short>
+        <short xml:lang="gl">Modo de sa&#xED;da m&#xFA;ltiple</short>
+        <short xml:lang="fr">Mode de sorties multiples</short>
+        <short xml:lang="fi">Useita ulostuloja</short>
+        <short xml:lang="eu">Irteera anitzeko modua</short>
+        <short xml:lang="es">Modo de multi salidas</short>
+        <short xml:lang="en-GB">Multi Output Mode</short>
+        <short xml:lang="el">K&#x3B1;&#x3C4;&#x3AC;&#x3C3;&#x3C4;&#x3B1;&#x3C3;&#x3B7; &#x3A0;&#x3BF;&#x3BB;&#x3BB;&#x3B1;&#x3C0;&#x3BB;&#x3CE;&#x3BD; &#x39F;&#x3B8;&#x3BF;&#x3BD;&#x3CE;&#x3BD;</short>
+        <short xml:lang="de">Modus f&#xFC;r Mehrfachausgabe</short>
+        <short xml:lang="ca">Mode de sortida m&#xFA;ltiple</short>
+        <short xml:lang="bn">&#x9AC;&#x9BF;&#x9AC;&#x9BF;&#x9A7; &#x986;&#x989;&#x99F;&#x9AA;&#x9C1;&#x99F; &#x9AA;&#x9CD;&#x9B0;&#x9A3;&#x9BE;&#x9B2;&#x9C0;</short>
+        <short xml:lang="bn-IN">&#x9AC;&#x9BF;&#x9AC;&#x9BF;&#x9A7; &#x986;&#x989;&#x99F;&#x9AA;&#x9C1;&#x99F; &#x9AA;&#x9CD;&#x9B0;&#x9A3;&#x9BE;&#x9B2;&#x9C0;</short>
+        <long>Selects how window placement should behave if multiple outputs are selected</long>
+        <long xml:lang="zh-Hant-TW">&#x5982;&#x679C;&#x6709;&#x591A;&#x500B;&#x8F38;&#x51FA;&#x88DD;&#x7F6E;&#x53EF;&#x4F7F;&#x7528;&#x6642;&#xFF0C;&#x8996;&#x7A97;&#x8981;&#x5982;&#x4F55;&#x5B9A;&#x4F4D;&#x3002;</long>
+        <long xml:lang="zh-Hans-CN">&#x9009;&#x62E9;&#x5F53;&#x9009;&#x7528;&#x4E86;&#x591A;&#x91CD;&#x8F93;&#x51FA;&#x65F6;&#x7A97;&#x53E3;&#x653E;&#x7F6E;&#x7684;&#x884C;&#x4E3A;</long>
+        <long xml:lang="uk">&#x412;&#x438;&#x431;&#x456;&#x440; &#x44F;&#x43A; &#x43C;&#x430;&#x454; &#x441;&#x435;&#x431;&#x435; &#x432;&#x435;&#x441;&#x442;&#x438; &#x43F;&#x43E;&#x437;&#x438;&#x446;&#x456;&#x43E;&#x43D;&#x443;&#x432;&#x430;&#x43D;&#x43D;&#x44F; &#x432;&#x456;&#x43A;&#x43E;&#x43D;, &#x44F;&#x43A;&#x449;&#x43E; &#x432;&#x438;&#x43A;&#x43E;&#x440;&#x438;&#x441;&#x442;&#x43E;&#x432;&#x443;&#x454;&#x442;&#x44C;&#x441;&#x44F; &#x434;&#x435;&#x43A;&#x456;&#x43B;&#x44C;&#x43A;&#x430; &#x432;&#x438;&#x432;&#x43E;&#x434;&#x456;&#x432;</long>
+        <long xml:lang="sk">Ozna&#x10D;uje ako by sa malo spr&#xE1;va&#x165; umiest&#x148;ovanie okien ak je ozna&#x10D;en&#xFD;ch viacero v&#xFD;stupov</long>
+        <long xml:lang="ru">&#x412;&#x44B;&#x431;&#x43E;&#x440; &#x43A;&#x430;&#x43A; &#x434;&#x43E;&#x43B;&#x436;&#x43D;&#x43E; &#x441;&#x435;&#x431;&#x44F; &#x432;&#x435;&#x441;&#x442;&#x438; &#x43F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x43E;&#x43D;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x43A;&#x43E;&#x43D;, &#x435;&#x441;&#x43B;&#x438; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x443;&#x435;&#x442;&#x441;&#x44F; &#x43D;&#x435;&#x441;&#x43A;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x432;&#x44B;&#x432;&#x43E;&#x434;&#x43E;&#x432;</long>
+        <long xml:lang="ro">Alege comportamentul amplas&#x103;rii &#xEE;n prezen&#x21B;a ie&#x219;irilor multiple</long>
+        <long xml:lang="pt">Selecciona como a coloca&#xE7;&#xE3;o de janelas se deve comportar se estiverem seleccionados m&#xFA;ltiplos dispositivos de sa&#xED;da.</long>
+        <long xml:lang="pl">Okre&#x15B;la jak powino si&#x119; zachowywa&#x107; rozmieszczenie okien je&#x15B;li jest u&#x17C;ywanych wiele urz&#x105;dze&#x144; wyj&#x15B;cia.</long>
+        <long xml:lang="ko">&#xB2E4;&#xC911; &#xD654;&#xBA74; &#xC7A5;&#xCE58; &#xC635;&#xC158;&#xC774; &#xD65C;&#xC131;&#xD654; &#xB418;&#xC5C8;&#xC744; &#xB54C; &#xCC3D;&#xC758; &#xBC30;&#xCE58;&#xB97C; &#xC5B4;&#xB5BB;&#xAC8C; &#xD560;&#xC9C0; &#xC120;&#xD0DD;&#xD558;&#xC138;&#xC694;.</long>
+        <long xml:lang="ka">&#x10D0;&#x10D8;&#x10E0;&#x10E9;&#x10D4;&#x10D5;&#x10E1;, &#x10E0;&#x10DD;&#x10D2;&#x10DD;&#x10E0; &#x10EE;&#x10D3;&#x10D4;&#x10D1;&#x10D0; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10DC;&#x10DA;&#x10D0;&#x10D2;&#x10D4;&#x10D1;&#x10D0;, &#x10D7;&#x10E3; &#x10D0;&#x10E0;&#x10E9;&#x10D4;&#x10E3;&#x10DA;&#x10D8;&#x10D0; &#x10D4;&#x10E0;&#x10D7;&#x10D6;&#x10D4; &#x10DB;&#x10D4;&#x10E2;&#x10D8; &#x10D2;&#x10D0;&#x10DB;&#x10DD;&#x10E2;&#x10D0;&#x10DC;&#x10D0;</long>
+        <long xml:lang="ja">&#x30DE;&#x30EB;&#x30C1;&#x51FA;&#x529B;&#x304C;&#x9078;&#x629E;&#x3055;&#x308C;&#x3066;&#x3044;&#x308B;&#x5834;&#x5408;&#x306E;&#x3001;&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x914D;&#x7F6E;&#x306E;&#x632F;&#x308B;&#x821E;&#x3044;&#x306E;&#x9078;&#x629E;</long>
+        <long xml:lang="it">Seleziona il comportamento del posizionamento delle finestre se sono selezionati molteplici output</long>
+        <long xml:lang="hu">Megadja, hogy t&#xF6;bb kimeneti eszk&#xF6;z eset&#xE9;n, az ablakelhelyez&#xE9;s viselked&#xE9;s&#xE9;t</long>
+        <long xml:lang="hr">Odabire kako se treba pona&#x161;ati smje&#x161;tanje prozora ako je odabrano vi&#x161;e izlaza</long>
+        <long xml:lang="he">&#x5E7;&#x5D5;&#x5D1;&#x5E2; &#x5DB;&#x5D9;&#x5E6;&#x5D3; &#x5D9;&#x5E9; &#x5DC;&#x5DE;&#x5E7;&#x5DD; &#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA; &#x5D0;&#x5DD; &#x5E0;&#x5D1;&#x5D7;&#x5E8; &#x5D9;&#x5D5;&#x5EA;&#x5E8; &#x5DE;&#x5D4;&#x5EA;&#x5E7;&#x5DF; &#x5E4;&#x5DC;&#x5D8; &#x5D0;&#x5D7;&#x5D3;</long>
+        <long xml:lang="gl">Selecciona como se debe comportar a colocaci&#xF3;n de xanelas cando se seleccionan sa&#xED;das m&#xFA;ltiples</long>
+        <long xml:lang="fr">S&#xE9;lectionne comme un emplacement de fen&#xEA;tre pourrait se comporter si plusieurs sorties sont s&#xE9;lectionn&#xE9;es</long>
+        <long xml:lang="fi">M&#xE4;&#xE4;ritt&#xE4;&#xE4; kuinka ikkunoiden sijoittelun tulisi toimia, jos valittuina on useita ulostuloja</long>
+        <long xml:lang="eu">Hautatu nola kokatuko diren leihoak hainbat irteera gailu erabiltzen badira.</long>
+        <long xml:lang="es">Selecciona como debe comportarse el acomodamiento de ventanas si se selecciona multipes salidas</long>
+        <long xml:lang="en-GB">Selects how window placement should behave if multiple outputs are selected</long>
+        <long xml:lang="el">&#x395;&#x3C0;&#x3B9;&#x3BB;&#x3AD;&#x3B3;&#x3B5;&#x3B9; &#x3C4;&#x3BF; &#x3C0;&#x3C9;&#x3C2; &#x3B7; &#x3C4;&#x3BF;&#x3C0;&#x3BF;&#x3B8;&#x3AD;&#x3C4;&#x3B7;&#x3C3;&#x3B7; &#x3C0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3C9;&#x3BD; &#x3B8;&#x3B1; &#x3C3;&#x3C5;&#x3BC;&#x3C0;&#x3B5;&#x3C1;&#x3B9;&#x3C6;&#x3B5;&#x3C1;&#x3B8;&#x3B5;&#x3AF; &#x3B1;&#x3BD; &#x3B3;&#x3B9;&#x3BD;&#x3B5;&#x3B9; &#x3C7;&#x3C1;&#x3AE;&#x3C3;&#x3B7; &#x3C0;&#x3BF;&#x3BB;&#x3BB;&#x3B1;&#x3C0;&#x3BB;&#x3CE;&#x3BD; &#x3BF;&#x3B8;&#x3BF;&#x3BD;&#x3CE;&#x3BD;</long>
+        <long xml:lang="ca">Selecciona com s'ha de comportar el posicionament de les finestres si se seleccionen m&#xFA;ltiples sortides</long>
+        <min>0</min>
+        <max>3</max>
+        <default>0</default>
+        <desc>
+          <value>0</value>
+          <name>Use active output device</name>
+          <name xml:lang="zh-Hant-TW">&#x4F7F;&#x7528;&#x5DF2;&#x4F7F;&#x7528;&#x4E2D;&#x7684;&#x8F38;&#x51FA;&#x88DD;&#x7F6E;</name>
+          <name xml:lang="zh-Hans-CN">&#x4F7F;&#x7528;&#x5F53;&#x524D;&#x8F93;&#x51FA;&#x8BBE;&#x5907;</name>
+          <name xml:lang="uk">&#x412;&#x438;&#x43A;&#x43E;&#x440;&#x438;&#x441;&#x442;&#x43E;&#x432;&#x443;&#x432;&#x430;&#x442;&#x438; &#x430;&#x43A;&#x442;&#x438;&#x432;&#x43D;&#x438;&#x439; &#x43F;&#x440;&#x438;&#x441;&#x442;&#x440;&#x456;&#x439; &#x432;&#x438;&#x432;&#x43E;&#x434;&#x443;</name>
+          <name xml:lang="sk">Pou&#x17E;i&#x165; akt&#xED;vne v&#xFD;stupn&#xE9; zariadenie</name>
+          <name xml:lang="ru">&#x418;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x430;&#x43A;&#x442;&#x438;&#x432;&#x43D;&#x43E;&#x435; &#x443;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x441;&#x442;&#x432;&#x43E; &#x432;&#x44B;&#x432;&#x43E;&#x434;&#x430;</name>
+          <name xml:lang="ro">Folose&#x219;te dispozitivul de ie&#x219;ire activ</name>
+          <name xml:lang="pt">Usar dispositivo de sa&#xED;da activo</name>
+          <name xml:lang="pl">U&#x17C;yj aktywnego urz&#x105;dzenia wyj&#x15B;ciowego</name>
+          <name xml:lang="ko">&#xD65C;&#xC131;&#xD654; &#xB418;&#xC5B4;&#xC788;&#xB294; &#xBAA8;&#xB2C8;&#xD130; &#xC0AC;&#xC6A9;</name>
+          <name xml:lang="ka">&#x10D0;&#x10E5;&#x10E2;&#x10D8;&#x10E3;&#x10E0;&#x10D8; &#x10D2;&#x10D0;&#x10DB;&#x10DD;&#x10E2;&#x10D0;&#x10DC;&#x10D8;&#x10E1; &#x10DB;&#x10DD;&#x10EC;&#x10E7;&#x10DD;&#x10D1;&#x10D8;&#x10DA;&#x10DD;&#x10D1;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10DB;&#x10DD;&#x10E7;&#x10D4;&#x10DC;&#x10D4;&#x10D1;&#x10D0;</name>
+          <name xml:lang="ja">&#x30A2;&#x30AF;&#x30C6;&#x30A3;&#x30D6;&#x72B6;&#x614B;&#x306E;&#x51FA;&#x529B;&#x30C7;&#x30D0;&#x30A4;&#x30B9;&#x3092;&#x4F7F;&#x7528;</name>
+          <name xml:lang="it">Usare dispositivo di output attivo</name>
+          <name xml:lang="hu">Akt&#xED;v kimeneti eszk&#xF6;z haszn&#xE1;lata</name>
+          <name xml:lang="hr">Koristi ure&#x111;aj s aktivnim izlazom</name>
+          <name xml:lang="he">&#x5D4;&#x5E9;&#x5EA;&#x5DE;&#x5E9; &#x5D1;&#x5D4;&#x5EA;&#x5E7;&#x5DF; &#x5E4;&#x5DC;&#x5D8; &#x5E4;&#x5E2;&#x5D9;&#x5DC;</name>
+          <name xml:lang="gl">Empregar o dispositivo de sa&#xED;da activo</name>
+          <name xml:lang="fr">Utilise la p&#xE9;riph&#xE9;rique de sortie actif</name>
+          <name xml:lang="fi">K&#xE4;yt&#xE4; aktiivista ulostulolaitetta</name>
+          <name xml:lang="eu">Irteera gailu aktiboa erabili</name>
+          <name xml:lang="es">Usar el dispositivo de salida activo</name>
+          <name xml:lang="en-GB">Use active output device</name>
+          <name xml:lang="el">&#x3A7;&#x3C1;&#x3AE;&#x3C3;&#x3B7; &#x3C4;&#x3B7;&#x3C2; &#x3B5;&#x3BD;&#x3B5;&#x3C1;&#x3B3;&#x3AE;&#x3C2; &#x3C3;&#x3C5;&#x3C3;&#x3BA;&#x3B5;&#x3C5;&#x3AE;&#x3C2; &#x3B5;&#x3BE;&#x3CC;&#x3B4;&#x3BF;&#x3C5;</name>
+          <name xml:lang="ca">Utilitza el dispositiu de sortida actiu</name>
+        </desc>
+        <desc>
+          <value>1</value>
+          <name>Use output device with pointer</name>
+          <name xml:lang="zh-Hant-TW">&#x4F7F;&#x7528;&#x5DF2;&#x9078;&#x9EDE;&#x9078;&#x90A3;&#x500B;&#x8F38;&#x51FA;&#x88DD;&#x7F6E;</name>
+          <name xml:lang="zh-Hans-CN">&#x4F7F;&#x7528;&#x6307;&#x9488;&#x6240;&#x6307;&#x7684;&#x8F93;&#x51FA;&#x8BBE;&#x5907;</name>
+          <name xml:lang="uk">&#x412;&#x438;&#x43A;&#x43E;&#x440;&#x438;&#x441;&#x442;&#x43E;&#x432;&#x443;&#x432;&#x430;&#x442;&#x438; &#x43F;&#x440;&#x438;&#x441;&#x442;&#x440;&#x456;&#x439; &#x432;&#x438;&#x432;&#x435;&#x434;&#x435;&#x43D;&#x43D;&#x44F; &#x437; &#x43A;&#x443;&#x440;&#x441;&#x43E;&#x440;&#x43E;&#x43C;</name>
+          <name xml:lang="tr">&#xC7;&#x131;kt&#x131; ayg&#x131;t&#x131;n&#x131; i&#x15F;aret&#xE7;i ile kullan</name>
+          <name xml:lang="sk">Pou&#x17E;i&#x165; v&#xFD;stupn&#xE9; zariadenie s ukazovate&#x13E;om</name>
+          <name xml:lang="ru">&#x418;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x443;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x441;&#x442;&#x432;&#x43E; &#x432;&#x44B;&#x432;&#x43E;&#x434;&#x430; &#x441; &#x43A;&#x443;&#x440;&#x441;&#x43E;&#x440;&#x43E;&#x43C;</name>
+          <name xml:lang="ro">Folose&#x219;te dispozitivul de ie&#x219;ire cu indicatorul</name>
+          <name xml:lang="pt">Usar dispositivo de sa&#xED;da com cursor</name>
+          <name xml:lang="pl">U&#x17C;yj urz&#x105;dzenia wyj&#x15B;ciowego z kursorem myszy</name>
+          <name xml:lang="ko">&#xB9C8;&#xC6B0;&#xC2A4; &#xD3EC;&#xC778;&#xD130;&#xAC00; &#xC788;&#xB294; &#xBAA8;&#xB2C8;&#xD130; &#xC0AC;&#xC6A9;</name>
+          <name xml:lang="ka">&#x10D2;&#x10D0;&#x10DB;&#x10DD;&#x10E2;&#x10D0;&#x10DC;&#x10D8;&#x10E1; &#x10DB;&#x10DD;&#x10EC;&#x10E7;&#x10DD;&#x10D1;&#x10D8;&#x10DA;&#x10DD;&#x10D1;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10DB;&#x10DD;&#x10E7;&#x10D4;&#x10DC;&#x10D4;&#x10D1;&#x10D0;, &#x10E0;&#x10DD;&#x10DB;&#x10D4;&#x10DA;&#x10D6;&#x10D4;&#x10EA; &#x10D9;&#x10E3;&#x10E0;&#x10E1;&#x10DD;&#x10E0;&#x10D8;&#x10D0;</name>
+          <name xml:lang="ja">&#x30DD;&#x30A4;&#x30F3;&#x30BF;&#x304C;&#x7F6E;&#x304B;&#x308C;&#x3066;&#x3044;&#x308B;&#x51FA;&#x529B;&#x30C7;&#x30D0;&#x30A4;&#x30B9;&#x3092;&#x4F7F;&#x7528;</name>
+          <name xml:lang="it">Usare dispositivo di output con puntatore</name>
+          <name xml:lang="hu">Eg&#xE9;rmutat&#xF3;t megjelen&#xED;t&#x151; eszk&#xF6;z haszn&#xE1;lata</name>
+          <name xml:lang="hr">Koristi izlazni ure&#x111;aj s pokaziva&#x10D;em</name>
+          <name xml:lang="he">&#x5D4;&#x5E9;&#x5EA;&#x5DE;&#x5E9; &#x5D1;&#x5D4;&#x5EA;&#x5E7;&#x5DF; &#x5D4;&#x5E4;&#x5DC;&#x5D8; &#x5E2;&#x5DD; &#x5D4;&#x5E1;&#x5DE;&#x5DF;</name>
+          <name xml:lang="gl">Empregar o dispositivo de sa&#xED;da co punteiro</name>
+          <name xml:lang="fr">Utilise la p&#xE9;riph&#xE9;rique de sortie avec le pointeur</name>
+          <name xml:lang="fi">K&#xE4;yt&#xE4; osoittimen sis&#xE4;lt&#xE4;m&#xE4;&#xE4; ulostulolaitetta</name>
+          <name xml:lang="eu">Aukeratu irteera gailuan erakusleaz</name>
+          <name xml:lang="es">Usar el dispositivo de salida con apuntador</name>
+          <name xml:lang="en-GB">Use output device with pointer</name>
+          <name xml:lang="el">&#x3A7;&#x3C1;&#x3AE;&#x3C3;&#x3B7; &#x3C4;&#x3B7;&#x3C2; &#x3C3;&#x3C5;&#x3C3;&#x3BA;&#x3B5;&#x3C5;&#x3AE;&#x3C2; &#x3B5;&#x3BE;&#x3CC;&#x3B4;&#x3BF;&#x3C5; &#x3BC;&#x3B5; &#x3C4;&#x3BF;&#x3BD; &#x3B4;&#x3B5;&#x3AF;&#x3BA;&#x3C4;&#x3B7;</name>
+          <name xml:lang="ca">Utilitza el dispositiu de sortida amb el punter</name>
+        </desc>
+        <desc>
+          <value>2</value>
+          <name>Use output device of focused window</name>
+          <name xml:lang="zh-Hant-TW">&#x4F7F;&#x7528;&#x5DF2;&#x9078;&#x8996;&#x7A97;&#x7684;&#x90A3;&#x500B;&#x8F38;&#x51FA;&#x88DD;&#x7F6E;</name>
+          <name xml:lang="zh-Hans-CN">&#x4F7F;&#x7528;&#x5F53;&#x524D;&#x7A97;&#x53E3;&#x7684;&#x8F93;&#x51FA;&#x8BBE;&#x5907;</name>
+          <name xml:lang="uk">&#x412;&#x438;&#x43A;&#x43E;&#x440;&#x438;&#x441;&#x442;&#x43E;&#x432;&#x443;&#x432;&#x430;&#x442;&#x438; &#x43F;&#x440;&#x438;&#x441;&#x442;&#x440;&#x456;&#x439; &#x432;&#x438;&#x432;&#x43E;&#x434;&#x443; &#x441;&#x444;&#x43E;&#x43A;&#x443;&#x441;&#x43E;&#x432;&#x430;&#x43D;&#x43E;&#x433;&#x43E; &#x432;&#x456;&#x43A;&#x43D;&#x430;</name>
+          <name xml:lang="ru">&#x418;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x443;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x441;&#x442;&#x432;&#x43E; &#x432;&#x44B;&#x432;&#x43E;&#x434;&#x430; &#x441;&#x444;&#x43E;&#x43A;&#x443;&#x441;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x43E;&#x433;&#x43E; &#x43E;&#x43A;&#x43D;&#x430;</name>
+          <name xml:lang="pt">Usar dispositivo de sa&#xED;da da janela com foco</name>
+          <name xml:lang="pl">U&#x17C;yj urz&#x105;dzednia wyj&#x15B;ciowego na wybranym oknie</name>
+          <name xml:lang="ko">&#xD604;&#xC7AC; &#xC0AC;&#xC6A9; &#xC911;&#xC778; &#xCC3D;&#xC774; &#xC788;&#xB294; &#xBAA8;&#xB2C8;&#xD130; &#xC0AC;&#xC6A9;</name>
+          <name xml:lang="ka">&#x10D2;&#x10D0;&#x10DB;&#x10DD;&#x10E2;&#x10D0;&#x10DC;&#x10D8;&#x10E1; &#x10DB;&#x10DD;&#x10EC;&#x10E7;&#x10DD;&#x10D1;&#x10D8;&#x10DA;&#x10DD;&#x10D1;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10DB;&#x10DD;&#x10E7;&#x10D4;&#x10DC;&#x10D4;&#x10D1;&#x10D0;, &#x10E0;&#x10DD;&#x10DB;&#x10D4;&#x10DA;&#x10D6;&#x10D4;&#x10EA; &#x10E4;&#x10DD;&#x10D9;&#x10E3;&#x10E1;&#x10D8;&#x10E1; &#x10DB;&#x10E5;&#x10DD;&#x10DC;&#x10D4; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10D0;&#x10E0;&#x10D0;&#x10D0;</name>
+          <name xml:lang="ja">&#x30D5;&#x30A9;&#x30FC;&#x30AB;&#x30B9;&#x30FB;&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x306E;&#x51FA;&#x529B;&#x30C7;&#x30D0;&#x30A4;&#x30B9;&#x3092;&#x4F7F;&#x7528;</name>
+          <name xml:lang="it">Usare dispositivo di output della finestra col focus</name>
+          <name xml:lang="hu">F&#xF3;kusz&#xE1;lt ablakot megjelen&#xED;t&#x151; eszk&#xF6;z haszn&#xE1;lata</name>
+          <name xml:lang="hr">Koristi izlazni ure&#x111;aj fokusiranog prozora</name>
+          <name xml:lang="he">&#x5D4;&#x5E9;&#x5EA;&#x5DE;&#x5E9; &#x5D1;&#x5D4;&#x5EA;&#x5E7;&#x5DF; &#x5D4;&#x5E4;&#x5DC;&#x5D8; &#x5E9;&#x5DC; &#x5D4;&#x5D7;&#x5DC;&#x5D5;&#x5DF; &#x5D4;&#x5E4;&#x5E2;&#x5D9;&#x5DC;</name>
+          <name xml:lang="gl">Empregar o dispositivo de sa&#xED;da da xanela enfocada</name>
+          <name xml:lang="fr">Utilise la p&#xE9;riph&#xE9;rique de sortie sur la fen&#xEA;tre active</name>
+          <name xml:lang="fi">K&#xE4;yt&#xE4; kohdistetun ikkunan ulostulolaitetta</name>
+          <name xml:lang="eu">Fokua duen leihoaren irteera gailua erabili</name>
+          <name xml:lang="es">Usar el dispositivo de salida de la ventana enfocada</name>
+          <name xml:lang="en-GB">Use output device of focused window</name>
+          <name xml:lang="el">&#x3A7;&#x3C1;&#x3AE;&#x3C3;&#x3B7; &#x3C4;&#x3B7;&#x3C2; &#x3C3;&#x3C5;&#x3C3;&#x3BA;&#x3B5;&#x3C5;&#x3AE;&#x3C2; &#x3B5;&#x3BE;&#x3CC;&#x3B4;&#x3BF;&#x3C5; &#x3C4;&#x3BF;&#x3C5; &#x3B5;&#x3C3;&#x3C4;&#x3B9;&#x3B1;&#x3C3;&#x3BC;&#x3AD;&#x3BD;&#x3BF;&#x3C5; &#x3C0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3BF;&#x3C5;</name>
+          <name xml:lang="ca">Utilitza el dispositiu de sortida de la finestra amb focus</name>
+        </desc>
+        <desc>
+          <value>3</value>
+          <name>Place across all outputs</name>
+          <name xml:lang="zh-Hant-TW">&#x653E;&#x7F6E;&#x5728;&#x6240;&#x6709;&#x7684;&#x8F38;&#x51FA;&#x88DD;&#x7F6E;</name>
+          <name xml:lang="zh-Hans-CN">&#x8DE8;&#x8D8A;&#x6240;&#x6709;&#x8F93;&#x51FA;&#x653E;&#x7F6E;</name>
+          <name xml:lang="uk">&#x420;&#x43E;&#x437;&#x43C;&#x456;&#x449;&#x443;&#x432;&#x430;&#x442;&#x438; &#x43D;&#x430; &#x432;&#x441;&#x456;&#x445; &#x43F;&#x440;&#x438;&#x441;&#x442;&#x440;&#x43E;&#x44F;&#x445; &#x432;&#x438;&#x432;&#x43E;&#x434;&#x443;</name>
+          <name xml:lang="ru">&#x420;&#x430;&#x437;&#x43C;&#x435;&#x449;&#x430;&#x442;&#x44C; &#x43D;&#x430; &#x432;&#x441;&#x435;&#x445; &#x443;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x441;&#x442;&#x432;&#x430;&#x445; &#x432;&#x44B;&#x432;&#x43E;&#x434;&#x430;</name>
+          <name xml:lang="pt">Colocar em todos os dispositivos de sa&#xED;da</name>
+          <name xml:lang="pl">U&#x142;&#xF3;&#x17C; na wszystkich wyj&#x15B;ciach</name>
+          <name xml:lang="ko">&#xBAA8;&#xB4E0; &#xD654;&#xBA74;&#xC5D0; &#xC704;&#xCE58;</name>
+          <name xml:lang="ka">&#x10E7;&#x10D5;&#x10D4;&#x10DA;&#x10D0; &#x10D2;&#x10D0;&#x10DB;&#x10DD;&#x10E2;&#x10D0;&#x10DC;&#x10D0;&#x10D6;&#x10D4; &#x10DB;&#x10DD;&#x10D7;&#x10D0;&#x10D5;&#x10E1;&#x10D4;&#x10D1;&#x10D0;</name>
+          <name xml:lang="ja">&#x3059;&#x3079;&#x3066;&#x306E;&#x51FA;&#x529B;&#x30C7;&#x30D0;&#x30A4;&#x30B9;&#x306B;&#x308F;&#x305F;&#x3063;&#x3066;&#x914D;&#x7F6E;</name>
+          <name xml:lang="it">Posizionare le finestre tra tutti gli output</name>
+          <name xml:lang="hu">&#xD6;sszes kimenet haszn&#xE1;lata</name>
+          <name xml:lang="hr">Postavi preko svih izlaza</name>
+          <name xml:lang="he">&#x5DE;&#x5E7;&#x5DD; &#x5DC;&#x5E8;&#x5D5;&#x5D7;&#x5D1; &#x5DB;&#x5DC; &#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5D9; &#x5D4;&#x5E4;&#x5DC;&#x5D8;</name>
+          <name xml:lang="gl">Colocar en t&#xF3;dalas sa&#xED;das</name>
+          <name xml:lang="fr">Placer &#xE0; travers toutes les sorties</name>
+          <name xml:lang="fi">Sijoita kaikkien ulostulojen kesken</name>
+          <name xml:lang="eu">Kokatu irteera guztietan zehar </name>
+          <name xml:lang="es">Colocar en todas las salidas</name>
+          <name xml:lang="en-GB">Place across all outputs</name>
+          <name xml:lang="el">&#x3A4;&#x3BF;&#x3C0;&#x3BF;&#x3B8;&#x3AD;&#x3C4;&#x3B7;&#x3C3;&#x3B7; &#x3C3;&#x3B5; &#x3CC;&#x3BB;&#x3B5;&#x3C2; &#x3C4;&#x3B9;&#x3C2; &#x3BF;&#x3B8;&#x3CC;&#x3BD;&#x3B5;&#x3C2;</name>
+          <name xml:lang="ca">Posiciona a trav&#xE9;s de totes les sortides</name>
+        </desc>
+      </option>
+      <option name="force_placement_match" type="match">
+        <short>Force Placement Windows</short>
+        <short xml:lang="zh-Hant-TW">&#x5F37;&#x5236;&#x8996;&#x7A97;&#x4F4D;&#x7F6E;</short>
+        <short xml:lang="zh-Hans-CN">&#x5F3A;&#x5236;&#x7A97;&#x53E3;&#x653E;&#x7F6E;</short>
+        <short xml:lang="uk">&#x41F;&#x440;&#x438;&#x43C;&#x443;&#x441;&#x43E;&#x432;&#x435; &#x43F;&#x43E;&#x437;&#x438;&#x446;&#x456;&#x43E;&#x43D;&#x443;&#x432;&#x430;&#x43D;&#x43D;&#x44F; &#x432;&#x456;&#x43A;&#x43E;&#x43D;</short>
+        <short xml:lang="tr">Pencerelerin Yetle&#x15F;imini Zorla</short>
+        <short xml:lang="sk">Vyn&#xFA;ten&#xE9; umiestnenie okien</short>
+        <short xml:lang="ru">&#x41F;&#x440;&#x438;&#x43D;&#x443;&#x434;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;&#x435; &#x43F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x43E;&#x43D;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x43A;&#x43E;&#x43D;</short>
+        <short xml:lang="pt">For&#xE7;ar Colaca&#xE7;&#xE3;o Janelas</short>
+        <short xml:lang="pl">Wymu&#x15B; u&#x142;o&#x17C;enie okien</short>
+        <short xml:lang="ko">&#xAC15;&#xC81C;&#xB85C; &#xCC3D;&#xC744; &#xC704;&#xCE58;</short>
+        <short xml:lang="ka">&#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10DC;&#x10D0;&#x10EB;&#x10D0;&#x10DA;&#x10D0;&#x10D3;&#x10D4;&#x10D5;&#x10D8; &#x10D2;&#x10D0;&#x10DC;&#x10DA;&#x10D0;&#x10D2;&#x10D4;&#x10D1;&#x10D0;</short>
+        <short xml:lang="ja">&#x5F37;&#x5236;&#x914D;&#x7F6E;&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;</short>
+        <short xml:lang="it">Posizionamento finestre forzato</short>
+        <short xml:lang="hu">Ablakelhelyez&#xE9;s er&#x151;ltet&#xE9;se</short>
+        <short xml:lang="hr">Prisili smje&#x161;taj prozora</short>
+        <short xml:lang="he">&#x5DB;&#x5E4;&#x5D4; &#x5DE;&#x5D9;&#x5E7;&#x5D5;&#x5DD; &#x5E2;&#x5DC; &#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA;</short>
+        <short xml:lang="gl">Forzar o colocado das xanelas</short>
+        <short xml:lang="fr">Forcer le Placement d'une fen&#xEA;tre</short>
+        <short xml:lang="fi">Pakotetun sijoittelun ikkunat</short>
+        <short xml:lang="eu">Behartu leihoen kokatzea</short>
+        <short xml:lang="es">Forzar el posicionamiento de las ventanas</short>
+        <short xml:lang="en-GB">Force Placement Windows</short>
+        <short xml:lang="el">&#x395;&#x3BE;&#x3B1;&#x3BD;&#x3B1;&#x3B3;&#x3BA;&#x3B1;&#x3C3;&#x3BC;&#x3CC;&#x3C2; &#x3A4;&#x3BF;&#x3C0;&#x3BF;&#x3B8;&#x3AD;&#x3C4;&#x3B7;&#x3C3;&#x3B7;&#x3C2; &#x3A0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3C9;&#x3BD;</short>
+        <short xml:lang="ca">Finestres amb posicionament for&#xE7;at</short>
+        <long>Windows that should forcedly be placed, even if they indicate the window manager should avoid placing them.</long>
+        <long xml:lang="zh-Hant-TW">&#x5373;&#x4F7F;&#x8996;&#x7A97;&#x7BA1;&#x7406;&#x54E1;&#x7981;&#x6B62;&#x653E;&#x7F6E;&#x7684;&#x5340;&#x57DF;&#xFF0C;&#x4ECD;&#x7136;&#x5F37;&#x5236;&#x653E;&#x7F6E;&#x8996;&#x7A97;</long>
+        <long xml:lang="zh-Hans-CN">&#x5373;&#x4FBF;&#x5411;&#x7A97;&#x53E3;&#x7BA1;&#x7406;&#x5668;&#x63D0;&#x51FA;&#x907F;&#x514D;&#x653E;&#x7F6E;&#x7684;&#x8BF7;&#x6C42;&#xFF0C;&#x4ECD;&#x5E94;&#x5F3A;&#x5236;&#x653E;&#x7F6E;&#x7684;&#x7A97;&#x53E3;</long>
+        <long xml:lang="uk">&#x412;&#x456;&#x43A;&#x43D;&#x430;, &#x44F;&#x43A;&#x456; &#x43F;&#x43E;&#x432;&#x438;&#x43D;&#x43D;&#x456; &#x431;&#x443;&#x442;&#x438; &#x43E;&#x43F;&#x43E;&#x437;&#x438;&#x446;&#x456;&#x43E;&#x43D;&#x43E;&#x432;&#x430;&#x43D;&#x456;, &#x43D;&#x430;&#x432;&#x456;&#x442;&#x44C; &#x44F;&#x43A;&#x449;&#x43E; &#x432;&#x43E;&#x43D;&#x438; &#x432;&#x43A;&#x430;&#x437;&#x443;&#x44E;&#x442;&#x44C;, &#x449;&#x43E; &#x446;&#x44C;&#x43E;&#x433;&#x43E; &#x440;&#x43E;&#x431;&#x438;&#x442;&#x438; &#x43D;&#x435; &#x43F;&#x43E;&#x442;&#x440;&#x456;&#x431;&#x43D;&#x43E;.</long>
+        <long xml:lang="sk">Okn&#xE1; ktor&#xE9; by mali by&#x165; n&#xFA;tene umiestnen&#xE9; aj ke&#x10F; by sa okenn&#xFD; mana&#x17E;&#xE9;r mal vyhn&#xFA;&#x165; tak&#xE9;muto umiestneniu.</long>
+        <long xml:lang="ru">&#x41E;&#x43A;&#x43D;&#x430;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x435; &#x434;&#x43E;&#x43B;&#x436;&#x43D;&#x44B; &#x431;&#x44B;&#x442;&#x44C; &#x441;&#x43F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x43E;&#x43D;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x44B;, &#x434;&#x430;&#x436;&#x435; &#x435;&#x441;&#x43B;&#x438; &#x43E;&#x43D;&#x438; &#x443;&#x43A;&#x430;&#x437;&#x44B;&#x432;&#x430;&#x44E;&#x442;, &#x447;&#x442;&#x43E; &#x44D;&#x442;&#x43E;&#x433;&#x43E; &#x434;&#x435;&#x43B;&#x430;&#x442;&#x44C; &#x43D;&#x435; &#x43D;&#x443;&#x436;&#x43D;&#x43E;.</long>
+        <long xml:lang="ro">Ferestre ce ar trebui amplasate cu for&#x21B;a, chiar dac&#x103; ele &#xEE;i indic&#x103; gestionarului de ferestre s&#x103; le evite.</long>
+        <long xml:lang="pt">Janelas que devem ser posicionadas, mesmo que indiquem que o gestor de janelas deve evitar posicion&#xE1;-las.</long>
+        <long xml:lang="pl">Okna, kt&#xF3;re powinny by&#x107; rozmieszczone "na si&#x142;&#x119;", nawet je&#x15B;li wskazuj&#x105;, &#x17C;e menad&#x17C;er okien pominie rozmieszczanie ich</long>
+        <long xml:lang="ko">&#xC708;&#xB3C4;&#xC6B0; &#xB9E4;&#xB2C8;&#xC800;&#xAC00; &#xC704;&#xCE58;&#xC2DC;&#xD0A4;&#xC9C0; &#xC54A;&#xB3C4;&#xB85D; &#xD588;&#xB2E4;&#xACE0; &#xD574;&#xB3C4;, &#xAC15;&#xC81C;&#xB85C; &#xC704;&#xCE58;&#xC2DC;&#xD0AC; &#xCC3D;&#xB4E4;&#xC744; &#xC124;&#xC815;&#xD569;&#xB2C8;&#xB2E4;.</long>
+        <long xml:lang="ka">&#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D4;&#x10D1;&#x10D8;, &#x10E0;&#x10DD;&#x10DB;&#x10DA;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10D2;&#x10D0;&#x10DC;&#x10DA;&#x10D0;&#x10D2;&#x10D4;&#x10D1;&#x10D0;&#x10EA; &#x10DC;&#x10D0;&#x10EB;&#x10D0;&#x10DA;&#x10D0;&#x10D3;&#x10D4;&#x10D5;&#x10D0;&#x10D3; &#x10DB;&#x10DD;&#x10EE;&#x10D3;&#x10D4;&#x10D1;&#x10D0;, &#x10DB;&#x10D0;&#x10E8;&#x10D8;&#x10DC;&#x10D0;&#x10EA; &#x10D9;&#x10D8;, &#x10D7;&#x10E3; &#x10DB;&#x10D0;&#x10D7; &#x10D2;&#x10D0;&#x10EC;&#x10D4;&#x10E0;&#x10D8;&#x10DA;&#x10D8; &#x10D0;&#x10E5;&#x10D5;&#x10D7;, &#x10E0;&#x10DD;&#x10DB; &#x10DB;&#x10D0;&#x10D7;&#x10D8; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D4;&#x10D1;&#x10D8; &#x10D0;&#x10E0; &#x10E3;&#x10DC;&#x10D3;&#x10D0; &#x10D8;&#x10DB;&#x10D0;&#x10E0;&#x10D7;&#x10D4;&#x10D1;&#x10DD;&#x10D3;&#x10D4;&#x10E1;.</long>
+        <long xml:lang="ja">&#x5F37;&#x5236;&#x7684;&#x306B;&#x914D;&#x7F6E;&#x3055;&#x305B;&#x308B;&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x3002;&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x30FB;&#x30DE;&#x30CD;&#x30FC;&#x30B8;&#x30E3;&#x306B;&#x914D;&#x7F6E;&#x306E;&#x5BFE;&#x8C61;&#x5916;&#x3068;&#x3059;&#x308B;&#x3088;&#x3046;&#x306B;&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x304C;&#x6307;&#x793A;&#x3057;&#x3066;&#x3044;&#x308B;&#x5834;&#x5408;&#x3067;&#x3082;&#x914D;&#x7F6E;&#x3057;&#x307E;&#x3059;&#x3002;</long>
+        <long xml:lang="it">Finestre che devono essere posizionate in ogni caso, anche se il gestore di finestre non dovrebbe posizionarle.</long>
+        <long xml:lang="hu">Ablakok, amelyek elhelyez&#xE9;s&#xE9;t szab&#xE1;lyozni kell, m&#xE9;g akkor is, ha az ablakkezel&#x151; &#xFA;gy jelzi, hogy az adott ablakok elhelyez&#xE9;s&#xE9;t nem szabad szab&#xE1;lyozni.</long>
+        <long xml:lang="hr">Prozori koji se prisilno trebaju smjestiti, &#x10D;ak i ako upravitelj prozorima treba izbjegavati njihovo smje&#x161;tanje.</long>
+        <long xml:lang="he">&#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA; &#x5E9;&#x5D9;&#x5E9; &#x5DC;&#x5DE;&#x5E7;&#x5DE;&#x5DD; &#x5D1;&#x5DB;&#x5E4;&#x5D9;&#x5D9;&#x5D4;, &#x5D2;&#x5DD; &#x5D0;&#x5DD; &#x5D4;&#x5DD; &#x5DE;&#x5D1;&#x5E7;&#x5E9;&#x5D9;&#x5DD; &#x5DE;&#x5DE;&#x5E0;&#x5D4;&#x5DC; &#x5D4;&#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA; &#x5E9;&#x5DC;&#x5D0; &#x5DC;&#x5E2;&#x5E9;&#x5D5;&#x5EA; &#x5D6;&#x5D0;&#x5EA;.</long>
+        <long xml:lang="gl">Fiestras que se deben colocar obrigatoriamente, a&#xED;nda que se indique no xestor de xanelas que se deben evitar a s&#xFA;a colocaci&#xF3;n</long>
+        <long xml:lang="fr">Les fen&#xEA;tres pourrait &#xEA;tre forc&#xE9;es &#xE0; se situer, m&#xEA;me si elles indiquent que le gestionnaire de fen&#xEA;tre pourrait &#xE9;viter de les situer.</long>
+        <long xml:lang="fi">Ikkunatyypit, jotka tulisi pakotetusti sijoittaa paikoilleen, vaikka ne kielt&#xE4;isiv&#xE4;t ikkunointiohjelmaa tekem&#xE4;st&#xE4; niin.</long>
+        <long xml:lang="eu">Kokatzera behartuko diren leihoak, nahiz eta leiho kudeatzaileak horiek kokatzea saihestu </long>
+        <long xml:lang="es">Ventanas que deben ser colocadas forzosamente, inclusive si indican que el administrador de ventanas debe evitar colocarlas</long>
+        <long xml:lang="en-GB">Windows that should forcedly be placed, even if they indicate the window manager should avoid placing them.</long>
+        <long xml:lang="el">&#x3A0;&#x3B1;&#x3C1;&#x3AC;&#x3B8;&#x3C5;&#x3C1;&#x3B1; &#x3C0;&#x3BF;&#x3C5; &#x3C0;&#x3C1;&#x3AD;&#x3C0;&#x3B5;&#x3B9; &#x3B1;&#x3BD;&#x3B1;&#x3B3;&#x3BA;&#x3B1;&#x3C3;&#x3C4;&#x3B9;&#x3BA;&#x3AC; &#x3BD;&#x3B1; &#x3C4;&#x3BF;&#x3C0;&#x3BF;&#x3B8;&#x3B5;&#x3C4;&#x3B7;&#x3B8;&#x3BF;&#x3CD;&#x3BD;, &#x3B1;&#x3BA;&#x3CC;&#x3BC;&#x3B1; &#x3BA; &#x3B1;&#x3BD; &#x3C5;&#x3C0;&#x3BF;&#x3B4;&#x3B5;&#x3B9;&#x3BA;&#x3BD;&#x3CD;&#x3BF;&#x3C5;&#x3BD; &#x3C3;&#x3C4;&#x3BF;&#x3BD; &#x3B4;&#x3B9;&#x3B1;&#x3C7;&#x3B5;&#x3B9;&#x3C1;&#x3B9;&#x3C3;&#x3C4;&#x3AE; &#x3C0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3C9;&#x3BD; &#x3BF;&#x3C4;&#x3B9; &#x3C0;&#x3C1;&#x3AD;&#x3C0;&#x3B5;&#x3B9; &#x3BD;&#x3B1; &#x3B1;&#x3C0;&#x3BF;&#x3C6;&#x3CD;&#x3B3;&#x3B5;&#x3B9; &#x3BD;&#x3B1; &#x3C4;&#x3B1; &#x3C4;&#x3BF;&#x3C0;&#x3BF;&#x3B8;&#x3B5;&#x3C4;&#x3AE;&#x3C3;&#x3B5;&#x3B9;.</long>
+        <long xml:lang="ca">Finestres que s'han de posicionar for&#xE7;osament, fins i tot si indiquessin que el gestor de finestres hauria d'evitar posicionar-les.</long>
+        <default/>
+      </option>
+      <group>
+        <short>Fixed Window Placement</short>
+        <short xml:lang="zh-Hant-TW">&#x56FA;&#x5B9A;&#x8996;&#x7A97;&#x4F4D;&#x7F6E;</short>
+        <short xml:lang="zh-Hans-CN">&#x56FA;&#x5B9A;&#x7A97;&#x53E3;&#x653E;&#x7F6E;</short>
+        <short xml:lang="uk">&#x424;&#x456;&#x43A;&#x441;&#x43E;&#x432;&#x430;&#x43D;&#x435; &#x440;&#x43E;&#x437;&#x43C;&#x456;&#x449;&#x435;&#x43D;&#x43D;&#x44F; &#x432;&#x456;&#x43A;&#x43D;&#x430;</short>
+        <short xml:lang="ru">&#x424;&#x438;&#x43A;&#x441;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x43E;&#x435; &#x440;&#x430;&#x437;&#x43C;&#x435;&#x449;&#x435;&#x43D;&#x438;&#x435; &#x43E;&#x43A;&#x43D;&#x430;</short>
+        <short xml:lang="pt">Posicionamento Fixo de Janelas</short>
+        <short xml:lang="pl">Ustalone po&#x142;o&#x17C;enie okna</short>
+        <short xml:lang="ko">&#xACE0;&#xC815;&#xB41C; &#xCC3D; &#xBC30;&#xCE58;</short>
+        <short xml:lang="ka">&#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10E4;&#x10D8;&#x10E5;&#x10E1;&#x10D8;&#x10E0;&#x10D4;&#x10D1;&#x10E3;&#x10DA;&#x10D8; &#x10D2;&#x10D0;&#x10DC;&#x10DA;&#x10D0;&#x10D2;&#x10D4;&#x10D1;&#x10D0;</short>
+        <short xml:lang="ja">&#x56FA;&#x5B9A;&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x914D;&#x7F6E;&#x4F4D;&#x7F6E;</short>
+        <short xml:lang="it">Posizionamento finestre fisso</short>
+        <short xml:lang="hu">Fix ablakelhelyez&#xE9;sek</short>
+        <short xml:lang="hr">Nepromjenjivi smje&#x161;taj prozora</short>
+        <short xml:lang="he">&#x5D4;&#x5E6;&#x5D1;&#x5EA; &#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA; &#x5D1;&#x5DE;&#x5D9;&#x5E7;&#x5D5;&#x5DD; &#x5E7;&#x5D1;&#x5D5;&#x5E2;</short>
+        <short xml:lang="gl">Colocaci&#xF3;n de Fiestras Fixadas</short>
+        <short xml:lang="fr">Placement des fen&#xEA;tres fixes</short>
+        <short xml:lang="fi">M&#xE4;&#xE4;r&#xE4;tty ikkunoiden sijoittelu</short>
+        <short xml:lang="eu">Leiho kokapen antolatua</short>
+        <short xml:lang="es">Fijar el posicionamiento de ventanas</short>
+        <short xml:lang="en-GB">Fixed Window Placement</short>
+        <short xml:lang="el">&#x3A3;&#x3C4;&#x3B1;&#x3B8;&#x3B5;&#x3C1;&#x3AE; &#x3A4;&#x3BF;&#x3C0;&#x3BF;&#x3B8;&#x3AD;&#x3C4;&#x3B7;&#x3C3;&#x3B7; &#x3A0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3BF;&#x3C5;</short>
+        <short xml:lang="ca">Posicionament fix de les finestres</short>
+        <subgroup>
+          <short>Windows with fixed positions</short>
+          <short xml:lang="zh-Hant-TW">&#x8996;&#x7A97;&#x4EE5;&#x4F4D;&#x7F6E;&#x65B9;&#x5F0F;&#x56FA;&#x5B9A;</short>
+          <short xml:lang="zh-Hans-CN">&#x4F4D;&#x7F6E;&#x56FA;&#x5B9A;&#x7684;&#x7A97;&#x53E3;</short>
+          <short xml:lang="uk">&#x412;&#x456;&#x43A;&#x43D;&#x43E; &#x437; &#x444;&#x456;&#x43A;&#x441;&#x43E;&#x432;&#x430;&#x43D;&#x43E;&#x44E; &#x43F;&#x43E;&#x437;&#x438;&#x446;&#x456;&#x454;&#x44E;</short>
+          <short xml:lang="ru">&#x41E;&#x43A;&#x43D;&#x43E; &#x441; &#x444;&#x438;&#x43A;&#x441;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x43E;&#x439; &#x43F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x435;&#x439;</short>
+          <short xml:lang="pt">Janelas com posi&#xE7;&#xF5;es fixas</short>
+          <short xml:lang="pl">Okna z ustalonymi pozycjami</short>
+          <short xml:lang="ko">&#xACE0;&#xC815;&#xB41C; &#xC704;&#xCE58;&#xB97C; &#xAC16;&#xB294; &#xCC3D;</short>
+          <short xml:lang="ka">&#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D4;&#x10D1;&#x10D8; &#x10E4;&#x10D8;&#x10E5;&#x10E1;&#x10D8;&#x10E0;&#x10D4;&#x10D1;&#x10E3;&#x10DA;&#x10D8; &#x10DB;&#x10D3;&#x10D4;&#x10D1;&#x10D0;&#x10E0;&#x10D4;&#x10DD;&#x10D1;&#x10D4;&#x10D1;&#x10D8;&#x10D7;</short>
+          <short xml:lang="ja">&#x56FA;&#x5B9A;&#x4F4D;&#x7F6E;&#x306B;&#x914D;&#x7F6E;&#x3059;&#x308B;&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;</short>
+          <short xml:lang="it">Finestre con posizioni fisse</short>
+          <short xml:lang="hu">Ablakok r&#xF6;gz&#xED;tett pozici&#xF3;val</short>
+          <short xml:lang="hr">Prozori s nepromjenjivim polo&#x17E;ajima</short>
+          <short xml:lang="he">&#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA; &#x5D1;&#x5E2;&#x5DC;&#x5D9; &#x5DE;&#x5D9;&#x5E7;&#x5D5;&#x5DD; &#x5E7;&#x5D1;&#x5D5;&#x5E2;</short>
+          <short xml:lang="gl">Fiestras con posici&#xF3;ns fixadas</short>
+          <short xml:lang="fr">Fen&#xEA;tres avec des positions fixes</short>
+          <short xml:lang="fi">Ikkunatyypit, joilla m&#xE4;&#xE4;r&#xE4;tyt sijainnit</short>
+          <short xml:lang="eu">Posizio zehaztuko leihoak</short>
+          <short xml:lang="es">Ventanas con posiciones fijas</short>
+          <short xml:lang="en-GB">Windows with fixed positions</short>
+          <short xml:lang="el">&#x3A0;&#x3B1;&#x3C1;&#x3AC;&#x3B8;&#x3C5;&#x3C1;&#x3B1; &#x3BC;&#x3B5; &#x3C3;&#x3C4;&#x3B1;&#x3B8;&#x3B5;&#x3C1;&#x3AD;&#x3C2; &#x3B8;&#x3AD;&#x3C3;&#x3B5;&#x3B9;&#x3C2;</short>
+          <short xml:lang="ca">Finestres amb posicions fixes</short>
+          <option name="position_matches" type="list">
+            <short>Positioned windows</short>
+            <short xml:lang="zh-Hant-TW">&#x8996;&#x7A97;&#x7684;&#x90E8;&#x4F4D;</short>
+            <short xml:lang="zh-Hans-CN">&#x5DF2;&#x5B9A;&#x4F4D;&#x7684;&#x7A97;&#x53E3;</short>
+            <short xml:lang="uk">&#x41E;&#x43F;&#x43E;&#x437;&#x438;&#x446;&#x456;&#x43E;&#x43D;&#x443;&#x432;&#x430;&#x442;&#x438; &#x432;&#x456;&#x43A;&#x43D;&#x430;</short>
+            <short xml:lang="tr">Konumland&#x131;r&#x131;lm&#x131;&#x15F; pencereler</short>
+            <short xml:lang="sv">Positionerade f&#xF6;nster</short>
+            <short xml:lang="sk">Umiestnen&#xE9; okn&#xE1;</short>
+            <short xml:lang="ru">&#x421;&#x43F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x43E;&#x43D;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x44B;&#x435; &#x43E;&#x43A;&#x43D;&#x430;</short>
+            <short xml:lang="pt-BR">Janelas posicionadas</short>
+            <short xml:lang="pt">Janelas posicionadas</short>
+            <short xml:lang="pl">U&#x142;o&#x17C;one okna</short>
+            <short xml:lang="or">&#xB38;&#xB4D;&#xB25;&#xB3E;&#xB2A;&#xB3F;&#xB24; &#xB09;&#xB07;&#xB23;&#xB4D;&#xB21;&#xB4B;</short>
+            <short xml:lang="nl">Gepositioneerde vensters</short>
+            <short xml:lang="nb">Posisjonerte vinduer</short>
+            <short xml:lang="ko">&#xBC30;&#xCE58;&#xB41C; &#xCC3D;</short>
+            <short xml:lang="ka">&#x10D2;&#x10D0;&#x10DC;&#x10D7;&#x10D0;&#x10D5;&#x10E1;&#x10D4;&#x10D1;&#x10E3;&#x10DA;&#x10D8; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D4;&#x10D1;&#x10D8;</short>
+            <short xml:lang="ja">&#x56FA;&#x5B9A;&#x4F4D;&#x7F6E;&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;</short>
+            <short xml:lang="it">Finestre da posizionare</short>
+            <short xml:lang="hu">Pozicion&#xE1;lt ablakok</short>
+            <short xml:lang="hr">Polo&#x17E;eni prozori</short>
+            <short xml:lang="he">&#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA; &#x5DE;&#x5DE;&#x5D5;&#x5E7;&#x5DE;&#x5D9;&#x5DD;</short>
+            <short xml:lang="gl">Fiestras Colocadas</short>
+            <short xml:lang="fr">Fen&#xEA;tres positionn&#xE9;es</short>
+            <short xml:lang="fi">Sijoitetut ikkunat</short>
+            <short xml:lang="eu">Kokatutako leihoak</short>
+            <short xml:lang="es">Ventanas Posicionadas</short>
+            <short xml:lang="en-GB">Positioned windows</short>
+            <short xml:lang="el">&#x3A4;&#x3BF;&#x3C0;&#x3BF;&#x3B8;&#x3B5;&#x3C4;&#x3B7;&#x3BC;&#x3AD;&#x3BD;&#x3B1; &#x3C0;&#x3B1;&#x3C1;&#x3AC;&#x3B8;&#x3C5;&#x3C1;&#x3B1;</short>
+            <short xml:lang="de">Positionierte Fenster</short>
+            <short xml:lang="cs">Pozicovan&#xE9; okna</short>
+            <short xml:lang="ca">Finestres posicionades</short>
+            <short xml:lang="bn">&#x985;&#x9AC;&#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9A8;&#x9AF;&#x9C1;&#x995;&#x9CD;&#x9A4; &#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB;</short>
+            <short xml:lang="bn-IN">&#x985;&#x9AC;&#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9A8;&#x9AF;&#x9C1;&#x995;&#x9CD;&#x9A4; &#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB;</short>
+            <long>Windows that should be positioned by default</long>
+            <long xml:lang="zh-Hant-TW">&#x9810;&#x8A2D;&#x7684;&#x8996;&#x7A97;&#x4F4D;&#x7F6E;</long>
+            <long xml:lang="zh-Hans-CN">&#x9ED8;&#x8BA4;&#x5E94;&#x5B9A;&#x4F4D;&#x7684;&#x7A97;&#x53E3;</long>
+            <long xml:lang="uk">&#x412;&#x456;&#x43A;&#x43D;&#x430;, &#x44F;&#x43A;&#x456; &#x43F;&#x43E;&#x432;&#x438;&#x43D;&#x43D;&#x456; &#x431;&#x443;&#x442;&#x438; &#x43E;&#x43F;&#x43E;&#x437;&#x438;&#x446;&#x456;&#x43E;&#x43D;&#x43E;&#x432;&#x430;&#x43D;&#x456; &#x437;&#x430; &#x437;&#x430;&#x43C;&#x43E;&#x432;&#x447;&#x443;&#x432;&#x430;&#x43D;&#x43D;&#x44F;&#x43C;</long>
+            <long xml:lang="tr">&#xD6;ntan&#x131;ml&#x131; olarak konumland&#x131;r&#x131;lacak pencereler</long>
+            <long xml:lang="sv">F&#xF6;nster som ska bli positionerade som standard</long>
+            <long xml:lang="sk">Okn&#xE1;, ktor&#xE9; by mali by&#x165; &#x161;tandardne umiestnen&#xE9;</long>
+            <long xml:lang="ru">&#x41E;&#x43A;&#x43D;&#x430;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x435; &#x434;&#x43E;&#x43B;&#x436;&#x43D;&#x44B; &#x431;&#x44B;&#x442;&#x44C; &#x441;&#x43F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x43E;&#x43D;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x44B; &#x43F;&#x43E; &#x443;&#x43C;&#x43E;&#x43B;&#x447;&#x430;&#x43D;&#x438;&#x44E;</long>
+            <long xml:lang="ro">Ferestre ce trebuiesc pozi&#x21B;ionate implicit</long>
+            <long xml:lang="pt-BR">Janelas que devem ser posicionadas por padr&#xE3;o</long>
+            <long xml:lang="pt">Janelas que devem ser posicionadas por omiss&#xE3;o</long>
+            <long xml:lang="pl">Typy okien, kt&#xF3;re powinny by&#x107; u&#x142;o&#x17C;one domy&#x15B;lnie </long>
+            <long xml:lang="pa">&#xA35;&#xA3F;&#xA70;&#xA21;&#xA4B;. &#xA1C;&#xA4B; &#xA15;&#xA3F; &#xA21;&#xA3F;&#xA2B;&#xA3E;&#xA32;&#xA1F; &#xA39;&#xA40; &#xA38;&#xA25;&#xA3F;&#xA24; &#xA15;&#xA40;&#xA24;&#xA40; &#xA1C;&#xA3E;&#xA35;&#xA47;</long>
+            <long xml:lang="or">&#xB09;&#xB07;&#xB23;&#xB4D;&#xB21;&#xB4B; &#xB5F;&#xB3E;&#xB39;&#xB3E;&#xB15;&#xB3F; &#xB21;&#xB3F;&#xB2B;&#xB32;&#xB4D;&#xB1F;&#xB30;&#xB47; &#xB38;&#xB4D;&#xB25;&#xB3E;&#xB2A;&#xB3F;&#xB24; &#xB39;&#xB47;&#xB2C;&#xB3E; &#xB09;&#xB1A;&#xB3F;&#xB24;</long>
+            <long xml:lang="nl">Vensters die standaard gepositioneerd moeten worden</long>
+            <long xml:lang="nb">Vinduer som skal posisjoneres som standard</long>
+            <long xml:lang="ko">&#xAE30;&#xBCF8;&#xC801;&#xC73C;&#xB85C; &#xBC30;&#xCE58;&#xB418;&#xC5B4;&#xC57C;&#xD558;&#xB294; &#xCC3D;</long>
+            <long xml:lang="ka">&#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D4;&#x10D1;&#x10D8;, &#x10E0;&#x10DD;&#x10DB;&#x10DA;&#x10D4;&#x10D1;&#x10D8;&#x10EA; &#x10DC;&#x10D0;&#x10D2;&#x10E3;&#x10DA;&#x10D8;&#x10E1;&#x10EE;&#x10DB;&#x10D4;&#x10D5;&#x10D0;&#x10D3; &#x10D2;&#x10D0;&#x10DC;&#x10DA;&#x10D0;&#x10D2;&#x10D3;&#x10D4;&#x10D1;&#x10D0;</long>
+            <long xml:lang="ja">&#x30C7;&#x30D5;&#x30A9;&#x30EB;&#x30C8;&#x3067;&#x7279;&#x5B9A;&#x4F4D;&#x7F6E;&#x306B;&#x914D;&#x7F6E;&#x3059;&#x308B;&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;</long>
+            <long xml:lang="it">Tipi di finestre da posizionare in modo predefinito</long>
+            <long xml:lang="hu">Alap&#xE9;rtelmez&#xE9;s szerint pozicion&#xE1;land&#xF3; ablakok</long>
+            <long xml:lang="hr">Prozori koji uobi&#x10D;ajeno trebaju biti polo&#x17E;eni</long>
+            <long xml:lang="hi">&#x935;&#x93F;&#x902;&#x921;&#x94B;&#x91C;&#x93C; &#x91C;&#x93F;&#x938;&#x947; &#x92E;&#x942;&#x932;&#x92D;&#x942;&#x924; &#x930;&#x942;&#x92A; &#x938;&#x947; &#x938;&#x94D;&#x925;&#x93F;&#x924;&#x93F; &#x92A;&#x930; &#x930;&#x916;&#x93E; &#x91C;&#x93E;&#x928;&#x93E; &#x91A;&#x93E;&#x939;&#x93F;&#x90F;</long>
+            <long xml:lang="he">&#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA; &#x5E9;&#x5D9;&#x5E9; &#x5DC;&#x5DE;&#x5E7;&#x5DE;&#x5DD; &#x5DB;&#x5D1;&#x5E8;&#x5D9;&#x5E8;&#x5EA; &#x5DE;&#x5D7;&#x5D3;&#x5DC;</long>
+            <long xml:lang="gu">&#xAB5;&#xABF;&#xAA8;&#xACD;&#xAA1;&#xACB; &#xA95;&#xAC7; &#xA9C;&#xAC7;&#xA93; &#xAAE;&#xAC2;&#xAB3;&#xAAD;&#xAC2;&#xAA4; &#xAB0;&#xAC0;&#xAA4;&#xAC7; &#xA97;&#xACB;&#xAA0;&#xAB5;&#xABE;&#xAAF;&#xAC7;&#xAB2; &#xAB9;&#xACB;&#xAB5;&#xAC0; &#xA9C;&#xACB;&#xA88;&#xA8F;</long>
+            <long xml:lang="gl">Fiestras que se deben ser colocadas por omisi&#xF3;n</long>
+            <long xml:lang="fr">Fen&#xEA;tres devant &#xEA;tre positionn&#xE9;es par d&#xE9;faut</long>
+            <long xml:lang="fi">Ikkunatyypit, jotka tulisi sijoittaa oletuksena</long>
+            <long xml:lang="eu">Berez kokatuko diren leihoak</long>
+            <long xml:lang="es">Ventanas que deben posicionarse por defecto</long>
+            <long xml:lang="en-GB">Windows that should be positioned by default</long>
+            <long xml:lang="el">&#x3A0;&#x3B1;&#x3C1;&#x3AC;&#x3B8;&#x3C5;&#x3C1;&#x3B1; &#x3C0;&#x3BF;&#x3C5; &#x3C0;&#x3C1;&#x3AD;&#x3C0;&#x3B5;&#x3B9; &#x3BD;&#x3B1; &#x3C4;&#x3BF;&#x3C0;&#x3BF;&#x3B8;&#x3B5;&#x3C4;&#x3B7;&#x3B8;&#x3BF;&#x3CD;&#x3BD; &#x3B5;&#x3BE;' &#x3BF;&#x3C1;&#x3B9;&#x3C3;&#x3BC;&#x3BF;&#x3CD;</long>
+            <long xml:lang="de">Fenstertypen, die an eine bestimmte Position platziert werden sollen</long>
+            <long xml:lang="cs">Okna, kter&#xE9; budou implicitn&#x11B; rozm&#xED;st&#x11B;ny</long>
+            <long xml:lang="ca">Finestres que s'han de posicionar de manera predeterminada</long>
+            <long xml:lang="bn">&#x9AA;&#x9CD;&#x9B0;&#x9A5;&#x9BE;&#x9B8;&#x9CD;&#x9AC;&#x9B0;&#x9C2;&#x9AA;&#x9AD;&#x9BE;&#x9AC;&#x9C7; &#x9AF;&#x9C7; &#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB;&#x997;&#x9C1;&#x9B2;&#x9BF;&#x9B0; &#x985;&#x9AC;&#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9A8; &#x9A8;&#x9BF;&#x9B0;&#x9CD;&#x9A3;&#x9DF; &#x995;&#x9B0;&#x9BE; &#x9B9;&#x9AC;&#x9C7;</long>
+            <long xml:lang="bn-IN">&#x9AA;&#x9CD;&#x9B0;&#x9A5;&#x9BE;&#x9B8;&#x9CD;&#x9AC;&#x9B0;&#x9C2;&#x9AA;&#x9AD;&#x9BE;&#x9AC;&#x9C7; &#x9AF;&#x9C7; &#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB;&#x997;&#x9C1;&#x9B2;&#x9BF;&#x9B0; &#x985;&#x9AC;&#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9A8; &#x9A8;&#x9BF;&#x9B0;&#x9CD;&#x9A3;&#x9DF; &#x995;&#x9B0;&#x9BE; &#x9B9;&#x9AC;&#x9C7;</long>
+            <type>match</type>
+          </option>
+          <option name="position_x_values" type="list">
+            <short>X Positions</short>
+            <short xml:lang="zh-Hant-TW">X&#x5EA7;&#x6A19;&#x7684;&#x4F4D;&#x7F6E;</short>
+            <short xml:lang="zh-Hans-CN">X&#x4F4D;&#x7F6E;</short>
+            <short xml:lang="uk">&#x41F;&#x43E;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x43D;&#x44F; &#x43F;&#x43E; X</short>
+            <short xml:lang="tr">X Konumlar&#x131;</short>
+            <short xml:lang="sv">X-positioner</short>
+            <short xml:lang="sk">Poz&#xED;cie X</short>
+            <short xml:lang="ru">&#x41F;&#x43E;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x44F; &#x43F;&#x43E; X</short>
+            <short xml:lang="ro">Pozi&#x21B;ii pe X</short>
+            <short xml:lang="pt-BR">Posi&#xE7;&#xF5;es X</short>
+            <short xml:lang="pt">Posi&#xE7;&#xF5;es X</short>
+            <short xml:lang="pl">Pozycje X</short>
+            <short xml:lang="or">X &#xB38;&#xB4D;&#xB25;&#xB3E;&#xB28;&#xB17;&#xB41;&#xB21;&#xB3F;&#xB15;</short>
+            <short xml:lang="nl">X positie</short>
+            <short xml:lang="nb">X-posisjoner</short>
+            <short xml:lang="ko">&#xAC00;&#xB85C;&#xCD95; &#xC704;&#xCE58;</short>
+            <short xml:lang="ka">X &#x10DB;&#x10D3;&#x10D4;&#x10D1;&#x10D0;&#x10E0;&#x10D4;&#x10DD;&#x10D1;&#x10D4;&#x10D1;&#x10D8;</short>
+            <short xml:lang="ja">X &#x4F4D;&#x7F6E;</short>
+            <short xml:lang="it">Posizioni X</short>
+            <short xml:lang="hu">V&#xED;zszintes poz&#xED;ci&#xF3;</short>
+            <short xml:lang="hr">X polo&#x17E;aji</short>
+            <short xml:lang="he">&#x5DE;&#x5D9;&#x5E7;&#x5D5;&#x5DD; &#x5D1;-X</short>
+            <short xml:lang="gu">X &#xAB8;&#xACD;&#xAA5;&#xABE;&#xAA8;&#xACB;</short>
+            <short xml:lang="gl">Posici&#xF3;ns X</short>
+            <short xml:lang="fr">Positions en X</short>
+            <short xml:lang="fi">X-sijainnit</short>
+            <short xml:lang="eu">X kokapenak</short>
+            <short xml:lang="es">Posiciones X</short>
+            <short xml:lang="en-GB">X Positions</short>
+            <short xml:lang="el">&#x398;&#x3AD;&#x3C3;&#x3B5;&#x3B9;&#x3C2; &#x3A7;</short>
+            <short xml:lang="de">X-Position</short>
+            <short xml:lang="cs">Pozice X</short>
+            <short xml:lang="ca">Posicions de les X</short>
+            <short xml:lang="bn">X &#x985;&#x9AC;&#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9A8;</short>
+            <short xml:lang="bn-IN">X &#x985;&#x9AC;&#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9A8;</short>
+            <long>X position values</long>
+            <long xml:lang="zh-Hant-TW">X&#x5EA7;&#x6A19;&#x4F4D;&#x7F6E;&#x7684;&#x6578;&#x503C;</long>
+            <long xml:lang="zh-Hans-CN">X&#x4F4D;&#x7F6E;&#x53D6;&#x503C;</long>
+            <long xml:lang="uk">&#x417;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x43D;&#x44F; &#x43F;&#x43E;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x43D;&#x44F; &#x43F;&#x43E; X</long>
+            <long xml:lang="tr">X konum de&#x11F;erleri</long>
+            <long xml:lang="sv">X-positionsv&#xE4;rden</long>
+            <long xml:lang="sk">Hodnoty poz&#xED;ce na osi X</long>
+            <long xml:lang="ru">&#x417;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x43F;&#x43E;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x44F; &#x43F;&#x43E; X</long>
+            <long xml:lang="ro">Valori pozi&#x21B;ii pe X</long>
+            <long xml:lang="pt-BR">Valores da posi&#xE7;&#xE3;o X</long>
+            <long xml:lang="pt">Valores de posi&#xE7;&#xE3;o X</long>
+            <long xml:lang="pl">Warto&#x15B;ci dla pozycji X</long>
+            <long xml:lang="pa">X &#xA38;&#xA25;&#xA3F;&#xA24;&#xA40; &#xA2E;&#xA41;&#xA71;&#xA32;</long>
+            <long xml:lang="or">X &#xB38;&#xB4D;&#xB25;&#xB3E;&#xB28; &#xB2E;&#xB42;&#xB32;&#xB4D;&#xB2F;&#xB17;&#xB41;&#xB21;&#xB3F;&#xB15;</long>
+            <long xml:lang="nl">X positie waarden</long>
+            <long xml:lang="nb">Verdier for X-posisjon</long>
+            <long xml:lang="ko">&#xAC00;&#xB85C;&#xCD95; &#xC704;&#xCE58;&#xAC12;</long>
+            <long xml:lang="ka">X &#x10DB;&#x10D3;&#x10D4;&#x10D1;&#x10D0;&#x10E0;&#x10D4;&#x10DD;&#x10D1;&#x10D8;&#x10E1; &#x10DB;&#x10DC;&#x10D8;&#x10E8;&#x10D5;&#x10DC;&#x10D4;&#x10DA;&#x10DD;&#x10D1;&#x10D4;&#x10D1;&#x10D8;</long>
+            <long xml:lang="ja">X &#x4F4D;&#x7F6E;&#x306E;&#x5024;</long>
+            <long xml:lang="it">Valori posizione X</long>
+            <long xml:lang="hu">V&#xED;zszintes poz&#xED;ci&#xF3;</long>
+            <long xml:lang="hr">X polo&#x17E;ajne vrijednosti</long>
+            <long xml:lang="hi">X &#x938;&#x94D;&#x925;&#x93F;&#x924;&#x93F; &#x92E;&#x93E;&#x928;</long>
+            <long xml:lang="he">&#x5E2;&#x5E8;&#x5DB;&#x5D9; &#x5DE;&#x5D9;&#x5E7;&#x5D5;&#x5DD; &#x5D1;-X</long>
+            <long xml:lang="gu">X &#xAB8;&#xACD;&#xAA5;&#xABE;&#xAA8; &#xA95;&#xABF;&#xA82;&#xAAE;&#xAA4;&#xACB;</long>
+            <long xml:lang="gl">Valores de posici&#xF3;n X</long>
+            <long xml:lang="fr">Valeurs de la position en X</long>
+            <long xml:lang="fi">X-sijainnin arvot</long>
+            <long xml:lang="eu">X kokapen balioak</long>
+            <long xml:lang="es">Valores de posici&#xF3;n X</long>
+            <long xml:lang="en-GB">X position values</long>
+            <long xml:lang="el">&#x3A4;&#x3B9;&#x3BC;&#x3AD;&#x3C2; &#x3B8;&#x3AD;&#x3C3;&#x3B7;&#x3C2; &#x3A7;</long>
+            <long xml:lang="de">Horizontale Position</long>
+            <long xml:lang="cs">Hodnoty pozice na ose X</long>
+            <long xml:lang="ca">Valors de la posici&#xF3; X</long>
+            <long xml:lang="bn">X &#x985;&#x9AC;&#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9A8;&#x9C7;&#x9B0; &#x9AE;&#x9C2;&#x9B2;&#x9CD;&#x9AF;</long>
+            <long xml:lang="bn-IN">X &#x985;&#x9AC;&#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9A8;&#x9C7;&#x9B0; &#x9AE;&#x9C2;&#x9B2;&#x9CD;&#x9AF;</long>
+            <type>int</type>
+          </option>
+          <option name="position_y_values" type="list">
+            <short>Y Positions</short>
+            <short xml:lang="zh-Hant-TW">Y&#x5EA7;&#x6A19;&#x7684;&#x4F4D;&#x7F6E;</short>
+            <short xml:lang="zh-Hans-CN">Y&#x4F4D;&#x7F6E;</short>
+            <short xml:lang="uk">&#x41F;&#x43E;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x43D;&#x44F; &#x43F;&#x43E; Y</short>
+            <short xml:lang="tr">Y Konumlar&#x131;</short>
+            <short xml:lang="sv">Y-positioner</short>
+            <short xml:lang="sk">Poz&#xED;cie Y</short>
+            <short xml:lang="ru">&#x41F;&#x43E;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x44F; &#x43F;&#x43E; Y</short>
+            <short xml:lang="ro">Pozi&#x21B;ii pe Y</short>
+            <short xml:lang="pt-BR">Posi&#xE7;&#xF5;es Y</short>
+            <short xml:lang="pt">Posi&#xE7;&#xF5;es Y</short>
+            <short xml:lang="pl">Pozycje Y</short>
+            <short xml:lang="or">Y &#xB38;&#xB4D;&#xB25;&#xB3E;&#xB28;&#xB17;&#xB41;&#xB21;&#xB3F;&#xB15;</short>
+            <short xml:lang="nl">Y positie's</short>
+            <short xml:lang="nb">Y-posisjoner</short>
+            <short xml:lang="ko">&#xC138;&#xB85C;&#xCD95; &#xC704;&#xCE58;</short>
+            <short xml:lang="ka">Y &#x10DB;&#x10D3;&#x10D4;&#x10D1;&#x10D0;&#x10E0;&#x10D4;&#x10DD;&#x10D1;&#x10D4;&#x10D1;&#x10D8;</short>
+            <short xml:lang="ja">Y &#x4F4D;&#x7F6E;</short>
+            <short xml:lang="it">Posizioni Y</short>
+            <short xml:lang="hu">F&#xFC;gg&#x151;leges poz&#xED;ci&#xF3;</short>
+            <short xml:lang="hr">Y polo&#x17E;aji</short>
+            <short xml:lang="he">&#x5DE;&#x5D9;&#x5E7;&#x5D5;&#x5DD; &#x5D1;-Y</short>
+            <short xml:lang="gu">Y &#xAB8;&#xACD;&#xAA5;&#xABE;&#xAA8;&#xACB;</short>
+            <short xml:lang="gl">Posici&#xF3;ns Y</short>
+            <short xml:lang="fr">Positions en Y</short>
+            <short xml:lang="fi">Y-sijainnit</short>
+            <short xml:lang="eu">Y kokapenak</short>
+            <short xml:lang="es">Posiciones Y</short>
+            <short xml:lang="en-GB">Y Positions</short>
+            <short xml:lang="el">&#x398;&#x3AD;&#x3C3;&#x3B5;&#x3B9;&#x3C2; &#x3A5;</short>
+            <short xml:lang="de">Y-Position</short>
+            <short xml:lang="cs">Pozice Y</short>
+            <short xml:lang="ca">Posicions de les Y</short>
+            <short xml:lang="bn">Y &#x985;&#x9AC;&#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9A8;</short>
+            <short xml:lang="bn-IN">Y &#x985;&#x9AC;&#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9A8;</short>
+            <long>Y position values</long>
+            <long xml:lang="zh-Hant-TW">Y&#x5EA7;&#x6A19;&#x4F4D;&#x7F6E;&#x7684;&#x6578;&#x503C;</long>
+            <long xml:lang="zh-Hans-CN">Y&#x4F4D;&#x7F6E;&#x53D6;&#x503C;</long>
+            <long xml:lang="uk">&#x417;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x43D;&#x44F; &#x43F;&#x43E;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x43D;&#x44F; &#x43F;&#x43E; Y</long>
+            <long xml:lang="tr">Y konum de&#x11F;erleri</long>
+            <long xml:lang="sv">Y-positionsv&#xE4;rden</long>
+            <long xml:lang="sk">Hodnoty poz&#xED;ce na osi Y</long>
+            <long xml:lang="ru">&#x417;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x43F;&#x43E;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x44F; &#x43F;&#x43E; Y</long>
+            <long xml:lang="ro">Valori pozi&#x21B;ii pe Y</long>
+            <long xml:lang="pt-BR">Valores da posi&#xE7;&#xE3;o Y</long>
+            <long xml:lang="pt">Valores de posi&#xE7;&#xE3;o Y</long>
+            <long xml:lang="pl">Warto&#x15B;ci dla pozycji Y</long>
+            <long xml:lang="pa">Y &#xA38;&#xA25;&#xA3F;&#xA24;&#xA40; &#xA2E;&#xA41;&#xA71;&#xA32;</long>
+            <long xml:lang="or">Y &#xB38;&#xB4D;&#xB25;&#xB3E;&#xB28; &#xB2E;&#xB42;&#xB32;&#xB4D;&#xB2F;&#xB17;&#xB41;&#xB21;&#xB3F;&#xB15;</long>
+            <long xml:lang="nl">Y positie waarden</long>
+            <long xml:lang="nb">Verdier for Y-posisjon</long>
+            <long xml:lang="ko">&#xC138;&#xB85C;&#xCD95; &#xC704;&#xCE58;&#xAC12;</long>
+            <long xml:lang="ka">Y &#x10DB;&#x10D3;&#x10D4;&#x10D1;&#x10D0;&#x10E0;&#x10D4;&#x10DD;&#x10D1;&#x10D8;&#x10E1; &#x10DB;&#x10DC;&#x10D8;&#x10E8;&#x10D5;&#x10DC;&#x10D4;&#x10DA;&#x10DD;&#x10D1;&#x10D4;&#x10D1;&#x10D8;</long>
+            <long xml:lang="ja">Y &#x4F4D;&#x7F6E;&#x306E;&#x5024;</long>
+            <long xml:lang="it">Valori posizione Y</long>
+            <long xml:lang="hu">F&#xFC;gg&#x151;leges poz&#xED;ci&#xF3;</long>
+            <long xml:lang="hr">Y polo&#x17E;ajne vrijednosti</long>
+            <long xml:lang="hi">Y &#x938;&#x94D;&#x925;&#x93F;&#x924;&#x93F; &#x92E;&#x93E;&#x928;</long>
+            <long xml:lang="he">&#x5E2;&#x5E8;&#x5DB;&#x5D9; &#x5DE;&#x5D9;&#x5E7;&#x5D5;&#x5DD; &#x5D1;-Y</long>
+            <long xml:lang="gu">Y &#xAB8;&#xACD;&#xAA5;&#xABE;&#xAA8; &#xA95;&#xABF;&#xA82;&#xAAE;&#xAA4;&#xACB;</long>
+            <long xml:lang="gl">Valores de posici&#xF3;n Y</long>
+            <long xml:lang="fr">Valeurs de la position en Y</long>
+            <long xml:lang="fi">Y-sijainnin arvot</long>
+            <long xml:lang="eu">Y kokapen balioak</long>
+            <long xml:lang="es">Valores de posici&#xF3;n Y</long>
+            <long xml:lang="en-GB">Y position values</long>
+            <long xml:lang="el">&#x3A4;&#x3B9;&#x3BC;&#x3AD;&#x3C2; &#x3B8;&#x3AD;&#x3C3;&#x3B7;&#x3C2; &#x3A5;</long>
+            <long xml:lang="de">Vertikale Position</long>
+            <long xml:lang="cs">Hodnoty pozice na ose Y</long>
+            <long xml:lang="ca">Valors de la posici&#xF3; Y</long>
+            <long xml:lang="bn">Y &#x985;&#x9AC;&#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9A8;&#x9C7;&#x9B0; &#x9AE;&#x9C2;&#x9B2;&#x9CD;&#x9AF;</long>
+            <long xml:lang="bn-IN">Y &#x985;&#x9AC;&#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9A8;&#x9C7;&#x9B0; &#x9AE;&#x9C2;&#x9B2;&#x9CD;&#x9AF;</long>
+            <type>int</type>
+          </option>
+          <option name="position_constrain_workarea" type="list">
+            <short>Keep In Workarea</short>
+            <short xml:lang="zh-Hant-TW">&#x4FDD;&#x6301;&#x5728;&#x5DE5;&#x4F5C;&#x5340;&#x57DF;</short>
+            <short xml:lang="zh-Hans-CN">&#x4FDD;&#x6301;&#x5728;&#x5DE5;&#x4F5C;&#x533A;</short>
+            <short xml:lang="uk">&#x422;&#x440;&#x438;&#x43C;&#x430;&#x442;&#x438; &#x432; &#x440;&#x43E;&#x431;&#x43E;&#x447;&#x456;&#x439; &#x43E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x456;</short>
+            <short xml:lang="tr">&#xC7;al&#x131;&#x15F;ma B&#xF6;lgesinde Kal</short>
+            <short xml:lang="ru">&#x414;&#x435;&#x440;&#x436;&#x430;&#x442;&#x44C; &#x432; &#x440;&#x430;&#x431;&#x43E;&#x447;&#x435;&#x439; &#x43E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x438;</short>
+            <short xml:lang="pt">Manter Na &#xC1;rea Trabalho</short>
+            <short xml:lang="pl">Utrzymuj na pulpicie</short>
+            <short xml:lang="ko">&#xC791;&#xC5C5; &#xC601;&#xC5ED;&#xC5D0; &#xC720;&#xC9C0;</short>
+            <short xml:lang="ka">&#x10E1;&#x10D0;&#x10DB;&#x10E3;&#x10E8;&#x10D0;&#x10DD; &#x10E4;&#x10D0;&#x10E0;&#x10D7;&#x10D1;&#x10D6;&#x10D4; &#x10D3;&#x10D0;&#x10E2;&#x10DD;&#x10D5;&#x10D4;&#x10D1;&#x10D0;</short>
+            <short xml:lang="ja">&#x30EF;&#x30FC;&#x30AF;&#x30A8;&#x30EA;&#x30A2;&#x306B;&#x9650;&#x5B9A;</short>
+            <short xml:lang="it">Mantenere nello spazio di lavoro</short>
+            <short xml:lang="hu">Munkaasztalon tart&#xE1;s</short>
+            <short xml:lang="hr">Zadr&#x17E;i u radnom podru&#x10D;ju</short>
+            <short xml:lang="he">&#x5E9;&#x5DE;&#x5D5;&#x5E8; &#x5D1;&#x5EA;&#x5D5;&#x5DA; &#x5DE;&#x5E9;&#x5D8;&#x5D7; &#x5D4;&#x5E2;&#x5D1;&#x5D5;&#x5D3;&#x5D4;</short>
+            <short xml:lang="gl">Manter na &#xC1;rea de Traballo</short>
+            <short xml:lang="fr">Garder dans la Zone de Travail</short>
+            <short xml:lang="fi">Pid&#xE4; ty&#xF6;tilassa</short>
+            <short xml:lang="eu">Mantendu lan arean</short>
+            <short xml:lang="es">Mantener en el &#xE1;rea de trabajo</short>
+            <short xml:lang="en-GB">Keep In Workarea</short>
+            <short xml:lang="el">&#x394;&#x3B9;&#x3B1;&#x3C4;&#x3AE;&#x3C1;&#x3B7;&#x3C3;&#x3B7; &#x3A3;&#x3C4;&#x3BF;&#x3BD; &#x3A7;&#x3CE;&#x3C1;&#x3BF; &#x395;&#x3C1;&#x3B3;&#x3B1;&#x3C3;&#x3AF;&#x3B1;&#x3C2;</short>
+            <short xml:lang="ca">Mant&#xE9;n a l'&#xE0;rea de treball</short>
+            <short xml:lang="bg">&#x417;&#x430;&#x43F;&#x430;&#x437;&#x432;&#x430;&#x43D;&#x435; &#x432; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x43D;&#x430;&#x442;&#x430; &#x43F;&#x43B;&#x43E;&#x449;</short>
+            <long>Keep placed window in work area, even if that means that the position might differ from the specified position</long>
+            <long xml:lang="zh-Hant-TW">&#x4FDD;&#x6301;&#x5728;&#x8996;&#x7A97;&#x5DE5;&#x4F5C;&#x5340;&#x57DF;&#xFF0C;&#x5373;&#x4F7F;&#x8207;&#x6307;&#x5B9A;&#x4F4D;&#x7F6E;&#x4E0D;&#x540C;</long>
+            <long xml:lang="zh-Hans-CN">&#x4FDD;&#x6301;&#x8BBE;&#x7F6E;&#x7684;&#x7A97;&#x53E3;&#x5728;&#x5DE5;&#x4F5C;&#x533A;&#xFF0C;&#x751A;&#x81F3;&#x4F4D;&#x7F6E;&#x53EF;&#x80FD;&#x4E0D;&#x540C;&#x4E8E;&#x90A3;&#x7279;&#x522B;&#x4F4D;&#x7F6E;&#x3002;</long>
+            <long xml:lang="uk">&#x417;&#x430;&#x43F;&#x43E;&#x431;&#x456;&#x433;&#x442;&#x438; &#x43F;&#x435;&#x440;&#x435;&#x43C;&#x456;&#x449;&#x435;&#x43D;&#x43D;&#x44E; &#x432;&#x456;&#x43A;&#x43E;&#x43D; &#x437;&#x430; &#x43C;&#x435;&#x436;&#x456; &#x435;&#x43A;&#x440;&#x430;&#x43D;&#x443;</long>
+            <long xml:lang="ru">&#x41F;&#x440;&#x435;&#x434;&#x43E;&#x442;&#x432;&#x440;&#x430;&#x442;&#x438;&#x442;&#x44C; &#x43F;&#x435;&#x440;&#x435;&#x43C;&#x435;&#x449;&#x435;&#x43D;&#x438;&#x435; &#x43E;&#x43A;&#x43E;&#x43D; &#x437;&#x430;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x44B; &#x44D;&#x43A;&#x440;&#x430;&#x43D;&#x430;</long>
+            <long xml:lang="pt">Manter janelas colocadas na &#xE1;rea de trabalho, mesmo que isso signifique que a posi&#xE7;&#xE3;o possa diferir da posi&#xE7;&#xE3;o especificada</long>
+            <long xml:lang="pl">Utrzymuj wskazane okna na pulpicie , nawet je&#x15B;li ich pozycja b&#x119;dzie si&#x119; r&#xF3;&#x17C;ni&#x107; od ich okre&#x15B;lonej pozycji</long>
+            <long xml:lang="ko">&#xC704;&#xCE58; &#xC124;&#xC815;&#xC5D0; &#xC801;&#xC6A9;&#xB418;&#xB294; &#xCC3D;&#xC744; &#xC791;&#xC5C5; &#xC601;&#xC5ED;&#xC5D0; &#xC720;&#xC9C0;&#xD569;&#xB2C8;&#xB2E4;. &#xADF8; &#xC704;&#xCE58;&#xAC00; &#xD2B9;&#xC815;&#xD55C; &#xC704;&#xCE58;&#xC640; &#xB2E4;&#xB97C;&#xC9C0;&#xB77C;&#xB3C4; &#xC720;&#xC9C0;&#xD569;&#xB2C8;&#xB2E4;.</long>
+            <long xml:lang="ka">&#x10DB;&#x10DD;&#x10D7;&#x10D0;&#x10D5;&#x10E1;&#x10D4;&#x10D1;&#x10E3;&#x10DA;&#x10D8; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D8;&#x10E1; &#x10E1;&#x10D0;&#x10DB;&#x10E3;&#x10E8;&#x10D0;&#x10DD; &#x10D0;&#x10D3;&#x10D2;&#x10D8;&#x10DA;&#x10D0;&#x10E1; &#x10D2;&#x10D0;&#x10E9;&#x10D4;&#x10E0;&#x10D4;&#x10D1;&#x10D0;, &#x10DB;&#x10D0;&#x10E8;&#x10D8;&#x10DC;&#x10D0;&#x10EA; &#x10D9;&#x10D8;, &#x10D7;&#x10E3; &#x10D4;&#x10E1; &#x10DC;&#x10D8;&#x10E8;&#x10DC;&#x10D0;&#x10D5;&#x10E1;, &#x10E0;&#x10DD;&#x10DB; &#x10DB;&#x10D8;&#x10E1;&#x10D8; &#x10DB;&#x10D3;&#x10D4;&#x10D1;&#x10D0;&#x10E0;&#x10D4;&#x10DD;&#x10D1;&#x10D0; &#x10DB;&#x10D8;&#x10D7;&#x10D8;&#x10D7;&#x10D4;&#x10D1;&#x10E3;&#x10DA;&#x10D8; &#x10D0;&#x10D3;&#x10D2;&#x10D8;&#x10DA;&#x10D8;&#x10E1;&#x10D2;&#x10D0;&#x10DC;, &#x10E8;&#x10D4;&#x10D8;&#x10EB;&#x10DA;&#x10D4;&#x10D1;&#x10D0;, &#x10D2;&#x10D0;&#x10DC;&#x10E1;&#x10EE;&#x10D5;&#x10D0;&#x10D5;&#x10D3;&#x10D4;&#x10D1;&#x10DD;&#x10D3;&#x10D4;&#x10E1;</long>
+            <long xml:lang="ja">&#x7D50;&#x679C;&#x3068;&#x3057;&#x3066;&#x6307;&#x5B9A;&#x4F4D;&#x7F6E;&#x3068;&#x306F;&#x7570;&#x306A;&#x3063;&#x3066;&#x3057;&#x307E;&#x3046;&#x5834;&#x5408;&#x3067;&#x3082;&#x3001;&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;&#x306E;&#x914D;&#x7F6E;&#x4F4D;&#x7F6E;&#x3092;&#x30EF;&#x30FC;&#x30AF;&#x30A8;&#x30EA;&#x30A2;&#x5185;&#x306B;&#x9650;&#x5B9A;&#x3002;</long>
+            <long xml:lang="it">Mantiene le finestre in posizione nello spazio lavoro, anche se ci&#xF2; significa che la posizione pu&#xF2; differire da quella specificata.</long>
+            <long xml:lang="hu">Ablakelhelyez&#xE9;s er&#x151;ltet&#xE9;s&#xE9;nek fel&#xFC;lb&#xED;r&#xE1;l&#xE1;sa &#xFA;gy, hogy az ablak minden esetben a munkaasztalon maradjon</long>
+            <long xml:lang="hr">Zadr&#x17E;i postavljene prozore u radnom podru&#x10D;ju, &#x10D;ak i ako to zna&#x10D;i da se polo&#x17E;aj razlikuje od ve&#x107; odre&#x111;enog polo&#x17E;aja</long>
+            <long xml:lang="he">&#x5E9;&#x5DE;&#x5D5;&#x5E8; &#x5D0;&#x5EA; &#x5D4;&#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA; &#x5D1;&#x5EA;&#x5D5;&#x5DA; &#x5DE;&#x5E9;&#x5D8;&#x5D7; &#x5D4;&#x5E2;&#x5D1;&#x5D5;&#x5D3;&#x5D4; &#x5DC;&#x5D0;&#x5D7;&#x5E8; &#x5DE;&#x5D9;&#x5E7;&#x5D5;&#x5DD;, &#x5D2;&#x5DD; &#x5D0;&#x5DD; &#x5D9;&#x5E9; &#x5DC;&#x5D4;&#x5E6;&#x5D9;&#x5D1;&#x5DD; &#x5DC;&#x5E9;&#x5DD; &#x5DB;&#x5DA; &#x5D1;&#x5DE;&#x5D9;&#x5E7;&#x5D5;&#x5DD; &#x5E9;&#x5D5;&#x5E0;&#x5D4; &#x5DE;&#x5D6;&#x5D4; &#x5D4;&#x5DE;&#x5D1;&#x5D5;&#x5E7;&#x5E9;</long>
+            <long xml:lang="gl">Manter as xanelas colocadas na &#xE1;rea de traballo, a&#xED;nda que isto signifique que a posici&#xF3;n poida diferir da posici&#xF3;n especificada</long>
+            <long xml:lang="fr">Garder la fen&#xEA;tre dans la zone de travail, m&#xEA;me si cela signifie que la position peut diff&#xE9;rer de celle sp&#xE9;cifi&#xE9;e</long>
+            <long xml:lang="fi">Pid&#xE4; asetettu ikkuna ty&#xF6;tilassa, vaikka se tarkoittaisi sijainnin eri&#xE4;vyytt&#xE4; m&#xE4;&#xE4;ritellyst&#xE4; sijainnista</long>
+            <long xml:lang="eu">Mantendu leiho kokapena lan arean, nahiz eta kokapen hau ez etorri bat kokapen zehatzaz</long>
+            <long xml:lang="es">Mantener la ventana posicionada en el &#xE1;rea de trabajo, inclusio si eso implicase que la posici&#xF3;n difiera de la posici&#xF3;n espec&#xED;fica</long>
+            <long xml:lang="en-GB">Keep placed window in work area, even if that means that the position might differ from the specified position</long>
+            <long xml:lang="el">&#x394;&#x3B9;&#x3B1;&#x3C4;&#x3AE;&#x3C1;&#x3B7;&#x3C3;&#x3B7; &#x3C4;&#x3BF;&#x3C5; &#x3C4;&#x3BF;&#x3C0;&#x3BF;&#x3B8;&#x3B5;&#x3C4;&#x3B7;&#x3BC;&#x3AD;&#x3BD;&#x3BF;&#x3C5; &#x3C0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3BF;&#x3C5; &#x3C3;&#x3C4;&#x3BF;&#x3BD; &#x3C7;&#x3CE;&#x3C1;&#x3BF; &#x3B5;&#x3C1;&#x3B3;&#x3B1;&#x3C3;&#x3AF;&#x3B1;&#x3C2;, &#x3B1;&#x3BA;&#x3CC;&#x3BC;&#x3B1; &#x3BA; &#x3B1;&#x3BD; &#x3B1;&#x3C5;&#x3C4;&#x3CC; &#x3C3;&#x3B7;&#x3BC;&#x3B1;&#x3AF;&#x3BD;&#x3B5;&#x3B9; &#x3BF;&#x3C4;&#x3B9; &#x3B7; &#x3B8;&#x3AD;&#x3C3;&#x3B7; &#x3C4;&#x3BF;&#x3C5; &#x3BC;&#x3C0;&#x3BF;&#x3C1;&#x3B5;&#x3AF; &#x3BD;&#x3B1; &#x3B4;&#x3B9;&#x3B1;&#x3C6;&#x3AD;&#x3C1;&#x3B5;&#x3B9; &#x3B1;&#x3C0;&#x3BF; &#x3C4;&#x3B7;&#x3BD; &#x3BA;&#x3B1;&#x3B8;&#x3BF;&#x3C1;&#x3B9;&#x3C3;&#x3BC;&#x3AD;&#x3BD;&#x3B7; &#x3C4;&#x3BF;&#x3C5; &#x3B8;&#x3AD;&#x3C3;&#x3B7;</long>
+            <long xml:lang="ca">Mant&#xE9;n la finestra posicionada a l'&#xE0;rea de treball, fins i tot si aix&#xF2; significa que la posici&#xF3; difereix de la posici&#xF3; especificada</long>
+            <type>bool</type>
+          </option>
+        </subgroup>
+        <subgroup>
+          <short>Windows with fixed placement mode</short>
+          <short xml:lang="ka">&#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10D0;&#x10E0;&#x10D0; &#x10E4;&#x10D8;&#x10E5;&#x10E1;&#x10D8;&#x10E0;&#x10D4;&#x10D1;&#x10E3;&#x10DA;&#x10D8; &#x10D2;&#x10D0;&#x10DC;&#x10DA;&#x10D0;&#x10D2;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10E0;&#x10D4;&#x10DF;&#x10D8;&#x10DB;&#x10D8;&#x10D7;</short>
+          <short xml:lang="hr">Prozori s nepromjenjivim na&#x10D;inom smje&#x161;taja</short>
+          <short xml:lang="en-GB">Windows with fixed placement mode</short>
+          <short xml:lang="ca">Finestres amb mode de posicionament fix</short>
+          <option name="mode_matches" type="list">
+            <short>Windows</short>
+            <short xml:lang="zh-Hant-TW">&#x4F55;&#x7A2E;&#x8996;&#x7A97;</short>
+            <short xml:lang="zh-Hans-CN">&#x7A97;&#x53E3;</short>
+            <short xml:lang="uk">&#x412;&#x456;&#x43A;&#x43D;&#x430;</short>
+            <short xml:lang="ru">&#x41E;&#x43A;&#x43D;&#x430;</short>
+            <short xml:lang="pt">Janelas</short>
+            <short xml:lang="pl">Okna</short>
+            <short xml:lang="ko">&#xCC3D;</short>
+            <short xml:lang="ka">Windows</short>
+            <short xml:lang="ja">&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;</short>
+            <short xml:lang="it">Finestre</short>
+            <short xml:lang="hu">Ablakok</short>
+            <short xml:lang="hr">Prozori</short>
+            <short xml:lang="he">&#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA;</short>
+            <short xml:lang="gl">Fiestras</short>
+            <short xml:lang="fr">Fen&#xEA;tres</short>
+            <short xml:lang="fi">Ikkunat</short>
+            <short xml:lang="eu">Leihoak</short>
+            <short xml:lang="es">Ventanas</short>
+            <short xml:lang="en-GB">Windows</short>
+            <short xml:lang="el">&#x3A0;&#x3B1;&#x3C1;&#x3AC;&#x3B8;&#x3C5;&#x3C1;&#x3B1;</short>
+            <short xml:lang="ca">Finestres</short>
+            <long>Windows that should have a certain positioning mode</long>
+            <long xml:lang="ka">&#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10D0;&#x10E0;&#x10D0;, &#x10E0;&#x10DD;&#x10DB;&#x10D4;&#x10DA;&#x10E1;&#x10D0;&#x10EA; &#x10D2;&#x10D0;&#x10DC;&#x10E1;&#x10D0;&#x10D6;&#x10E6;&#x10D5;&#x10E0;&#x10E3;&#x10DA;&#x10D8; &#x10DB;&#x10D3;&#x10D4;&#x10D1;&#x10D0;&#x10E0;&#x10D4;&#x10DD;&#x10D1;&#x10D8;&#x10E1; &#x10E0;&#x10D4;&#x10DF;&#x10D8;&#x10DB;&#x10D8; &#x10E3;&#x10DC;&#x10D3;&#x10D0; &#x10F0;&#x10E5;&#x10DD;&#x10DC;&#x10D3;&#x10D4;&#x10E1;</long>
+            <long xml:lang="hr">Prozori koji trebaju imati odre&#x111;eni na&#x10D;in smje&#x161;tanja</long>
+            <long xml:lang="en-GB">Windows that should have a certain positioning mode</long>
+            <long xml:lang="ca">Finestres que han de tenir un cert mode de posicionament</long>
+            <type>match</type>
+          </option>
+          <option name="mode_modes" type="list">
+            <short>Mode</short>
+            <short xml:lang="ka">&#x10E0;&#x10D4;&#x10DF;&#x10D8;&#x10DB;&#x10D8;</short>
+            <short xml:lang="hr">Na&#x10D;in</short>
+            <short xml:lang="en-GB">Mode</short>
+            <short xml:lang="ca">Mode</short>
+            <long>Positioning modes</long>
+            <long xml:lang="ka">&#x10D2;&#x10D0;&#x10DC;&#x10DA;&#x10D0;&#x10D2;&#x10D4;&#x10D1;&#x10D8;&#x10E1; &#x10E0;&#x10D4;&#x10DF;&#x10D8;&#x10DB;&#x10D4;&#x10D1;&#x10D8;</long>
+            <long xml:lang="hr">Na&#x10D;ini smje&#x161;tanja</long>
+            <long xml:lang="en-GB">Positioning modes</long>
+            <long xml:lang="ca">Modes de posicionament</long>
+            <type>int</type>
+            <default>0</default>
+            <min>0</min>
+            <max>5</max>
+            <desc>
+              <value>0</value>
+              <name>Cascade</name>
+              <name xml:lang="zh-Hant-TW">&#x5C64;&#x758A;</name>
+              <name xml:lang="zh-Hans-CN">&#x5C42;&#x53E0;</name>
+              <name xml:lang="uk">&#x41A;&#x430;&#x441;&#x43A;&#x430;&#x434;&#x43E;&#x43C;</name>
+              <name xml:lang="tr">Basamakla</name>
+              <name xml:lang="sv">Kaskad</name>
+              <name xml:lang="sk">Kask&#xE1;da</name>
+              <name xml:lang="ru">&#x41A;&#x430;&#x441;&#x43A;&#x430;&#x434;&#x43E;&#x43C;</name>
+              <name xml:lang="ro">Cascad&#x103;</name>
+              <name xml:lang="pt-BR">Cascata</name>
+              <name xml:lang="pt">Cascata</name>
+              <name xml:lang="pl">Kaskada</name>
+              <name xml:lang="pa">&#xA15;&#xA48;&#xA38;&#xA15;&#xA47;&#xA21;</name>
+              <name xml:lang="or">&#xB15;&#xB4D;&#xB2F;&#xB3E;&#xB38;&#xB15;&#xB47;&#xB21;</name>
+              <name xml:lang="nl">Achter elkaar</name>
+              <name xml:lang="nb">Tett-i-tett</name>
+              <name xml:lang="ko">&#xACC4;&#xB2E8;</name>
+              <name xml:lang="ka">&#x10D9;&#x10D0;&#x10E1;&#x10D9;&#x10D0;&#x10D3;&#x10D8;</name>
+              <name xml:lang="ja">&#x30AB;&#x30B9;&#x30B1;&#x30FC;&#x30C9;</name>
+              <name xml:lang="it">Cascata</name>
+              <name xml:lang="hu">L&#xE9;pcs&#x151;zetes</name>
+              <name xml:lang="hr">Kaskadan</name>
+              <name xml:lang="hi">&#x92A;&#x94D;&#x930;&#x92A;&#x93E;&#x924;&#x940;</name>
+              <name xml:lang="he">&#x5D3;&#x5D9;&#x5E8;&#x5D5;&#x5D2;</name>
+              <name xml:lang="gu">&#xAA7;&#xACB;&#xAA7;&#xAB5;&#xABE;&#xAB3;&#xAC1;&#xA82;</name>
+              <name xml:lang="gl">En Cascada</name>
+              <name xml:lang="fr">Cascade</name>
+              <name xml:lang="fi">Porrasta</name>
+              <name xml:lang="eu">Kaskadan</name>
+              <name xml:lang="es">Cascada</name>
+              <name xml:lang="en-GB">Cascade</name>
+              <name xml:lang="el">&#x39A;&#x3B1;&#x3C4;&#x3C4;&#x3B1;&#x3C1;&#x3AC;&#x3BA;&#x3C4;&#x3B7;&#x3C2;</name>
+              <name xml:lang="de">Kaskadenf&#xF6;rmig</name>
+              <name xml:lang="cs">Kask&#xE1;da</name>
+              <name xml:lang="ca">Cascada</name>
+              <name xml:lang="bn">&#x995;&#x9BE;&#x9B8;&#x995;&#x9C7;&#x9A1;</name>
+              <name xml:lang="bn-IN">&#x995;&#x9BE;&#x9B8;&#x995;&#x9C7;&#x9A1;</name>
+              <name xml:lang="bg">&#x41A;&#x430;&#x441;&#x43A;&#x430;&#x434;&#x43D;&#x43E; &#x43F;&#x43E;&#x434;&#x440;&#x435;&#x436;&#x434;&#x430;&#x43D;&#x435;</name>
+            </desc>
+            <desc>
+              <value>1</value>
+              <name>Centered</name>
+              <name xml:lang="zh-Hant-TW">&#x5C45;&#x4E2D;</name>
+              <name xml:lang="zh-Hans-CN">&#x5C45;&#x4E2D;</name>
+              <name xml:lang="uk">&#x423; &#x446;&#x435;&#x43D;&#x442;&#x440;&#x456;</name>
+              <name xml:lang="tr">Ortalanm&#x131;&#x15F;</name>
+              <name xml:lang="sv">Centrerad</name>
+              <name xml:lang="sk">Vystrednen&#xE9;</name>
+              <name xml:lang="ru">&#x41F;&#x43E; &#x446;&#x435;&#x43D;&#x442;&#x440;&#x443;</name>
+              <name xml:lang="ro">Centrat</name>
+              <name xml:lang="pt-BR">Centralizado</name>
+              <name xml:lang="pt">Centrado</name>
+              <name xml:lang="pl">Wy&#x15B;rodkowany</name>
+              <name xml:lang="pa">&#xA38;&#xA48;&#xA02;&#xA1F;&#xA30;&#xA21;</name>
+              <name xml:lang="or">&#xB15;&#xB47;&#xB28;&#xB4D;&#xB26;&#xB4D;&#xB30;&#xB3F;&#xB24;</name>
+              <name xml:lang="nl">Gecentreerd</name>
+              <name xml:lang="nb">Sentrert</name>
+              <name xml:lang="ko">&#xC911;&#xC559;</name>
+              <name xml:lang="ka">&#x10E8;&#x10E3;&#x10D0;&#x10D6;&#x10D4; &#x10D2;&#x10D0;&#x10E1;&#x10EC;&#x10DD;&#x10E0;&#x10D4;&#x10D1;&#x10E3;&#x10DA;&#x10D8;</name>
+              <name xml:lang="ja">&#x4E2D;&#x592E;</name>
+              <name xml:lang="it">Centrato</name>
+              <name xml:lang="hu">K&#xF6;z&#xE9;pre</name>
+              <name xml:lang="hr">Centriran</name>
+              <name xml:lang="hi">&#x915;&#x947;&#x902;&#x926;&#x94D;&#x930;&#x93F;&#x924;</name>
+              <name xml:lang="he">&#x5DE;&#x5DE;&#x5D5;&#x5E8;&#x5DB;&#x5D6;</name>
+              <name xml:lang="gu">&#xA95;&#xAC7;&#xAA8;&#xACD;&#xAA6;&#xACD;&#xAB0;&#xABF;&#xAA4; &#xAA5;&#xAAF;&#xAC7;&#xAB2;</name>
+              <name xml:lang="gl">Centrado</name>
+              <name xml:lang="fr">Centr&#xE9;</name>
+              <name xml:lang="fi">Keskitetty</name>
+              <name xml:lang="eu">Zentratua</name>
+              <name xml:lang="es">Centrado</name>
+              <name xml:lang="en-GB">Centred</name>
+              <name xml:lang="el">&#x3A3;&#x3C4;&#x3BF; &#x39A;&#x3AD;&#x3BD;&#x3C4;&#x3C1;&#x3BF;</name>
+              <name xml:lang="de">Zentriert</name>
+              <name xml:lang="cs">Centrovan&#xFD;</name>
+              <name xml:lang="ca">Centrat</name>
+              <name xml:lang="bn">&#x995;&#x9C7;&#x9A8;&#x9CD;&#x9A6;&#x9CD;&#x9B0;&#x9C0;&#x9AD;&#x9C2;&#x9A4;</name>
+              <name xml:lang="bn-IN">&#x995;&#x9C7;&#x9A8;&#x9CD;&#x9A6;&#x9CD;&#x9B0;&#x9C0;&#x9AD;&#x9C2;&#x9A4;</name>
+              <name xml:lang="bg">&#x426;&#x435;&#x43D;&#x442;&#x440;&#x438;&#x440;&#x430;&#x43D;&#x43E; &#x43F;&#x43E;&#x434;&#x440;&#x435;&#x436;&#x434;&#x430;&#x43D;&#x435;</name>
+            </desc>
+            <desc>
+              <value>2</value>
+              <name>Smart</name>
+              <name xml:lang="zh-Hant-TW">&#x8070;&#x660E;&#x6A21;&#x5F0F;</name>
+              <name xml:lang="zh-Hans-CN">&#x7075;&#x5DE7;</name>
+              <name xml:lang="uk">&#x420;&#x43E;&#x437;&#x443;&#x43C;&#x43D;&#x438;&#x439;</name>
+              <name xml:lang="tr">Ak&#x131;ll&#x131;</name>
+              <name xml:lang="sv">Smart</name>
+              <name xml:lang="sk">Inteligentn&#xE9;</name>
+              <name xml:lang="ru">&#x423;&#x43C;&#x43D;&#x44B;&#x439;</name>
+              <name xml:lang="ro">Inteligent</name>
+              <name xml:lang="pt-BR">Inteligente</name>
+              <name xml:lang="pt">Inteligente</name>
+              <name xml:lang="pl">Inteligentny</name>
+              <name xml:lang="pa">&#xA38;&#xA2E;&#xA3E;&#xA30;&#xA1F;</name>
+              <name xml:lang="or">&#xB38;&#xB4D;&#xB2B;&#xB41;&#xB30;&#xB4D;&#xB24;&#xB4D;&#xB24;&#xB3F;</name>
+              <name xml:lang="nl">Slim</name>
+              <name xml:lang="nb">Smart</name>
+              <name xml:lang="ko">&#xB611;&#xB611;&#xD558;&#xAC8C;</name>
+              <name xml:lang="ka">&#x10ED;&#x10D9;&#x10D5;&#x10D8;&#x10D0;&#x10DC;&#x10D8;</name>
+              <name xml:lang="ja">&#x30B9;&#x30DE;&#x30FC;&#x30C8;</name>
+              <name xml:lang="it">Intelligente</name>
+              <name xml:lang="hu">Intelligens</name>
+              <name xml:lang="hr">Pametan</name>
+              <name xml:lang="hi">&#x938;&#x94D;&#x92E;&#x93E;&#x930;&#x94D;&#x91F;</name>
+              <name xml:lang="he">&#x5D7;&#x5DB;&#x5DD;</name>
+              <name xml:lang="gu">&#xA9A;&#xAAA;&#xAB3;</name>
+              <name xml:lang="gl">Intelixente</name>
+              <name xml:lang="fr">Intelligent</name>
+              <name xml:lang="fi">&#xC4;lyk&#xE4;s</name>
+              <name xml:lang="eu">Adimentsua</name>
+              <name xml:lang="es">Inteligente</name>
+              <name xml:lang="en-GB">Smart</name>
+              <name xml:lang="el">&#x388;&#x3BE;&#x3C5;&#x3C0;&#x3BD;&#x3BF;</name>
+              <name xml:lang="de">Intelligent</name>
+              <name xml:lang="cs">Chytr&#xFD;</name>
+              <name xml:lang="ca">Intel&#xB7;ligent</name>
+              <name xml:lang="bn">&#x9B8;&#x9CD;&#x9AE;&#x9BE;&#x9B0;&#x9CD;&#x99F;</name>
+              <name xml:lang="bn-IN">&#x9B8;&#x9CD;&#x9AE;&#x9BE;&#x9B0;&#x9CD;&#x99F;</name>
+            </desc>
+            <desc>
+              <value>3</value>
+              <name>Maximize</name>
+              <name xml:lang="zh-Hant-TW">&#x6700;&#x5927;&#x5316;</name>
+              <name xml:lang="zh-Hans-CN">&#x6700;&#x5927;&#x5316;</name>
+              <name xml:lang="uk">&#x420;&#x43E;&#x437;&#x433;&#x43E;&#x440;&#x43D;&#x443;&#x442;&#x438;</name>
+              <name xml:lang="tr">B&#xFC;y&#xFC;t</name>
+              <name xml:lang="ta">&#xBAA;&#xBC6;&#xBB0;&#xBBF;&#xBA4;&#xBBE;&#xB95;&#xBCD;&#xB95;&#xBC1;</name>
+              <name xml:lang="sv">Maximera</name>
+              <name xml:lang="sk">Maximalizova&#x165;</name>
+              <name xml:lang="ru">&#x420;&#x430;&#x437;&#x432;&#x435;&#x440;&#x43D;&#x443;&#x442;&#x44C;</name>
+              <name xml:lang="pt-BR">Maximizar</name>
+              <name xml:lang="pt">Maximizar</name>
+              <name xml:lang="pl">Maksymalizuj</name>
+              <name xml:lang="or">&#xB38;&#xB30;&#xB4D;&#xB2C;&#xB3E;&#xB27;&#xB3F;&#xB15; &#xB15;&#xB30;</name>
+              <name xml:lang="nl">Maximaliseer</name>
+              <name xml:lang="nb">Maksimer</name>
+              <name xml:lang="ko">&#xCD5C;&#xB300;&#xD654;</name>
+              <name xml:lang="ka">&#x10D2;&#x10D0;&#x10D3;&#x10D8;&#x10D3;&#x10D4;&#x10D1;&#x10D0;</name>
+              <name xml:lang="ja">&#x6700;&#x5927;&#x5316;</name>
+              <name xml:lang="it">Massimizzato</name>
+              <name xml:lang="hu">Maximaliz&#xE1;l&#xE1;s</name>
+              <name xml:lang="hr">Pove&#x107;aj</name>
+              <name xml:lang="he">&#x5D4;&#x5D2;&#x5D3;&#x5DC; &#x5DC;&#x5DE;&#x5E7;&#x5E1;&#x5D9;&#x5DE;&#x5D5;&#x5DD;</name>
+              <name xml:lang="gu">&#xAAE;&#xAB9;&#xAA4;&#xACD;&#xAA4;&#xAAE; &#xA95;&#xAB0;&#xACB;</name>
+              <name xml:lang="gl">Maximizar</name>
+              <name xml:lang="fr">Maximiser</name>
+              <name xml:lang="fi">Suurenna</name>
+              <name xml:lang="eu">Maximizatu</name>
+              <name xml:lang="es">Maximizada</name>
+              <name xml:lang="en-GB">Maximise</name>
+              <name xml:lang="el">&#x39C;&#x3B5;&#x3B3;&#x3B9;&#x3C3;&#x3C4;&#x3BF;&#x3C0;&#x3BF;&#x3AF;&#x3B7;&#x3C3;&#x3B5;</name>
+              <name xml:lang="de">Maximieren</name>
+              <name xml:lang="ca">Minimitza</name>
+              <name xml:lang="bn">&#x9AC;&#x9A1;&#x9BC; &#x995;&#x9B0;&#x9BE;</name>
+              <name xml:lang="bn-IN">&#x9AC;&#x9A1;&#x9BC; &#x995;&#x9B0;&#x9BE;</name>
+              <name xml:lang="ar">&#x62A;&#x643;&#x628;&#x64A;&#x631;</name>
+            </desc>
+            <desc>
+              <value>4</value>
+              <name>Random</name>
+              <name xml:lang="zh-Hant-TW">&#x96A8;&#x6A5F;&#x4E82;&#x6578;</name>
+              <name xml:lang="zh-Hans-CN">&#x968F;&#x673A;</name>
+              <name xml:lang="uk">&#x412;&#x438;&#x43F;&#x430;&#x434;&#x43A;&#x43E;&#x432;&#x438;&#x439;</name>
+              <name xml:lang="tr">Rastgele</name>
+              <name xml:lang="sv">Slumpm&#xE4;ssigt</name>
+              <name xml:lang="sk">N&#xE1;hodn&#xE9;</name>
+              <name xml:lang="ru">&#x421;&#x43B;&#x443;&#x447;&#x430;&#x439;&#x43D;&#x43E;</name>
+              <name xml:lang="ro">Aleator</name>
+              <name xml:lang="pt-BR">Aleat&#xF3;rio</name>
+              <name xml:lang="pt">Aleat&#xF3;rio</name>
+              <name xml:lang="pl">Losowy</name>
+              <name xml:lang="pa">&#xA30;&#xA48;&#xA02;&#xA21;&#xA2E;</name>
+              <name xml:lang="or">&#xB15;&#xB4D;&#xB30;&#xB2E;&#xB39;&#xB40;&#xB28;</name>
+              <name xml:lang="nl">Willekeurig</name>
+              <name xml:lang="nb">Tilfeldig</name>
+              <name xml:lang="ko">&#xBB34;&#xC791;&#xC704;&#xB85C;</name>
+              <name xml:lang="ka">&#x10E8;&#x10D4;&#x10DB;&#x10D7;&#x10EE;&#x10D5;&#x10D4;&#x10D5;&#x10D8;&#x10D7;&#x10D8;</name>
+              <name xml:lang="ja">&#x30E9;&#x30F3;&#x30C0;&#x30E0;</name>
+              <name xml:lang="it">Casuale</name>
+              <name xml:lang="hu">V&#xE9;letlen</name>
+              <name xml:lang="hr">Naizmjeni&#x10D;an</name>
+              <name xml:lang="hi">&#x915;&#x94D;&#x930;&#x92E;&#x939;&#x940;&#x928;</name>
+              <name xml:lang="he">&#x5D0;&#x5E7;&#x5E8;&#x5D0;&#x5D9;</name>
+              <name xml:lang="gu">&#xAB0;&#xAC7;&#xAA8;&#xACD;&#xAA1;&#xAAE;</name>
+              <name xml:lang="gl">Aleatorio</name>
+              <name xml:lang="fr">Al&#xE9;atoire</name>
+              <name xml:lang="fi">Satunnainen</name>
+              <name xml:lang="eu">Ausaz</name>
+              <name xml:lang="es">Aleatorio</name>
+              <name xml:lang="en-GB">Random</name>
+              <name xml:lang="el">&#x3A4;&#x3C5;&#x3C7;&#x3B1;&#x3AF;&#x3B1;</name>
+              <name xml:lang="de">Zuf&#xE4;llig</name>
+              <name xml:lang="cs">N&#xE1;hodn&#xFD;</name>
+              <name xml:lang="ca">Aleatori</name>
+              <name xml:lang="bn">&#x987;&#x99A;&#x9CD;&#x99B;&#x9BE;&#x9AE;&#x9A4;</name>
+              <name xml:lang="bn-IN">&#x987;&#x99A;&#x9CD;&#x99B;&#x9BE;&#x9AE;&#x9A4;</name>
+              <name xml:lang="bg">&#x41F;&#x440;&#x43E;&#x438;&#x437;&#x432;&#x43E;&#x43B;&#x43D;&#x43E;</name>
+            </desc>
+            <desc>
+              <value>5</value>
+              <name>Under pointer</name>
+              <name xml:lang="ka">&#x10DB;&#x10D0;&#x10E9;&#x10D5;&#x10D4;&#x10DC;&#x10D4;&#x10D1;&#x10DA;&#x10D8;&#x10E1; &#x10E5;&#x10D5;&#x10D4;&#x10E8;</name>
+              <name xml:lang="hr">Ispod pokaziva&#x10D;a</name>
+              <name xml:lang="en-GB">Under pointer</name>
+              <name xml:lang="ca">A sota del punter</name>
+            </desc>
+          </option>
+        </subgroup>
+        <subgroup>
+          <short>Windows with fixed viewport</short>
+          <short xml:lang="zh-Hant-TW">&#x8996;&#x7A97;&#x4EE5;&#x8996;&#x9EDE;&#x65B9;&#x5F0F;&#x56FA;&#x5B9A;</short>
+          <short xml:lang="zh-Hans-CN">&#x89C6;&#x53E3;&#x56FA;&#x5B9A;&#x7684;&#x7A97;&#x53E3;</short>
+          <short xml:lang="uk">&#x412;&#x456;&#x43A;&#x43D;&#x43E; &#x437; &#x444;&#x456;&#x43A;&#x441;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x43C; &#x432;&#x438;&#x434;&#x43E;&#x432;&#x438;&#x43C; &#x432;&#x456;&#x43A;&#x43D;&#x43E;&#x43C;</short>
+          <short xml:lang="ru">&#x41E;&#x43A;&#x43D;&#x43E; &#x441; &#x444;&#x438;&#x43A;&#x441;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x44B;&#x43C; &#x432;&#x438;&#x434;&#x43E;&#x432;&#x44B;&#x43C; &#x43E;&#x43A;&#x43D;&#x43E;&#x43C;</short>
+          <short xml:lang="pt">Janelas com viewport fixo</short>
+          <short xml:lang="pl">Okna z ustalonymi pulpitami</short>
+          <short xml:lang="ko">&#xACE0;&#xC815;&#xB41C; &#xC791;&#xC5C5; &#xACF5;&#xAC04;&#xC744; &#xAC16;&#xB294; &#xCC3D;</short>
+          <short xml:lang="ka">&#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D4;&#x10D1;&#x10D8; &#x10E4;&#x10D8;&#x10E5;&#x10E1;&#x10D8;&#x10E0;&#x10D4;&#x10D1;&#x10E3;&#x10DA;&#x10D8; &#x10EE;&#x10D4;&#x10D3;&#x10D8;&#x10E1; &#x10EC;&#x10D4;&#x10E0;&#x10E2;&#x10D8;&#x10DA;&#x10D8;&#x10D7;</short>
+          <short xml:lang="ja">&#x56FA;&#x5B9A;&#x30D3;&#x30E5;&#x30FC;&#x30DD;&#x30FC;&#x30C8;&#x306B;&#x914D;&#x7F6E;&#x3059;&#x308B;&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;</short>
+          <short xml:lang="it">Finestre con area visibile fissa</short>
+          <short xml:lang="hu">Ablakok r&#xF6;gz&#xED;tett n&#xE9;z&#x151;ponttal</short>
+          <short xml:lang="hr">Prozori s nepromjenjivim podru&#x10D;jem prikaza</short>
+          <short xml:lang="he">&#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA; &#x5D1;&#x5E2;&#x5DC;&#x5D9; &#x5DE;&#x5E9;&#x5D8;&#x5D7; &#x5E2;&#x5D1;&#x5D5;&#x5D3;&#x5D4; &#x5E7;&#x5D1;&#x5D5;&#x5E2;</short>
+          <short xml:lang="gl">Fiestras con &#xE1;reas de traballo fixado</short>
+          <short xml:lang="fr">Fen&#xEA;tres avec un "viewport" fixe</short>
+          <short xml:lang="fi">Ikkunatyypit, joilla m&#xE4;&#xE4;r&#xE4;tty ty&#xF6;tila</short>
+          <short xml:lang="eu">Mahaigain aurkezpen zehaztuko leihoak</short>
+          <short xml:lang="es">Ventanas con punto de vista fijo</short>
+          <short xml:lang="en-GB">Windows with fixed viewport</short>
+          <short xml:lang="el">&#x3A0;&#x3B1;&#x3C1;&#x3AC;&#x3B8;&#x3C5;&#x3C1;&#x3B1; &#x3BC;&#x3B5; &#x3C3;&#x3C4;&#x3B1;&#x3B8;&#x3B5;&#x3C1;&#x3AD;&#x3C2; &#x3B5;&#x3B9;&#x3BA;&#x3BF;&#x3BD;&#x3B9;&#x3BA;&#x3AD;&#x3C2; &#x3B5;&#x3C0;&#x3B9;&#x3C6;&#x3AC;&#x3BD;&#x3B5;&#x3B9;&#x3B5;&#x3C2; &#x3B5;&#x3C1;&#x3B3;&#x3B1;&#x3C3;&#x3AF;&#x3B1;&#x3C2;</short>
+          <short xml:lang="ca">Finestres amb l'&#xE0;rea de visualitzaci&#xF3; fixa</short>
+          <option name="viewport_matches" type="list">
+            <short>Viewport positioned windows</short>
+            <short xml:lang="zh-Hant-TW">&#x8996;&#x7A97;&#x7684;&#x8996;&#x9EDE;&#x4F4D;&#x7F6E;</short>
+            <short xml:lang="zh-Hans-CN">&#x89C6;&#x56FE;&#x4E2D;&#x7684;&#x5B9A;&#x4F4D;&#x7A97;&#x53E3;</short>
+            <short xml:lang="uk">&#x41E;&#x43F;&#x43E;&#x437;&#x438;&#x446;&#x456;&#x43E;&#x43D;&#x443;&#x432;&#x430;&#x43D;&#x43D;&#x44F; &#x432;&#x456;&#x43A;&#x43D;&#x430; &#x432;&#x438;&#x434;&#x43E;&#x432;&#x43E;&#x438;&#x445; &#x432;&#x456;&#x43A;&#x43E;&#x43D;</short>
+            <short xml:lang="tr">Masa&#xFC;st&#xFC;ne konumland&#x131;r&#x131;lacak pencereler</short>
+            <short xml:lang="sk">Okn&#xE1; umiestnen&#xE9; v poh&#x13E;adoch</short>
+            <short xml:lang="ru">&#x421;&#x43F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x43E;&#x43D;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x44B;&#x435; &#x43E;&#x43A;&#x43D;&#x430; &#x432;&#x438;&#x434;&#x43E;&#x432;&#x43E;&#x433;&#x43E; &#x43E;&#x43A;&#x43D;&#x430;</short>
+            <short xml:lang="pt-BR">Janelas posicionadas na janela de visualiza&#xE7;&#xE3;o</short>
+            <short xml:lang="pt">Janelas posicionadas no viewport</short>
+            <short xml:lang="pl">Przemieszczenie okien na pulpity</short>
+            <short xml:lang="or">&#xB26;&#xB43;&#xB36;&#xB4D;&#xB2F;&#xB2A;&#xB4B;&#xB30;&#xB4D;&#xB1F; &#xB38;&#xB4D;&#xB25;&#xB3E;&#xB2A;&#xB3F;&#xB24; &#xB09;&#xB07;&#xB23;&#xB4D;&#xB21;&#xB4B;</short>
+            <short xml:lang="nl">Viewport gepositioneerde vensters</short>
+            <short xml:lang="nb">Arbeidsomr&#xE5;de-plasserte vinduer</short>
+            <short xml:lang="ko">&#xC791;&#xC5C5; &#xACF5;&#xAC04;&#xC5D0; &#xBC30;&#xCE58;&#xB41C; &#xCC3D;</short>
+            <short xml:lang="ka">&#x10EE;&#x10D4;&#x10D3;&#x10D8;&#x10E1; &#x10EC;&#x10D4;&#x10E0;&#x10E2;&#x10D8;&#x10DA;&#x10D8;&#x10D7; &#x10D2;&#x10D0;&#x10DC;&#x10DA;&#x10D0;&#x10D2;&#x10D4;&#x10D1;&#x10E3;&#x10DA;&#x10D8; &#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D4;&#x10D1;&#x10D8;</short>
+            <short xml:lang="ja">&#x56FA;&#x5B9A;&#x30D3;&#x30E5;&#x30FC;&#x30DD;&#x30FC;&#x30C8;&#x30FB;&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;</short>
+            <short xml:lang="it">Finestre posizionate in area visibile</short>
+            <short xml:lang="hu">Munkater&#xFC;leten elhelyezett ablakok</short>
+            <short xml:lang="hr">Prozori smje&#x161;teni u podru&#x10D;je prikaza</short>
+            <short xml:lang="he">&#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA; &#x5D4;&#x5DE;&#x5DE;&#x5D5;&#x5E7;&#x5DE;&#x5D9;&#x5DD; &#x5E2;&#x5DC; &#x5DE;&#x5E9;&#x5D8;&#x5D7;</short>
+            <short xml:lang="gl">Fiestras colocadas nas &#xE1;reas de traballo</short>
+            <short xml:lang="fr">Fen&#xEA;tres positionn&#xE9;es sur un bureau</short>
+            <short xml:lang="fi">Tiettyyn ty&#xF6;p&#xF6;yt&#xE4;&#xE4;n sijoitettavat ikkunat</short>
+            <short xml:lang="eu">Mahaigain aurkezpenan kokatutako leihoak</short>
+            <short xml:lang="es">Ventanas posicionadas en viewport</short>
+            <short xml:lang="en-GB">Viewport positioned windows</short>
+            <short xml:lang="el">&#x3A4;&#x3BF;&#x3C0;&#x3BF;&#x3B8;&#x3B5;&#x3C4;&#x3B7;&#x3BC;&#x3AD;&#x3BD;&#x3B1; &#x3C0;&#x3B1;&#x3C1;&#x3AC;&#x3B8;&#x3C5;&#x3C1;&#x3B1; &#x3C3;&#x3C4;&#x3B9;&#x3C2; &#x3B5;&#x3B9;&#x3BA;&#x3BF;&#x3BD;&#x3B9;&#x3BA;&#x3AD;&#x3C2; &#x3B5;&#x3C0;&#x3B9;&#x3C6;&#x3AC;&#x3BD;&#x3B5;&#x3B9;&#x3B5;&#x3C2; &#x3B5;&#x3C1;&#x3B3;&#x3B1;&#x3C3;&#x3AF;&#x3B1;&#x3C2;</short>
+            <short xml:lang="de">Auf Viewport platzierte Fenster</short>
+            <short xml:lang="ca">Finestres posicionades a l'&#xE0;rea de visualitzaci&#xF3;</short>
+            <short xml:lang="bn">&#x9AD;&#x9BF;&#x989;&#x9AA;&#x9CB;&#x9B0;&#x9CD;&#x99F; &#x985;&#x9AC;&#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9A8;&#x9C7;&#x9B0; &#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB;</short>
+            <short xml:lang="bn-IN">&#x9AD;&#x9BF;&#x989;&#x9AA;&#x9CB;&#x9B0;&#x9CD;&#x99F; &#x985;&#x9AC;&#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9A8;&#x9C7;&#x9B0; &#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB;</short>
+            <long>Windows that should be positioned in specific viewports by default</long>
+            <long xml:lang="zh-Hant-TW">&#x9810;&#x8A2D;&#x7684;&#x81EA;&#x5B9A;&#x7FA9;&#x8996;&#x7A97;&#x8996;&#x9EDE;&#x4F4D;&#x7F6E;</long>
+            <long xml:lang="zh-Hans-CN">&#x6307;&#x5B9A;&#x89C6;&#x56FE;&#x4E2D;&#x9ED8;&#x8BA4;&#x5E94;&#x5B9A;&#x4F4D;&#x7684;&#x7A97;&#x53E3;</long>
+            <long xml:lang="uk">&#x412;&#x456;&#x43A;&#x43D;&#x430;, &#x44F;&#x43A;&#x456; &#x43F;&#x43E;&#x432;&#x438;&#x43D;&#x43D;&#x456; &#x431;&#x443;&#x442;&#x438; &#x43E;&#x43F;&#x43E;&#x437;&#x438;&#x446;&#x456;&#x43E;&#x43D;&#x43E;&#x432;&#x430;&#x43D;&#x456; &#x432; &#x43F;&#x435;&#x432;&#x43D;&#x43E;&#x43C;&#x443; &#x435;&#x43A;&#x440;&#x430;&#x43D;&#x456; &#x437;&#x430; &#x437;&#x430;&#x43C;&#x43E;&#x432;&#x447;&#x443;&#x432;&#x430;&#x43D;&#x43D;&#x44F;&#x43C;</long>
+            <long xml:lang="tr">&#xD6;ntan&#x131;ml&#x131; olarak belirli bir masa&#xFC;st&#xFC;ne konumland&#x131;r&#x131;lacak pencereler</long>
+            <long xml:lang="sv">F&#xF6;nster som ska bli positionerade i en specifik arbetsyta som standard</long>
+            <long xml:lang="sk">Okn&#xE1;, ktor&#xE9; by mali by&#x165; &#x161;tandardne umiestnen&#xE9; na konkr&#xE9;tnu plochu</long>
+            <long xml:lang="ru">&#x41E;&#x43A;&#x43D;&#x430;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x435; &#x434;&#x43E;&#x43B;&#x436;&#x43D;&#x44B; &#x431;&#x44B;&#x442;&#x44C; &#x441;&#x43F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x43E;&#x43D;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x44B; &#x432; &#x43E;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x435;&#x43D;&#x43D;&#x43E;&#x43C; &#x44D;&#x43A;&#x440;&#x430;&#x43D;&#x435; &#x43F;&#x43E; &#x443;&#x43C;&#x43E;&#x43B;&#x447;&#x430;&#x43D;&#x438;&#x44E;</long>
+            <long xml:lang="ro">Ferestre ce trebuiesc pozi&#x21B;ionate implicit &#xEE;n anumite zone de vizualizare</long>
+            <long xml:lang="pt-BR">Janelas que devem ser posicionadas por padr&#xE3;o em janelas de visualiza&#xE7;&#xE3;o espec&#xED;ficas</long>
+            <long xml:lang="pt">Janelas que devem ser posicionadas em viewports espec&#xED;ficos por omiss&#xE3;o</long>
+            <long xml:lang="pl">Typy okien, kt&#xF3;re powinny by&#x107; domy&#x15B;lnie u&#x142;o&#x17C;one na konkretnych pulpitach</long>
+            <long xml:lang="pa">&#xA35;&#xA3F;&#xA70;&#xA21;&#xA4B;, &#xA1C;&#xA4B; &#xA15;&#xA3F; &#xA21;&#xA3F;&#xA2B;&#xA3E;&#xA32;&#xA1F; &#xA39;&#xA40; &#xA16;&#xA3E;&#xA38; &#xA35;&#xA3F;&#xA0A;&#xA2A;&#xA4B;&#xA30;&#xA1F; &#xA35;&#xA3F;&#xA71;&#xA1A; &#xA30;&#xA71;&#xA16;&#xA40; &#xA1C;&#xA3E;&#xA23;&#xA40; &#xA1A;&#xA3E;&#xA39;&#xA40;&#xA26;&#xA40; &#xA39;&#xA48;</long>
+            <long xml:lang="or">&#xB09;&#xB07;&#xB23;&#xB4D;&#xB21;&#xB4B; &#xB5F;&#xB3E;&#xB39;&#xB3E;&#xB15;&#xB3F; &#xB21;&#xB3F;&#xB2B;&#xB32;&#xB4D;&#xB1F;&#xB30;&#xB47; &#xB17;&#xB4B;&#xB1F;&#xB3F;&#xB0F; &#xB28;&#xB3F;&#xB30;&#xB4D;&#xB26;&#xB4D;&#xB26;&#xB3F;&#xB37;&#xB4D;&#xB1F; &#xB26;&#xB43;&#xB36;&#xB4D;&#xB2F;&#xB2A;&#xB4B;&#xB30;&#xB4D;&#xB1F;&#xB30;&#xB47; &#xB38;&#xB4D;&#xB25;&#xB3E;&#xB2A;&#xB3F;&#xB24; &#xB39;&#xB47;&#xB2C;&#xB3E; &#xB09;&#xB1A;&#xB3F;&#xB24;</long>
+            <long xml:lang="nl">Vensters die gepositioneerd moeten worden in een specifieke viewport</long>
+            <long xml:lang="nb">Vinduer som skal plasseres i spesifikke arbeidsomr&#xE5;der som standard</long>
+            <long xml:lang="ko">&#xAE30;&#xBCF8;&#xC801;&#xC73C;&#xB85C; &#xD2B9;&#xC815; &#xC791;&#xC5C5; &#xACF5;&#xAC04;&#xC5D0; &#xBC30;&#xCE58;&#xB418;&#xC5B4;&#xC57C;&#xD558;&#xB294; &#xCC3D;</long>
+            <long xml:lang="ka">&#x10E4;&#x10D0;&#x10DC;&#x10EF;&#x10E0;&#x10D4;&#x10D1;&#x10D8;, &#x10E0;&#x10DD;&#x10DB;&#x10DA;&#x10D4;&#x10D1;&#x10D8;&#x10EA; &#x10DC;&#x10D0;&#x10D2;&#x10E3;&#x10DA;&#x10D8;&#x10E1;&#x10EE;&#x10DB;&#x10D4;&#x10D5;&#x10D0;&#x10D3; &#x10DB;&#x10D8;&#x10D7;&#x10D8;&#x10D7;&#x10D4;&#x10D1;&#x10E3;&#x10DA; &#x10EE;&#x10D4;&#x10D3;&#x10D5;&#x10E1; &#x10EC;&#x10D4;&#x10E0;&#x10E2;&#x10D8;&#x10DA;&#x10D4;&#x10D1;&#x10E8;&#x10D8; &#x10E3;&#x10DC;&#x10D3;&#x10D0; &#x10D2;&#x10D0;&#x10DC;&#x10DA;&#x10D0;&#x10D2;&#x10D3;&#x10D4;&#x10E1;</long>
+            <long xml:lang="ja">&#x30C7;&#x30D5;&#x30A9;&#x30EB;&#x30C8;&#x3067;&#x7279;&#x5B9A;&#x30D3;&#x30E5;&#x30FC;&#x30DD;&#x30FC;&#x30C8;&#x306B;&#x914D;&#x7F6E;&#x3059;&#x308B;&#x30A6;&#x30A3;&#x30F3;&#x30C9;&#x30A6;</long>
+            <long xml:lang="it">Tipi di finestre da posizionare in un'area visibile specifica in modo predefinito</long>
+            <long xml:lang="hu">Alap&#xE9;rtelmez&#xE9;s szerint megadott munkalapra pozicion&#xE1;land&#xF3; ablakok</long>
+            <long xml:lang="hr">Prozori koji uobi&#x10D;ajeno trebaju biti smje&#x161;teni u odre&#x111;ena podru&#x10D;ja prikaza</long>
+            <long xml:lang="hi">&#x935;&#x93F;&#x902;&#x921;&#x94B;&#x91C;&#x93C; &#x91C;&#x93F;&#x938;&#x947; &#x92E;&#x942;&#x932;&#x92D;&#x942;&#x924; &#x930;&#x942;&#x92A; &#x938;&#x947; &#x935;&#x93F;&#x936;&#x947;&#x937; &#x935;&#x94D;&#x92F;&#x942;&#x92A;&#x94B;&#x930;&#x94D;&#x91F; &#x92E;&#x947;&#x902; &#x930;&#x916;&#x93E; &#x91C;&#x93E;&#x928;&#x93E; &#x91A;&#x93E;&#x939;&#x93F;&#x90F;</long>
+            <long xml:lang="he">&#x5D7;&#x5DC;&#x5D5;&#x5E0;&#x5D5;&#x5EA; &#x5E9;&#x5D9;&#x5E9; &#x5DC;&#x5DE;&#x5E7;&#x5DE;&#x5DD; &#x5D1;&#x5DE;&#x5E9;&#x5D8;&#x5D7; &#x5E1;&#x5E4;&#x5E6;&#x5D9;&#x5E4;&#x5D9; &#x5DB;&#x5D1;&#x5E8;&#x5D9;&#x5E8;&#x5EA; &#x5DE;&#x5D7;&#x5D3;&#x5DC;</long>
+            <long xml:lang="gu">&#xAB5;&#xABF;&#xAA8;&#xACD;&#xAA1;&#xACB; &#xA95;&#xAC7; &#xA9C;&#xAC7; &#xA9A;&#xACB;&#xA95;&#xACD;&#xA95;&#xAB8; &#xAA6;&#xAC3;&#xAB6;&#xACD;&#xAAF;&#xAAA;&#xACB;&#xAB0;&#xACD;&#xA9F;&#xAAE;&#xABE;&#xA82; &#xAAE;&#xAC2;&#xAB3;&#xAAD;&#xAC2;&#xAA4; &#xAB0;&#xAC0;&#xAA4;&#xAC7; &#xA97;&#xACB;&#xAA0;&#xAB5;&#xABE;&#xAAF;&#xAC7;&#xAB2; &#xAB9;&#xACB;&#xAB5;&#xABE; &#xA9C;&#xACB;&#xA88;&#xA8F;</long>
+            <long xml:lang="gl">Fiestras que deben ser colocadas en &#xE1;reas de traballo espec&#xED;ficos por omisi&#xF3;n</long>
+            <long xml:lang="fr">Types de fen&#xEA;tres qui devraient &#xEA;tre positionn&#xE9;es sur un bureau sp&#xE9;cifique par d&#xE9;faut</long>
+            <long xml:lang="fi">Ikkunatyypit, jotka tulisi sijoittaa tiettyyn ty&#xF6;p&#xF6;yt&#xE4;&#xE4;n oletuksena</long>
+            <long xml:lang="eu">Mahaigain aurkezpen konkretuan berez kokatuko diren leihoak</long>
+            <long xml:lang="es">Ventanas que deben posicionarse en viewports espec&#xED;ficos por defecto</long>
+            <long xml:lang="el">&#x3A0;&#x3B1;&#x3C1;&#x3AC;&#x3B8;&#x3C5;&#x3C1;&#x3B1; &#x3C0;&#x3BF;&#x3C5; &#x3B8;&#x3B1; &#x3C4;&#x3BF;&#x3C0;&#x3BF;&#x3B8;&#x3B5;&#x3C4;&#x3B7;&#x3B8;&#x3BF;&#x3CD;&#x3BD; &#x3C3;&#x3B5; &#x3C3;&#x3C5;&#x3B3;&#x3BA;&#x3B5;&#x3BA;&#x3C1;&#x3B9;&#x3BC;&#x3AD;&#x3BD;&#x3B5;&#x3C2; &#x3B5;&#x3B9;&#x3BA;&#x3BF;&#x3BD;&#x3B9;&#x3BA;&#x3AD;&#x3C2; &#x3B5;&#x3C0;&#x3B9;&#x3C6;&#x3AC;&#x3BD;&#x3B5;&#x3B9;&#x3B5;&#x3C2; &#x3B5;&#x3C1;&#x3B3;&#x3B1;&#x3C3;&#x3AF;&#x3B1;&#x3C2; &#x3B5;&#x3BE;' &#x3BF;&#x3C1;&#x3B9;&#x3C3;&#x3BC;&#x3BF;&#x3CD;</long>
+            <long xml:lang="de">Fenstertypen, die auf einen bestimmten Viewport platziert werden sollen</long>
+            <long xml:lang="cs">Okna, kter&#xE9; budou implicitn&#x11B; rozm&#xED;st&#x11B;ny na ur&#x10D;itou plochu</long>
+            <long xml:lang="ca">Finestres que s'han de posicionar en &#xE0;rees de visualitzaci&#xF3; espec&#xED;fiques de manera predeterminada</long>
+            <long xml:lang="bn">&#x9AA;&#x9CD;&#x9B0;&#x9A5;&#x9BE;&#x9B8;&#x9CD;&#x9AC;&#x9B0;&#x9C2;&#x9AA;&#x9AD;&#x9BE;&#x9AC;&#x9C7; &#x9AF;&#x9C7; &#x9AD;&#x9BF;&#x989;&#x9AA;&#x9CB;&#x9B0;&#x9CD;&#x99F;&#x9C7; &#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB;&#x997;&#x9C1;&#x9B2;&#x9BF; &#x9B0;&#x9BE;&#x996;&#x9BE; &#x9B9;&#x9AC;&#x9C7; </long>
+            <long xml:lang="bn-IN">&#x9AA;&#x9CD;&#x9B0;&#x9A5;&#x9BE;&#x9B8;&#x9CD;&#x9AC;&#x9B0;&#x9C2;&#x9AA;&#x9AD;&#x9BE;&#x9AC;&#x9C7; &#x9AF;&#x9C7; &#x9AD;&#x9BF;&#x989;&#x9AA;&#x9CB;&#x9B0;&#x9CD;&#x99F;&#x9C7; &#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB;&#x997;&#x9C1;&#x9B2;&#x9BF; &#x9B0;&#x9BE;&#x996;&#x9BE; &#x9B9;&#x9AC;&#x9C7; </long>
+            <type>match</type>
+          </option>
+          <option name="viewport_x_values" type="list">
+            <short>X Viewport Positions</short>
+            <short xml:lang="zh-Hant-TW">X&#x5EA7;&#x6A19;&#x8996;&#x9EDE;&#x7684;&#x4F4D;&#x7F6E;</short>
+            <short xml:lang="zh-Hans-CN">X&#x89C6;&#x56FE;&#x4F4D;&#x7F6E;</short>
+            <short xml:lang="uk">&#x41F;&#x43E;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x43D;&#x44F; &#x432;&#x438;&#x434;&#x43E;&#x432;&#x43E;&#x433;&#x43E; &#x432;&#x456;&#x43A;&#x43D;&#x430; &#x43F;&#x43E; X</short>
+            <short xml:lang="tr">X G&#xF6;r&#xFC;n&#xFC;m Y&#xFC;z&#xFC; Konumlar&#x131;</short>
+            <short xml:lang="sk">Poz&#xED;cie plochy na osi X</short>
+            <short xml:lang="ru">&#x41F;&#x43E;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x44F; &#x432;&#x438;&#x434;&#x43E;&#x432;&#x43E;&#x433;&#x43E; &#x43E;&#x43A;&#x43D;&#x430; &#x43F;&#x43E; X</short>
+            <short xml:lang="pt-BR">Posi&#xE7;&#xF5;es X da janela de visualiza&#xE7;&#xE3;o</short>
+            <short xml:lang="pt">Posi&#xE7;&#xF5;es X do viewport</short>
+            <short xml:lang="pl">Pozycje wirtualnych pulpit&#xF3;w osi X</short>
+            <short xml:lang="or">X &#xB26;&#xB43;&#xB36;&#xB4D;&#xB2F;&#xB2A;&#xB4B;&#xB30;&#xB4D;&#xB1F; &#xB38;&#xB4D;&#xB25;&#xB3E;&#xB28;&#xB17;&#xB41;&#xB21;&#xB3F;&#xB15;</short>
+            <short xml:lang="nl">X viewport positie's</short>
+            <short xml:lang="nb">X-posisjoner p&#xE5; arbeidsomr&#xE5;de</short>
+            <short xml:lang="ko">&#xC791;&#xC5C5; &#xACF5;&#xAC04; &#xAC00;&#xB85C;&#xCD95; &#xC704;&#xCE58;</short>
+            <short xml:lang="ka">X &#x10EE;&#x10D4;&#x10D3;&#x10D8;&#x10E1; &#x10EC;&#x10D4;&#x10E0;&#x10E2;&#x10D8;&#x10DA;&#x10D8;&#x10E1; &#x10DB;&#x10D3;&#x10D4;&#x10D1;&#x10D0;&#x10E0;&#x10D4;&#x10DD;&#x10D1;&#x10D4;&#x10D1;&#x10D8;</short>
+            <short xml:lang="ja">X &#x30D3;&#x30E5;&#x30FC;&#x30DD;&#x30FC;&#x30C8;&#x4F4D;&#x7F6E;</short>
+            <short xml:lang="it">Posizioni X area visibile</short>
+            <short xml:lang="hu">V&#xED;zszintes munkalap poz&#xED;ci&#xF3;</short>
+            <short xml:lang="hr">X polo&#x17E;aji podru&#x10D;ja prikaza</short>
+            <short xml:lang="he">&#x5DE;&#x5D9;&#x5E7;&#x5D5;&#x5DE;&#x5D9; &#x5DE;&#x5E9;&#x5D8;&#x5D7; &#x5D1;-X</short>
+            <short xml:lang="gu">X &#xAA6;&#xAC3;&#xAB6;&#xACD;&#xAAF;&#xAAA;&#xACB;&#xAB0;&#xACD;&#xA9F; &#xAB8;&#xACD;&#xAA5;&#xABE;&#xAA8;&#xACB;</short>
+            <short xml:lang="gl">Posici&#xF3;ns X da &#xC1;rea de traballo</short>
+            <short xml:lang="fr">Positions du viewport en X</short>
+            <short xml:lang="fi">N&#xE4;kym&#xE4;n X-sijainnit</short>
+            <short xml:lang="eu">X mahaigain aurkezpen kokapenak</short>
+            <short xml:lang="es">Posiciones de Viewport X</short>
+            <short xml:lang="en-GB">X Viewport Positions</short>
+            <short xml:lang="el">&#x398;&#x3AD;&#x3C3;&#x3B5;&#x3B9;&#x3C2; &#x3A7; &#x395;&#x3B9;&#x3BA;&#x3BF;&#x3BD;&#x3B9;&#x3BA;&#x3CE;&#x3BD; &#x395;&#x3C0;&#x3B9;&#x3C6;&#x3B1;&#x3BD;&#x3B5;&#x3B9;&#x3CE;&#x3BD; &#x395;&#x3C1;&#x3B3;&#x3B1;&#x3C3;&#x3AF;&#x3B1;&#x3C2;</short>
+            <short xml:lang="de">Viewport-X-Position</short>
+            <short xml:lang="cs">Pozice plochy na ose X</short>
+            <short xml:lang="ca">Posicions de l'&#xE0;rea de visualitzaci&#xF3; X</short>
+            <short xml:lang="bn">X &#x9AD;&#x9BF;&#x989;&#x9AA;&#x9CB;&#x9B0;&#x9CD;&#x99F; &#x985;&#x9AC;&#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9A8;</short>
+            <short xml:lang="bn-IN">X &#x9AD;&#x9BF;&#x989;&#x9AA;&#x9CB;&#x9B0;&#x9CD;&#x99F; &#x985;&#x9AC;&#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9A8;</short>
+            <long>Horizontal viewport positions</long>
+            <long xml:lang="zh-Hant-TW">&#x6C34;&#x5E73;&#x8996;&#x9EDE;&#x4F4D;&#x7F6E;</long>
+            <long xml:lang="zh-Hans-CN">&#x6C34;&#x5E73;&#x89C6;&#x56FE;&#x4F4D;&#x7F6E;</long>
+            <long xml:lang="uk">&#x413;&#x43E;&#x440;&#x438;&#x437;&#x43E;&#x43D;&#x442;&#x430;&#x43B;&#x44C;&#x43D;&#x456; &#x43F;&#x43E;&#x437;&#x438;&#x446;&#x456;&#x457; &#x432;&#x438;&#x434;&#x43E;&#x432;&#x438;&#x445; &#x432;&#x456;&#x43A;&#x43E;&#x43D;</long>
+            <long xml:lang="tr">Yatay masa&#xFC;st&#xFC; konumlar&#x131;</long>
+            <long xml:lang="sv">Horisontella skivbordsvypositioner</long>
+            <long xml:lang="sk">Vodorovn&#xE9; poz&#xED;cie poh&#x13E;adov</long>
+            <long xml:lang="ru">&#x413;&#x43E;&#x440;&#x438;&#x437;&#x43E;&#x43D;&#x442;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x435; &#x43F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x438; &#x432;&#x438;&#x434;&#x43E;&#x432;&#x44B;&#x445; &#x43E;&#x43A;&#x43E;&#x43D;</long>
+            <long xml:lang="pt-BR">Posi&#xE7;&#xF5;es horizontais</long>
+            <long xml:lang="pt">Posi&#xE7;&#xF5;es horizontais</long>
+            <long xml:lang="pl">Poziome pozycje wirtualnych pulpit&#xF3;w</long>
+            <long xml:lang="or">&#xB26;&#xB3F;&#xB17;&#xB2C;&#xB33;&#xB3E;&#xB2F; &#xB26;&#xB43;&#xB36;&#xB4D;&#xB2F;&#xB2A;&#xB4B;&#xB30;&#xB4D;&#xB1F; &#xB38;&#xB4D;&#xB25;&#xB3E;&#xB28;&#xB17;&#xB41;&#xB21;&#xB3F;&#xB15;</long>
+            <long xml:lang="nl">Horizontale viewport positie's</long>
+            <long xml:lang="nb">Horisontale posisjoner p&#xE5; arbeidsomr&#xE5;de</long>
+            <long xml:lang="ko">&#xAC00;&#xB85C; &#xC791;&#xC5C5; &#xACF5;&#xAC04; &#xC704;&#xCE58;</long>
+            <long xml:lang="ka">&#x10F0;&#x10DD;&#x10E0;&#x10D8;&#x10D6;&#x10DD;&#x10DC;&#x10E2;&#x10D0;&#x10DA;&#x10E3;&#x10E0;&#x10D8; &#x10EE;&#x10D4;&#x10D3;&#x10D5;&#x10D8;&#x10E1; &#x10EC;&#x10D4;&#x10E0;&#x10E2;&#x10D8;&#x10DA;&#x10D8;&#x10E1; &#x10DB;&#x10D3;&#x10D4;&#x10D1;&#x10D0;&#x10E0;&#x10D4;&#x10DD;&#x10D1;&#x10D4;&#x10D1;&#x10D8;</long>
+            <long xml:lang="ja">&#x6C34;&#x5E73;&#x30D3;&#x30E5;&#x30FC;&#x30DD;&#x30FC;&#x30C8;&#x4F4D;&#x7F6E;</long>
+            <long xml:lang="it">Posizioni orizzontali area visibile</long>
+            <long xml:lang="hu">V&#xED;zszintes munkalap poz&#xED;ci&#xF3;</long>
+            <long xml:lang="hr">Vodoravni polo&#x17E;aji podru&#x10D;ja prikaza</long>
+            <long xml:lang="he">&#x5DE;&#x5D9;&#x5E7;&#x5D5;&#x5DE;&#x5D9; &#x5DE;&#x5E9;&#x5D8;&#x5D7; &#x5D0;&#x5D5;&#x5E4;&#x5E7;&#x5D9;&#x5D9;&#x5DD;</long>
+            <long xml:lang="gu">&#xA86;&#xAA1;&#xABE; &#xAA6;&#xAC3;&#xAB6;&#xACD;&#xAAF;&#xAAA;&#xACB;&#xAB0;&#xACD;&#xA9F; &#xAB8;&#xACD;&#xAA5;&#xABE;&#xAA8;&#xACB;</long>
+            <long xml:lang="gl">Posici&#xF3;ns de &#xE1;reas de traballo horizontais</long>
+            <long xml:lang="fr">Positions du viewport horizontal</long>
+            <long xml:lang="fi">Ty&#xF6;p&#xF6;ytien vaakataso-sijainti</long>
+            <long xml:lang="eu">Mahaigain aurkezpen horizontalen kokapena</long>
+            <long xml:lang="es">Posiciones de los puntos de vista horizontales</long>
+            <long xml:lang="en-GB">Horizontal viewport positions</long>
+            <long xml:lang="el">&#x39F;&#x3C1;&#x3B9;&#x3B6;&#x3CC;&#x3BD;&#x3C4;&#x3B9;&#x3B5;&#x3C2; &#x3B8;&#x3AD;&#x3C3;&#x3B5;&#x3B9;&#x3C2; &#x3B5;&#x3B9;&#x3BA;&#x3BF;&#x3BD;&#x3B9;&#x3BA;&#x3CE;&#x3BD; &#x3B5;&#x3C0;&#x3B9;&#x3C6;&#x3B1;&#x3BD;&#x3B5;&#x3B9;&#x3CE;&#x3BD; &#x3B5;&#x3C1;&#x3B3;&#x3B1;&#x3C3;&#x3AF;&#x3B1;&#x3C2;</long>
+            <long xml:lang="de">Horizontale Viewport-Position</long>
+            <long xml:lang="ca">Posicions de l'&#xE0;rea de visualitzaci&#xF3; horitzontal</long>
+            <long xml:lang="bn">&#x985;&#x9A8;&#x9C1;&#x9AD;&#x9C2;&#x9AE;&#x9BF;&#x995; &#x9AD;&#x9BF;&#x989;&#x9AA;&#x9CB;&#x9B0;&#x9CD;&#x99F;&#x9C7;&#x9B0; &#x985;&#x9AC;&#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9A8;</long>
+            <long xml:lang="bn-IN">&#x985;&#x9A8;&#x9C1;&#x9AD;&#x9C2;&#x9AE;&#x9BF;&#x995; &#x9AD;&#x9BF;&#x989;&#x9AA;&#x9CB;&#x9B0;&#x9CD;&#x99F;&#x9C7;&#x9B0; &#x985;&#x9AC;&#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9A8;</long>
+            <type>int</type>
+            <min>1</min>
+            <max>32</max>
+          </option>
+          <option name="viewport_y_values" type="list">
+            <short>Y Viewport Positions</short>
+            <short xml:lang="zh-Hant-TW">Y&#x5EA7;&#x6A19;&#x8996;&#x9EDE;&#x7684;&#x4F4D;&#x7F6E;</short>
+            <short xml:lang="zh-Hans-CN">Y&#x89C6;&#x56FE;&#x4F4D;&#x7F6E;</short>
+            <short xml:lang="uk">&#x41F;&#x43E;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x43D;&#x44F; &#x432;&#x438;&#x434;&#x43E;&#x432;&#x43E;&#x433;&#x43E; &#x432;&#x456;&#x43A;&#x43D;&#x430; &#x43F;&#x43E; Y</short>
+            <short xml:lang="tr">Y G&#xF6;r&#xFC;n&#xFC;m Y&#xFC;z&#xFC; Konumlar&#x131;</short>
+            <short xml:lang="sk">Poz&#xED;cie plochy na osi Y</short>
+            <short xml:lang="ru">&#x41F;&#x43E;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x44F; &#x432;&#x438;&#x434;&#x43E;&#x432;&#x43E;&#x433;&#x43E; &#x43E;&#x43A;&#x43D;&#x430; &#x43F;&#x43E; Y</short>
+            <short xml:lang="pt-BR">Posi&#xE7;&#xF5;es Y da janela de visualiza&#xE7;&#xE3;o</short>
+            <short xml:lang="pt">Posi&#xE7;&#xF5;es Y do viewport</short>
+            <short xml:lang="pl">Pozycje wirtualnych pulpit&#xF3;w osi Y</short>
+            <short xml:lang="or">Y &#xB26;&#xB43;&#xB36;&#xB4D;&#xB2F;&#xB2A;&#xB4B;&#xB30;&#xB4D;&#xB1F; &#xB38;&#xB4D;&#xB25;&#xB3E;&#xB28;&#xB17;&#xB41;&#xB21;&#xB3F;&#xB15;</short>
+            <short xml:lang="nl">Y viewport positie's</short>
+            <short xml:lang="nb">Y-posisjoner p&#xE5; arbeidsomr&#xE5;de</short>
+            <short xml:lang="ko">&#xC791;&#xC5C5; &#xACF5;&#xAC04; &#xC138;&#xB85C;&#xCD95; &#xC704;&#xCE58;</short>
+            <short xml:lang="ka">Y &#x10EE;&#x10D4;&#x10D3;&#x10D8;&#x10E1; &#x10EC;&#x10D4;&#x10E0;&#x10E2;&#x10D8;&#x10DA;&#x10D8;&#x10E1; &#x10DB;&#x10D3;&#x10D4;&#x10D1;&#x10D0;&#x10E0;&#x10D4;&#x10DD;&#x10D1;&#x10D4;&#x10D1;&#x10D8;</short>
+            <short xml:lang="ja">Y &#x30D3;&#x30E5;&#x30FC;&#x30DD;&#x30FC;&#x30C8;&#x4F4D;&#x7F6E;</short>
+            <short xml:lang="it">Posizioni Y area visibile</short>
+            <short xml:lang="hu">F&#xFC;gg&#x151;leges munkalap poz&#xED;ci&#xF3;</short>
+            <short xml:lang="hr">Y polo&#x17E;aji podru&#x10D;ja prikaza</short>
+            <short xml:lang="he">&#x5DE;&#x5D9;&#x5E7;&#x5D5;&#x5DE;&#x5D9; &#x5DE;&#x5E9;&#x5D8;&#x5D7; &#x5D1;-Y</short>
+            <short xml:lang="gu">Y &#xAA6;&#xAC3;&#xAB6;&#xACD;&#xAAF;&#xAAA;&#xACB;&#xAB0;&#xACD;&#xA9F; &#xAB8;&#xACD;&#xAA5;&#xABE;&#xAA8;&#xACB;</short>
+            <short xml:lang="gl">Posici&#xF3;ns Y da &#xC1;rea de Traballo</short>
+            <short xml:lang="fr">Positions du viewport en Y</short>
+            <short xml:lang="fi">N&#xE4;kym&#xE4;n Y-sijainnit</short>
+            <short xml:lang="eu">Y mahaigain aurkezpen kokapenak</short>
+            <short xml:lang="es">Posiciones de Viewport Y</short>
+            <short xml:lang="en-GB">Y Viewport Positions</short>
+            <short xml:lang="el">&#x398;&#x3AD;&#x3C3;&#x3B5;&#x3B9;&#x3C2; &#x3A5; &#x395;&#x3B9;&#x3BA;&#x3BF;&#x3BD;&#x3B9;&#x3BA;&#x3CE;&#x3BD; &#x395;&#x3C0;&#x3B9;&#x3C6;&#x3B1;&#x3BD;&#x3B5;&#x3B9;&#x3CE;&#x3BD; &#x395;&#x3C1;&#x3B3;&#x3B1;&#x3C3;&#x3AF;&#x3B1;&#x3C2;</short>
+            <short xml:lang="de">Viewport-Y-Position</short>
+            <short xml:lang="cs">Pozice plochy na ose Y</short>
+            <short xml:lang="ca">Posicions de l'&#xE0;rea de visualitzaci&#xF3; Y</short>
+            <short xml:lang="bn">Y &#x9AD;&#x9BF;&#x989;&#x9AA;&#x9CB;&#x9B0;&#x9CD;&#x99F; &#x985;&#x9AC;&#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9A8;</short>
+            <short xml:lang="bn-IN">Y &#x9AD;&#x9BF;&#x989;&#x9AA;&#x9CB;&#x9B0;&#x9CD;&#x99F; &#x985;&#x9AC;&#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9A8;</short>
+            <long>Vertical viewport positions</long>
+            <long xml:lang="zh-Hant-TW">&#x5782;&#x76F4;&#x8996;&#x9EDE;&#x4F4D;&#x7F6E;</long>
+            <long xml:lang="zh-Hans-CN">&#x5782;&#x76F4;&#x89C6;&#x56FE;&#x4F4D;&#x7F6E;</long>
+            <long xml:lang="uk">&#x412;&#x435;&#x440;&#x442;&#x438;&#x43A;&#x430;&#x43B;&#x44C;&#x43D;&#x456; &#x43F;&#x43E;&#x437;&#x438;&#x446;&#x456;&#x457; &#x432;&#x438;&#x434;&#x43E;&#x432;&#x438;&#x445; &#x432;&#x456;&#x43A;&#x43E;&#x43D;</long>
+            <long xml:lang="tr">Dikey masa&#xFC;st&#xFC; konumlar&#x131;</long>
+            <long xml:lang="sk">Zvisl&#xE9; poz&#xED;cie poh&#x13E;adov</long>
+            <long xml:lang="ru">&#x412;&#x435;&#x440;&#x442;&#x438;&#x43A;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x435; &#x43F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x438; &#x432;&#x438;&#x434;&#x43E;&#x432;&#x44B;&#x445; &#x43E;&#x43A;&#x43E;&#x43D;</long>
+            <long xml:lang="pt-BR">Posi&#xE7;&#xF5;es verticais</long>
+            <long xml:lang="pt">Posi&#xE7;&#xF5;es verticais</long>
+            <long xml:lang="pl">Pionowe pozycje wirtualych pulpit&#xF3;w</long>
+            <long xml:lang="or">&#xB26;&#xB23;&#xB4D;&#xB21;&#xB30;&#xB42;&#xB2A;&#xB40; &#xB26;&#xB43;&#xB36;&#xB4D;&#xB2F;&#xB2A;&#xB4B;&#xB30;&#xB4D;&#xB1F; &#xB38;&#xB4D;&#xB25;&#xB3E;&#xB28;&#xB17;&#xB41;&#xB21;&#xB3F;&#xB15;</long>
+            <long xml:lang="nl">Verticale viewport positie</long>
+            <long xml:lang="nb">Vertikale posisjoner p&#xE5; arbeidsomr&#xE5;de</long>
+            <long xml:lang="ko">&#xC138;&#xB85C; &#xC791;&#xC5C5; &#xACF5;&#xAC04; &#xC704;&#xCE58;</long>
+            <long xml:lang="ka">&#x10D5;&#x10D4;&#x10E0;&#x10E2;&#x10D8;&#x10D9;&#x10D0;&#x10DA;&#x10E3;&#x10E0;&#x10D8; &#x10EE;&#x10D4;&#x10D3;&#x10D5;&#x10D8;&#x10E1; &#x10EC;&#x10D4;&#x10E0;&#x10E2;&#x10D8;&#x10DA;&#x10D8;&#x10E1; &#x10DB;&#x10D3;&#x10D4;&#x10D1;&#x10D0;&#x10E0;&#x10D4;&#x10DD;&#x10D1;&#x10D4;&#x10D1;&#x10D8;</long>
+            <long xml:lang="ja">&#x5782;&#x76F4;&#x30D3;&#x30E5;&#x30FC;&#x30DD;&#x30FC;&#x30C8;&#x4F4D;&#x7F6E;</long>
+            <long xml:lang="it">Posizioni verticali area visibile</long>
+            <long xml:lang="hu">F&#xFC;gg&#x151;leges munkalap poz&#xED;ci&#xF3;</long>
+            <long xml:lang="hr">Okomiti polo&#x17E;aji podru&#x10D;ja prikaza</long>
+            <long xml:lang="he">&#x5DE;&#x5D9;&#x5E7;&#x5D5;&#x5DE;&#x5D9; &#x5DE;&#x5E9;&#x5D8;&#x5D7; &#x5D0;&#x5E0;&#x5DB;&#x5D9;&#x5D9;&#x5DD;</long>
+            <long xml:lang="gu">&#xA8A;&#xAAD;&#xABE; &#xAA6;&#xAC3;&#xAB6;&#xACD;&#xAAF;&#xAAA;&#xACB;&#xAB0;&#xACD;&#xA9F; &#xAB8;&#xACD;&#xAA5;&#xABE;&#xAA8;&#xACB;</long>
+            <long xml:lang="gl">Posici&#xF3;ns dos puntos de vista verticais</long>
+            <long xml:lang="fr">Positions du viewport vertical</long>
+            <long xml:lang="fi">Ty&#xF6;p&#xF6;ytien pystytaso-sijainti</long>
+            <long xml:lang="eu">Mahaigain aurkezpen bertikalen kokapenak</long>
+            <long xml:lang="es">Posiciones de viewport verticales</long>
+            <long xml:lang="en-GB">Vertical viewport positions</long>
+            <long xml:lang="el">&#x39A;&#x3AC;&#x3B8;&#x3B5;&#x3C4;&#x3B5;&#x3C2; &#x3B8;&#x3AD;&#x3C3;&#x3B5;&#x3B9;&#x3C2; &#x3B5;&#x3B9;&#x3BA;&#x3BF;&#x3BD;&#x3B9;&#x3BA;&#x3CE;&#x3BD; &#x3B5;&#x3C0;&#x3B9;&#x3C6;&#x3B1;&#x3BD;&#x3B5;&#x3B9;&#x3CE;&#x3BD; &#x3B5;&#x3C1;&#x3B3;&#x3B1;&#x3C3;&#x3AF;&#x3B1;&#x3C2;</long>
+            <long xml:lang="de">Vertikale Viewport-Position</long>
+            <long xml:lang="ca">Posicions de l'&#xE0;rea de visualitzaci&#xF3; vertical</long>
+            <long xml:lang="bn">&#x989;&#x9B2;&#x9CD;&#x9B2;&#x9AE;&#x9CD;&#x9AC; &#x9AD;&#x9BF;&#x989;&#x9AA;&#x9CB;&#x9B0;&#x9CD;&#x99F; &#x985;&#x9AC;&#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9A8;</long>
+            <long xml:lang="bn-IN">&#x989;&#x9B2;&#x9CD;&#x9B2;&#x9AE;&#x9CD;&#x9AC; &#x9AD;&#x9BF;&#x989;&#x9AA;&#x9CB;&#x9B0;&#x9CD;&#x99F; &#x985;&#x9AC;&#x9B8;&#x9CD;&#x9A5;&#x9BE;&#x9A8;</long>
+            <type>int</type>
+            <min>1</min>
+            <max>32</max>
+          </option>
+        </subgroup>
+      </group>
+    </screen>
+  </plugin>
+</compiz>
