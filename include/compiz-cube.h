@@ -177,6 +177,7 @@ typedef struct _CubeScreen {
     GLfloat unfold, unfoldVelocity;
 
     GLfloat zoom, zoomTarget;
+    GLfloat kernelTime;
 
     GLfloat  *vertices;
     int      nVertices;

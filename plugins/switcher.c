@@ -85,7 +85,8 @@ typedef struct _SwitchDisplay {
 #define SWITCH_SCREEN_OPTION_ICON_ONLY	  11
 #define SWITCH_SCREEN_OPTION_MINIMIZED	  12
 #define SWITCH_SCREEN_OPTION_AUTO_ROTATE  13
-#define SWITCH_SCREEN_OPTION_NUM	  14
+#define SWITCH_SCREEN_OPTION_SPACE_MODE   14
+#define SWITCH_SCREEN_OPTION_NUM	  15
 
 typedef enum {
     CurrentViewport = 0,
@@ -121,6 +122,7 @@ typedef struct _SwitchScreen {
     GLfloat mVelocity;
     GLfloat tVelocity;
     GLfloat sVelocity;
+    GLfloat spaceTime;
 
     CompWindow **windows;
     int        windowsSize;
@@ -159,6 +161,7 @@ static float multiplier = 1.0;
 
 #define ICON_SIZE 48
 #define MAX_ICON_SIZE 256
+#define SPACE_POPUP_SIZE 760
 
 static float _boxVertices[] =
 {
@@ -397,7 +400,7 @@ static void
 switchUpdateWindowList (CompScreen *s,
 			int	   count)
 {
-    int x, y;
+    int x, y, popupSize;
 
     SWITCH_SCREEN (s);
 
@@ -418,12 +421,17 @@ switchUpdateWindowList (CompScreen *s,
     y = s->outputDev[s->currentOutputDev].region.extents.y1 +
 	s->outputDev[s->currentOutputDev].height / 2;
 
+    popupSize = ss->opt[SWITCH_SCREEN_OPTION_SPACE_MODE].value.b ?
+	SPACE_POPUP_SIZE : WINDOW_WIDTH (count);
+
     if (ss->popupWindow)
 	XMoveResizeWindow (s->display->display, ss->popupWindow,
-			   x - WINDOW_WIDTH (count) / 2,
-			   y - WINDOW_HEIGHT / 2,
-			   WINDOW_WIDTH (count),
-			   WINDOW_HEIGHT);
+			   x - popupSize / 2,
+			   y - (ss->opt[SWITCH_SCREEN_OPTION_SPACE_MODE].value.b ?
+				 popupSize : WINDOW_HEIGHT) / 2,
+			   popupSize,
+			   ss->opt[SWITCH_SCREEN_OPTION_SPACE_MODE].value.b ?
+			       popupSize : WINDOW_HEIGHT);
 }
 
 static void
@@ -640,8 +648,16 @@ switchInitiate (CompScreen            *s,
 	}
 
 	xsh.flags       = PSize | PWinGravity;
-	xsh.width       = WINDOW_WIDTH (count);
-	xsh.height      = WINDOW_HEIGHT;
+	if (ss->opt[SWITCH_SCREEN_OPTION_SPACE_MODE].value.b)
+	{
+	    xsh.width  = SPACE_POPUP_SIZE;
+	    xsh.height = SPACE_POPUP_SIZE;
+	}
+	else
+	{
+	    xsh.width  = WINDOW_WIDTH (count);
+	    xsh.height = WINDOW_HEIGHT;
+	}
 	xsh.win_gravity = StaticGravity;
 
 	xwmh.flags = InputHint;
@@ -1246,6 +1262,15 @@ switchPreparePaintScreen (CompScreen *s,
 {
     SWITCH_SCREEN (s);
 
+    if (ss->switching &&
+	ss->opt[SWITCH_SCREEN_OPTION_SPACE_MODE].value.b)
+    {
+	ss->spaceTime += msSinceLastPaint * 0.001f;
+	if (ss->spaceTime > 2.0f * M_PI)
+	    ss->spaceTime = fmodf (ss->spaceTime, 2.0f * M_PI);
+	damageScreen (s);
+    }
+
     if (ss->moreAdjust)
     {
 	int   steps, m;
@@ -1672,6 +1697,108 @@ switchPaintThumb (CompWindow		  *w,
     }
 }
 
+static void
+switchDrawSpaceCore (float x,
+		      float y,
+		      float time,
+		      float orbitRadius)
+{
+    int i, j;
+    float pulse = 0.5f + 0.5f * sinf (time * 2.0f);
+    float sweep = fmodf (time * 0.9f, 2.0f * M_PI);
+
+    glPushMatrix ();
+    glTranslatef (x, y, 0.0f);
+    glDisable (GL_TEXTURE_2D);
+    glEnable (GL_BLEND);
+    glBlendFunc (GL_SRC_ALPHA, GL_ONE);
+
+    glLineWidth (1.0f);
+    glColor4f (0.03f, 0.42f, 1.0f, 0.16f + 0.08f * pulse);
+    glBegin (GL_LINE_LOOP);
+    for (j = 0; j < 96; j++)
+    {
+	float angle = 2.0f * M_PI * j / 96.0f;
+	glVertex2f (orbitRadius * cosf (angle),
+		     orbitRadius * 0.68f * sinf (angle));
+    }
+    glEnd ();
+
+    glColor4f (0.10f, 0.68f, 1.0f, 0.22f + 0.08f * pulse);
+    glBegin (GL_LINES);
+    glVertex2f (-orbitRadius, 0.0f);
+    glVertex2f ( orbitRadius, 0.0f);
+    glVertex2f (0.0f, -orbitRadius * 0.68f);
+    glVertex2f (0.0f,  orbitRadius * 0.68f);
+    glEnd ();
+
+    glLineWidth (2.0f);
+    glColor4f (0.04f, 0.55f, 1.0f, 0.22f + 0.12f * pulse);
+    for (i = 0; i < 3; i++)
+    {
+	float radius = 28.0f + i * 14.0f + 4.0f * pulse;
+	float rotation = time * (35.0f - i * 9.0f);
+
+	glPushMatrix ();
+	glRotatef (rotation, 0.0f, 0.0f, 1.0f);
+	glBegin (GL_LINE_LOOP);
+	for (j = 0; j < 48; j++)
+	{
+	    float angle = 2.0f * M_PI * j / 48.0f;
+	    glVertex2f (radius * cosf (angle),
+			 radius * (0.45f + i * 0.2f) * sinf (angle));
+	}
+	glEnd ();
+	glPopMatrix ();
+    }
+
+    glPointSize (4.0f);
+    glColor4f (0.20f, 0.82f, 1.0f, 0.55f);
+    glBegin (GL_POINTS);
+    glVertex2f (orbitRadius * 0.92f * cosf (sweep),
+		 orbitRadius * 0.62f * sinf (sweep));
+    glVertex2f (orbitRadius * 0.92f * cosf (sweep + M_PI),
+		 orbitRadius * 0.62f * sinf (sweep + M_PI));
+    glEnd ();
+
+    glPointSize (10.0f + 4.0f * pulse);
+    glColor4f (0.55f, 0.90f, 1.0f, 0.85f);
+    glBegin (GL_POINTS);
+    glVertex2f (0.0f, 0.0f);
+    glEnd ();
+
+    glPopMatrix ();
+}
+
+static void
+switchDrawTargetFrame (float x,
+		       float y,
+		       float width,
+		       float height,
+		       float time)
+{
+    float pulse = 0.5f + 0.5f * sinf (time * 3.0f);
+    float gap = 12.0f + 3.0f * pulse;
+    float arm = 28.0f;
+    float x1 = x - width / 2.0f - gap;
+    float x2 = x + width / 2.0f + gap;
+    float y1 = y - height / 2.0f - gap;
+    float y2 = y + height / 2.0f + gap;
+
+    glLineWidth (2.0f);
+    glColor4f (0.12f, 0.82f, 1.0f, 0.62f + 0.20f * pulse);
+    glBegin (GL_LINES);
+    glVertex2f (x1, y1 + arm); glVertex2f (x1, y1);
+    glVertex2f (x1, y1); glVertex2f (x1 + arm, y1);
+    glVertex2f (x2 - arm, y1); glVertex2f (x2, y1);
+    glVertex2f (x2, y1); glVertex2f (x2, y1 + arm);
+    glVertex2f (x1, y2 - arm); glVertex2f (x1, y2);
+    glVertex2f (x1, y2); glVertex2f (x1 + arm, y2);
+    glVertex2f (x2 - arm, y2); glVertex2f (x2, y2);
+    glVertex2f (x2, y2); glVertex2f (x2, y2 - arm);
+    glEnd ();
+}
+
 static Bool
 switchPaintWindow (CompWindow		   *w,
 		   const WindowPaintAttrib *attrib,
@@ -1705,6 +1832,53 @@ switchPaintWindow (CompWindow		   *w,
 
 	x = x1 + ss->pos;
 	y = w->attrib.y + SPACE;
+
+	if (ss->opt[SWITCH_SCREEN_OPTION_SPACE_MODE].value.b)
+	{
+	    float centerX = w->attrib.x + w->width / 2.0f;
+	    float centerY = w->attrib.y + w->height / 2.0f;
+	    float radius = MIN (w->width, w->height) * 0.32f;
+	    float thumbX, thumbY;
+
+	    glPushAttrib (GL_ENABLE_BIT | GL_LINE_BIT | GL_POINT_BIT |
+			   GL_COLOR_BUFFER_BIT);
+    switchDrawSpaceCore (centerX, centerY, ss->spaceTime, radius);
+	    glPopAttrib ();
+
+	    /* The selected window is the object closest to the core. */
+	    for (i = 0; i < ss->nWindows; i++)
+	    {
+		float angle;
+
+		if (ss->windows[i] == ss->selectedWindow)
+		    continue;
+
+		angle = -M_PI / 2.0f +
+		    2.0f * M_PI * i / MAX (1, ss->nWindows) +
+		    ss->spaceTime * 0.08f;
+		thumbX = centerX + radius * cosf (angle) - WIDTH / 2.0f;
+		thumbY = centerY + radius * sinf (angle) - HEIGHT / 2.0f;
+
+		switchPaintThumb (ss->windows[i], &w->lastPaint, transform,
+				  mask, thumbX, thumbY, x1, x2);
+	    }
+
+	    if (ss->selectedWindow)
+	    {
+	thumbX = centerX - WIDTH / 2.0f;
+	thumbY = centerY - HEIGHT / 2.0f;
+	switchPaintThumb (ss->selectedWindow, &w->lastPaint, transform,
+			  mask, thumbX, thumbY, x1, x2);
+		glPushAttrib (GL_ENABLE_BIT | GL_LINE_BIT | GL_COLOR_BUFFER_BIT);
+		glEnable (GL_BLEND);
+		glBlendFunc (GL_SRC_ALPHA, GL_ONE);
+		switchDrawTargetFrame (centerX, centerY, WIDTH, HEIGHT,
+				       ss->spaceTime);
+		glPopAttrib ();
+	    }
+
+	    return TRUE;
+	}
 
 	glPushAttrib (GL_SCISSOR_BIT);
 
@@ -1966,7 +2140,8 @@ static const CompMetadataOptionInfo switchScreenOptionInfo[] = {
     { "icon", "bool", 0, 0, 0 },
     { "icon_only", "bool", 0, 0, 0 },
     { "minimized", "bool", 0, 0, 0 },
-    { "auto_rotate", "bool", 0, 0, 0 }
+    { "auto_rotate", "bool", 0, 0, 0 },
+    { "space_mode", "bool", 0, 0, 0 }
 };
 
 static Bool
@@ -1990,6 +2165,11 @@ switchInitScreen (CompPlugin *p,
 	free (ss);
 	return FALSE;
     }
+
+    /* The spatial selector is the native Alt+Tab presentation.  Keep this
+     * enabled even when an older Compiz configuration has no space_mode
+     * entry yet. */
+    ss->opt[SWITCH_SCREEN_OPTION_SPACE_MODE].value.b = TRUE;
 
     ss->popupWindow = None;
 
@@ -2019,6 +2199,7 @@ switchInitScreen (CompPlugin *p,
     ss->mVelocity = 0.0f;
     ss->tVelocity = 0.0f;
     ss->sVelocity = 0.0f;
+    ss->spaceTime = 0.0f;
 
     ss->translate  = 0.0f;
     ss->sTranslate = 0.0f;

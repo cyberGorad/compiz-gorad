@@ -783,6 +783,12 @@ cubePreparePaintScreen (CompScreen *s,
     if (!cubeIsActive (s))
 	cs->zoomTarget = 0.0f;
 
+    if (cubeIsActive (s))
+	cs->kernelTime += msSinceLastPaint * 0.004f;
+
+    if (cs->kernelTime > 2.0f * M_PI)
+	cs->kernelTime = fmodf (cs->kernelTime, 2.0f * M_PI);
+
     if (fabs (cs->zoom - cs->zoomTarget) > 0.001f)
 	cs->zoom += (cs->zoomTarget - cs->zoom) * 0.18f;
     else
@@ -1327,6 +1333,142 @@ cubePaintInside (CompScreen		 *s,
 }
 
 static void
+cubeDrawKernelSphere (float radius, int slices, int stacks)
+{
+    int i, j;
+
+    for (i = 0; i < stacks; i++)
+    {
+	float lat0 = M_PI * (-0.5f + (float) i / stacks);
+	float lat1 = M_PI * (-0.5f + (float) (i + 1) / stacks);
+	float z0 = sinf (lat0);
+	float zr0 = cosf (lat0);
+	float z1 = sinf (lat1);
+	float zr1 = cosf (lat1);
+
+	glBegin (GL_QUAD_STRIP);
+	for (j = 0; j <= slices; j++)
+	{
+	    float lng = 2.0f * M_PI * (float) j / slices;
+	    float x = cosf (lng);
+	    float y = sinf (lng);
+
+	    glVertex3f (radius * x * zr0, radius * y * zr0,
+			 radius * z0);
+	    glVertex3f (radius * x * zr1, radius * y * zr1,
+			 radius * z1);
+	}
+	glEnd ();
+    }
+}
+
+static void
+cubeDrawKernelRing (float radius,
+		     float verticalScale,
+		     float rotation,
+		     int segments)
+{
+    int i;
+
+    glPushMatrix ();
+    glRotatef (rotation, 0.0f, 1.0f, 0.0f);
+
+    glBegin (GL_LINE_LOOP);
+    for (i = 0; i < segments; i++)
+    {
+	float angle = 2.0f * M_PI * (float) i / segments;
+	glVertex3f (radius * cosf (angle),
+		     radius * verticalScale * sinf (angle), 0.0f);
+    }
+    glEnd ();
+    glPopMatrix ();
+}
+
+static void
+cubePaintKernel (CompScreen              *s,
+		 const ScreenPaintAttrib *sAttrib,
+		 const CompTransform     *transform,
+		 CompOutput              *output)
+{
+    CompTransform kTransform = *transform;
+	int i;
+	float pulse;
+	float coreRadius;
+
+    CUBE_SCREEN (s);
+
+    /* The kernel belongs to the cube, never to the normal desktop or wall. */
+    if (!cubeIsActive (s))
+	return;
+
+    (*s->applyScreenTransform) (s, sAttrib, output, &kTransform);
+
+	glPushAttrib (GL_ENABLE_BIT | GL_LINE_BIT | GL_POINT_BIT |
+		  GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    glPushMatrix ();
+    glLoadMatrixf (kTransform.m);
+
+    glDisable (GL_TEXTURE_2D);
+    glDisable (GL_LIGHTING);
+    glDisable (GL_CULL_FACE);
+    glDepthMask (GL_FALSE);
+    glEnable (GL_BLEND);
+    glBlendFunc (GL_SRC_ALPHA, GL_ONE);
+
+	/* The breathing radius gives the core a visible life instead of making
+	 * it look like a static object placed in the middle of the cube. */
+	pulse = 0.5f + 0.5f * sinf (cs->kernelTime * 2.0f);
+	coreRadius = 0.085f + 0.012f * pulse;
+
+	/* Additive cyan halos around the white Gorad kernel. */
+	glColor4f (0.02f, 0.45f, 1.0f, 0.045f + 0.025f * pulse);
+	cubeDrawKernelSphere (0.25f + 0.018f * pulse, 28, 14);
+	glColor4f (0.02f, 0.72f, 1.0f, 0.09f + 0.045f * pulse);
+	cubeDrawKernelSphere (0.17f + 0.012f * pulse, 28, 14);
+	glColor4f (0.72f, 0.95f, 1.0f, 0.90f + 0.08f * pulse);
+	cubeDrawKernelSphere (coreRadius, 28, 14);
+
+	/* Three thin energy rings rotate at different speeds and tilt around
+	 * the core.  They remain visible while the cube itself rotates. */
+	glLineWidth (1.4f);
+	glColor4f (0.12f, 0.76f, 1.0f, 0.32f + 0.12f * pulse);
+	cubeDrawKernelRing (0.145f + 0.012f * pulse, 0.42f,
+			    cs->kernelTime * 55.0f, 64);
+	glColor4f (0.35f, 0.90f, 1.0f, 0.27f + 0.10f * pulse);
+	cubeDrawKernelRing (0.185f + 0.010f * pulse, 0.68f,
+			    -cs->kernelTime * 38.0f + 55.0f, 64);
+	glColor4f (0.08f, 0.58f, 1.0f, 0.20f + 0.08f * pulse);
+	cubeDrawKernelRing (0.215f, 1.0f,
+			    cs->kernelTime * 24.0f + 110.0f, 64);
+
+	glEnable (GL_POINT_SMOOTH);
+	glPointSize (2.4f + 1.0f * pulse);
+	glBegin (GL_POINTS);
+	for (i = 0; i < 72; i++)
+	{
+	float ring = (float) (i % 3);
+	float phase = (float) i * 2.399963f;
+	float angle = cs->kernelTime * (0.85f + ring * 0.36f) + phase;
+	float radius = 0.13f + 0.035f * sinf (cs->kernelTime * 1.7f + phase);
+	float tilt = 0.30f + ring * 0.32f;
+	float x = radius * cosf (angle);
+	float y = radius * sinf (angle) * tilt;
+	float z = radius * sinf (angle) * (1.0f - tilt);
+	float alpha = 0.20f + 0.25f *
+	    (0.5f + 0.5f * sinf (cs->kernelTime * 2.8f + phase));
+
+	glColor4f (0.10f, 0.70f, 1.0f, alpha);
+	glVertex3f (x, y, z);
+	if ((i & 1) == 0)
+	    glVertex3f (-x, y, -z);
+	}
+    glEnd ();
+
+    glPopMatrix ();
+    glPopAttrib ();
+}
+
+static void
 cubeEnableOutputClipping (CompScreen	      *s,
 			  const CompTransform *transform,
 			  Region	      region,
@@ -1617,6 +1759,9 @@ cubePaintTransformedOutput (CompScreen		    *s,
 			       outputPtr, mask, cs->xRotations,
 			       size, hsize, paintOrder);
 
+    if (cubeIsActive (s))
+	cubePaintKernel (s, &sa, transform, outputPtr);
+
     glCullFace (cullNorm);
 
     s->display->textureFilter = filter;
@@ -1869,46 +2014,6 @@ cubePrevImage (CompDisplay     *d,
 	}
     }
 
-    return FALSE;
-}
-
-static Bool
-cubeZoomIn (CompDisplay *d, CompAction *action, CompActionState state,
-	    CompOption *option, int nOption)
-{
-    CompScreen *s;
-    Window xid = getIntOptionNamed (option, nOption, "root", 0);
-
-    s = findScreenAtDisplay (d, xid);
-    if (s)
-    {
-	CUBE_SCREEN (s);
-	if (cubeIsActive (s))
-	{
-	    cs->zoomTarget += 0.25f;
-	    damageScreen (s);
-	}
-    }
-    return FALSE;
-}
-
-static Bool
-cubeZoomOut (CompDisplay *d, CompAction *action, CompActionState state,
-	     CompOption *option, int nOption)
-{
-    CompScreen *s;
-    Window xid = getIntOptionNamed (option, nOption, "root", 0);
-
-    s = findScreenAtDisplay (d, xid);
-    if (s)
-    {
-	CUBE_SCREEN (s);
-	if (cubeIsActive (s))
-	{
-	    cs->zoomTarget -= 0.25f;
-	    damageScreen (s);
-	}
-    }
     return FALSE;
 }
 
@@ -2253,6 +2358,7 @@ cubeInitScreen (CompPlugin *p,
 
     cs->zoom       = 0.0f;
     cs->zoomTarget = 0.0f;
+    cs->kernelTime = 0.0f;
 
     cs->paintAllViewports = FALSE;
     cs->fullscreenOutput  = TRUE;

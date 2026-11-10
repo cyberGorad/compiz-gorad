@@ -2076,6 +2076,11 @@
         <long xml:lang="bn-IN">&#x9AA;&#x9B0;&#x9BF;&#x9AC;&#x9B0;&#x9CD;&#x9A4;&#x9A8; &#x995;&#x9B0;&#x9BE;&#x9B0; &#x9B8;&#x9AE;&#x9DF; &#x9A8;&#x9BF;&#x9B0;&#x9CD;&#x9AC;&#x9BE;&#x99A;&#x9BF;&#x9A4; &#x989;&#x987;&#x9A8;&#x9CD;&#x9A1;&#x9CB;&#x99F;&#x9BF;  &#x998;&#x9CB;&#x9B0;&#x9BE;&#x9A8;</long>
         <default>false</default>
       </option>
+      <option name="space_mode" type="bool">
+        <short>Space Mode</short>
+        <long>Arrange switcher windows around an animated core</long>
+        <default>true</default>
+      </option>
     </screen>
   </plugin>
 </compiz>

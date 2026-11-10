@@ -166,6 +166,11 @@
 		<long>Rotate to the selected window while switching</long>
 		<default>false</default>
 	    </option>
+	    <option name="space_mode" type="bool">
+		<short>Space Mode</short>
+		<long>Arrange switcher windows around an animated core</long>
+		<default>true</default>
+	    </option>
 	</screen>
     </plugin>
 </compiz>
