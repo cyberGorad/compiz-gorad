@@ -912,7 +912,7 @@ cubePreparePaintScreen (CompScreen *s,
 	cs->zoomTarget = 0.0f;
 
     cs->kernelTime += msSinceLastPaint *
-	(0.004f + MIN (1.0f, cs->audioLevel * 8.0f) * 0.018f);
+	(0.004f + MIN (1.0f, cs->audioLevel * 8.0f) * 0.006f);
 
     /* Redraw the animated kernel only while the cube is visible.  Keeping
      * this damage request active while the cube is folded causes Compiz to
@@ -1467,55 +1467,62 @@ cubePaintInside (CompScreen		 *s,
 }
 
 static void
-cubeDrawKernelSphere (float radius, int slices, int stacks)
+cubeDrawKernelPlexus (float time,
+                      float audioLevel,
+                      float audioBass,
+                      float audioTreble)
 {
+    enum { PLEXUS_NODES = 48 };
+    float x[PLEXUS_NODES];
+    float y[PLEXUS_NODES];
+    float z[PLEXUS_NODES];
     int i, j;
 
-    for (i = 0; i < stacks; i++)
+    /* Uniform spherical distribution using the Fibonacci-sphere pattern. */
+    for (i = 0; i < PLEXUS_NODES; i++)
     {
-	float lat0 = M_PI * (-0.5f + (float) i / stacks);
-	float lat1 = M_PI * (-0.5f + (float) (i + 1) / stacks);
-	float z0 = sinf (lat0);
-	float zr0 = cosf (lat0);
-	float z1 = sinf (lat1);
-	float zr1 = cosf (lat1);
+	float fraction = ((float) i + 0.5f) / PLEXUS_NODES;
+	float latitude = acosf (1.0f - 2.0f * fraction);
+	float longitude = (float) i * 2.399963f + time * 0.28f;
+	float radius = 0.17f + 0.018f *
+	    sinf (time * 1.5f + (float) i * 0.7f) +
+	    0.010f * audioLevel + 0.008f * audioBass;
+	float horizontal = sinf (latitude) * radius;
 
-	glBegin (GL_QUAD_STRIP);
-	for (j = 0; j <= slices; j++)
-	{
-	    float lng = 2.0f * M_PI * (float) j / slices;
-	    float x = cosf (lng);
-	    float y = sinf (lng);
-
-	    glVertex3f (radius * x * zr0, radius * y * zr0,
-			 radius * z0);
-	    glVertex3f (radius * x * zr1, radius * y * zr1,
-			 radius * z1);
-	}
-	glEnd ();
+	x[i] = horizontal * cosf (longitude);
+	y[i] = cosf (latitude) * radius;
+	z[i] = horizontal * sinf (longitude);
     }
-}
 
-static void
-cubeDrawKernelRing (float radius,
-		     float verticalScale,
-		     float rotation,
-		     int segments)
-{
-    int i;
+    glLineWidth (1.0f + 1.4f * audioTreble);
+    glBegin (GL_LINES);
+    for (i = 0; i < PLEXUS_NODES; i++)
+	for (j = i + 1; j < PLEXUS_NODES; j++)
+	{
+	    float dx = x[i] - x[j];
+	    float dy = y[i] - y[j];
+	    float dz = z[i] - z[j];
+	    float distance = dx * dx + dy * dy + dz * dz;
 
-    glPushMatrix ();
-    glRotatef (rotation, 0.0f, 1.0f, 0.0f);
+	    if (distance < 0.012f + 0.006f * audioLevel)
+	    {
+		float alpha = 0.08f + 0.20f * audioLevel;
+		glColor4f (0.0f, 1.0f, 0.0f, alpha);
+		glVertex3f (x[i], y[i], z[i]);
+		glVertex3f (x[j], y[j], z[j]);
+	    }
+	}
+    glEnd ();
 
-    glBegin (GL_LINE_LOOP);
-    for (i = 0; i < segments; i++)
+    glPointSize (2.5f + 3.0f * audioTreble);
+    glBegin (GL_POINTS);
+    for (i = 0; i < PLEXUS_NODES; i++)
     {
-	float angle = 2.0f * M_PI * (float) i / segments;
-	glVertex3f (radius * cosf (angle),
-		     radius * verticalScale * sinf (angle), 0.0f);
+	float alpha = 0.45f + 0.35f * audioBass;
+	glColor4f (0.0f, 1.0f, 0.0f, MIN (1.0f, alpha));
+	glVertex3f (x[i], y[i], z[i]);
     }
     glEnd ();
-    glPopMatrix ();
 }
 
 static void
@@ -1525,9 +1532,6 @@ cubePaintKernel (CompScreen              *s,
 		 CompOutput              *output)
 {
     CompTransform kTransform = *transform;
-    int i;
-    float pulse;
-    float coreRadius;
     float audioLevel;
     float audioBass;
     float audioTreble;
@@ -1539,8 +1543,8 @@ cubePaintKernel (CompScreen              *s,
 
 	audioLevel = MIN (1.0f, cs->audioLevel * 8.0f);
 	audioBass = MIN (1.0f, cs->audioBass * 10.0f);
-	/* Keep a small idle core, then let the music expand the whole object. */
-	kernelScale = 0.35f + 0.85f * audioLevel + 0.55f * audioBass;
+	/* Keep the idle size and apply only a restrained audio expansion. */
+	kernelScale = 0.35f + 0.45f * audioLevel + 0.25f * audioBass;
 
 	glPushAttrib (GL_ENABLE_BIT | GL_LINE_BIT | GL_POINT_BIT |
 		  GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
@@ -1555,67 +1559,11 @@ cubePaintKernel (CompScreen              *s,
     glEnable (GL_BLEND);
     glBlendFunc (GL_SRC_ALPHA, GL_ONE);
 
-	/* The breathing radius gives the core a visible life instead of making
-	 * it look like a static object placed in the middle of the cube. */
-	pulse = 0.5f + 0.5f * sinf (cs->kernelTime * 2.0f);
 	audioTreble = MIN (1.0f, cs->audioTreble * 8.0f);
-	coreRadius = 0.085f + 0.012f * pulse + 0.060f * audioBass;
 
-	/* Additive cyan halos around the white Gorad kernel. */
-	glColor4f (0.02f, 0.45f, 1.0f,
-		   0.045f + 0.025f * pulse + 0.07f * audioLevel);
-	cubeDrawKernelSphere (0.25f + 0.018f * pulse + 0.04f * audioBass,
-			      32, 16);
-	glColor4f (0.02f, 0.72f, 1.0f,
-		   0.09f + 0.045f * pulse + 0.10f * audioLevel);
-	cubeDrawKernelSphere (0.17f + 0.012f * pulse + 0.025f * audioBass,
-			      32, 16);
-	glColor4f (0.72f, 0.95f, 1.0f,
-		   0.90f + 0.08f * pulse + 0.10f * audioLevel);
-	cubeDrawKernelSphere (coreRadius, 32, 16);
-
-	/* Three thin energy rings rotate at different speeds and tilt around
-	 * the core.  They remain visible while the cube itself rotates. */
-	glLineWidth (1.4f + 2.0f * audioTreble);
-	glColor4f (0.12f, 0.76f, 1.0f,
-		   0.32f + 0.12f * pulse + 0.22f * audioTreble);
-	cubeDrawKernelRing (0.145f + 0.012f * pulse, 0.42f,
-			    cs->kernelTime * 55.0f, 64);
-	glColor4f (0.35f, 0.90f, 1.0f,
-		   0.27f + 0.10f * pulse + 0.18f * audioLevel);
-	cubeDrawKernelRing (0.185f + 0.010f * pulse, 0.68f,
-			    -cs->kernelTime * 38.0f + 55.0f, 64);
-	glColor4f (0.08f, 0.58f, 1.0f,
-		   0.20f + 0.08f * pulse + 0.15f * audioTreble);
-	cubeDrawKernelRing (0.215f, 1.0f,
-			    cs->kernelTime * 24.0f + 110.0f, 64);
-
-	glEnable (GL_POINT_SMOOTH);
-	glPointSize (2.4f + 1.0f * pulse + 5.0f * audioTreble);
-	glBegin (GL_POINTS);
-	for (i = 0; i < 72; i++)
-	{
-	float ring = (float) (i % 3);
-	float phase = (float) i * 2.399963f;
-	float angle = cs->kernelTime *
-	    (0.85f + ring * 0.36f + audioTreble * 3.5f) + phase;
-	float radius = 0.13f + 0.035f * sinf (cs->kernelTime * 1.7f + phase) +
-	    0.10f * audioLevel * (0.5f + 0.5f * sinf (phase));
-	float tilt = 0.30f + ring * 0.32f;
-	float x = radius * cosf (angle);
-	float y = radius * sinf (angle) * tilt;
-	float z = radius * sinf (angle) * (1.0f - tilt);
-	float alpha = 0.20f + 0.25f *
-	    (0.5f + 0.5f * sinf (cs->kernelTime * 2.8f + phase));
-	alpha += 0.35f * audioLevel;
-
-	glColor4f (0.10f + 0.25f * audioTreble,
-		   0.70f + 0.20f * audioBass, 1.0f, MIN (1.0f, alpha));
-	glVertex3f (x, y, z);
-	if ((i & 1) == 0)
-	    glVertex3f (-x, y, -z);
-    }
-    glEnd ();
+	/* Green plexus network reacting to the audio signal. */
+	cubeDrawKernelPlexus (cs->kernelTime, audioLevel, audioBass,
+			      audioTreble);
 
     glPopMatrix ();
     glPopAttrib ();
