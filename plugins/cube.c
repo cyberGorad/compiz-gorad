@@ -914,8 +914,10 @@ cubePreparePaintScreen (CompScreen *s,
     cs->kernelTime += msSinceLastPaint *
 	(0.004f + MIN (1.0f, cs->audioLevel * 8.0f) * 0.018f);
 
-    /* The ambient kernel is animated even when the cube is folded. */
-    if (!cubeIsActive (s))
+    /* Redraw the animated kernel only while the cube is visible.  Keeping
+     * this damage request active while the cube is folded causes Compiz to
+     * repaint the whole screen continuously and can saturate one CPU core. */
+    if (cubeIsActive (s))
 	damageScreen (s);
 
     if (cs->kernelTime > 2.0f * M_PI)
