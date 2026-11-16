@@ -251,6 +251,7 @@ switchSetScreenOption (CompPlugin      *plugin,
 	if (compSetFloatOption (o, value))
 	{
 	    multiplier = o->value.f;
+	    return TRUE;
 	}
 	break;
     default:
@@ -2165,11 +2166,6 @@ switchInitScreen (CompPlugin *p,
 	free (ss);
 	return FALSE;
     }
-
-    /* The spatial selector is the native Alt+Tab presentation.  Keep this
-     * enabled even when an older Compiz configuration has no space_mode
-     * entry yet. */
-    ss->opt[SWITCH_SCREEN_OPTION_SPACE_MODE].value.b = TRUE;
 
     ss->popupWindow = None;
 
